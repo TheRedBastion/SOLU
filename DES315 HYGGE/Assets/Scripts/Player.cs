@@ -42,11 +42,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         if (Character == 1)
         {
-            InputActionsM.FindActionMap("Player").Disable();
+            //InputActionsM.FindActionMap("Player").Disable();
         }
         else
         {
-            InputActionsS.FindActionMap("Player2").Disable();
+            //InputActionsS.FindActionMap("Player2").Disable();
         }
     }
 
@@ -69,15 +69,18 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     public void RefreshInput()
     {
+
         if (Character == 1)
         {
             moveAction = InputActionsM.FindActionMap("Player").FindAction("Move");
             jumpAction = InputActionsM.FindActionMap("Player").FindAction("Jump");
+
         }
         else
         {
             moveAction = InputActionsS.FindActionMap("Player2").FindAction("Move");
             jumpAction = InputActionsS.FindActionMap("Player2").FindAction("Jump");
+            
         }
     }
 

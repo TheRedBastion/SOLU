@@ -25,7 +25,7 @@ public class CharacterSwap : MonoBehaviour
 
     private void OnDisable()
     {
-        InputActions.FindActionMap("Player").Disable();
+        //InputActions.FindActionMap("Player").Disable();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
