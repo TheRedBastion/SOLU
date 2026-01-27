@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Jakec\\Documents\\Test\\DES315 HYGGE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5DC51A65-6374-EBC0-9C6C-89F270A18F5B}|Assembly-CSharp.csproj|c:\\users\\jakec\\documents\\test\\des315 hygge\\assets\\scripts\\characterswap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC51A65-6374-EBC0-9C6C-89F270A18F5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterswap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5DC51A65-6374-EBC0-9C6C-89F270A18F5B}|Assembly-CSharp.csproj|c:\\users\\jakec\\documents\\test\\des315 hygge\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DC51A65-6374-EBC0-9C6C-89F270A18F5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CharacterSwap.cs",
+              "DocumentMoniker": "C:\\Users\\Jakec\\Documents\\Test\\DES315 HYGGE\\Assets\\Scripts\\CharacterSwap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterSwap.cs",
+              "ToolTip": "C:\\Users\\Jakec\\Documents\\Test\\DES315 HYGGE\\Assets\\Scripts\\CharacterSwap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterSwap.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T00:46:03.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Jakec\\Documents\\Test\\DES315 HYGGE\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\Jakec\\Documents\\Test\\DES315 HYGGE\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCUAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-23T15:22:10.584Z",
               "EditorCaption": ""
