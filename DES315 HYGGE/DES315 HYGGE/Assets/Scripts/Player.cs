@@ -131,6 +131,14 @@ public class NewMonoBehaviourScript : MonoBehaviour
         Vector2 lv = rb.linearVelocity;
         lv.x = moveAmt.x * moveSpeed;
         rb.linearVelocity = lv;
+        if (lv.x > 0)
+        {
+            transform.localScale = new Vector3(.5f, .5f, 1);
+        }
+        else if (lv.x < 0)
+        {
+            transform.localScale = new Vector3(-.5f, .5f, 1);
+        }
     }
 
 }

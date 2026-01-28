@@ -12,6 +12,9 @@ public class CharacterSwap : MonoBehaviour
     public InputActionAsset InputActions;
     private InputAction swapAction;
 
+    public float swapCooldown = 5f;
+    private float canSwap = -1f;
+
 
     private void Awake()
     {
@@ -27,7 +30,6 @@ public class CharacterSwap : MonoBehaviour
     {
         //InputActions.FindActionMap("Player").Disable();
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         if (character == null && characterOptions.Count >= 1)
@@ -37,20 +39,19 @@ public class CharacterSwap : MonoBehaviour
         Swap();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (swapAction.WasPressedThisFrame())
+        NewMonoBehaviourScript move = characterOptions[currentCharacter].GetComponentInChildren<NewMonoBehaviourScript>();
+
+        if (swapAction.WasPressedThisFrame() && move.OnGround == true && Time.time >= canSwap)
         {
             if (currentCharacter == 0)
             {
-                //currentCharacter = characterOptions.Count - 1;
                 currentCharacter = 1;
                 Swap();
             }
             else
             {
-                //currentCharacter -= 1;
                 currentCharacter = 0;
                 Swap();
 
@@ -82,6 +83,8 @@ public class CharacterSwap : MonoBehaviour
             move.enabled = true;
             move.RefreshInput();
         }
+
+        canSwap = Time.time + swapCooldown;
     }
 
 }
