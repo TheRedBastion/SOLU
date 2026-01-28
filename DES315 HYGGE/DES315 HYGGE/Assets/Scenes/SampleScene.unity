@@ -603,7 +603,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1147384674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -621,7 +621,6 @@ MonoBehaviour:
   InputActionsM: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   InputActionsS: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   Character: 2
-  active: 1
   GroundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -1042,7 +1041,6 @@ MonoBehaviour:
   InputActionsM: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   InputActionsS: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   Character: 1
-  active: 0
   GroundLayer:
     serializedVersion: 2
     m_Bits: 8
