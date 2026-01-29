@@ -11,7 +11,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     public InputActionAsset InputActionsM;
     public InputActionAsset InputActionsS;
-    
+
+    public int playerHealth;
 
     private InputAction moveAction;
     private InputAction jumpAction;
@@ -33,23 +34,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (Character == 1)
         {
             InputActionsM.FindActionMap("Player").Enable();
+            playerHealth = 150;
             //rb.SetActive(true);
         }
         else
         {
             InputActionsS.FindActionMap("Player2").Enable();
-        }
-    }
-
-    private void OnDisable()
-    {
-        if (Character == 1)
-        {
-            //InputActionsM.FindActionMap("Player").Disable();
-        }
-        else
-        {
-            //InputActionsS.FindActionMap("Player2").Disable();
+            playerHealth = 100;
         }
     }
 
@@ -67,7 +58,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
         }
 
         rb = GetComponent<Rigidbody2D>();
-        //m_animator = GetComponent<Animator>();
     }
 
     public void RefreshInput()
@@ -98,15 +88,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
             Jump();
         }
 
-        //if(m_moveAction.IsPressed())
-        //{
-        //    //m_animator.SetBool("isWalking", true);
-        //    Walking();
-        //}
-        //else
-        //{
-        //    //m_animator.SetBool("isWalking", false);
-        //}
+        if (playerHealth <= 0)
+        {
+            Destroy(gameObject);
+            //Implement death animation and menu for respawn later
+        }
+
     }
 
     public void Jump()
@@ -115,7 +102,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
         lv.y = jumpForce;
         rb.linearVelocity = lv;
         OnGround = false;
-        //m_animator.SetTrigger("Jump");
     }
 
     public void OnTriggerEnter2D(Collider2D other)

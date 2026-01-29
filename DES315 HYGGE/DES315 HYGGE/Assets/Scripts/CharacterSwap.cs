@@ -69,12 +69,12 @@ public class CharacterSwap : MonoBehaviour
         characterOptions[currentCharacter].gameObject.SetActive(true);
         characterOptions[other].gameObject.SetActive(false);
 
-        PlayerInput input = characterOptions[currentCharacter].GetComponentInChildren<PlayerInput>();
+        //PlayerInput input = characterOptions[currentCharacter].GetComponentInChildren<PlayerInput>();
 
-        if (input != null)
-        {
-            input.enabled = true;
-        }
+        //if (input != null)
+        //{
+        //    input.enabled = true;
+        //}
 
         NewMonoBehaviourScript move = characterOptions[currentCharacter].GetComponentInChildren<NewMonoBehaviourScript>();
 
