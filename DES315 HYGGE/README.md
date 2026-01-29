@@ -1,3 +1,0 @@
-# SOLU
-DES315 Project
-Team HYGGE
