@@ -15,6 +15,7 @@ public class CharacterSwap : MonoBehaviour
     public float swapCooldown = 5f;
     private float canSwap = -1f;
 
+    public bool swappedThisFrame { get; private set; } //child can read it, only parent can write it
 
     private void Awake()
     {
@@ -41,6 +42,8 @@ public class CharacterSwap : MonoBehaviour
 
     void Update()
     {
+        swappedThisFrame = false;
+
         NewMonoBehaviourScript move = characterOptions[currentCharacter].GetComponentInChildren<NewMonoBehaviourScript>();
 
         if (swapAction.WasPressedThisFrame() && move.OnGround == true && Time.time >= canSwap)
@@ -56,7 +59,7 @@ public class CharacterSwap : MonoBehaviour
                 Swap();
 
             }
-            
+            swappedThisFrame = true;
         }
 
         

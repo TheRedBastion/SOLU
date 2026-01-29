@@ -18,10 +18,6 @@ public class HomingEnemy : MonoBehaviour
             player = GameObject.FindGameObjectWithTag("Player").transform;
         }
         characterSwap = GetComponentInParent<CharacterSwap>();
-        if (characterSwap.currentCharacter == 0)
-        {
-            player = GameObject.FindGameObjectWithTag("Player2").transform;
-        }
     }
 
     // Update is called once per frame
@@ -31,7 +27,8 @@ public class HomingEnemy : MonoBehaviour
 
 
         //todo fix this so it only updates when character is swapped
-        player = characterSwap.characterOptions[characterSwap.currentCharacter];
+        if(characterSwap.swappedThisFrame)
+            player = characterSwap.characterOptions[characterSwap.currentCharacter];
 
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
