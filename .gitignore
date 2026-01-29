@@ -99,5 +99,5 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
 # Temporary auto-generated Assets
-Library/ArtifactDB
-/Library/ArtifactDB
+[Ll]ibrary/
+/[Ll]ibrary/
