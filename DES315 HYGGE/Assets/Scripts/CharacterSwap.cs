@@ -44,7 +44,7 @@ public class CharacterSwap : MonoBehaviour
     {
         swappedThisFrame = false;
 
-        NewMonoBehaviourScript move = characterOptions[currentCharacter].GetComponentInChildren<NewMonoBehaviourScript>();
+        Player move = characterOptions[currentCharacter].GetComponentInChildren<Player>();
 
         if (swapAction.WasPressedThisFrame() && move.OnGround == true && Time.time >= canSwap)
         {
@@ -79,7 +79,7 @@ public class CharacterSwap : MonoBehaviour
         //    input.enabled = true;
         //}
 
-        NewMonoBehaviourScript move = characterOptions[currentCharacter].GetComponentInChildren<NewMonoBehaviourScript>();
+        Player move = characterOptions[currentCharacter].GetComponentInChildren<Player>();
 
         if (move != null)
         {
