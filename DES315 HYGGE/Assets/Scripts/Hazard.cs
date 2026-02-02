@@ -8,11 +8,11 @@ public class Hazard : MonoBehaviour
     public List<Transform> characterOptions;
     public int currentCharacter;
 
-    //NewMonoBehaviourScript Swap = CharacterSwap.GetComponent<NewMonoBehaviourScript>();
+    //Player Swap = CharacterSwap.GetComponent<Player>();
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //NewMonoBehaviourScript move = characterOptions[currentCharacter].GetComponentInChildren<NewMonoBehaviourScript>();
+        //Player move = characterOptions[currentCharacter].GetComponentInChildren<Player>();
 
         if (collision.gameObject.CompareTag("Player"))
         {
