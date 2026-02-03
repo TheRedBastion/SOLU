@@ -131,6 +131,8 @@ GameObject:
   - component: {fileID: 223082717}
   - component: {fileID: 223082716}
   - component: {fileID: 223082715}
+  - component: {fileID: 223082719}
+  - component: {fileID: 223082720}
   m_Layer: 0
   m_Name: Hazards
   m_TagString: Untagged
@@ -154,7 +156,8 @@ MonoBehaviour:
   characterOptions:
   - {fileID: 1554406605}
   - {fileID: 1147384678}
-  currentCharacter: 1
+  CharacterSwapGO: {fileID: 1526684626}
+  currentChar: 0
 --- !u!61 &223082716
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -275,6 +278,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &223082719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223082714}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::External
+  curChar: 0
+--- !u!114 &223082720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223082714}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dcc91cb285918c41ad2bc576516b107, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterSwap
+  character: {fileID: 0}
+  characterOptions: []
+  currentCharacter: 0
+  InputActions: {fileID: 0}
+  swapCooldown: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,7 +810,8 @@ MonoBehaviour:
   jumpForce: 10
   InputActionsM: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   InputActionsS: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  playerHealth: 0
+  playerHealthM: 0
+  playerHealthS: 100
   Character: 2
   GroundLayer:
     serializedVersion: 2
@@ -1100,7 +1134,7 @@ GameObject:
   - component: {fileID: 1554406606}
   - component: {fileID: 1554406607}
   - component: {fileID: 1554406608}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Moon
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1271,7 +1305,8 @@ MonoBehaviour:
   jumpForce: 10
   InputActionsM: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   InputActionsS: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  playerHealth: 0
+  playerHealthM: 150
+  playerHealthS: 0
   Character: 1
   GroundLayer:
     serializedVersion: 2

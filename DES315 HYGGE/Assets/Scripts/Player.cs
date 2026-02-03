@@ -12,7 +12,8 @@ public class Player : MonoBehaviour
     public InputActionAsset InputActionsM;
     public InputActionAsset InputActionsS;
 
-    public int playerHealth;
+    public int playerHealthM;
+    public int playerHealthS;
 
     private InputAction moveAction;
     private InputAction jumpAction;
@@ -34,13 +35,13 @@ public class Player : MonoBehaviour
         if (Character == 1)
         {
             InputActionsM.FindActionMap("Player").Enable();
-            playerHealth = 150;
+            //playerHealth = 150;
             //rb.SetActive(true);
         }
         else
         {
             InputActionsS.FindActionMap("Player2").Enable();
-            playerHealth = 100;
+            //playerHealth = 100;
         }
     }
 
@@ -88,11 +89,25 @@ public class Player : MonoBehaviour
             Jump();
         }
 
-        if (playerHealth <= 0)
+        if (Character == 1)
         {
-            Destroy(gameObject);
-            //Implement death animation and menu for respawn later
+            if (playerHealthM <= 0)
+            {
+                Destroy(gameObject);
+                //Implement death animation and menu for respawn later
+            }
         }
+        else if (Character == 2)
+        {
+            if (playerHealthS <= 0)
+            {
+                Destroy(gameObject);
+                //Implement death animation and menu for respawn later
+            }
+
+        }
+
+       
 
     }
 
