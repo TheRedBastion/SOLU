@@ -28,6 +28,12 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    //attack
+    public GameObject attackPoint;
+    public float radius;
+    public LayerMask enemies;
+    private InputAction attackAction;
+
     private void OnEnable()
     {
         //rb.SetActive(false);
@@ -51,6 +57,8 @@ public class Player : MonoBehaviour
         {
             moveAction = InputActionsM.FindActionMap("Player").FindAction("Move");
             jumpAction = InputActionsM.FindActionMap("Player").FindAction("Jump");
+
+            attackAction = InputActionsM.FindActionMap("Player").FindAction("Attack");
         }
         else
         {
@@ -67,6 +75,8 @@ public class Player : MonoBehaviour
         {
             moveAction = InputActionsM.FindActionMap("Player").FindAction("Move");
             jumpAction = InputActionsM.FindActionMap("Player").FindAction("Jump");
+
+            attackAction = InputActionsM.FindActionMap("Player").FindAction("Attack");
         }
         else if (Character == 2)
         {
@@ -109,6 +119,10 @@ public class Player : MonoBehaviour
 
        
 
+        if (attackAction.WasPressedThisFrame())
+        {
+            attack();
+        }
     }
 
     public void Jump()
@@ -142,4 +156,18 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void attack()
+    {
+        Collider2D[] enemy = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
+
+        foreach (Collider2D enemyGameobject in enemy)
+        {
+            Debug.Log("Hit enemy");
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(attackPoint.transform.position, radius); 
+    }
 }
