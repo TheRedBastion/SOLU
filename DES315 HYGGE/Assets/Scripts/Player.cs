@@ -9,17 +9,16 @@ public class Player : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 15f;
 
-    public InputActionAsset InputActionsM;
-    public InputActionAsset InputActionsS;
+    public InputActionAsset InputActions;
 
-    public int playerHealthM;
-    public int playerHealthS;
+    public int playerHealthM = 150;
+    public int playerHealthS = 100;
 
     private InputAction moveAction;
     private InputAction jumpAction;
 
     //1 = moon 2 = sun
-    public int Character;
+    public int Character = 1;
 
     private Vector2 moveAmt;
 
@@ -30,59 +29,34 @@ public class Player : MonoBehaviour
 
     //attack
     public GameObject attackPoint;
-    public float radius;
+    public float radius = 1f;
     public LayerMask enemies;
     private InputAction attackAction;
 
     private void OnEnable()
     {
         //rb.SetActive(false);
+        InputActions.FindActionMap("Player").Enable();
 
-        if (Character == 1)
-        {
-            InputActionsM.FindActionMap("Player").Enable();
-            //playerHealth = 150;
-            //rb.SetActive(true);
-        }
-        else
-        {
-            InputActionsS.FindActionMap("Player2").Enable();
-            //playerHealth = 100;
-        }
     }
 
     private void Awake()
     {
-        if (Character == 1)
-        {
-            moveAction = InputActionsM.FindActionMap("Player").FindAction("Move");
-            jumpAction = InputActionsM.FindActionMap("Player").FindAction("Jump");
+        moveAction = InputActions.FindActionMap("Player").FindAction("Move");
+        jumpAction = InputActions.FindActionMap("Player").FindAction("Jump");
 
-            attackAction = InputActionsM.FindActionMap("Player").FindAction("Attack");
-        }
-        else
-        {
-            moveAction = InputActionsS.FindActionMap("Player2").FindAction("Move");
-            jumpAction = InputActionsS.FindActionMap("Player2").FindAction("Jump");
-        }
+        attackAction = InputActions.FindActionMap("Player").FindAction("Attack");
 
         rb = GetComponent<Rigidbody2D>();
     }
 
     public void RefreshInput()
     {
-        if (Character == 1)
-        {
-            moveAction = InputActionsM.FindActionMap("Player").FindAction("Move");
-            jumpAction = InputActionsM.FindActionMap("Player").FindAction("Jump");
+        moveAction = InputActions.FindActionMap("Player").FindAction("Move");
+        jumpAction = InputActions.FindActionMap("Player").FindAction("Jump");
 
-            attackAction = InputActionsM.FindActionMap("Player").FindAction("Attack");
-        }
-        else if (Character == 2)
-        {
-            moveAction = InputActionsS.FindActionMap("Player2").FindAction("Move");
-            jumpAction = InputActionsS.FindActionMap("Player2").FindAction("Jump");
-        }
+        attackAction = InputActions.FindActionMap("Player").FindAction("Attack");
+
     }
 
     void Start()
@@ -169,5 +143,11 @@ public class Player : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(attackPoint.transform.position, radius); 
+    }
+
+    public enum PlayerType
+    {
+        Moon = 0,
+        Sun = 1
     }
 }

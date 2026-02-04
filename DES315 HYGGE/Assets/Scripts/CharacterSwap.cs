@@ -16,15 +16,15 @@ public class CharacterSwap : MonoBehaviour
     private float canSwap = -1f;
 
     public bool swappedThisFrame { get; private set; } //child can read it, only parent can write it
+    private void OnEnable()
+    {
+        InputActions.FindActionMap("Player").Enable();
+    }
 
     private void Awake()
     {
         swapAction = InputActions.FindActionMap("Player").FindAction("Interact");
         
-    }
-    private void OnEnable()
-    {
-        InputActions.FindActionMap("Player").Enable();
     }
 
     private void OnDisable()

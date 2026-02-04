@@ -306,7 +306,7 @@ MonoBehaviour:
   character: {fileID: 0}
   characterOptions: []
   currentCharacter: 0
-  InputActions: {fileID: 0}
+  InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!1 &519420028
 GameObject:
@@ -808,8 +808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   moveSpeed: 10
   jumpForce: 10
-  InputActionsM: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  InputActionsS: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   playerHealthM: 0
   playerHealthS: 100
   Character: 2
@@ -1309,8 +1308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   moveSpeed: 5
   jumpForce: 10
-  InputActionsM: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  InputActionsS: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   playerHealthM: 150
   playerHealthS: 0
   Character: 1
