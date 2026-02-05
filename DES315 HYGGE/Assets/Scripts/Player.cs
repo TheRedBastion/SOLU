@@ -45,12 +45,9 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    //attack
-    public GameObject attackPoint;
-    public float radius = 1f;
-    public LayerMask enemies;
+    //combat
+    private PlayerCombat combat;
     private InputAction attackAction;
-    public Vector2 attackOffset = new Vector2(1f, 1f);
 
     private void OnEnable()
     {
@@ -64,6 +61,7 @@ public class Player : MonoBehaviour
     {
         RefreshInput();
         SetActiveCharacter(character);
+        combat = GetComponent<PlayerCombat>();
     }
 
     public void RefreshInput() //might not be needed
@@ -113,7 +111,7 @@ public class Player : MonoBehaviour
 
         if (attackAction.WasPressedThisFrame())
         {
-            attack();
+            combat.Attack();
         }
     }
 
@@ -162,30 +160,9 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void attack()
+    public Transform GetActiveCharacterTransform()
     {
-        UpdateAttackPoint();
-        Collider2D[] enemy = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
-
-        foreach (Collider2D enemyGameobject in enemy)
-        {
-            Debug.Log("Hit enemy");
-        }
-    }
-
-    private void UpdateAttackPoint()
-    {
-        if (attackPoint == null) return;
-
-        float direction = Mathf.Sign(rb.transform.localScale.x); //+1 or -1
-        Vector3 offset = new Vector3(attackOffset.x * direction, attackOffset.y, 0f);
-
-        attackPoint.transform.position = rb.transform.position + offset;
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawWireSphere(attackPoint.transform.position, radius); 
+        return character == 0 ? MoonObject.transform : SunObject.transform;
     }
 
     public enum PlayerType

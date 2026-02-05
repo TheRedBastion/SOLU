@@ -1033,6 +1033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1315483587}
   - component: {fileID: 1315483588}
+  - component: {fileID: 1315483589}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1085,6 +1086,18 @@ MonoBehaviour:
     jumpForce: 12
   character: 0
   OnGround: 0
+--- !u!114 &1315483589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315483586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c5faedd6eef2b947a9ed981e75f00b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
   attackPoint: {fileID: 1481261864}
   radius: 1
   enemies:
