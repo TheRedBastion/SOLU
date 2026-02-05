@@ -7,7 +7,9 @@ public class CharacterSwap : MonoBehaviour
 {
     public Transform character;
     public List<Transform> characterOptions;
-    public int currentCharacter;
+    public int currentCharacter = 0;
+
+    public Player player;
 
     public InputActionAsset InputActions;
     private InputAction swapAction;
@@ -44,9 +46,7 @@ public class CharacterSwap : MonoBehaviour
     {
         swappedThisFrame = false;
 
-        Player move = characterOptions[currentCharacter].GetComponentInChildren<Player>();
-
-        if (swapAction.WasPressedThisFrame() && move.OnGround == true && Time.time >= canSwap)
+        if (swapAction.WasPressedThisFrame() && player.OnGround == true && Time.time >= canSwap)
         {
             if (currentCharacter == 0)
             {
@@ -67,10 +67,23 @@ public class CharacterSwap : MonoBehaviour
 
     public void Swap()
     {
-        int other = (currentCharacter == 0) ? 1 : 0;
+        int other = (player.character == 0) ? 1 : 0;
 
-        characterOptions[currentCharacter].gameObject.SetActive(true);
-        characterOptions[other].gameObject.SetActive(false);
+        character = characterOptions[currentCharacter];
+
+        if (currentCharacter == 1)
+        {
+            player.SunObject.SetActive(true);
+            player.MoonObject.SetActive(false);
+        }
+        else
+        {
+            player.MoonObject.SetActive(true);
+            player.SunObject.SetActive(false);
+        }
+
+        //characterOptions[currentCharacter].gameObject.SetActive(true);
+        //characterOptions[other].gameObject.SetActive(false);
 
         //PlayerInput input = characterOptions[currentCharacter].GetComponentInChildren<PlayerInput>();
 
@@ -79,12 +92,13 @@ public class CharacterSwap : MonoBehaviour
         //    input.enabled = true;
         //}
 
-        Player move = characterOptions[currentCharacter].GetComponentInChildren<Player>();
+        //Player move = characterOptions[currentCharacter].GetComponentInChildren<Player>();
 
-        if (move != null)
+        if (player != null)
         {
-            move.enabled = true;
-            move.RefreshInput();
+
+            player.character = currentCharacter;
+            player.RefreshInput();
         }
 
         canSwap = Time.time + swapCooldown;

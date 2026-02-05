@@ -152,12 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a8774b7af4d054196c25044d39b8ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hazard
-  character: {fileID: 1147384678}
-  characterOptions:
-  - {fileID: 1554406605}
-  - {fileID: 1147384678}
-  CharacterSwapGO: {fileID: 1526684626}
-  currentChar: 0
+  damage: 10
 --- !u!61 &223082716
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -306,6 +301,7 @@ MonoBehaviour:
   character: {fileID: 0}
   characterOptions: []
   currentCharacter: 0
+  player: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!1 &519420028
@@ -705,7 +701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 756040959}
   - component: {fileID: 756040958}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,8 +781,8 @@ GameObject:
   - component: {fileID: 1147384677}
   - component: {fileID: 1147384676}
   - component: {fileID: 1147384675}
-  - component: {fileID: 1147384674}
   - component: {fileID: 1147384679}
+  - component: {fileID: 1147384680}
   m_Layer: 3
   m_Name: Sun
   m_TagString: Player
@@ -794,33 +790,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1147384674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1147384673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8e8edfc5309364e8b14bda0b520632, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  moveSpeed: 10
-  jumpForce: 10
-  InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  playerHealthM: 0
-  playerHealthS: 100
-  Character: 2
-  GroundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  OnGround: 0
-  attackPoint: {fileID: 0}
-  radius: 0
-  enemies:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!61 &1147384675
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -962,7 +931,7 @@ Transform:
   m_GameObject: {fileID: 1147384673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.41647, y: -0.07524991, z: 0}
+  m_LocalPosition: {x: -4, y: -4, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1006,6 +975,22 @@ CapsuleCollider2D:
   m_Offset: {x: -0.042819858, y: 2.5}
   m_Size: {x: 3.13, y: 5.9799995}
   m_Direction: 0
+--- !u!114 &1147384680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147384673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb062a231d381a4aa9f253f9ac6232c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GroundDetector
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  player: {fileID: 1315483588}
 --- !u!1 &1147758898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,6 +1032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1315483587}
+  - component: {fileID: 1315483588}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1063,13 +1049,80 @@ Transform:
   m_GameObject: {fileID: 1315483586}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.09353, y: -3.54475, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1554406605}
   - {fileID: 1147384678}
+  - {fileID: 1481261865}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1315483588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315483586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8e8edfc5309364e8b14bda0b520632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player
+  MoonObject: {fileID: 1554406601}
+  SunObject: {fileID: 1147384673}
+  InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  moonStats:
+    health: 150
+    maxHealth: 150
+    moveSpeed: 5
+    jumpForce: 15
+  sunStats:
+    health: 100
+    maxHealth: 100
+    moveSpeed: 7
+    jumpForce: 12
+  character: 0
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  OnGround: 0
+  attackPoint: {fileID: 1481261864}
+  radius: 1
+  enemies:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!1 &1481261864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481261865}
+  m_Layer: 0
+  m_Name: AttackPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1481261865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481261864}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.89, y: 0.5450001, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1315483587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1526684626
 GameObject:
@@ -1100,13 +1153,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dcc91cb285918c41ad2bc576516b107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSwap
-  character: {fileID: 1147384678}
+  character: {fileID: 1554406605}
   characterOptions:
-  - {fileID: 1147384678}
   - {fileID: 1554406605}
-  currentCharacter: 1
+  - {fileID: 1147384678}
+  currentCharacter: 0
+  player: {fileID: 1315483588}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  swapCooldown: 5
+  swapCooldown: 1
 --- !u!4 &1526684628
 Transform:
   m_ObjectHideFlags: 0
@@ -1135,9 +1189,9 @@ GameObject:
   - component: {fileID: 1554406604}
   - component: {fileID: 1554406602}
   - component: {fileID: 1554406603}
-  - component: {fileID: 1554406606}
   - component: {fileID: 1554406607}
   - component: {fileID: 1554406608}
+  - component: {fileID: 1554406609}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Player
@@ -1286,41 +1340,13 @@ Transform:
   m_GameObject: {fileID: 1554406601}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.03, y: -0.65, z: 0}
+  m_LocalPosition: {x: 4.03, y: -4, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 756040959}
-  - {fileID: 1713380324}
   m_Father: {fileID: 1315483587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1554406606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1554406601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8e8edfc5309364e8b14bda0b520632, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  moveSpeed: 5
-  jumpForce: 10
-  InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  playerHealthM: 150
-  playerHealthS: 0
-  Character: 1
-  GroundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  OnGround: 0
-  attackPoint: {fileID: 1713380323}
-  radius: 1
-  enemies:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!70 &1554406607
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1444,6 +1470,22 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &1554406609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554406601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb062a231d381a4aa9f253f9ac6232c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GroundDetector
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  player: {fileID: 1315483588}
 --- !u!1 &1654200312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,37 +1564,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 0.13640928}
   m_EdgeRadius: 0
---- !u!1 &1713380323
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1713380324}
-  m_Layer: 0
-  m_Name: AttackPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1713380324
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713380323}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7199993, y: 2.39, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1554406605}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2070479649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,7 +1611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 005d13061cb86cd4e89496e1942c2e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HomingEnemy
-  player: {fileID: 0}
+  player: {fileID: 1554406605}
   speed: 2
   detectionRange: 500
 --- !u!50 &2070479652

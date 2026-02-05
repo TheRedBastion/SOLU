@@ -2,23 +2,42 @@ using UnityEngine;
 
 using UnityEngine.InputSystem;
 
+[System.Serializable]
+public class PlayerStats
+{
+    public int health;
+    public int maxHealth;
+    public float moveSpeed;
+    public float jumpForce;
+    public PlayerStats(int health, int maxHealth, float moveSpeed, float jumpForce)
+    {
+        this.health = health;
+        this.maxHealth = maxHealth;
+        this.moveSpeed = moveSpeed;
+        this.jumpForce = jumpForce;
+    }
+}
 
 public class Player : MonoBehaviour
 {
 
-    public float moveSpeed = 5f;
-    public float jumpForce = 15f;
+    private float moveSpeed;
+    private float jumpForce;
+
+    public GameObject MoonObject;
+    public GameObject SunObject;
 
     public InputActionAsset InputActions;
-
-    public int playerHealthM = 150;
-    public int playerHealthS = 100;
-
     private InputAction moveAction;
     private InputAction jumpAction;
 
-    //1 = moon 2 = sun
-    public int Character = 1;
+    public PlayerStats moonStats = new PlayerStats(150, 150, 5f, 15f);
+    public PlayerStats sunStats = new PlayerStats(100, 100, 7f, 12f);
+
+    private PlayerStats currentStats;
+
+    //0 = moon 1 = sun
+    public int character = 0;
 
     private Vector2 moveAmt;
 
@@ -40,6 +59,7 @@ public class Player : MonoBehaviour
 
     }
 
+
     private void Awake()
     {
         moveAction = InputActions.FindActionMap("Player").FindAction("Move");
@@ -47,7 +67,18 @@ public class Player : MonoBehaviour
 
         attackAction = InputActions.FindActionMap("Player").FindAction("Attack");
 
-        rb = GetComponent<Rigidbody2D>();
+        if (character == 0)
+        {
+            currentStats = moonStats;
+            rb = MoonObject.GetComponent<Rigidbody2D>();
+        }
+        else if (character == 1)
+        {
+            currentStats = sunStats;
+            rb = SunObject.GetComponent<Rigidbody2D>();
+        }
+        //rb = GetComponent<Rigidbody2D>();
+        ApplyStats();
     }
 
     public void RefreshInput()
@@ -56,7 +87,18 @@ public class Player : MonoBehaviour
         jumpAction = InputActions.FindActionMap("Player").FindAction("Jump");
 
         attackAction = InputActions.FindActionMap("Player").FindAction("Attack");
+        if (character == 0)
+        {
+            currentStats = moonStats;
+            rb = MoonObject.GetComponent<Rigidbody2D>();
+        }
+        else if (character == 1)
+        {
+            currentStats = sunStats;
+            rb = SunObject.GetComponent<Rigidbody2D>();
+        }
 
+        ApplyStats();
     }
 
     void Start()
@@ -73,25 +115,12 @@ public class Player : MonoBehaviour
             Jump();
         }
 
-        if (Character == 1)
+        if (currentStats.health <= 0)
         {
-            if (playerHealthM <= 0)
-            {
-                Destroy(gameObject);
-                //Implement death animation and menu for respawn later
-            }
-        }
-        else if (Character == 2)
-        {
-            if (playerHealthS <= 0)
-            {
-                Destroy(gameObject);
-                //Implement death animation and menu for respawn later
-            }
-
+            Destroy(character == 0 ? MoonObject : SunObject);
         }
 
-       
+
 
         if (attackAction.WasPressedThisFrame())
         {
@@ -107,26 +136,40 @@ public class Player : MonoBehaviour
         OnGround = false;
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if((GroundLayer.value & (1 << other.gameObject.layer)) != 0)
-        {
-            OnGround = true;
-        }
-    }
-
     private void FixedUpdate()
     {
+        GameObject currentGameObj = (character == 0) ? MoonObject : SunObject;
+
         Vector2 lv = rb.linearVelocity;
         lv.x = moveAmt.x * moveSpeed;
         rb.linearVelocity = lv;
+
         if (lv.x > 0)
         {
-            transform.localScale = new Vector3(.5f, .5f, 1);
+            rb.transform.localScale = new Vector3(.5f, .5f, 1);
         }
         else if (lv.x < 0)
         {
-            transform.localScale = new Vector3(-.5f, .5f, 1);
+            rb.transform.localScale = new Vector3(-.5f, .5f, 1);
+        }
+    }
+    private void ApplyStats()
+    {
+        moveSpeed = currentStats.moveSpeed;
+        jumpForce = currentStats.jumpForce;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (character == 0)
+        {
+            moonStats.health -= damage;
+            Debug.Log("Moon health: " + moonStats.health);
+        }
+        else
+        {
+            sunStats.health -= damage;
+            Debug.Log("Sun health: " + sunStats.health);
         }
     }
 
