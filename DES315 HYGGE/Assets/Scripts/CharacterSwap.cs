@@ -26,7 +26,6 @@ public class CharacterSwap : MonoBehaviour
     private void Awake()
     {
         swapAction = InputActions.FindActionMap("Player").FindAction("Interact");
-        
     }
 
     private void OnDisable()
@@ -39,7 +38,6 @@ public class CharacterSwap : MonoBehaviour
         {
             character = characterOptions[0];
         }
-        Swap();
     }
 
     void Update()
@@ -48,45 +46,24 @@ public class CharacterSwap : MonoBehaviour
 
         if (swapAction.WasPressedThisFrame() && player.OnGround == true && Time.time >= canSwap)
         {
-            if (currentCharacter == 0)
-            {
-                currentCharacter = 1;
-                Swap();
-            }
-            else
-            {
-                currentCharacter = 0;
-                Swap();
-
-            }
+            currentCharacter = 1 - currentCharacter; //toggle between 0 and 1 (math trick)
+            Swap();
             swappedThisFrame = true;
         }
 
-        
     }
 
     public void Swap()
     {
-        int other = (player.character == 0) ? 1 : 0;
+        int other = 1 - currentCharacter;
 
         character = characterOptions[currentCharacter];
 
-        if (currentCharacter == 1)
-        {
-            player.SunObject.SetActive(true);
-            player.MoonObject.SetActive(false);
-        }
-        else
-        {
-            player.MoonObject.SetActive(true);
-            player.SunObject.SetActive(false);
-        }
-
-        //characterOptions[currentCharacter].gameObject.SetActive(true);
-        //characterOptions[other].gameObject.SetActive(false);
+        characterOptions[currentCharacter].gameObject.SetActive(true);
+        characterOptions[other].gameObject.SetActive(false);
 
         if (player != null)
-        {
+        { 
             player.SetActiveCharacter(currentCharacter);
         }
 

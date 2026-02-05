@@ -6,7 +6,7 @@ public class HomingEnemy : MonoBehaviour
     public float speed = 2f;
     public float detectionRange = 5f;
 
-    CharacterSwap characterSwap;
+    private CharacterSwap characterSwap;
     private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()

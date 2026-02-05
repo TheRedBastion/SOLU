@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
 
     public GameObject MoonObject;
     public GameObject SunObject;
+    private GameObject activeObject;
 
     public InputActionAsset InputActions;
     private InputAction moveAction;
@@ -56,7 +57,6 @@ public class Player : MonoBehaviour
 
     }
 
-
     private void Awake()
     {
         RefreshInput();
@@ -64,11 +64,10 @@ public class Player : MonoBehaviour
         combat = GetComponent<PlayerCombat>();
     }
 
-    public void RefreshInput() //might not be needed
+    public void RefreshInput()
     {
         moveAction = InputActions.FindActionMap("Player").FindAction("Move");
         jumpAction = InputActions.FindActionMap("Player").FindAction("Jump");
-
         attackAction = InputActions.FindActionMap("Player").FindAction("Attack");
     }
 
@@ -79,14 +78,15 @@ public class Player : MonoBehaviour
         if (character == 0)
         {
             currentStats = moonStats;
-            rb = MoonObject.GetComponent<Rigidbody2D>();
+            activeObject = MoonObject;
         }
         else
         {
             currentStats = sunStats;
-            rb = SunObject.GetComponent<Rigidbody2D>();
+            activeObject = SunObject;
         }
-    
+
+        rb = activeObject.GetComponent<Rigidbody2D>();
         ApplyStats();
     }
 
@@ -106,7 +106,7 @@ public class Player : MonoBehaviour
 
         if (currentStats.health <= 0)
         {
-            Destroy(character == 0 ? MoonObject : SunObject);
+            Destroy(activeObject);
         }
 
         if (attackAction.WasPressedThisFrame())
@@ -125,8 +125,6 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        GameObject currentGameObj = (character == 0) ? MoonObject : SunObject;
-
         Vector2 lv = rb.linearVelocity;
         lv.x = moveAmt.x * moveSpeed;
         rb.linearVelocity = lv;
@@ -162,7 +160,7 @@ public class Player : MonoBehaviour
 
     public Transform GetActiveCharacterTransform()
     {
-        return character == 0 ? MoonObject.transform : SunObject.transform;
+        return activeObject.transform;
     }
 
     public enum PlayerType
