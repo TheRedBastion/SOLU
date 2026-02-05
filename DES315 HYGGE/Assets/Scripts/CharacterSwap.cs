@@ -85,20 +85,9 @@ public class CharacterSwap : MonoBehaviour
         //characterOptions[currentCharacter].gameObject.SetActive(true);
         //characterOptions[other].gameObject.SetActive(false);
 
-        //PlayerInput input = characterOptions[currentCharacter].GetComponentInChildren<PlayerInput>();
-
-        //if (input != null)
-        //{
-        //    input.enabled = true;
-        //}
-
-        //Player move = characterOptions[currentCharacter].GetComponentInChildren<Player>();
-
         if (player != null)
         {
-
-            player.character = currentCharacter;
-            player.RefreshInput();
+            player.SetActiveCharacter(currentCharacter);
         }
 
         canSwap = Time.time + swapCooldown;

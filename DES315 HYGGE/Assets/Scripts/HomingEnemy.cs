@@ -25,8 +25,6 @@ public class HomingEnemy : MonoBehaviour
     {
         if (player == null) return;
 
-
-        //todo fix this so it only updates when character is swapped
         if(characterSwap.swappedThisFrame)
             player = characterSwap.characterOptions[characterSwap.currentCharacter];
 

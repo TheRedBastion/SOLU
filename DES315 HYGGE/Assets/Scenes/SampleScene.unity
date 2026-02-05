@@ -987,10 +987,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccb062a231d381a4aa9f253f9ac6232c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GroundDetector
-  groundLayer:
+  player: {fileID: 1315483588}
+  ground:
     serializedVersion: 2
     m_Bits: 8
-  player: {fileID: 1315483588}
 --- !u!1 &1147758898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,15 +1084,13 @@ MonoBehaviour:
     moveSpeed: 7
     jumpForce: 12
   character: 0
-  GroundLayer:
-    serializedVersion: 2
-    m_Bits: 8
   OnGround: 0
   attackPoint: {fileID: 1481261864}
   radius: 1
   enemies:
     serializedVersion: 2
     m_Bits: 64
+  attackOffset: {x: 1, y: 1}
 --- !u!1 &1481261864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,7 +1101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1481261865}
   m_Layer: 0
-  m_Name: AttackPoint (1)
+  m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1482,10 +1480,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccb062a231d381a4aa9f253f9ac6232c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GroundDetector
-  groundLayer:
+  player: {fileID: 1315483588}
+  ground:
     serializedVersion: 2
     m_Bits: 8
-  player: {fileID: 1315483588}
 --- !u!1 &1654200312
 GameObject:
   m_ObjectHideFlags: 0

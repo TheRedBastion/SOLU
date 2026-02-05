@@ -41,7 +41,6 @@ public class Player : MonoBehaviour
 
     private Vector2 moveAmt;
 
-    public LayerMask GroundLayer;
     public bool OnGround;
 
     private Rigidbody2D rb;
@@ -51,6 +50,7 @@ public class Player : MonoBehaviour
     public float radius = 1f;
     public LayerMask enemies;
     private InputAction attackAction;
+    public Vector2 attackOffset = new Vector2(1f, 1f);
 
     private void OnEnable()
     {
@@ -62,42 +62,33 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        moveAction = InputActions.FindActionMap("Player").FindAction("Move");
-        jumpAction = InputActions.FindActionMap("Player").FindAction("Jump");
-
-        attackAction = InputActions.FindActionMap("Player").FindAction("Attack");
-
-        if (character == 0)
-        {
-            currentStats = moonStats;
-            rb = MoonObject.GetComponent<Rigidbody2D>();
-        }
-        else if (character == 1)
-        {
-            currentStats = sunStats;
-            rb = SunObject.GetComponent<Rigidbody2D>();
-        }
-        //rb = GetComponent<Rigidbody2D>();
-        ApplyStats();
+        RefreshInput();
+        SetActiveCharacter(character);
     }
 
-    public void RefreshInput()
+    public void RefreshInput() //might not be needed
     {
         moveAction = InputActions.FindActionMap("Player").FindAction("Move");
         jumpAction = InputActions.FindActionMap("Player").FindAction("Jump");
 
         attackAction = InputActions.FindActionMap("Player").FindAction("Attack");
+    }
+
+    public void SetActiveCharacter(int newCharacter)
+    {
+        character = newCharacter;
+    
         if (character == 0)
         {
             currentStats = moonStats;
             rb = MoonObject.GetComponent<Rigidbody2D>();
         }
-        else if (character == 1)
+        else
         {
             currentStats = sunStats;
             rb = SunObject.GetComponent<Rigidbody2D>();
         }
-
+    
         ApplyStats();
     }
 
@@ -119,8 +110,6 @@ public class Player : MonoBehaviour
         {
             Destroy(character == 0 ? MoonObject : SunObject);
         }
-
-
 
         if (attackAction.WasPressedThisFrame())
         {
@@ -175,12 +164,23 @@ public class Player : MonoBehaviour
 
     public void attack()
     {
+        UpdateAttackPoint();
         Collider2D[] enemy = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
 
         foreach (Collider2D enemyGameobject in enemy)
         {
             Debug.Log("Hit enemy");
         }
+    }
+
+    private void UpdateAttackPoint()
+    {
+        if (attackPoint == null) return;
+
+        float direction = Mathf.Sign(rb.transform.localScale.x); //+1 or -1
+        Vector3 offset = new Vector3(attackOffset.x * direction, attackOffset.y, 0f);
+
+        attackPoint.transform.position = rb.transform.position + offset;
     }
 
     private void OnDrawGizmos()
