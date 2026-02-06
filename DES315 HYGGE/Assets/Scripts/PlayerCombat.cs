@@ -6,6 +6,7 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private float radius = 1f;
     [SerializeField] private LayerMask enemies;
     [SerializeField] private Vector2 attackOffset = new Vector2(1f, 1f);
+    public int attackDamage = 10;
 
     private Player player;
 
@@ -26,7 +27,13 @@ public class PlayerCombat : MonoBehaviour
 
         foreach (Collider2D hit in hits)
         {
-            Debug.Log("Hit " + hit.name);
+            //Debug.Log("Hit " + hit.name);
+
+            Health health = hit.GetComponentInParent<Health>();
+            if (health != null)
+            {
+                health.TakeDamage(attackDamage);
+            }
         }
     }
 

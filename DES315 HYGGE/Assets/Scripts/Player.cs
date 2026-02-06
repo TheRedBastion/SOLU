@@ -50,13 +50,8 @@ public class Player : MonoBehaviour
     private PlayerCombat combat;
     private InputAction attackAction;
 
-    private void OnEnable()
-    {
-        //rb.SetActive(false);
-        InputActions.FindActionMap("Player").Enable();
-
-    }
-
+    //health
+    private Health currentHealth;
     private void Awake()
     {
         RefreshInput();
@@ -64,27 +59,38 @@ public class Player : MonoBehaviour
         combat = GetComponent<PlayerCombat>();
     }
 
+    private void OnEnable()
+    {
+        InputActions.FindActionMap("Player").Enable();
+        currentHealth.OnDamageTaken.AddListener(HandleDamage);
+    }
+
+    private void OnDisable()
+    {
+        currentHealth.OnDamageTaken.RemoveListener(HandleDamage);
+        InputActions.FindActionMap("Player").Disable();
+    }
+
     public void RefreshInput()
     {
-        moveAction = InputActions.FindActionMap("Player").FindAction("Move");
-        jumpAction = InputActions.FindActionMap("Player").FindAction("Jump");
-        attackAction = InputActions.FindActionMap("Player").FindAction("Attack");
+        var playerMap = InputActions.FindActionMap("Player");
+        moveAction = playerMap.FindAction("Move");
+        jumpAction = playerMap.FindAction("Jump");
+        attackAction = playerMap.FindAction("Attack");
     }
 
     public void SetActiveCharacter(int newCharacter)
     {
+        if (currentHealth != null)
+            currentHealth.OnDamageTaken.RemoveListener(HandleDamage);
+
         character = newCharacter;
-    
-        if (character == 0)
-        {
-            currentStats = moonStats;
-            activeObject = MoonObject;
-        }
-        else
-        {
-            currentStats = sunStats;
-            activeObject = SunObject;
-        }
+
+        activeObject = (character == 0) ? MoonObject : SunObject;
+        currentStats = (character == 0) ? moonStats : sunStats;
+
+        currentHealth = activeObject.GetComponent<Health>();
+        currentHealth.OnDamageTaken.AddListener(HandleDamage);
 
         rb = activeObject.GetComponent<Rigidbody2D>();
         ApplyStats();
@@ -144,23 +150,14 @@ public class Player : MonoBehaviour
         jumpForce = currentStats.jumpForce;
     }
 
-    public void TakeDamage(int damage)
-    {
-        if (character == 0)
-        {
-            moonStats.health -= damage;
-            Debug.Log("Moon health: " + moonStats.health);
-        }
-        else
-        {
-            sunStats.health -= damage;
-            Debug.Log("Sun health: " + sunStats.health);
-        }
-    }
-
     public Transform GetActiveCharacterTransform()
     {
         return activeObject.transform;
+    }
+
+    private void HandleDamage(int damage)
+    {
+        currentStats.health = currentHealth.CurrentHealth;
     }
 
     public enum PlayerType

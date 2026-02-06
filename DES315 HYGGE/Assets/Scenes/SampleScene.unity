@@ -783,6 +783,7 @@ GameObject:
   - component: {fileID: 1147384675}
   - component: {fileID: 1147384679}
   - component: {fileID: 1147384680}
+  - component: {fileID: 1147384681}
   m_Layer: 3
   m_Name: Sun
   m_TagString: Player
@@ -991,6 +992,25 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &1147384681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147384673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 100
+  OnDamageTaken:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1147758898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,6 +1124,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   attackOffset: {x: 1, y: 1}
+  attackDamage: 10
 --- !u!1 &1481261864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,6 +1224,7 @@ GameObject:
   - component: {fileID: 1554406607}
   - component: {fileID: 1554406608}
   - component: {fileID: 1554406609}
+  - component: {fileID: 1554406610}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Player
@@ -1497,6 +1519,25 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &1554406610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554406601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 150
+  OnDamageTaken:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1654200312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,6 +1629,7 @@ GameObject:
   - component: {fileID: 2070479652}
   - component: {fileID: 2070479651}
   - component: {fileID: 2070479654}
+  - component: {fileID: 2070479655}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
@@ -1761,6 +1803,25 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 1
+--- !u!114 &2070479655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070479649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 30
+  OnDamageTaken:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

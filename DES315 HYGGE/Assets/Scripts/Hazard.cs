@@ -9,12 +9,10 @@ public class Hazard : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Player player = collision.gameObject.GetComponentInParent<Player>();
-
-        if (player != null)
+        Health health = collision.gameObject.GetComponentInParent<Health>();
+        if (health != null)
         {
-            Debug.Log("Player has collided with a hazard!");
-            player.TakeDamage(damage);
+            health.TakeDamage(10);
         }
     }
 

@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class HomingEnemy : MonoBehaviour
@@ -8,6 +10,24 @@ public class HomingEnemy : MonoBehaviour
 
     private CharacterSwap characterSwap;
     private Rigidbody2D rb;
+
+    private Health health;
+
+    private void Awake()
+    {
+        health = GetComponent<Health>();
+    }
+
+    private void OnEnable()
+    {
+        health.OnDamageTaken.AddListener(HandleDamage);
+    }
+
+    private void OnDisable()
+    {
+        health.OnDamageTaken.RemoveListener(HandleDamage);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,5 +62,21 @@ public class HomingEnemy : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
         }
 
+    }
+
+    private void HandleDamage(int damage)
+    {
+        StartCoroutine(Flash());
+    }
+
+    IEnumerator Flash()
+    {
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        if (sr == null) yield break;
+
+        Color original = sr.color;
+        sr.color = new Color(1f, 1f, 1f, 0.5f);
+        yield return new WaitForSeconds(0.1f);
+        sr.color = original;
     }
 }
