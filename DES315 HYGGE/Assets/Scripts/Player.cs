@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 using UnityEngine.InputSystem;
@@ -52,6 +53,7 @@ public class Player : MonoBehaviour
 
     //health
     private Health currentHealth;
+
     private void Awake()
     {
         RefreshInput();
@@ -62,7 +64,6 @@ public class Player : MonoBehaviour
     private void OnEnable()
     {
         InputActions.FindActionMap("Player").Enable();
-        currentHealth.OnDamageTaken.AddListener(HandleDamage);
     }
 
     private void OnDisable()
