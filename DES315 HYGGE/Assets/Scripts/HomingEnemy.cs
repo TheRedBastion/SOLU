@@ -46,7 +46,7 @@ public class HomingEnemy : MonoBehaviour
         if (player == null) return;
 
         if(characterSwap.swappedThisFrame)
-            player = characterSwap.characterOptions[characterSwap.currentCharacter];
+            player = characterSwap.character;
 
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 

@@ -111,11 +111,6 @@ public class Player : MonoBehaviour
             Jump();
         }
 
-        if (currentStats.health <= 0)
-        {
-            Destroy(activeObject);
-        }
-
         if (attackAction.WasPressedThisFrame())
         {
             combat.Attack();
