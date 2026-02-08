@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class PlayerStats
@@ -114,6 +115,13 @@ public class Player : MonoBehaviour
         if (attackAction.WasPressedThisFrame())
         {
             combat.Attack();
+        }
+        
+        if(currentHealth.CurrentHealth <= 0)
+        {
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(2);
+            Debug.Log("Player has died.");
         }
     }
 
