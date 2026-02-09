@@ -46,6 +46,8 @@ public class Player : MonoBehaviour
 
     public bool OnGround;
 
+    public bool OnSwap;
+
     private Rigidbody2D rb;
 
     //combat
@@ -101,6 +103,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         OnGround = true;
+        //OnSwap = false;
     }
 
     void Update()

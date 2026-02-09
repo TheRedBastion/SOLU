@@ -44,7 +44,7 @@ public class CharacterSwap : MonoBehaviour
     {
         swappedThisFrame = false;
 
-        if (swapAction.WasPressedThisFrame() && player.OnGround == true && Time.time >= canSwap)
+        if (swapAction.WasPressedThisFrame() && player.OnSwap == true && Time.time >= canSwap)
         {
             currentCharacter = 1 - currentCharacter; //toggle between 0 and 1 (math trick)
             Swap();
