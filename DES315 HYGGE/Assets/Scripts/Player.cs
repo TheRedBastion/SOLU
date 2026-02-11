@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     public InputActionAsset InputActions;
     private InputAction moveAction;
     private InputAction jumpAction;
+    private InputAction sprintAction;
 
     public PlayerStats moonStats = new PlayerStats(150, 150, 5f, 15f);
     public PlayerStats sunStats = new PlayerStats(100, 100, 7f, 12f);
@@ -47,6 +48,10 @@ public class Player : MonoBehaviour
     public bool OnGround;
 
     public bool OnSwap;
+
+    public bool sprintActive = false;
+
+    //float temp = ;
 
     private Rigidbody2D rb;
 
@@ -81,6 +86,8 @@ public class Player : MonoBehaviour
         moveAction = playerMap.FindAction("Move");
         jumpAction = playerMap.FindAction("Jump");
         attackAction = playerMap.FindAction("Attack");
+        sprintAction = playerMap.FindAction("Sprint");
+
     }
 
     public void SetActiveCharacter(int newCharacter)
@@ -109,6 +116,8 @@ public class Player : MonoBehaviour
     void Update()
     {
         moveAmt = moveAction.ReadValue<Vector2>();
+        
+        
 
         if (jumpAction.WasPressedThisFrame() && OnGround == true)
         {
@@ -119,8 +128,18 @@ public class Player : MonoBehaviour
         {
             combat.Attack();
         }
-        
-        if(currentHealth.CurrentHealth <= 0)
+
+        if (sprintAction.IsPressed())
+        {
+            sprintActive = true;
+        }
+        else
+        {
+            sprintActive = false;
+        }
+
+
+        if (currentHealth.CurrentHealth <= 0)
         {
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             SceneManager.LoadScene(2);
@@ -140,6 +159,11 @@ public class Player : MonoBehaviour
     {
         Vector2 lv = rb.linearVelocity;
         lv.x = moveAmt.x * moveSpeed;
+        if (sprintActive == true)
+        {
+           lv.x = lv.x * 1.5f;
+        }
+        
         rb.linearVelocity = lv;
 
         if (lv.x > 0)
