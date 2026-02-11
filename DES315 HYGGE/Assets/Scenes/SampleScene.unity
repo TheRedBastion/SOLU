@@ -1788,6 +1788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 100
+  invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
       m_Calls: []
@@ -1892,6 +1893,7 @@ MonoBehaviour:
   character: 0
   OnGround: 0
   OnSwap: 0
+  sprintActive: 0
 --- !u!114 &1315483589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2486,6 +2488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 150
+  invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
       m_Calls: []
@@ -2669,6 +2672,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 1730206969}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: contactDamage
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -2773,6 +2780,10 @@ PrefabInstance:
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: contactDamage
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name

@@ -3,6 +3,8 @@ using UnityEngine;
 
 public abstract class BaseEnemy : MonoBehaviour
 {
+    [SerializeField] protected int contactDamage = 10;
+
     protected Transform player;
     protected Rigidbody2D rb;
     protected Health health;
@@ -43,6 +45,24 @@ public abstract class BaseEnemy : MonoBehaviour
     {
         if (characterSwap != null && characterSwap.swappedThisFrame)
             player = characterSwap.character;
+    }
+
+    protected virtual void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            TryDamagePlayer(other.gameObject);
+        }
+    }
+
+    protected void TryDamagePlayer(GameObject playerObj)
+    {
+        Health playerHealth = playerObj.GetComponent<Health>();
+
+        if (playerHealth != null)
+        {
+            playerHealth.TakeDamage(contactDamage);
+        }
     }
 
     protected virtual void HandleDamage(int damage)

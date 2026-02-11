@@ -93,7 +93,10 @@ public class Player : MonoBehaviour
     public void SetActiveCharacter(int newCharacter)
     {
         if (currentHealth != null)
+        {
+            currentHealth.ResetInvincibility();
             currentHealth.OnDamageTaken.RemoveListener(HandleDamage);
+        }
 
         character = newCharacter;
 
