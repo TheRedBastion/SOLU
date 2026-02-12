@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
@@ -18,6 +19,8 @@ public class PlayerCombat : MonoBehaviour
     public void Attack()
     {
         UpdateAttackPoint();
+
+        StartCoroutine(showAttack(0.2f));
 
         Collider2D[] hits = Physics2D.OverlapCircleAll(
             attackPoint.transform.position,
@@ -50,5 +53,17 @@ public class PlayerCombat : MonoBehaviour
     {
         if (attackPoint != null)
             Gizmos.DrawWireSphere(attackPoint.transform.position, radius);
+    }
+
+
+
+    IEnumerator showAttack(float t)
+    {
+        SpriteRenderer sr = attackPoint.GetComponent<SpriteRenderer>();
+        if (sr == null) yield break;
+
+        sr.enabled = true;
+        yield return new WaitForSeconds(t);
+        sr.enabled = false;
     }
 }
