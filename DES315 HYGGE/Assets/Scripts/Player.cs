@@ -133,7 +133,7 @@ public class Player : MonoBehaviour
         Vector2 lv = rb.linearVelocity;
         lv.y = jumpForce;
         rb.linearVelocity = lv;
-        OnGround = false;
+        //OnGround = false;
     }
 
     private void FixedUpdate()

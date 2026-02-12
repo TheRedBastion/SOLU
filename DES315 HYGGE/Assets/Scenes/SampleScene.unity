@@ -9115,6 +9115,7 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 8
+  groundContacts: 0
 --- !u!114 &1147384681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11305,6 +11306,7 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 8
+  groundContacts: 0
 --- !u!114 &1554406610
 MonoBehaviour:
   m_ObjectHideFlags: 0

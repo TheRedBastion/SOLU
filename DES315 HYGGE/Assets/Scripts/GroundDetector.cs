@@ -5,33 +5,40 @@ public class GroundDetector : MonoBehaviour
     public Player player;
     public LayerMask ground;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private int groundContacts = 0;
+    //TODO: when going to higher surface its kinda buggy need to look at this
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if ((ground.value & (1 << other.gameObject.layer)) != 0)
         {
+            groundContacts++;
             player.OnGround = true;
         }
 
-        //The way we did it for ground wasnt working here so i just hard coded the layer name, not sure why it didnt work for swap
         if (other.gameObject.layer == LayerMask.NameToLayer("Swap"))
         {
             player.OnSwap = true;
         }
-
     }
 
-
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnCollisionExit2D(Collision2D other)
     {
         if ((ground.value & (1 << other.gameObject.layer)) != 0)
         {
-            player.OnGround = false;
+            groundContacts--;
+
+            if (groundContacts <= 0)
+            {
+                groundContacts = 0;
+                player.OnGround = false;
+            }
         }
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Swap"))
         {
-            player.OnSwap = false;
-        }
 
+            player.OnSwap = false;
+            
+        }
     }
 }
