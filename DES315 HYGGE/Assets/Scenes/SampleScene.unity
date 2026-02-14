@@ -1500,7 +1500,7 @@ GameObject:
   - component: {fileID: 70989849}
   - component: {fileID: 70989850}
   m_Layer: 0
-  m_Name: PatrolPathS5
+  m_Name: PatrolPath5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5622,7 +5622,7 @@ GameObject:
   - component: {fileID: 376984126}
   - component: {fileID: 376984127}
   m_Layer: 0
-  m_Name: PatrolPathS7
+  m_Name: PatrolPath7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9138,7 +9138,7 @@ GameObject:
   - component: {fileID: 578250311}
   - component: {fileID: 578250312}
   m_Layer: 0
-  m_Name: PatrolPathS3
+  m_Name: PatrolPath3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11441,7 +11441,7 @@ GameObject:
   - component: {fileID: 645529401}
   - component: {fileID: 645529402}
   m_Layer: 0
-  m_Name: PatrolPathS1
+  m_Name: PatrolPath1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13793,7 +13793,7 @@ GameObject:
   - component: {fileID: 789150770}
   - component: {fileID: 789150771}
   m_Layer: 0
-  m_Name: PatrolPathS9
+  m_Name: PatrolPath9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17639,7 +17639,7 @@ GameObject:
   - component: {fileID: 1003666974}
   - component: {fileID: 1003666975}
   m_Layer: 0
-  m_Name: PatrolPathM1
+  m_Name: PatrolPath1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22419,7 +22419,7 @@ GameObject:
   - component: {fileID: 1338488984}
   - component: {fileID: 1338488985}
   m_Layer: 0
-  m_Name: PatrolPathS8
+  m_Name: PatrolPath8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25231,7 +25231,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2995117052777563603, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_Name
-      value: EnemyM1
+      value: EnemyH
       objectReference: {fileID: 0}
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: patrolPath
@@ -27825,7 +27825,7 @@ GameObject:
   - component: {fileID: 1622616268}
   - component: {fileID: 1622616269}
   m_Layer: 0
-  m_Name: PatrolPathS6
+  m_Name: PatrolPath6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29587,35 +29587,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1730206969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070479649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be3f08d5e8a7c6640a093c1e2937191f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PatrolPath
-  startPosition: {x: 12.65, y: 0}
-  endPosition: {x: 25.48, y: 0}
---- !u!4 &1730206970
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070479649}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.86, y: -4.02, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1826268451}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1742958479
 GameObject:
   m_ObjectHideFlags: 0
@@ -31173,7 +31144,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1730206970}
   - {fileID: 1003666974}
   m_Father: {fileID: 623348428}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32418,7 +32388,7 @@ GameObject:
   - component: {fileID: 1984576265}
   - component: {fileID: 1984576266}
   m_Layer: 0
-  m_Name: PatrolPathS4
+  m_Name: PatrolPath4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33479,7 +33449,7 @@ GameObject:
   - component: {fileID: 2069885876}
   - component: {fileID: 2069885877}
   m_Layer: 0
-  m_Name: PatrolPathS2
+  m_Name: PatrolPath2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33514,23 +33484,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PatrolPath
   startPosition: {x: 937.6, y: 0}
   endPosition: {x: 956.09, y: 0}
---- !u!1 &2070479649
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1730206970}
-  - component: {fileID: 1730206969}
-  m_Layer: 0
-  m_Name: PatrolPath1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &2082458357
 GameObject:
   m_ObjectHideFlags: 0
