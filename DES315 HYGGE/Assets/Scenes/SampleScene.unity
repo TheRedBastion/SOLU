@@ -1433,7 +1433,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2995117052777563603, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_Name
-      value: EnemyS3
+      value: EnemyP
       objectReference: {fileID: 0}
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: patrolPath
@@ -4095,7 +4095,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2995117052777563603, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_Name
-      value: EnemyS5
+      value: EnemyP
       objectReference: {fileID: 0}
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: patrolPath
@@ -4161,7 +4161,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2995117052777563603, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_Name
-      value: EnemyS6
+      value: EnemyP
       objectReference: {fileID: 0}
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: patrolPath
@@ -5555,7 +5555,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2995117052777563603, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_Name
-      value: EnemyPS8
+      value: EnemyP
       objectReference: {fileID: 0}
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: patrolPath
@@ -8905,7 +8905,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2995117052777563603, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_Name
-      value: EnemyS1
+      value: EnemyP
       objectReference: {fileID: 0}
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: patrolPath
@@ -11374,7 +11374,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2995117052777563603, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_Name
-      value: EnemyS2
+      value: EnemyP
       objectReference: {fileID: 0}
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: patrolPath
@@ -13560,7 +13560,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2995117052777563603, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_Name
-      value: EnemyPS9
+      value: EnemyP
       objectReference: {fileID: 0}
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: patrolPath
@@ -31519,7 +31519,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2995117052777563603, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_Name
-      value: EnemyPS7
+      value: EnemyP
       objectReference: {fileID: 0}
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: patrolPath
@@ -32083,7 +32083,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2995117052777563603, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_Name
-      value: EnemyS4
+      value: EnemyP
       objectReference: {fileID: 0}
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: patrolPath
