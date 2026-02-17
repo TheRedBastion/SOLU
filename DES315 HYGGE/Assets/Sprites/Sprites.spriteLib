@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteLibrarySourceAsset
+  m_Library:
+  - m_Name: SunSprites
+    m_Hash: 279046923
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: SunW1
+      m_Hash: 52248363
+      m_Sprite: {fileID: -2617004644246166455, guid: 16f52c708311ce84593e27e5626d2f2d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2617004644246166455, guid: 16f52c708311ce84593e27e5626d2f2d, type: 3}
+    - m_Name: SunW2
+      m_Hash: 437546641
+      m_Sprite: {fileID: -866975120810606259, guid: bc5d211a22a20ab4cb48f585f3191537, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -866975120810606259, guid: bc5d211a22a20ab4cb48f585f3191537, type: 3}
+    - m_Name: SunW3
+      m_Hash: 756243975
+      m_Sprite: {fileID: 7777546900135091855, guid: c0bf26ca2626d80409330d1afb49f7eb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7777546900135091855, guid: c0bf26ca2626d80409330d1afb49f7eb, type: 3}
+    - m_Name: SunW4
+      m_Hash: 863488932
+      m_Sprite: {fileID: 387691728505263218, guid: a630bdb2d663c224797abd52eea450df, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 387691728505263218, guid: a630bdb2d663c224797abd52eea450df, type: 3}
+    - m_Name: SunW5
+      m_Hash: 74513202
+      m_Sprite: {fileID: -3313835091003878567, guid: 811c40e63e984d14a98d1c531afba26d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3313835091003878567, guid: 811c40e63e984d14a98d1c531afba26d, type: 3}
+    - m_Name: SunW6
+      m_Hash: 494512776
+      m_Sprite: {fileID: 6046895757590876818, guid: fc906c1908eb7024cadd309e4939503f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6046895757590876818, guid: fc906c1908eb7024cadd309e4939503f, type: 3}
+    - m_Name: SunW7
+      m_Hash: 712940062
+      m_Sprite: {fileID: 9222644910093645897, guid: 28eb3898e0ca9c14d97024fe9c565c81, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 9222644910093645897, guid: 28eb3898e0ca9c14d97024fe9c565c81, type: 3}
+    - m_Name: SunW8
+      m_Hash: 985761679
+      m_Sprite: {fileID: 872924322371565353, guid: e2c237ad7ddc00a4db863c0895f72c38, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 872924322371565353, guid: e2c237ad7ddc00a4db863c0895f72c38, type: 3}
+    - m_Name: SunW9
+      m_Hash: 231126809
+      m_Sprite: {fileID: 2309406148209177862, guid: 09a3f766b7a27ac45ba64e2f3d30b58f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2309406148209177862, guid: 09a3f766b7a27ac45ba64e2f3d30b58f, type: 3}
+    - m_Name: SunW10
+      m_Hash: 409221982
+      m_Sprite: {fileID: 8657650971141821743, guid: 3766f037e5e866c4c8987f347f2f6c6f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8657650971141821743, guid: 3766f037e5e866c4c8987f347f2f6c6f, type: 3}
+    - m_Name: SunW11
+      m_Hash: 795020232
+      m_Sprite: {fileID: -2546970710242962317, guid: 29107cbfff0e81848ae5dd14ddb1e806, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2546970710242962317, guid: 29107cbfff0e81848ae5dd14ddb1e806, type: 3}
+    - m_Name: SunW12
+      m_Hash: 912939634
+      m_Sprite: {fileID: -6375402921535405499, guid: deb6752acbda9c5438407cb8787926f7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6375402921535405499, guid: deb6752acbda9c5438407cb8787926f7, type: 3}
+    - m_Name: SunW13
+      m_Hash: 23948004
+      m_Sprite: {fileID: 7266819221833463046, guid: 798b14d1ca345524197bd48395f7f9c0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7266819221833463046, guid: 798b14d1ca345524197bd48395f7f9c0, type: 3}
+    - m_Name: SunW14
+      m_Hash: 520748871
+      m_Sprite: {fileID: -3569456732032455203, guid: 0733c9d266f5280488b5e8ea319eb282, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3569456732032455203, guid: 0733c9d266f5280488b5e8ea319eb282, type: 3}
+    - m_Name: SunW15
+      m_Hash: 672059345
+      m_Sprite: {fileID: -3118494225242021340, guid: dd9b86a3236facd419cff571ad37aead, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3118494225242021340, guid: dd9b86a3236facd419cff571ad37aead, type: 3}
+    - m_Name: SunW16
+      m_Hash: 822582891
+      m_Sprite: {fileID: -8926803579343914071, guid: f4ad1b46339fc244c97fcd8d12e7913a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8926803579343914071, guid: f4ad1b46339fc244c97fcd8d12e7913a, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 16
+  - m_Name: MoonSprites
+    m_Hash: 240241696
+    m_CategoryList: []
+    m_OverrideEntries: []
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 639069276546499059
+  m_Version: 1
