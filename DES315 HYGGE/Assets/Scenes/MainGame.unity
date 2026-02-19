@@ -22426,7 +22426,7 @@ MonoBehaviour:
     jumpForce: 17.5
   character: 0
   OnGround: 0
-  OnSwap: 1
+  OnSwap: 0
   sprintActive: 0
 --- !u!114 &1315483589
 MonoBehaviour:
