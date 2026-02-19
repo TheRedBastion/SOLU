@@ -24,7 +24,7 @@ public class HealthTracker : MonoBehaviour
     }
 
 
-    public void DrawHearts(int use)
+    public void DrawHearts(int use, KnockbackData kb = default)
     {
         ClearHearts();
         for (int i = 0; i < Health.MaxHealth; i++)
