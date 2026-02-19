@@ -22415,13 +22415,13 @@ MonoBehaviour:
   SunObject: {fileID: 1147384673}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   moonStats:
-    health: 150
-    maxHealth: 150
+    health: 7
+    maxHealth: 7
     moveSpeed: 5
     jumpForce: 25
   sunStats:
-    health: 100
-    maxHealth: 100
+    health: 5
+    maxHealth: 5
     moveSpeed: 7
     jumpForce: 17.5
   character: 0
