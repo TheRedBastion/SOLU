@@ -59,6 +59,7 @@ public class Player : MonoBehaviour
     private PlayerCombat combat;
     private InputAction attackAction;
 
+    private KnockbackReceiver knockback;
     //health
     private Health currentHealth;
 
@@ -107,6 +108,8 @@ public class Player : MonoBehaviour
         currentHealth.OnDamageTaken.AddListener(HandleDamage);
 
         rb = activeObject.GetComponent<Rigidbody2D>();
+        knockback = activeObject.GetComponent<KnockbackReceiver>();
+
         ApplyStats();
     }
 
@@ -160,6 +163,8 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (knockback != null && knockback.IsKnockedBack) return;
+
         Vector2 lv = rb.linearVelocity;
         lv.x = moveAmt.x * moveSpeed;
         if (sprintActive == true)
@@ -189,9 +194,11 @@ public class Player : MonoBehaviour
         return activeObject.transform;
     }
 
-    private void HandleDamage(int damage)
+    private void HandleDamage(int damage, KnockbackData hitDirection)
     {
         currentStats.health = currentHealth.CurrentHealth;
+
+        knockback?.ApplyKnockback(hitDirection);
     }
 
     public enum PlayerType

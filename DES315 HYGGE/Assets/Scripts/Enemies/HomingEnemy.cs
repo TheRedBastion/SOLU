@@ -11,6 +11,7 @@ public class HomingEnemy : BaseEnemy
     {
         base.Update();
 
+        if (knockback != null && knockback.IsKnockedBack) return;
         if (player == null) return;
 
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);

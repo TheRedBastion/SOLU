@@ -4,17 +4,28 @@ using UnityEngine;
 public abstract class BaseEnemy : MonoBehaviour
 {
     [SerializeField] protected int contactDamage = 10;
+    [SerializeField] protected float attackKnockbackDuration = 0.2f;
+    [SerializeField] protected float attackKnockbackForce = 5f;
 
     protected Transform player;
     protected Rigidbody2D rb;
     protected Health health;
     protected CharacterSwap characterSwap;
 
+    protected KnockbackReceiver knockback;
+
+    protected bool isKnockback = false;
+    protected Vector2 knockbackForce = new Vector2(5f, 5f);
+    protected float knockbackDuration = 0.2f;
+
+
+
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         health = GetComponent<Health>();
         characterSwap = GetComponentInParent<CharacterSwap>();
+        knockback = GetComponent<KnockbackReceiver>();
     }
 
     protected virtual void OnEnable()
@@ -55,19 +66,35 @@ public abstract class BaseEnemy : MonoBehaviour
         }
     }
 
+    protected virtual void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player"))
+        {
+            TryDamagePlayer(collision.gameObject);
+        }
+    }
+
     protected void TryDamagePlayer(GameObject playerObj)
     {
         Health playerHealth = playerObj.GetComponent<Health>();
 
         if (playerHealth != null)
         {
-            playerHealth.TakeDamage(contactDamage);
+            Vector2 hitDirection = (playerObj.transform.position - transform.position).normalized;
+            KnockbackData kb = new KnockbackData(
+                hitDirection,
+                attackKnockbackForce,
+                attackKnockbackDuration
+            );
+            playerHealth.TakeDamage(contactDamage, kb);
         }
     }
 
-    protected virtual void HandleDamage(int damage)
+    protected virtual void HandleDamage(int damage, KnockbackData data)
     {
         StartCoroutine(Flash());
+
+        knockback?.ApplyKnockback(data);
     }
 
     protected virtual IEnumerator Flash()
@@ -80,4 +107,5 @@ public abstract class BaseEnemy : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         sr.color = original;
     }
+
 }

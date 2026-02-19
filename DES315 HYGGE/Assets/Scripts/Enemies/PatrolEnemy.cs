@@ -47,6 +47,8 @@ public class PatrolEnemy : BaseEnemy
 
     void Patrol()
     {
+        if (knockback != null && knockback.IsKnockedBack) return;
+
         if (patrolPath == null) return;
 
         if (movingRight)

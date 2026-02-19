@@ -7,6 +7,10 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private float radius = 1f;
     [SerializeField] private LayerMask enemies;
     [SerializeField] private Vector2 attackOffset = new Vector2(1f, 1f);
+
+    [SerializeField] private float attackKnockbackDuration = 0.2f;
+    [SerializeField] private float attackKnockbackForce = 5f;
+
     public int attackDamage = 10;
 
     private Player player;
@@ -35,7 +39,15 @@ public class PlayerCombat : MonoBehaviour
             Health health = hit.GetComponentInParent<Health>();
             if (health != null)
             {
-                health.TakeDamage(attackDamage);
+                Vector2 hitDirection = (hit.transform.position - attackPoint.transform.position).normalized;
+                //Vector2 hitDirection = (hit.transform.position - player.GetActiveCharacterTransform().position).normalized;
+                KnockbackData kb = new KnockbackData(
+                    hitDirection,
+                    attackKnockbackForce,
+                    attackKnockbackDuration
+                );
+
+                health.TakeDamage(attackDamage, kb);
             }
         }
     }
@@ -54,8 +66,6 @@ public class PlayerCombat : MonoBehaviour
         if (attackPoint != null)
             Gizmos.DrawWireSphere(attackPoint.transform.position, radius);
     }
-
-
 
     IEnumerator showAttack(float t)
     {
