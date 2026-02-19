@@ -10,6 +10,7 @@ public class CharacterSwap : MonoBehaviour
     public int currentCharacter = 0;
 
     public Player player;
+    public HealthTracker healthTracker;
 
     public InputActionAsset InputActions;
     private InputAction swapAction;
@@ -68,6 +69,8 @@ public class CharacterSwap : MonoBehaviour
         }
 
         canSwap = Time.time + swapCooldown;
+
+        healthTracker.DrawHearts(0);
     }
 
 }

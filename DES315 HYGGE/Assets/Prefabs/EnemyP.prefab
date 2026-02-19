@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 900a548aec7c8f94fac96e9dd87a52e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PatrolEnemy
-  contactDamage: 10
+  contactDamage: 1
   attackKnockbackDuration: 0.2
   attackKnockbackForce: 5
   groundLayer:

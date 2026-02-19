@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3ab00647663ca954bbed65160f38c5d0
+guid: 5a490504ca3190443a6cd91b849ca615
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5277120275534134398
-    second: UI_Sun_0
+      213: 7116979060951697521
+    second: UI_Sun_Stamina_Back_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Sun_0
+      name: UI_Sun_Stamina_Back_0
       rect:
         serializedVersion: 2
-        x: 777
-        y: 1119
-        width: 1087
-        height: 1105
+        x: 1989
+        y: 1112
+        width: 140
+        height: 1103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 283c6cb9117e3c6b0800000000000000
-      internalID: -5277120275534134398
+      spriteID: 1784be1afb694c260800000000000000
+      internalID: 7116979060951697521
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Sun_0: -5277120275534134398
+      UI_Sun_Stamina_Back_0: 7116979060951697521
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
