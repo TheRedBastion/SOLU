@@ -12,7 +12,7 @@ public class Hazard : MonoBehaviour
         Health health = collision.gameObject.GetComponentInParent<Health>();
         if (health != null)
         {
-            health.TakeDamage(10);
+            health.TakeDamage(1);
         }
     }
 

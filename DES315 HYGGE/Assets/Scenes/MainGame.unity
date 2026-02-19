@@ -1353,6 +1353,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 243658700}
+  - {fileID: 801547175}
   m_Father: {fileID: 206580501}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2734,6 +2735,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &150002433
@@ -2748,7 +2750,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &150002434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3659,7 +3660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &223082720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3676,6 +3676,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!1 &226555423
@@ -4151,6 +4152,121 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
   m_PrefabInstance: {fileID: 244398343}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &276681753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276681754}
+  - component: {fileID: 276681758}
+  - component: {fileID: 276681757}
+  - component: {fileID: 276681756}
+  - component: {fileID: 276681755}
+  m_Layer: 5
+  m_Name: HealthHearts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &276681754
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276681753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1944106303}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -275.6, y: 203.8}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &276681755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276681753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d01f1dbe05421438a28ce1751492eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  heartPrefab: {fileID: 2141701510438220360, guid: a44aac3800c10d349bd9c0671dfecd01, type: 3}
+  Health: {fileID: 1554406610}
+--- !u!114 &276681756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276681753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 0, y: -25}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &276681757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276681753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &276681758
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276681753}
+  m_CullTransparentMesh: 1
 --- !u!1001 &291898226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5694,6 +5810,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &381562369
@@ -5708,7 +5825,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &381562370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7253,6 +7369,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &521065193
@@ -7267,7 +7384,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &521065194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9376,6 +9492,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &580961202
@@ -9390,7 +9507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &580961203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12841,6 +12957,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &745088276
@@ -12855,7 +12972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &745088277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14326,6 +14442,121 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &801547174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 801547175}
+  - component: {fileID: 801547179}
+  - component: {fileID: 801547178}
+  - component: {fileID: 801547177}
+  - component: {fileID: 801547176}
+  m_Layer: 5
+  m_Name: HealthHearts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &801547175
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801547174}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 64794073}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -275.6, y: 203.8}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &801547176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801547174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d01f1dbe05421438a28ce1751492eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  heartPrefab: {fileID: 2141701510438220360, guid: a44aac3800c10d349bd9c0671dfecd01, type: 3}
+  Health: {fileID: 1147384681}
+--- !u!114 &801547177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801547174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 0, y: -25}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &801547178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801547174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &801547179
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801547174}
+  m_CullTransparentMesh: 1
 --- !u!1 &803263075
 GameObject:
   m_ObjectHideFlags: 0
@@ -14529,6 +14760,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &817392439
@@ -14543,7 +14775,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &817392440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15593,6 +15824,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &897297777
@@ -15607,7 +15839,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &897297778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19482,7 +19713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 100
+  maxHealth: 5
   invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
@@ -20722,6 +20953,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &1207645556
@@ -20736,7 +20968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &1207645557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21400,8 +21631,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteResolver
-  m_CategoryHash: 0
-  m_labelHash: 0
+  m_CategoryHash: 6.3865444e-29
+  m_labelHash: 4.6210667e-37
   m_SpriteKey: 0
   m_SpriteHash: 874648362
 --- !u!114 &1236777306
@@ -22195,7 +22426,7 @@ MonoBehaviour:
     jumpForce: 17.5
   character: 0
   OnGround: 0
-  OnSwap: 0
+  OnSwap: 1
   sprintActive: 0
 --- !u!114 &1315483589
 MonoBehaviour:
@@ -23627,6 +23858,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &1380819726
@@ -23641,7 +23873,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &1380819727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25945,6 +26176,7 @@ MonoBehaviour:
   - {fileID: 1147384678}
   currentCharacter: 0
   player: {fileID: 1315483588}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 1
 --- !u!4 &1526684628
@@ -26784,7 +27016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 150
+  maxHealth: 7
   invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
@@ -28598,6 +28830,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &1668109844
@@ -28612,7 +28845,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &1668109845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32447,6 +32679,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 618440395}
+  - {fileID: 276681754}
   m_Father: {fileID: 519420032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -33264,6 +33497,7 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
+  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &2047904076
@@ -33278,7 +33512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2928669d1462194cba8149b645662ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::External
-  curChar: 0
 --- !u!114 &2047904077
 MonoBehaviour:
   m_ObjectHideFlags: 0
