@@ -2,7 +2,9 @@ using System.Collections;
 using UnityEngine;
 
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class PlayerStats
@@ -63,6 +65,10 @@ public class Player : MonoBehaviour
     //health
     private Health currentHealth;
 
+
+    public Stamina stamina;
+    public float curStam;
+
     private void Awake()
     {
         RefreshInput();
@@ -111,6 +117,8 @@ public class Player : MonoBehaviour
         knockback = activeObject.GetComponent<KnockbackReceiver>();
 
         ApplyStats();
+
+        curStam = stamina.currentStamina;
     }
 
     void Start()
@@ -121,9 +129,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(curStam);
         moveAmt = moveAction.ReadValue<Vector2>();
-        
-        
 
         if (jumpAction.WasPressedThisFrame() && OnGround == true)
         {
@@ -135,12 +142,30 @@ public class Player : MonoBehaviour
             combat.Attack();
         }
 
-        if (sprintAction.IsPressed())
+        
+
+        if (sprintAction.IsPressed() && curStam > 0)
         {
+            
             sprintActive = true;
+            curStam -= stamina.lossRate * Time.deltaTime;
+
+            if (curStam <= 0)
+            {
+                sprintActive = false;
+                curStam = 0;
+            }
         }
         else
         {
+            if (curStam >= stamina.maxStamina)
+            {
+                curStam = stamina.maxStamina;
+            }
+            else
+            {
+                curStam += stamina.regenRate * Time.deltaTime;
+            }
             sprintActive = false;
         }
 
