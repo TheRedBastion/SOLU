@@ -24,6 +24,7 @@ public class Stamina : MonoBehaviour
         if (player.sprintActive)
         {
             currentStamina -= lossRate * Time.deltaTime;
+
             if (currentStamina <= 0)
             {
                 currentStamina = 0;
@@ -39,22 +40,7 @@ public class Stamina : MonoBehaviour
 
         StaminaUpdate(currentStamina > 0 ? 1 : 0);
     }
-    //public void Sprinting()
-    //{
-    //    if (currentStamina > 0)
-    //    {
-    //        player.sprintActive = true;
-    //        currentStamina -= lossRate * Time.deltaTime;
-    //        StaminaUpdate(1);
-    //        staminaFull = false;
-    //        if (currentStamina <= 0)
-    //        {
-    //            staminaFull = false;
-    //            player.sprintActive = false;
-    //            staminaBarCanvasGroup.alpha = 0f;
-    //        }
-    //    }
-    //}
+
     void StaminaUpdate(int value)
     {
         staminaBarUI.fillAmount = currentStamina / maxStamina;

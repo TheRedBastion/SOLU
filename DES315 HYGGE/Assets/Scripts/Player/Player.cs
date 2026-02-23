@@ -68,6 +68,7 @@ public class Player : MonoBehaviour
 
     public Stamina stamina;
     public float curStam;
+    public bool boolshit = false;
 
     private void Awake()
     {
@@ -143,20 +144,29 @@ public class Player : MonoBehaviour
         }
 
         
-
-        if (sprintAction.IsPressed() && curStam > 0)
+        if (sprintAction.WasPressedThisFrame() && curStam > 0)
         {
-            
-            sprintActive = true;
-            curStam -= stamina.lossRate * Time.deltaTime;
+            boolshit = true;
+        }
+        if(boolshit == true)
+        {
 
-            if (curStam <= 0)
+
+            if (sprintAction.IsPressed() && curStam > 0)
             {
-                sprintActive = false;
-                curStam = 0;
+
+                sprintActive = true;
+                curStam -= stamina.lossRate * Time.deltaTime;
+
+                if (curStam <= 0)
+                {
+                    sprintActive = false;
+                    curStam = 0;
+                    boolshit = false;
+                }
             }
         }
-        else
+        if (!sprintAction.IsPressed() || boolshit == false)
         {
             if (curStam >= stamina.maxStamina)
             {
@@ -165,8 +175,15 @@ public class Player : MonoBehaviour
             else
             {
                 curStam += stamina.regenRate * Time.deltaTime;
+                if (curStam >= 10)
+                {
+                   boolshit = true;
+                }
+               
+                
             }
             sprintActive = false;
+
         }
 
 
