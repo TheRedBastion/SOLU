@@ -18982,7 +18982,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4781202754578069768, guid: 9809bd2052f83344998afaa328917aa6, type: 3}
+  m_Sprite: {fileID: 1943170135657599245, guid: 8dae8e2e41650824f8579370c66b92f7, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22716,7 +22716,7 @@ MonoBehaviour:
     jumpForce: 17.5
   character: 0
   OnGround: 0
-  OnSwap: 1
+  OnSwap: 0
   sprintActive: 0
   stamina: {fileID: 1712364899}
   curStam: 0
