@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 005d13061cb86cd4e89496e1942c2e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HomingEnemy
-  contactDamage: 10
+  contactDamage: 1
   speed: 3.5
   detectionRange: 14
 --- !u!60 &4255928586273883775

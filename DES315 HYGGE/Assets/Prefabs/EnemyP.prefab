@@ -180,7 +180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 30
+  maxHealth: 50
+  invincibilityDuration: 0
   OnDamageTaken:
     m_PersistentCalls:
       m_Calls: []
@@ -199,9 +200,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 900a548aec7c8f94fac96e9dd87a52e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PatrolEnemy
+  contactDamage: 1
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
   groundCheckDistance: 5
   patrolPath: {fileID: 0}
-  moveSpeed: 2
+  moveSpeed: 6
