@@ -137,13 +137,22 @@ public class PlayerMovement : MonoBehaviour
 
         //FLIP
 
-        if (velocity.x > 0.05f)
+        if (moveInput.x > 0.05f)
         {
             transform.localScale = new Vector3(.5f, .5f, 1);
         }
-        else if (velocity.x < -0.05f)
+        else if (moveInput.x < -0.05f)
         {
             transform.localScale = new Vector3(-.5f, .5f, 1);
         }
+
+        //if (velocity.x > 0.05f)    AFTER KNOCKBACK YOU FACE DIRECTION OF WHERE YOU WERE KNOCKED BACK TO
+        //{
+        //    transform.localScale = new Vector3(.5f, .5f, 1);
+        //}
+        //else if (velocity.x < -0.05f)
+        //{
+        //    transform.localScale = new Vector3(-.5f, .5f, 1);
+        //}
     }
 }
