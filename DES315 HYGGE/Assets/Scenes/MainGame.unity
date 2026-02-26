@@ -16742,7 +16742,7 @@ MonoBehaviour:
   currentStamina: 100
   maxStamina: 100
   staminaFull: 1
-  lossRate: 5
+  lossRate: 15
   regenRate: 5
   staminaBarUI: {fileID: 1066045745}
   staminaBarCanvasGroup: {fileID: 951976689}
@@ -18766,7 +18766,7 @@ MonoBehaviour:
   riseGravity: 1
   fallGravity: 3.5
   jumpCutMultiplier: 0.5
-  isGodmode: 1
+  isGodmode: 0
   MoonObject: {fileID: 1554406601}
   SunObject: {fileID: 1147384673}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
