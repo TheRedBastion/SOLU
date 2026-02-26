@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
 {
     public bool isGodmode;
 
+    [Header("Player Objects")]
     public GameObject MoonObject;
     public GameObject SunObject;
     private GameObject activeObject;
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour
     private InputAction jumpAction;
     private InputAction sprintAction;
 
+    [Header("Stats")]
     public PlayerStats moonStats = new PlayerStats(150, 150, 5f, 15f);
     public PlayerStats sunStats = new PlayerStats(100, 100, 7f, 12f);
 
@@ -61,8 +63,7 @@ public class Player : MonoBehaviour
     //movement
     private PlayerMovement movement;
 
-    public Stamina stamina;
-    public float curStam;
+    private Stamina stamina;
 
     private void Awake()
     {

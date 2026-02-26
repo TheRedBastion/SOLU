@@ -17071,6 +17071,7 @@ MonoBehaviour:
   riseGravity: 1
   fallGravity: 3.5
   jumpCutMultiplier: 0.5
+  terminalVelocity: 20
   sprintActive: 0
 --- !u!1 &1147758898
 GameObject:
@@ -18986,7 +18987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e8e8edfc5309364e8b14bda0b520632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  isGodmode: 0
+  isGodmode: 1
   MoonObject: {fileID: 1554406601}
   SunObject: {fileID: 1147384673}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -19004,8 +19005,6 @@ MonoBehaviour:
   OnGround: 0
   OnSwap: 1
   sprintActive: 0
-  stamina: {fileID: 1712364899}
-  curStam: 0
 --- !u!114 &1315483589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22213,6 +22212,7 @@ MonoBehaviour:
   riseGravity: 1
   fallGravity: 3.5
   jumpCutMultiplier: 0.5
+  terminalVelocity: 25
   sprintActive: 0
 --- !u!1 &1560383657
 GameObject:

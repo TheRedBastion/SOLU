@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float riseGravity = 1f;
     [SerializeField] private float fallGravity = 3.5f;
     [SerializeField] private float jumpCutMultiplier = 0.5f;
+    [SerializeField] private float terminalVelocity = 20f;
 
     private Rigidbody2D rb;
     private GroundDetector groundDetector;
@@ -96,8 +97,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //clamp fall speed
-        if (lv.y < -jumpForce)
-            lv.y = -jumpForce;
+        if (lv.y < -terminalVelocity)
+            lv.y = -terminalVelocity;
 
         rb.linearVelocity = lv;
 
