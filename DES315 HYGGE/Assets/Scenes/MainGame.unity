@@ -18911,7 +18911,7 @@ SpriteRenderer:
   m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.281844, g: 0.735849, b: 0.5960797, a: 1}
+  m_Color: {r: 0.6132076, g: 0.57367045, b: 0.44833574, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -21394,6 +21394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1526684628}
   - component: {fileID: 1526684627}
+  - component: {fileID: 1526684629}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -21438,6 +21439,19 @@ Transform:
   - {fileID: 1147758899}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1526684629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526684626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eac8e0eb6fa1d74db41990874fb9f9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ControlPanel
+  audioEnabled: 1
 --- !u!1 &1540560246
 GameObject:
   m_ObjectHideFlags: 0
