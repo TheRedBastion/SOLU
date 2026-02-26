@@ -70,7 +70,7 @@ public class CharacterSwap : MonoBehaviour
 
         canSwap = Time.time + swapCooldown;
 
-        healthTracker.DrawHearts(0);
+        //healthTracker.DrawHearts(0); causes null ref??
     }
 
 }

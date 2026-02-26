@@ -55,7 +55,9 @@ public abstract class BaseEnemy : MonoBehaviour
     protected virtual void Update()
     {
         if (characterSwap != null && characterSwap.swappedThisFrame)
+        {
             player = characterSwap.character;
+        }
     }
 
     protected virtual void OnTriggerStay2D(Collider2D other)
