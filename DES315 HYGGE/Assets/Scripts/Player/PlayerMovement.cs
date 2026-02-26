@@ -9,6 +9,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpCutMultiplier = 0.5f;
     [SerializeField] private float terminalVelocity = 20f;
 
+    [Header("Running")]
+    [SerializeField] float acceleration = 60f;
+    [SerializeField] float deceleration = 15f;
+    //[SerializeField] float maxSpeed = 50f; //might need later for speed caps
+
     private Rigidbody2D rb;
     private GroundDetector groundDetector;
     private KnockbackReceiver knockback;
@@ -67,49 +72,78 @@ public class PlayerMovement : MonoBehaviour
         if (knockback != null && knockback.IsKnockedBack)
             return;
 
-        Vector2 lv = rb.linearVelocity;
+        Vector2 velocity = rb.linearVelocity;
 
-        //horizontal
-        lv.x = moveInput.x * moveSpeed;
+        //HORIZ
+        float targetVelocityX = moveInput.x * moveSpeed;
 
         if (sprintActive)
-            lv.x *= 1.5f;
+            targetVelocityX *= 1.5f;
 
-        //jump
-        if (jumpPressed)
+        float velocityDiff = targetVelocityX - velocity.x;
+
+        //weaker force when stopping
+        float accelRate = (Mathf.Abs(targetVelocityX) > 0.01f) ? acceleration : deceleration;
+
+        float force = velocityDiff * accelRate;
+
+        rb.AddForce(Vector2.right * force, ForceMode2D.Force);
+
+
+        //JUMPING
+
+        //if (jumpPressed)
+        //{
+        //    rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);  //WORKS WEIRD WITH COYOTE TIME
+        //    jumpPressed = false;
+        //}
+
+        if(jumpPressed)
         {
-            lv.y = jumpForce;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             jumpPressed = false;
         }
 
+        velocity = rb.linearVelocity;
+
+
+        //GRAVITY
+
         float baseGravity = Physics2D.gravity.y * rb.gravityScale;
 
-        if (lv.y > 0)
+        if (velocity.y > 0)
         {
+            //rising
             if (!jumpReleased)
-                lv.y += baseGravity * (riseGravity - 1) * Time.fixedDeltaTime;
+                velocity.y += baseGravity * (riseGravity - 1f) * Time.fixedDeltaTime;
             else
-                lv.y += baseGravity * (fallGravity - 1) * Time.fixedDeltaTime;
+                velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
         }
-        else if (lv.y < 0)
+        else if (velocity.y < 0)
         {
-            lv.y += baseGravity * (fallGravity - 1) * Time.fixedDeltaTime;
+            //falling
+            velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
         }
 
-        //clamp fall speed
-        if (lv.y < -terminalVelocity)
-            lv.y = -terminalVelocity;
 
-        rb.linearVelocity = lv;
+        //FALL SPEED CAP
 
-        //flip
-        if (lv.x > 0)
+        if (velocity.y < -terminalVelocity)
+            velocity.y = -terminalVelocity;
+
+
+        rb.linearVelocity = velocity;
+
+
+        //FLIP
+
+        if (velocity.x > 0.05f)
         {
-            rb.transform.localScale = new Vector3(.5f, .5f, 1);
+            transform.localScale = new Vector3(.5f, .5f, 1);
         }
-        else if (lv.x < 0)
+        else if (velocity.x < -0.05f)
         {
-            rb.transform.localScale = new Vector3(-.5f, .5f, 1);
+            transform.localScale = new Vector3(-.5f, .5f, 1);
         }
     }
 }

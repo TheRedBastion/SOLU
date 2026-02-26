@@ -17072,6 +17072,8 @@ MonoBehaviour:
   fallGravity: 3.5
   jumpCutMultiplier: 0.5
   terminalVelocity: 20
+  acceleration: 60
+  deceleration: 15
   sprintActive: 0
 --- !u!1 &1147758898
 GameObject:
@@ -22213,6 +22215,8 @@ MonoBehaviour:
   fallGravity: 3.5
   jumpCutMultiplier: 0.5
   terminalVelocity: 25
+  acceleration: 60
+  deceleration: 15
   sprintActive: 0
 --- !u!1 &1560383657
 GameObject:
@@ -25860,7 +25864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eac8e0eb6fa1d74db41990874fb9f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlPanel
-  audioEnabled: 1
+  audioEnabled: 0
 --- !u!4 &1761754000
 Transform:
   m_ObjectHideFlags: 0
