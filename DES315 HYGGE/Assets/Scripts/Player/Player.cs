@@ -108,12 +108,14 @@ public class Player : MonoBehaviour
         movement = activeObject.GetComponent<PlayerMovement>();
         currentHealth = activeObject.GetComponent<Health>();
         knockback = activeObject.GetComponent<KnockbackReceiver>();
+        stamina = activeObject.GetComponent<Stamina>();
 
         movement.Init(currentStats.moveSpeed, currentStats.jumpForce);
 
         currentHealth.OnDamageTaken.AddListener(HandleDamage);
 
-        curStam = stamina.currentStamina;
+        if (stamina != null)
+            stamina.ResetStamina();
     }
 
     void Start()
@@ -151,22 +153,7 @@ public class Player : MonoBehaviour
 
     void HandleSprint()
     {
-        if (sprintAction.IsPressed() && curStam > 0)
-        {
-            sprintActive = true;
-
-            if (!isGodmode)
-                curStam -= stamina.lossRate * Time.deltaTime;
-        }
-        else
-        {
-            sprintActive = false;
-
-            if (curStam < stamina.maxStamina)
-                curStam += stamina.regenRate * Time.deltaTime;
-        }
-
-        curStam = Mathf.Clamp(curStam, 0, stamina.maxStamina);
+        sprintActive = (sprintAction.IsPressed() && stamina.CanSprint());
     }
 
     public Transform GetActiveCharacterTransform()
