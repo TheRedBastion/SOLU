@@ -23519,6 +23519,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e8e8edfc5309364e8b14bda0b520632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  riseGravity: 1
+  lowJumpGravity: 2.5
+  fallGravity: 3.5
   MoonObject: {fileID: 1554406601}
   SunObject: {fileID: 1147384673}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -23526,12 +23529,12 @@ MonoBehaviour:
     health: 7
     maxHealth: 7
     moveSpeed: 7
-    jumpForce: 27.5
+    jumpForce: 25
   sunStats:
     health: 5
     maxHealth: 5
     moveSpeed: 10
-    jumpForce: 20
+    jumpForce: 17.5
   character: 0
   OnGround: 0
   OnSwap: 1

@@ -24,6 +24,9 @@ public class PlayerStats
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] private float riseGravity = 1.0f;
+    [SerializeField] private float lowJumpGravity = 2f;
+    [SerializeField] private float fallGravity = 3f;
 
     private float moveSpeed;
     private float jumpForce;
@@ -48,6 +51,7 @@ public class Player : MonoBehaviour
     private Vector2 moveAmt;
 
     public bool OnGround;
+    private bool jumpPressed;
 
     public bool OnSwap;
 
@@ -130,13 +134,14 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(curStam);
+        //Debug.Log(curStam);
         moveAmt = moveAction.ReadValue<Vector2>();
 
-        if (jumpAction.WasPressedThisFrame() && OnGround == true)
+        if (jumpAction.WasPressedThisFrame() && OnGround)
         {
-            Jump();
+            jumpPressed = true;
         }
+
 
         if (attackAction.WasPressedThisFrame())
         {
@@ -195,27 +200,54 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void Jump()
-    {
-        Vector2 lv = rb.linearVelocity;
-        lv.y = jumpForce;
-        rb.linearVelocity = lv;
-        //OnGround = false;
-    }
-
     private void FixedUpdate()
     {
         if (knockback != null && knockback.IsKnockedBack) return;
 
+        //horiz movement
         Vector2 lv = rb.linearVelocity;
         lv.x = moveAmt.x * moveSpeed;
         if (sprintActive == true)
         {
            lv.x = lv.x * 1.5f;
         }
-        
+
+        //jump logic
+        if (jumpPressed)
+        {
+            lv.y = jumpForce;
+            jumpPressed = false;
+        }
+
+        float baseGravity = Physics2D.gravity.y * rb.gravityScale;
+
+        if (lv.y > 0)
+        {
+            if (jumpAction.IsPressed())
+            {
+                lv.y += baseGravity * (riseGravity - 1) * Time.fixedDeltaTime;
+            }
+            else
+            {
+                lv.y += baseGravity * (lowJumpGravity - 1) * Time.fixedDeltaTime;
+            }
+        }
+        else if (lv.y < 0)
+        {
+            lv.y += baseGravity * (fallGravity - 1) * Time.fixedDeltaTime;
+        }
+
+        //clamp fall speed
+        if (lv.y < -jumpForce)
+        {
+            lv.y = -jumpForce;
+        }
+
+
         rb.linearVelocity = lv;
 
+
+        //flip
         if (lv.x > 0)
         {
             rb.transform.localScale = new Vector3(.5f, .5f, 1);
@@ -224,6 +256,7 @@ public class Player : MonoBehaviour
         {
             rb.transform.localScale = new Vector3(-.5f, .5f, 1);
         }
+
     }
     private void ApplyStats()
     {
