@@ -18987,7 +18987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e8e8edfc5309364e8b14bda0b520632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  isGodmode: 1
+  isGodmode: 0
   MoonObject: {fileID: 1554406601}
   SunObject: {fileID: 1147384673}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -19003,7 +19003,7 @@ MonoBehaviour:
     jumpForce: 20
   character: 0
   OnGround: 0
-  OnSwap: 1
+  OnSwap: 0
   sprintActive: 0
 --- !u!114 &1315483589
 MonoBehaviour:
@@ -25860,7 +25860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eac8e0eb6fa1d74db41990874fb9f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlPanel
-  audioEnabled: 0
+  audioEnabled: 1
 --- !u!4 &1761754000
 Transform:
   m_ObjectHideFlags: 0
