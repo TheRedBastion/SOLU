@@ -55,6 +55,7 @@ public class Player : MonoBehaviour
 
     public bool OnGround;
     private bool jumpPressed;
+    private bool jumpReleased;
 
     public bool OnSwap;
 
@@ -143,9 +144,13 @@ public class Player : MonoBehaviour
         if (jumpAction.WasPressedThisFrame() && OnGround)
         {
             jumpPressed = true;
+            jumpReleased = false;
+            GroundDetector gd = GetComponentInChildren<GroundDetector>();
+            gd.ConsumeCoyoteTime();
         }
         if (jumpAction.WasReleasedThisFrame())
         {
+            jumpReleased = true;
             if (rb != null && rb.linearVelocity.y > 0)
             {
                 Vector2 lv = rb.linearVelocity;
@@ -236,7 +241,7 @@ public class Player : MonoBehaviour
 
         if (lv.y > 0)
         {
-            if (jumpAction.IsPressed())
+            if (!jumpReleased)
             {
                 lv.y += baseGravity * (riseGravity - 1) * Time.fixedDeltaTime;
             }
