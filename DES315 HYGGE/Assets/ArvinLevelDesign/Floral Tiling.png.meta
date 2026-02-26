@@ -161,12 +161,12 @@ TextureImporter:
       name: Floral Tiling_0
       rect:
         serializedVersion: 2
-        x: 425
-        y: 1436
-        width: 364
-        height: 361
+        x: 449
+        y: 1438
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: Floral Tiling_1
       rect:
         serializedVersion: 2
-        x: 830
-        y: 1436
-        width: 343
-        height: 361
+        x: 833
+        y: 1438
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: Floral Tiling_2
       rect:
         serializedVersion: 2
-        x: 1201
-        y: 1436
-        width: 364
-        height: 361
+        x: 1203
+        y: 1438
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,12 +227,12 @@ TextureImporter:
       name: Floral Tiling_3
       rect:
         serializedVersion: 2
-        x: 446
-        y: 1062
-        width: 343
-        height: 342
+        x: 449
+        y: 1064
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,12 +249,12 @@ TextureImporter:
       name: Floral Tiling_4
       rect:
         serializedVersion: 2
-        x: 830
-        y: 1062
-        width: 343
-        height: 342
+        x: 832
+        y: 1064
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -271,12 +271,12 @@ TextureImporter:
       name: Floral Tiling_5
       rect:
         serializedVersion: 2
-        x: 1201
-        y: 1062
-        width: 343
-        height: 342
+        x: 1203
+        y: 1064
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -293,12 +293,12 @@ TextureImporter:
       name: Floral Tiling_6
       rect:
         serializedVersion: 2
-        x: 81
-        y: 686
-        width: 343
-        height: 361
+        x: 84
+        y: 688
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -315,12 +315,12 @@ TextureImporter:
       name: Floral Tiling_7
       rect:
         serializedVersion: 2
-        x: 445
-        y: 686
-        width: 343
-        height: 342
+        x: 449
+        y: 688
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -337,12 +337,12 @@ TextureImporter:
       name: Floral Tiling_8
       rect:
         serializedVersion: 2
-        x: 830
-        y: 684
-        width: 342
-        height: 343
+        x: 832
+        y: 687
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -359,12 +359,12 @@ TextureImporter:
       name: Floral Tiling_9
       rect:
         serializedVersion: 2
-        x: 1201
-        y: 686
-        width: 343
-        height: 342
+        x: 1204
+        y: 688
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -381,12 +381,12 @@ TextureImporter:
       name: Floral Tiling_10
       rect:
         serializedVersion: 2
-        x: 1576
-        y: 686
-        width: 343
-        height: 361
+        x: 1579
+        y: 688
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -403,12 +403,12 @@ TextureImporter:
       name: Floral Tiling_11
       rect:
         serializedVersion: 2
-        x: 75
-        y: 307
-        width: 346
-        height: 342
+        x: 78
+        y: 309
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -425,12 +425,12 @@ TextureImporter:
       name: Floral Tiling_12
       rect:
         serializedVersion: 2
-        x: 461
-        y: 392
-        width: 364
-        height: 273
+        x: 485
+        y: 306
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -447,12 +447,12 @@ TextureImporter:
       name: Floral Tiling_13
       rect:
         serializedVersion: 2
-        x: 830
-        y: 399
-        width: 344
-        height: 266
+        x: 833
+        y: 306
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -469,12 +469,12 @@ TextureImporter:
       name: Floral Tiling_14
       rect:
         serializedVersion: 2
-        x: 1178
-        y: 392
-        width: 364
-        height: 273
+        x: 1180
+        y: 307
+        width: 337
+        height: 337
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -491,12 +491,12 @@ TextureImporter:
       name: Floral Tiling_15
       rect:
         serializedVersion: 2
-        x: 1572
-        y: 308
-        width: 350
-        height: 345
+        x: 1581
+        y: 314
+        width: 338
+        height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -513,7 +513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b5a828b178e25de4c902330a47246a38
     internalID: 0
     vertices: []
     indices: 
