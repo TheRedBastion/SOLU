@@ -137,7 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HomingEnemy
   contactDamage: 1
   attackKnockbackDuration: 0.2
-  attackKnockbackForce: 5
+  attackKnockbackForce: 10
   speed: 3.5
   detectionRange: 14
 --- !u!60 &4255928586273883775

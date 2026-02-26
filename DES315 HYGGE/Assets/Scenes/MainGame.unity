@@ -23520,8 +23520,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   riseGravity: 1
-  lowJumpGravity: 2.5
   fallGravity: 3.5
+  jumpCutMultiplier: 0.5
+  isGodmode: 0
   MoonObject: {fileID: 1554406601}
   SunObject: {fileID: 1147384673}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -26518,6 +26519,10 @@ PrefabInstance:
     - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: acceleration
       value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: attackKnockbackForce
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6279862062427777995, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_BodyType

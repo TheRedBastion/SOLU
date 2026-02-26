@@ -23,6 +23,7 @@ public class KnockbackReceiver : MonoBehaviour
     {
         isKnockback = true;
 
+        rb.linearVelocity = Vector2.zero;
         rb.AddForce(data.direction * data.knockbackForce, ForceMode2D.Impulse);
 
         yield return new WaitForSeconds(data.duration);

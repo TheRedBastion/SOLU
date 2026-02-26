@@ -25,8 +25,11 @@ public class PlayerStats
 public class Player : MonoBehaviour
 {
     [SerializeField] private float riseGravity = 1.0f;
-    [SerializeField] private float lowJumpGravity = 2f;
-    [SerializeField] private float fallGravity = 3f;
+    //[SerializeField] private float lowJumpGravity = 2.5f;
+    [SerializeField] private float fallGravity = 3.5f;
+    [SerializeField] private float jumpCutMultiplier = 0.5f;
+
+    public bool isGodmode;
 
     private float moveSpeed;
     private float jumpForce;
@@ -141,6 +144,15 @@ public class Player : MonoBehaviour
         {
             jumpPressed = true;
         }
+        if (jumpAction.WasReleasedThisFrame())
+        {
+            if (rb != null && rb.linearVelocity.y > 0)
+            {
+                Vector2 lv = rb.linearVelocity;
+                lv.y *= jumpCutMultiplier;
+                rb.linearVelocity = lv;
+            }
+        }
 
 
         if (attackAction.WasPressedThisFrame())
@@ -161,7 +173,8 @@ public class Player : MonoBehaviour
             {
 
                 sprintActive = true;
-                curStam -= stamina.lossRate * Time.deltaTime;
+                if(!isGodmode)
+                    curStam -= stamina.lossRate * Time.deltaTime;
 
                 if (curStam <= 0)
                 {
@@ -229,7 +242,7 @@ public class Player : MonoBehaviour
             }
             else
             {
-                lv.y += baseGravity * (lowJumpGravity - 1) * Time.fixedDeltaTime;
+                lv.y += baseGravity * (fallGravity - 1) * Time.fixedDeltaTime;//WAS lowJumpGravity
             }
         }
         else if (lv.y < 0)

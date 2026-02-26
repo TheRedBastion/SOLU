@@ -203,7 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PatrolEnemy
   contactDamage: 1
   attackKnockbackDuration: 0.2
-  attackKnockbackForce: 5
+  attackKnockbackForce: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 8

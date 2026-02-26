@@ -62,7 +62,8 @@ public abstract class BaseEnemy : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            TryDamagePlayer(other.gameObject);
+            if(characterSwap.player != null && !characterSwap.player.isGodmode)
+                TryDamagePlayer(other.gameObject);
         }
     }
 
@@ -70,7 +71,8 @@ public abstract class BaseEnemy : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            TryDamagePlayer(collision.gameObject);
+            if (characterSwap.player != null && !characterSwap.player.isGodmode)
+                TryDamagePlayer(collision.gameObject);
         }
     }
 

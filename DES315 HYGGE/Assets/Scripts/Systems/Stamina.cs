@@ -21,6 +21,7 @@ public class Stamina : MonoBehaviour
     }
     public void Update()
     {
+        if (player == null || player.isGodmode) { return; }
         if (player.sprintActive)
         {
             currentStamina -= lossRate * Time.deltaTime;
