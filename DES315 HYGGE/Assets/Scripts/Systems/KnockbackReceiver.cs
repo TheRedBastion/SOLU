@@ -16,6 +16,9 @@ public class KnockbackReceiver : MonoBehaviour
 
     public void ApplyKnockback(KnockbackData data)
     {
+        //face the knockback source
+        FaceDirection(-data.direction.x);
+
         StartCoroutine(KnockbackCoroutine(data));
     }
 
@@ -29,5 +32,14 @@ public class KnockbackReceiver : MonoBehaviour
         yield return new WaitForSeconds(data.duration);
 
         isKnockback = false;
+    }
+
+    private void FaceDirection(float xDirection)
+    {
+        if (Mathf.Abs(xDirection) < 0.01f) return;
+
+        Vector3 scale = transform.localScale;
+        scale.x = Mathf.Abs(scale.x) * Mathf.Sign(xDirection);
+        transform.localScale = scale;
     }
 }
