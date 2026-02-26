@@ -16707,7 +16707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 6
+  maxHealth: 3
   invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
@@ -21815,7 +21815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 7
+  maxHealth: 4
   invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
