@@ -24,15 +24,7 @@ public class PlayerStats
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float riseGravity = 1.0f;
-    //[SerializeField] private float lowJumpGravity = 2.5f;
-    [SerializeField] private float fallGravity = 3.5f;
-    [SerializeField] private float jumpCutMultiplier = 0.5f;
-
     public bool isGodmode;
-
-    private float moveSpeed;
-    private float jumpForce;
 
     public GameObject MoonObject;
     public GameObject SunObject;
@@ -54,16 +46,9 @@ public class Player : MonoBehaviour
     private Vector2 moveAmt;
 
     public bool OnGround;
-    private bool jumpPressed;
-    private bool jumpReleased;
-
     public bool OnSwap;
 
     public bool sprintActive = false;
-
-    //float temp = ;
-
-    private Rigidbody2D rb;
 
     //combat
     private PlayerCombat combat;
@@ -73,10 +58,11 @@ public class Player : MonoBehaviour
     //health
     private Health currentHealth;
 
+    //movement
+    private PlayerMovement movement;
 
     public Stamina stamina;
     public float curStam;
-    public bool boolshit = false;
 
     private void Awake()
     {
@@ -119,13 +105,13 @@ public class Player : MonoBehaviour
         activeObject = (character == 0) ? MoonObject : SunObject;
         currentStats = (character == 0) ? moonStats : sunStats;
 
+        movement = activeObject.GetComponent<PlayerMovement>();
         currentHealth = activeObject.GetComponent<Health>();
-        currentHealth.OnDamageTaken.AddListener(HandleDamage);
-
-        rb = activeObject.GetComponent<Rigidbody2D>();
         knockback = activeObject.GetComponent<KnockbackReceiver>();
 
-        ApplyStats();
+        movement.Init(currentStats.moveSpeed, currentStats.jumpForce);
+
+        currentHealth.OnDamageTaken.AddListener(HandleDamage);
 
         curStam = stamina.currentStamina;
     }
@@ -140,75 +126,20 @@ public class Player : MonoBehaviour
     {
         //Debug.Log(curStam);
         moveAmt = moveAction.ReadValue<Vector2>();
+        movement.SetMoveInput(moveAmt);
 
         if (jumpAction.WasPressedThisFrame() && OnGround)
-        {
-            jumpPressed = true;
-            jumpReleased = false;
-            GroundDetector gd = GetComponentInChildren<GroundDetector>();
-            gd.ConsumeCoyoteTime();
-        }
-        if (jumpAction.WasReleasedThisFrame())
-        {
-            jumpReleased = true;
-            if (rb != null && rb.linearVelocity.y > 0)
-            {
-                Vector2 lv = rb.linearVelocity;
-                lv.y *= jumpCutMultiplier;
-                rb.linearVelocity = lv;
-            }
-        }
+            movement.JumpPressed();
 
+        if (jumpAction.WasReleasedThisFrame())
+            movement.JumpReleased();
 
         if (attackAction.WasPressedThisFrame())
-        {
             combat.Attack();
-        }
 
-        
-        if (sprintAction.WasPressedThisFrame() && curStam > 0)
-        {
-            boolshit = true;
-        }
-        if(boolshit == true)
-        {
+        HandleSprint();
 
-
-            if (sprintAction.IsPressed() && curStam > 0)
-            {
-
-                sprintActive = true;
-                if(!isGodmode)
-                    curStam -= stamina.lossRate * Time.deltaTime;
-
-                if (curStam <= 0)
-                {
-                    sprintActive = false;
-                    curStam = 0;
-                    boolshit = false;
-                }
-            }
-        }
-        if (!sprintAction.IsPressed() || boolshit == false)
-        {
-            if (curStam >= stamina.maxStamina)
-            {
-                curStam = stamina.maxStamina;
-            }
-            else
-            {
-                curStam += stamina.regenRate * Time.deltaTime;
-                if (curStam >= 10)
-                {
-                   boolshit = true;
-                }
-               
-                
-            }
-            sprintActive = false;
-
-        }
-
+        movement.sprintActive = sprintActive;
 
         if (currentHealth.CurrentHealth <= 0)
         {
@@ -218,68 +149,24 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    void HandleSprint()
     {
-        if (knockback != null && knockback.IsKnockedBack) return;
-
-        //horiz movement
-        Vector2 lv = rb.linearVelocity;
-        lv.x = moveAmt.x * moveSpeed;
-        if (sprintActive == true)
+        if (sprintAction.IsPressed() && curStam > 0)
         {
-           lv.x = lv.x * 1.5f;
+            sprintActive = true;
+
+            if (!isGodmode)
+                curStam -= stamina.lossRate * Time.deltaTime;
+        }
+        else
+        {
+            sprintActive = false;
+
+            if (curStam < stamina.maxStamina)
+                curStam += stamina.regenRate * Time.deltaTime;
         }
 
-        //jump logic
-        if (jumpPressed)
-        {
-            lv.y = jumpForce;
-            jumpPressed = false;
-        }
-
-        float baseGravity = Physics2D.gravity.y * rb.gravityScale;
-
-        if (lv.y > 0)
-        {
-            if (!jumpReleased)
-            {
-                lv.y += baseGravity * (riseGravity - 1) * Time.fixedDeltaTime;
-            }
-            else
-            {
-                lv.y += baseGravity * (fallGravity - 1) * Time.fixedDeltaTime;//WAS lowJumpGravity
-            }
-        }
-        else if (lv.y < 0)
-        {
-            lv.y += baseGravity * (fallGravity - 1) * Time.fixedDeltaTime;
-        }
-
-        //clamp fall speed
-        if (lv.y < -jumpForce)
-        {
-            lv.y = -jumpForce;
-        }
-
-
-        rb.linearVelocity = lv;
-
-
-        //flip
-        if (lv.x > 0)
-        {
-            rb.transform.localScale = new Vector3(.5f, .5f, 1);
-        }
-        else if (lv.x < 0)
-        {
-            rb.transform.localScale = new Vector3(-.5f, .5f, 1);
-        }
-
-    }
-    private void ApplyStats()
-    {
-        moveSpeed = currentStats.moveSpeed;
-        jumpForce = currentStats.jumpForce;
+        curStam = Mathf.Clamp(curStam, 0, stamina.maxStamina);
     }
 
     public Transform GetActiveCharacterTransform()
@@ -292,11 +179,5 @@ public class Player : MonoBehaviour
         currentStats.health = currentHealth.CurrentHealth;
 
         knockback?.ApplyKnockback(hitDirection);
-    }
-
-    public enum PlayerType
-    {
-        Moon = 0,
-        Sun = 1
     }
 }

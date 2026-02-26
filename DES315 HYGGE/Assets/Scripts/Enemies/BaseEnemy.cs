@@ -6,6 +6,7 @@ public abstract class BaseEnemy : MonoBehaviour
     [SerializeField] protected int contactDamage = 10;
     [SerializeField] protected float attackKnockbackDuration = 0.2f;
     [SerializeField] protected float attackKnockbackForce = 5f;
+    [SerializeField] private float damageRate = 0.2f;
 
     protected Transform player;
     protected Rigidbody2D rb;
@@ -18,7 +19,7 @@ public abstract class BaseEnemy : MonoBehaviour
     protected Vector2 knockbackForce = new Vector2(5f, 5f);
     protected float knockbackDuration = 0.2f;
 
-
+    private float damageTimer = 0f;
 
     protected virtual void Awake()
     {
@@ -60,12 +61,24 @@ public abstract class BaseEnemy : MonoBehaviour
         }
     }
 
+    protected virtual void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            TryDamagePlayer(other.gameObject);
+        }
+    }
+
     protected virtual void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            if(characterSwap.player != null && !characterSwap.player.isGodmode)
+            damageTimer -= Time.fixedDeltaTime;
+            if (damageTimer <= 0f)
+            {
                 TryDamagePlayer(other.gameObject);
+                damageTimer = damageRate;
+            }
         }
     }
 
@@ -73,13 +86,20 @@ public abstract class BaseEnemy : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            if (characterSwap.player != null && !characterSwap.player.isGodmode)
+            damageTimer -= Time.fixedDeltaTime;
+            if (damageTimer <= 0f)
+            {
                 TryDamagePlayer(collision.gameObject);
+                damageTimer = damageRate;
+            }
         }
     }
 
     protected void TryDamagePlayer(GameObject playerObj)
     {
+        if (characterSwap.player != null && characterSwap.player.isGodmode)
+            return;
+
         Health playerHealth = playerObj.GetComponent<Health>();
 
         if (playerHealth != null)

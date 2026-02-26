@@ -5,12 +5,16 @@ public class GroundDetector : MonoBehaviour
     public Player player;
     public LayerMask ground;
 
-    private int groundContacts = 0;
+    public int groundContacts = 0;
 
     [Header("Coyote Time")]
     public float coyoteTime = 0.15f;
     private float coyoteTimer;
 
+    public bool CanJump()
+    {
+        return groundContacts > 0 || coyoteTimer > 0f;
+    }
     public void ConsumeCoyoteTime()
     {
         coyoteTimer = 0f;
