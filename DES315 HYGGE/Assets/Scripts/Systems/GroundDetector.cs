@@ -6,13 +6,41 @@ public class GroundDetector : MonoBehaviour
     public LayerMask ground;
 
     private int groundContacts = 0;
-    //TODO: when going to higher surface its kinda buggy need to look at this
+
+    [Header("Coyote Time")]
+    public float coyoteTime = 0.15f;
+    private float coyoteTimer;
+
+    public void ConsumeCoyoteTime()
+    {
+        coyoteTimer = 0f;
+        player.OnGround = false;
+    }
+
+    private void Update()
+    {
+        //decrease timer if not grounded
+        if (groundContacts <= 0)
+        {
+            coyoteTimer -= Time.deltaTime;
+
+            if (coyoteTimer <= 0f)
+            {
+                player.OnGround = false;
+            }
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if ((ground.value & (1 << other.gameObject.layer)) != 0)
         {
             groundContacts++;
+
             player.OnGround = true;
+
+            //reset coyote timer when touching ground
+            coyoteTimer = coyoteTime;
         }
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Swap"))
@@ -27,18 +55,15 @@ public class GroundDetector : MonoBehaviour
         {
             groundContacts--;
 
-            if (groundContacts <= 0)
-            {
+            if (groundContacts < 0)
                 groundContacts = 0;
-                player.OnGround = false;
-            }
+
+            //coyote timer will set it false
         }
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Swap"))
         {
-
             player.OnSwap = false;
-            
         }
     }
 }
