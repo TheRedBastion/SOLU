@@ -16707,7 +16707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 6
+  maxHealth: 3
   invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
@@ -16742,7 +16742,7 @@ MonoBehaviour:
   currentStamina: 100
   maxStamina: 100
   staminaFull: 1
-  lossRate: 5
+  lossRate: 15
   regenRate: 5
   staminaBarUI: {fileID: 1066045745}
   staminaBarCanvasGroup: {fileID: 951976689}
@@ -18766,7 +18766,7 @@ MonoBehaviour:
   riseGravity: 1
   fallGravity: 3.5
   jumpCutMultiplier: 0.5
-  isGodmode: 1
+  isGodmode: 0
   MoonObject: {fileID: 1554406601}
   SunObject: {fileID: 1147384673}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -21815,7 +21815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 7
+  maxHealth: 4
   invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
