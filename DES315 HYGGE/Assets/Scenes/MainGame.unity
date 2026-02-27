@@ -16823,7 +16823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 10
+  maxHealth: 3
   invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
@@ -18992,13 +18992,13 @@ MonoBehaviour:
   SunObject: {fileID: 1147384673}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   moonStats:
-    health: 7
-    maxHealth: 7
+    health: 4
+    maxHealth: 4
     moveSpeed: 7
     jumpForce: 25
   sunStats:
-    health: 5
-    maxHealth: 5
+    health: 3
+    maxHealth: 3
     moveSpeed: 10
     jumpForce: 20
   character: 0
@@ -21964,7 +21964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 10
+  maxHealth: 4
   invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
