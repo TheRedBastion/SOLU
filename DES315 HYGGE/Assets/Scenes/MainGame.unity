@@ -2075,7 +2075,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &150002434
@@ -2909,7 +2908,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!1 &230321002
@@ -4888,7 +4886,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &381562370
@@ -8592,7 +8589,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &580961203
@@ -10887,7 +10883,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &745088277
@@ -12245,7 +12240,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &817392440
@@ -13358,7 +13352,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &897297778
@@ -16734,6 +16727,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 10
   invincibilityDuration: 1.5
+  blinkInterval: 0.1
+  blinkAlpha: 0.5
+  brightnessMultiplier: 1.5
   OnDamageTaken:
     m_PersistentCalls:
       m_Calls: []
@@ -17883,7 +17879,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &1207645557
@@ -19794,7 +19789,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &1380819727
@@ -21302,7 +21296,6 @@ MonoBehaviour:
   - {fileID: 1147384678}
   currentCharacter: 0
   player: {fileID: 1315483588}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 1
 --- !u!4 &1526684628
@@ -21851,6 +21844,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 10
   invincibilityDuration: 1.5
+  blinkInterval: 0.1
+  blinkAlpha: 0.5
+  brightnessMultiplier: 1.5
   OnDamageTaken:
     m_PersistentCalls:
       m_Calls: []
@@ -24509,7 +24505,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &1668109845
@@ -96623,7 +96618,6 @@ MonoBehaviour:
   characterOptions: []
   currentCharacter: 0
   player: {fileID: 0}
-  healthTracker: {fileID: 0}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   swapCooldown: 5
 --- !u!114 &2047904077
