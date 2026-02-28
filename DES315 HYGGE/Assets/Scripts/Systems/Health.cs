@@ -23,9 +23,14 @@ public class Health : MonoBehaviour
     [SerializeField] private int maxHealth = 100;
     public int MaxHealth => maxHealth;
 
+    [Header("Invincibility")]
     [SerializeField] private float invincibilityDuration = 0f;
+    [SerializeField] private float blinkInterval = 0.1f;
+    [SerializeField] private float blinkAlpha = 0.5f;
+    [SerializeField] private float brightnessMultiplier = 1.5f;
 
     private bool isInvincible = false;
+    private SpriteRenderer spriteRenderer;
 
     public int CurrentHealth { get; private set; }
 
@@ -35,6 +40,10 @@ public class Health : MonoBehaviour
     private void Awake()
     {
         CurrentHealth = maxHealth;
+
+
+        if (!spriteRenderer)
+            spriteRenderer = GetComponent<SpriteRenderer>();
 
         OnDamageTaken ??= new UnityEvent<int, KnockbackData>();
         OnDeath ??= new UnityEvent();
@@ -72,7 +81,36 @@ public class Health : MonoBehaviour
     private IEnumerator InvincibilityCoroutine()
     {
         isInvincible = true;
-        yield return new WaitForSeconds(invincibilityDuration);
+
+        float timer = 0f;
+
+        Color originalColor = spriteRenderer.color;
+
+        //brighter full color
+        Color brightColor = new Color(
+            originalColor.r * brightnessMultiplier,
+            originalColor.g * brightnessMultiplier,
+            originalColor.b * brightnessMultiplier,
+            1f
+        );
+
+        Color brightHalfColor = brightColor;
+        brightHalfColor.a = blinkAlpha;
+
+        while (timer < invincibilityDuration)
+        {
+            spriteRenderer.color = brightHalfColor;
+            yield return new WaitForSeconds(blinkInterval);
+
+            spriteRenderer.color = brightColor;
+            yield return new WaitForSeconds(blinkInterval);
+
+            timer += blinkInterval * 2f;
+        }
+
+        //original color
+        spriteRenderer.color = originalColor;
+
         isInvincible = false;
     }
 

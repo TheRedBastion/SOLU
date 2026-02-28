@@ -10,7 +10,7 @@ public class CharacterSwap : MonoBehaviour
     public int currentCharacter = 0;
 
     public Player player;
-    public HealthTracker healthTracker;
+    //public HealthTracker healthTracker;
 
     public InputActionAsset InputActions;
     private InputAction swapAction;

@@ -16732,7 +16732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 3
+  maxHealth: 10
   invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
@@ -18901,7 +18901,7 @@ MonoBehaviour:
     jumpForce: 20
   character: 0
   OnGround: 0
-  OnSwap: 0
+  OnSwap: 1
   sprintActive: 0
 --- !u!114 &1315483589
 MonoBehaviour:
@@ -21849,7 +21849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 4
+  maxHealth: 10
   invincibilityDuration: 1.5
   OnDamageTaken:
     m_PersistentCalls:
@@ -25734,7 +25734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eac8e0eb6fa1d74db41990874fb9f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlPanel
-  audioEnabled: 1
+  audioEnabled: 0
 --- !u!4 &1761754000
 Transform:
   m_ObjectHideFlags: 0
