@@ -18,7 +18,7 @@ public class GroundDetector : MonoBehaviour
     public void ConsumeCoyoteTime()
     {
         coyoteTimer = 0f;
-        player.OnGround = false;
+        //player.OnGround = false;
     }
 
     private void Update()
