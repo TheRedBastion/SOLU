@@ -115,6 +115,9 @@ public class PlayerMovement : MonoBehaviour
                 rb.gravityScale = originalGravity;
             }
 
+            if (jumpPressed)
+                jumpPressed = false; //works wierd on dash with ledges, need to implement jump buffering
+
             return; //skip movement logic while dashing
         }
 
