@@ -16712,6 +16712,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   groundContacts: 0
+  castDistance: 0.05
+  slopeLimit: 0.7
   coyoteTime: 0.15
 --- !u!114 &1147384681
 MonoBehaviour:
@@ -21833,6 +21835,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   groundContacts: 0
+  castDistance: 0.05
+  slopeLimit: 0.7
   coyoteTime: 0.15
 --- !u!114 &1554406610
 MonoBehaviour:
@@ -25737,7 +25741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eac8e0eb6fa1d74db41990874fb9f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlPanel
-  audioEnabled: 0
+  audioEnabled: 1
 --- !u!4 &1761754000
 Transform:
   m_ObjectHideFlags: 0

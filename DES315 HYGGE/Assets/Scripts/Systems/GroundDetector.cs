@@ -7,13 +7,32 @@ public class GroundDetector : MonoBehaviour
 
     public int groundContacts = 0;
 
+    [Header("Ground Check")]
+    [SerializeField] private float castDistance = 0.05f;
+    [SerializeField] private float slopeLimit = 0.7f;
+
     [Header("Coyote Time")]
     public float coyoteTime = 0.15f;
     private float coyoteTimer;
 
+    private CapsuleCollider2D capsule;
+    private bool isGrounded;
+
+    private void Awake()
+    {
+        capsule = GetComponent<CapsuleCollider2D>();
+
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        PhysicsMaterial2D mat = new PhysicsMaterial2D();
+        mat.friction = 0f;
+        mat.bounciness = 0f;
+
+        rb.sharedMaterial = mat;
+    }
+
     public bool CanJump()
     {
-        return groundContacts > 0 || coyoteTimer > 0f;
+        return isGrounded || coyoteTimer > 0f;
     }
     public void ConsumeCoyoteTime()
     {
@@ -21,12 +40,39 @@ public class GroundDetector : MonoBehaviour
         //player.OnGround = false;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        //decrease timer if not grounded
-        if (groundContacts <= 0)
+        Vector2 size = capsule.bounds.size;
+        Vector2 origin = capsule.bounds.center;
+
+        //shrink the capsule for the cast only
+        //size.y *= 0.95f;  //slightly shorter
+
+        RaycastHit2D hit = Physics2D.CapsuleCast(
+            origin,
+            size,
+            CapsuleDirection2D.Vertical,
+            0f,
+            Vector2.down,
+            castDistance,
+            ground
+        );
+
+        if (hit.collider != null && hit.normal.y > slopeLimit)
         {
-            coyoteTimer -= Time.deltaTime;
+            isGrounded = true;
+            player.OnGround = true;
+            coyoteTimer = coyoteTime;
+        }
+        else
+        {
+            isGrounded = false;
+        }
+
+        // Coyote countdown
+        if (!isGrounded)
+        {
+            coyoteTimer -= Time.fixedDeltaTime;
 
             if (coyoteTimer <= 0f)
             {
@@ -37,16 +83,6 @@ public class GroundDetector : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if ((ground.value & (1 << other.gameObject.layer)) != 0)
-        {
-            groundContacts++;
-
-            player.OnGround = true;
-
-            //reset coyote timer when touching ground
-            coyoteTimer = coyoteTime;
-        }
-
         if (other.gameObject.layer == LayerMask.NameToLayer("Swap"))
         {
             player.OnSwap = true;
@@ -55,16 +91,6 @@ public class GroundDetector : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D other)
     {
-        if ((ground.value & (1 << other.gameObject.layer)) != 0)
-        {
-            groundContacts--;
-
-            if (groundContacts < 0)
-                groundContacts = 0;
-
-            //coyote timer will set it false
-        }
-
         if (other.gameObject.layer == LayerMask.NameToLayer("Swap"))
         {
             player.OnSwap = false;
