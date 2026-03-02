@@ -14,6 +14,18 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float deceleration = 15f;
     //[SerializeField] float maxSpeed = 50f; //might need later for speed caps
 
+    [Header("Dash")]
+    [SerializeField] private float dashSpeed = 20f;
+    [SerializeField] private float dashDuration = 0.2f;
+    [SerializeField] private float dashCooldown = 0.5f;
+
+    private bool isDashing;
+    private bool canDash = true;
+    private float originalGravity;
+    private float dashTimeLeft;
+    private float dashCooldownTimer;
+    private float dashDirection;
+
     private Rigidbody2D rb;
     private GroundDetector groundDetector;
     private KnockbackReceiver knockback;
@@ -38,6 +50,8 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         groundDetector = GetComponentInChildren<GroundDetector>();
         knockback = GetComponent<KnockbackReceiver>();
+
+        originalGravity = rb.gravityScale;
     }
 
     public void SetMoveInput(Vector2 input)
@@ -67,12 +81,42 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void DashPressed()
+    {
+        if (!canDash || isDashing)
+            return;
+
+        isDashing = true;
+        canDash = false;
+        dashTimeLeft = dashDuration;
+
+        //dash in facing direction
+        dashDirection = Mathf.Sign(transform.localScale.x);
+
+        rb.gravityScale = 0f; //disable gravity
+    }
+
     private void FixedUpdate()
     {
         if (knockback != null && knockback.IsKnockedBack)
             return;
 
         Vector2 velocity = rb.linearVelocity;
+
+        if (isDashing)
+        {
+            rb.linearVelocity = new Vector2(dashDirection * dashSpeed, 0f);
+
+            dashTimeLeft -= Time.fixedDeltaTime;
+
+            if (dashTimeLeft <= 0f)
+            {
+                isDashing = false;
+                rb.gravityScale = originalGravity;
+            }
+
+            return; //skip movement logic while dashing
+        }
 
         //HORIZ
         float targetVelocityX = moveInput.x * moveSpeed;
@@ -91,12 +135,6 @@ public class PlayerMovement : MonoBehaviour
 
 
         //JUMPING
-
-        //if (jumpPressed)
-        //{
-        //    rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);  //WORKS WEIRD WITH COYOTE TIME
-        //    jumpPressed = false;
-        //}
 
         if(jumpPressed)
         {
@@ -146,13 +184,17 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-.5f, .5f, 1);
         }
 
-        //if (velocity.x > 0.05f)    AFTER KNOCKBACK YOU FACE DIRECTION OF WHERE YOU WERE KNOCKED BACK TO
-        //{
-        //    transform.localScale = new Vector3(.5f, .5f, 1);
-        //}
-        //else if (velocity.x < -0.05f)
-        //{
-        //    transform.localScale = new Vector3(-.5f, .5f, 1);
-        //}
+        //DASH COOLDOWN
+        if (!canDash)
+        {
+            dashCooldownTimer += Time.fixedDeltaTime;
+
+            if (dashCooldownTimer >= dashCooldown)
+            {
+                canDash = true;
+                dashCooldownTimer = 0f;
+            }
+        }
+
     }
 }

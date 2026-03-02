@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 using UnityEngine.InputSystem;
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour
     private InputAction moveAction;
     private InputAction jumpAction;
     private InputAction sprintAction;
+    private InputAction dashAction;
 
     [Header("Stats")]
     public PlayerStats moonStats = new PlayerStats(150, 150, 5f, 15f);
@@ -90,6 +92,7 @@ public class Player : MonoBehaviour
         jumpAction = playerMap.FindAction("Jump");
         attackAction = playerMap.FindAction("Attack");
         sprintAction = playerMap.FindAction("Sprint");
+        dashAction = playerMap.FindAction("Dash");
 
     }
 
@@ -139,6 +142,9 @@ public class Player : MonoBehaviour
 
         if (attackAction.WasPressedThisFrame())
             combat.Attack();
+
+        if(dashAction.WasPressedThisFrame())
+            movement.DashPressed();
 
         HandleSprint();
 
