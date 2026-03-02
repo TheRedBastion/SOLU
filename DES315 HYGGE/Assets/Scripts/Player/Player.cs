@@ -134,7 +134,7 @@ public class Player : MonoBehaviour
         moveAmt = moveAction.ReadValue<Vector2>();
         movement.SetMoveInput(moveAmt);
 
-        if (jumpAction.WasPressedThisFrame() && OnGround)
+        if (jumpAction.WasPressedThisFrame())
             movement.JumpPressed();
 
         if (jumpAction.WasReleasedThisFrame())

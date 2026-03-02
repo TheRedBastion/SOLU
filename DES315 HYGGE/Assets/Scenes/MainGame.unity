@@ -16725,7 +16725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 10
+  maxHealth: 3
   invincibilityDuration: 1.5
   blinkInterval: 0.1
   blinkAlpha: 0.5
@@ -16979,10 +16979,11 @@ MonoBehaviour:
   terminalVelocity: 20
   acceleration: 60
   deceleration: 15
+  sprintActive: 0
   dashSpeed: 20
   dashDuration: 0.2
   dashCooldown: 0.5
-  sprintActive: 0
+  jumpBufferTime: 0.15
 --- !u!1 &1147758898
 GameObject:
   m_ObjectHideFlags: 0
@@ -21845,7 +21846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 10
+  maxHealth: 4
   invincibilityDuration: 1.5
   blinkInterval: 0.1
   blinkAlpha: 0.5
@@ -22099,10 +22100,11 @@ MonoBehaviour:
   terminalVelocity: 25
   acceleration: 60
   deceleration: 15
+  sprintActive: 0
   dashSpeed: 20
   dashDuration: 0.2
   dashCooldown: 0.5
-  sprintActive: 0
+  jumpBufferTime: 0.15
 --- !u!1 &1560383657
 GameObject:
   m_ObjectHideFlags: 0

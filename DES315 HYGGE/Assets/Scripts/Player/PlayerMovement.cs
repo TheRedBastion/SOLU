@@ -3,6 +3,10 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private Rigidbody2D rb;
+    private GroundDetector groundDetector;
+    private KnockbackReceiver knockback;
+
     [Header("Gravity")]
     [SerializeField] private float riseGravity = 1f;
     [SerializeField] private float fallGravity = 3.5f;
@@ -12,6 +16,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("Running")]
     [SerializeField] float acceleration = 60f;
     [SerializeField] float deceleration = 15f;
+
+    public bool sprintActive;    
+    private float moveSpeed;
     //[SerializeField] float maxSpeed = 50f; //might need later for speed caps
 
     [Header("Dash")]
@@ -26,18 +33,14 @@ public class PlayerMovement : MonoBehaviour
     private float dashCooldownTimer;
     private float dashDirection;
 
-    private Rigidbody2D rb;
-    private GroundDetector groundDetector;
-    private KnockbackReceiver knockback;
+    [Header("Jump Buffer")]
+    [SerializeField] private float jumpBufferTime = 0.15f;
 
-    private float moveSpeed;
+    private float jumpBufferTimer;
+    private bool jumpReleased;
     private float jumpForce;
 
     private Vector2 moveInput;
-    private bool jumpPressed;
-    private bool jumpReleased;
-
-    public bool sprintActive;
 
     public void Init(float moveSpeed, float jumpForce)
     {
@@ -61,12 +64,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void JumpPressed()
     {
-        if (groundDetector.CanJump())
-        {
-            jumpPressed = true;
-            jumpReleased = false;
-            groundDetector.ConsumeCoyoteTime();
-        }
+        jumpBufferTimer = jumpBufferTime;
+        jumpReleased = false;
     }
 
     public void JumpReleased()
@@ -101,6 +100,9 @@ public class PlayerMovement : MonoBehaviour
         if (knockback != null && knockback.IsKnockedBack)
             return;
 
+        if (jumpBufferTimer > 0f)
+            jumpBufferTimer -= Time.fixedDeltaTime;
+
         Vector2 velocity = rb.linearVelocity;
 
         if (isDashing)
@@ -114,10 +116,6 @@ public class PlayerMovement : MonoBehaviour
                 isDashing = false;
                 rb.gravityScale = originalGravity;
             }
-
-            if (jumpPressed)
-                jumpPressed = false; //works wierd on dash with ledges, need to implement jump buffering
-
             return; //skip movement logic while dashing
         }
 
@@ -139,10 +137,12 @@ public class PlayerMovement : MonoBehaviour
 
         //JUMPING
 
-        if(jumpPressed)
+        if (jumpBufferTimer > 0f && groundDetector.CanJump())
         {
+            jumpBufferTimer = 0f;
+            groundDetector.ConsumeCoyoteTime();
+
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            jumpPressed = false;
         }
 
         velocity = rb.linearVelocity;
