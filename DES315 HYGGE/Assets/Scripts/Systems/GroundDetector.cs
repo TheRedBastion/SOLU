@@ -5,8 +5,6 @@ public class GroundDetector : MonoBehaviour
     public Player player;
     public LayerMask ground;
 
-    public int groundContacts = 0;
-
     [Header("Ground Check")]
     [SerializeField] private float castDistance = 0.05f;
     [SerializeField] private float slopeLimit = 0.7f;
