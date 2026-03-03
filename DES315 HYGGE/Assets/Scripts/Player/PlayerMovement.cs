@@ -146,7 +146,6 @@ public class PlayerMovement : MonoBehaviour
 
         rb.AddForce(Vector2.right * force, ForceMode2D.Force);
 
-
         //JUMPING
 
         if (jumpBufferTimer > 0f && groundDetector.CanJump())

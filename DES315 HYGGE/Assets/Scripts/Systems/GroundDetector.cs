@@ -15,8 +15,21 @@ public class GroundDetector : MonoBehaviour
 
     private CapsuleCollider2D capsule;
     private bool isGrounded;
+    public bool IsGrounded => isGrounded;
 
     private void Awake()
+    {
+        capsule = GetComponent<CapsuleCollider2D>();
+
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        PhysicsMaterial2D mat = new PhysicsMaterial2D();
+        mat.friction = 0f;
+        mat.bounciness = 0f;
+
+        rb.sharedMaterial = mat;
+    }
+
+    private void OnEnable()
     {
         capsule = GetComponent<CapsuleCollider2D>();
 
