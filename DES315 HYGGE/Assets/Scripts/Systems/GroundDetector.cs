@@ -42,43 +42,42 @@ public class GroundDetector : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 size = capsule.bounds.size;
-        Vector2 origin = capsule.bounds.center;
+        Bounds bounds = capsule.bounds;
 
-        //shrink the capsule for the cast only
-        //size.y *= 0.95f;  //slightly shorter
+        float width = bounds.size.x * 0.8f;
+        float height = 0.05f;
 
-        RaycastHit2D hit = Physics2D.CapsuleCast(
+        Vector2 boxSize = new Vector2(width, height);
+
+        Vector2 origin = new Vector2(
+            bounds.center.x,
+            bounds.min.y
+        );
+
+        RaycastHit2D hit = Physics2D.BoxCast(
             origin,
-            size,
-            CapsuleDirection2D.Vertical,
+            boxSize,
             0f,
             Vector2.down,
             castDistance,
             ground
         );
 
-        if (hit.collider != null && hit.normal.y > slopeLimit)
+        bool groundedNow =
+            hit.collider != null &&
+            hit.normal.y > slopeLimit;
+
+        if (groundedNow)
         {
-            isGrounded = true;
-            player.OnGround = true;
             coyoteTimer = coyoteTime;
         }
         else
         {
-            isGrounded = false;
-        }
-
-        // Coyote countdown
-        if (!isGrounded)
-        {
             coyoteTimer -= Time.fixedDeltaTime;
-
-            if (coyoteTimer <= 0f)
-            {
-                player.OnGround = false;
-            }
         }
+
+        isGrounded = groundedNow;
+        player.OnGround = isGrounded;
     }
 
     private void OnCollisionEnter2D(Collision2D other)

@@ -37,8 +37,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpBufferTime = 0.15f;
 
     private float jumpBufferTimer;
-    private bool jumpReleased;
+    private bool isJumping;
+    private bool jumpCut;
     private float jumpForce;
+
 
     private Vector2 moveInput;
 
@@ -51,7 +53,16 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        groundDetector = GetComponentInChildren<GroundDetector>();
+        groundDetector = GetComponent<GroundDetector>();
+        knockback = GetComponent<KnockbackReceiver>();
+
+        originalGravity = rb.gravityScale;
+    }
+
+    private void OnEnable()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        groundDetector = GetComponent<GroundDetector>();
         knockback = GetComponent<KnockbackReceiver>();
 
         originalGravity = rb.gravityScale;
@@ -65,18 +76,19 @@ public class PlayerMovement : MonoBehaviour
     public void JumpPressed()
     {
         jumpBufferTimer = jumpBufferTime;
-        jumpReleased = false;
     }
 
     public void JumpReleased()
     {
-        jumpReleased = true;
-
-        if (rb.linearVelocity.y > 0)
+        if (isJumping && rb.linearVelocity.y > 0)
         {
-            Vector2 lv = rb.linearVelocity;
-            lv.y *= jumpCutMultiplier;
-            rb.linearVelocity = lv;
+
+            rb.linearVelocity = new Vector2(
+            rb.linearVelocity.x,
+            rb.linearVelocity.y * jumpCutMultiplier
+            );
+
+            jumpCut = true;
         }
     }
 
@@ -143,6 +155,9 @@ public class PlayerMovement : MonoBehaviour
             groundDetector.ConsumeCoyoteTime();
 
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+
+            isJumping = true;
+            jumpCut = false;
         }
 
         velocity = rb.linearVelocity;
@@ -155,7 +170,7 @@ public class PlayerMovement : MonoBehaviour
         if (velocity.y > 0)
         {
             //rising
-            if (!jumpReleased)
+            if (!jumpCut)
                 velocity.y += baseGravity * (riseGravity - 1f) * Time.fixedDeltaTime;
             else
                 velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
@@ -175,6 +190,11 @@ public class PlayerMovement : MonoBehaviour
 
         rb.linearVelocity = velocity;
 
+        if (rb.linearVelocity.y <= 0)
+        {
+            isJumping = false;
+            jumpCut = false;
+        }
 
         //FLIP
 
