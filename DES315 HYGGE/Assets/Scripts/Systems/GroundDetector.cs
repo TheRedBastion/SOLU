@@ -45,6 +45,12 @@ public class GroundDetector : MonoBehaviour
     {
         return isGrounded || coyoteTimer > 0f;
     }
+
+    public void SetGrounded(bool grounded)
+    {
+        isGrounded = grounded;
+    }
+
     public void ConsumeCoyoteTime()
     {
         coyoteTimer = 0f;

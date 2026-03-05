@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D))]
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private CapsuleCollider2D capsule;
     private GroundDetector groundDetector;
     private KnockbackReceiver knockback;
 
@@ -12,11 +14,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float fallGravity = 3.5f;
     [SerializeField] private float jumpCutMultiplier = 0.5f;
     [SerializeField] private float terminalVelocity = 20f;
+    [SerializeField] private float gravityScale = 3f;
 
     [Header("Running")]
     [SerializeField] float acceleration = 60f;
     [SerializeField] float deceleration = 15f;
-
     public bool sprintActive;    
     private float moveSpeed;
     //[SerializeField] float maxSpeed = 50f; //might need later for speed caps
@@ -25,22 +27,24 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float dashSpeed = 20f;
     [SerializeField] private float dashDuration = 0.2f;
     [SerializeField] private float dashCooldown = 0.5f;
-
     private bool isDashing;
     private bool canDash = true;
-    private float originalGravity;
     private float dashTimeLeft;
     private float dashCooldownTimer;
     private float dashDirection;
 
     [Header("Jump Buffer")]
     [SerializeField] private float jumpBufferTime = 0.15f;
-
     private float jumpBufferTimer;
     private bool isJumping;
     private bool jumpCut;
     private float jumpForce;
 
+    //slope gravity
+    private bool isGrounded;
+    private Vector2 groundNormal = Vector2.up;
+    private ContactPoint2D[] contacts = new ContactPoint2D[10];
+    [SerializeField] private float maxGroundAngle = 45f;
 
     private Vector2 moveInput;
 
@@ -53,19 +57,12 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        capsule = GetComponent<CapsuleCollider2D>();
         groundDetector = GetComponent<GroundDetector>();
         knockback = GetComponent<KnockbackReceiver>();
 
-        originalGravity = rb.gravityScale;
-    }
-
-    private void OnEnable()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        groundDetector = GetComponent<GroundDetector>();
-        knockback = GetComponent<KnockbackReceiver>();
-
-        originalGravity = rb.gravityScale;
+        rb.gravityScale = 0f; //disable default gravity
+        rb.freezeRotation = true;
     }
 
     public void SetMoveInput(Vector2 input)
@@ -103,8 +100,6 @@ public class PlayerMovement : MonoBehaviour
 
         //dash in facing direction
         dashDirection = Mathf.Sign(transform.localScale.x);
-
-        rb.gravityScale = 0f; //disable gravity
     }
 
     private void FixedUpdate()
@@ -115,6 +110,8 @@ public class PlayerMovement : MonoBehaviour
         if (jumpBufferTimer > 0f)
             jumpBufferTimer -= Time.fixedDeltaTime;
 
+        UpdateGrounded();
+
         Vector2 velocity = rb.linearVelocity;
 
         if (isDashing)
@@ -124,27 +121,25 @@ public class PlayerMovement : MonoBehaviour
             dashTimeLeft -= Time.fixedDeltaTime;
 
             if (dashTimeLeft <= 0f)
-            {
                 isDashing = false;
-                rb.gravityScale = originalGravity;
-            }
+
             return; //skip movement logic while dashing
         }
 
         //HORIZ
         float targetVelocityX = moveInput.x * moveSpeed;
-
-        if (sprintActive)
+        if (sprintActive) 
             targetVelocityX *= 1.5f;
 
-        float velocityDiff = targetVelocityX - velocity.x;
+        //movement along slope
+        Vector2 slopeDir = new Vector2(groundNormal.y, -groundNormal.x); // perpendicular to slope
+        slopeDir.Normalize();
+        float velocityDiff = targetVelocityX - Vector2.Dot(rb.linearVelocity, slopeDir);
+        float accelRate = Mathf.Abs(targetVelocityX) > 0.01f ? acceleration : deceleration;
+        rb.AddForce(slopeDir * velocityDiff * accelRate, ForceMode2D.Force);
 
-        //weaker force when stopping
-        float accelRate = (Mathf.Abs(targetVelocityX) > 0.01f) ? acceleration : deceleration;
-
-        float force = velocityDiff * accelRate;
-
-        rb.AddForce(Vector2.right * force, ForceMode2D.Force);
+        //custon gravity
+        ApplySlopeGravity();
 
         //JUMPING
 
@@ -159,35 +154,19 @@ public class PlayerMovement : MonoBehaviour
             jumpCut = false;
         }
 
-        velocity = rb.linearVelocity;
-
-
-        //GRAVITY
-
-        float baseGravity = Physics2D.gravity.y * rb.gravityScale;
-
-        if (velocity.y > 0)
-        {
-            //rising
-            if (!jumpCut)
-                velocity.y += baseGravity * (riseGravity - 1f) * Time.fixedDeltaTime;
-            else
-                velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
-        }
-        else if (velocity.y < 0)
-        {
-            //falling
-            velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
-        }
 
 
         //FALL SPEED CAP
 
-        if (velocity.y < -terminalVelocity)
-            velocity.y = -terminalVelocity;
+        Vector2 v = rb.linearVelocity;
 
+        if (v.y < -terminalVelocity)
+        {
+            v.y = -terminalVelocity;
+            rb.linearVelocity = v;
+        }
 
-        rb.linearVelocity = velocity;
+        //rb.linearVelocity = velocity;
 
         if (rb.linearVelocity.y <= 0)
         {
@@ -218,5 +197,59 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+    }
+
+    private void UpdateGrounded()
+    {
+        isGrounded = false;
+        groundNormal = Vector2.up;
+
+        int contactCount = rb.GetContacts(contacts);
+        for (int i = 0; i < contactCount; i++)
+        {
+            ContactPoint2D c = contacts[i];
+            float angle = Vector2.Angle(c.normal, Vector2.up);
+            if (angle <= maxGroundAngle)
+            {
+                isGrounded = true;
+                groundNormal = c.normal;
+                break;
+            }
+        }
+        groundDetector.SetGrounded(isGrounded);
+        groundDetector.player.OnGround = isGrounded;
+    }
+
+    private void ApplySlopeGravity()
+    {
+        Vector2 gravityDir;
+
+        if (isGrounded)
+        {
+            //gravity perpendicular to slope stopsliding
+            gravityDir = -groundNormal;
+        }
+        else
+        {
+            gravityDir = Vector2.down;
+        }
+
+        float gravityMultiplier;
+
+        if (rb.linearVelocity.y > 0)
+        {
+            //going up
+            gravityMultiplier = jumpCut ? fallGravity : riseGravity;
+        }
+        else
+        {
+            //falling
+            gravityMultiplier = fallGravity;
+        }
+
+        //apply custom gravity along the direction
+        Vector2 customGravity = gravityDir * Physics2D.gravity.magnitude * gravityScale * gravityMultiplier;
+
+        rb.AddForce(customGravity, ForceMode2D.Force);
     }
 }

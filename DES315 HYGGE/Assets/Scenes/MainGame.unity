@@ -16664,12 +16664,9 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 8
-  groundContacts: 0
   castDistance: 0.05
   slopeLimit: 0.7
   coyoteTime: 0.15
-  capsule: {fileID: 0}
-  isGrounded: 0
 --- !u!114 &1147384681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16934,6 +16931,7 @@ MonoBehaviour:
   fallGravity: 3.5
   jumpCutMultiplier: 0.5
   terminalVelocity: 20
+  gravityScale: 3
   acceleration: 60
   deceleration: 15
   sprintActive: 0
@@ -16941,6 +16939,7 @@ MonoBehaviour:
   dashDuration: 0.2
   dashCooldown: 0.5
   jumpBufferTime: 0.15
+  maxGroundAngle: 45
 --- !u!1 &1147758898
 GameObject:
   m_ObjectHideFlags: 0
@@ -21789,12 +21788,9 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 8
-  groundContacts: 0
   castDistance: 0.05
   slopeLimit: 0.7
   coyoteTime: 0.15
-  capsule: {fileID: 0}
-  isGrounded: 0
 --- !u!114 &1554406610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22059,6 +22055,7 @@ MonoBehaviour:
   fallGravity: 3.5
   jumpCutMultiplier: 0.5
   terminalVelocity: 25
+  gravityScale: 3
   acceleration: 60
   deceleration: 15
   sprintActive: 0
@@ -22066,6 +22063,7 @@ MonoBehaviour:
   dashDuration: 0.2
   dashCooldown: 0.5
   jumpBufferTime: 0.15
+  maxGroundAngle: 45
 --- !u!1 &1560383657
 GameObject:
   m_ObjectHideFlags: 0
