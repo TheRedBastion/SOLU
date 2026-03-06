@@ -46,6 +46,12 @@ public class GroundDetector : MonoBehaviour
         }
     }
 
+    public void SetIsGrounded(bool b)
+    {
+        isGrounded = b;
+        player.OnGround = b;
+    }
+
     public bool CanJump()
     {
         return isGrounded || coyoteTimer > 0f;

@@ -37,8 +37,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpBufferTime = 0.15f;
 
     private float jumpBufferTimer;
-    private bool isJumping;
-    private bool jumpCut;
+    private bool isJumping = false;
+    private bool jumpCut = false;
     private float jumpForce;
 
 
