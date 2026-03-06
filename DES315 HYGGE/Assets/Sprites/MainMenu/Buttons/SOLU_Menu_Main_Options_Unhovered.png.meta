@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: ce3b32b2b0bf64640931abdd63ca7628
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8520849671492415376
+    second: SOLU_Menu_Main_Options_Unhovered_0
+  - first:
+      213: -3932804898315970203
+    second: SOLU_Menu_Main_Options_Unhovered_1
+  - first:
+      213: -8453929780565768817
+    second: SOLU_Menu_Main_Options_Unhovered_2
+  - first:
+      213: 9084321717683489412
+    second: SOLU_Menu_Main_Options_Unhovered_3
+  - first:
+      213: 3128099749723300845
+    second: SOLU_Menu_Main_Options_Unhovered_4
+  - first:
+      213: 2951314483606093731
+    second: SOLU_Menu_Main_Options_Unhovered_5
+  - first:
+      213: 8197450512141659915
+    second: SOLU_Menu_Main_Options_Unhovered_6
+  - first:
+      213: -8789359982545497399
+    second: SOLU_Menu_Main_Options_Unhovered_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Options_Unhovered_0
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1374
+        width: 327
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f2fcd71a3204670800000000000000
+      internalID: 8520849671492415376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Options_Unhovered_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1397
+        width: 33
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569d5f828cedb69c0800000000000000
+      internalID: -3932804898315970203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Options_Unhovered_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1466
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f850849c7ab9daa80800000000000000
+      internalID: -8453929780565768817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Options_Unhovered_3
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1375
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a04efa87ef11e70800000000000000
+      internalID: 9084321717683489412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Options_Unhovered_4
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1397
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3ee34262e396b20800000000000000
+      internalID: 3128099749723300845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Options_Unhovered_5
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1397
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af7ec7d2ec25f820800000000000000
+      internalID: 2951314483606093731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Options_Unhovered_6
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1397
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f2c001fc133c170800000000000000
+      internalID: 8197450512141659915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Options_Unhovered_7
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1397
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c29755f9abe50680800000000000000
+      internalID: -8789359982545497399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ae7654ebb942356458b7e7626ad51b3c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SOLU_Menu_Main_Options_Unhovered_0: 8520849671492415376
+      SOLU_Menu_Main_Options_Unhovered_1: -3932804898315970203
+      SOLU_Menu_Main_Options_Unhovered_2: -8453929780565768817
+      SOLU_Menu_Main_Options_Unhovered_3: 9084321717683489412
+      SOLU_Menu_Main_Options_Unhovered_4: 3128099749723300845
+      SOLU_Menu_Main_Options_Unhovered_5: 2951314483606093731
+      SOLU_Menu_Main_Options_Unhovered_6: 8197450512141659915
+      SOLU_Menu_Main_Options_Unhovered_7: -8789359982545497399
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
