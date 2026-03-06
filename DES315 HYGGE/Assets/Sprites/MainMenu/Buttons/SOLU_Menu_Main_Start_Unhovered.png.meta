@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 7824286eb1979554198a438a47d273ca
+guid: b9fd4882b22aed54fbb41ad71234a0ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1158540241544019242
-    second: Floral Tiling 2_0
+      213: 3627193189011517683
+    second: SOLU_Menu_Main_Start_Unhovered_0
   - first:
-      213: 4832818724913254558
-    second: Floral Tiling 2_1
+      213: -4761568544406705846
+    second: SOLU_Menu_Main_Start_Unhovered_1
+  - first:
+      213: 8404160410949703403
+    second: SOLU_Menu_Main_Start_Unhovered_2
+  - first:
+      213: 700092050531863113
+    second: SOLU_Menu_Main_Start_Unhovered_3
+  - first:
+      213: 2603401006340200253
+    second: SOLU_Menu_Main_Start_Unhovered_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +109,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,45 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Floral Tiling 2_0
+      name: SOLU_Menu_Main_Start_Unhovered_0
       rect:
         serializedVersion: 2
-        x: 158
-        y: 455
-        width: 1684
-        height: 1378
+        x: 295
+        y: 1600
+        width: 227
+        height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d206ccd9c90cefe0800000000000000
-      internalID: -1158540241544019242
+      spriteID: 3f07fbadcf0665230800000000000000
+      internalID: 3627193189011517683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floral Tiling 2_1
+      name: SOLU_Menu_Main_Start_Unhovered_1
       rect:
         serializedVersion: 2
-        x: 468
-        y: 74
-        width: 1067
-        height: 273
+        x: 354
+        y: 1600
+        width: 33
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e909f42660f911340800000000000000
-      internalID: 4832818724913254558
+      spriteID: a49e6f003a28bedb0800000000000000
+      internalID: -4761568544406705846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Start_Unhovered_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1600
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6de0add5391a470800000000000000
+      internalID: 8404160410949703403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Start_Unhovered_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1600
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ac60eb20a37b900800000000000000
+      internalID: 700092050531863113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Menu_Main_Start_Unhovered_4
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1600
+        width: 33
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d375dcefb63212420800000000000000
+      internalID: 2603401006340200253
       vertices: []
       indices: 
       edges: []
@@ -163,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 329c8bb90b301824cb1f4632968199a8
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Floral Tiling 2_0: -1158540241544019242
-      Floral Tiling 2_1: 4832818724913254558
+      SOLU_Menu_Main_Start_Unhovered_0: 3627193189011517683
+      SOLU_Menu_Main_Start_Unhovered_1: -4761568544406705846
+      SOLU_Menu_Main_Start_Unhovered_2: 8404160410949703403
+      SOLU_Menu_Main_Start_Unhovered_3: 700092050531863113
+      SOLU_Menu_Main_Start_Unhovered_4: 2603401006340200253
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
