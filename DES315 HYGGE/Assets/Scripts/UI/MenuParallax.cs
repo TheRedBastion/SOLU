@@ -1,21 +1,27 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MenuParallax : MonoBehaviour
 {
-    public float offsetMultiplier = 1f;
-    public float smoothTime = .3f;
+    public float offsetMultiplier = 20f;
+    public float smoothTime = 0.3f;
 
+    private RectTransform rectTransform;
     private Vector2 startPosition;
-    private Vector3 velocity;
+    private Vector2 velocity;
 
-    private void Start()
+    void Start()
     {
-        startPosition = transform.position;
+        rectTransform = GetComponent<RectTransform>();
+        startPosition = rectTransform.anchoredPosition;
     }
 
-    private void Update()
+    void Update()
     {
-        Vector2 offset = Camera.main.ScreenToViewportPoint(Input.mousePosition);
-        transform.position = Vector3.SmoothDamp(transform.position, startPosition + (offset * offsetMultiplier), ref velocity, smoothTime);
+        if (Mouse.current == null) return;
+        Vector2 mousePos = Mouse.current.position.ReadValue();
+        Vector2 normalizer = new Vector2((mousePos.x / Screen.width) - 0.5f, (mousePos.y / Screen.height) - 0.5f);
+        Vector2 target = startPosition + normalizer * offsetMultiplier;
+        rectTransform.anchoredPosition = Vector2.SmoothDamp(rectTransform.anchoredPosition, target, ref velocity, smoothTime);
     }
 }
