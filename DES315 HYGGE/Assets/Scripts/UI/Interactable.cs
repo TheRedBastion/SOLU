@@ -6,6 +6,7 @@ public class Interactable : MonoBehaviour
 {
     [Header("Interaction")]
     [SerializeField] private string interactionText = "[FILL IN FIELD]";
+    [SerializeField] private GameObject OutlineGO;//messed around with shader for outline, doesnt f work, maybe later
     public InputActionAsset InputActions;
     private InputAction interactAction;
 
@@ -71,9 +72,9 @@ public class Interactable : MonoBehaviour
 
     void SetOutline(bool enabled)
     {
-        if (sprite != null)
+        if (OutlineGO != null)
         {
-            sprite.material.SetFloat("_Outline", enabled ? 1f : 0f);
+            OutlineGO.SetActive(enabled);
         }
     }
 }

@@ -39,6 +39,11 @@ public class GroundDetector : MonoBehaviour
         mat.bounciness = 0f;
 
         rb.sharedMaterial = mat;
+
+        if (player == null)
+        {
+            player = GetComponentInParent<Player>();
+        }
     }
 
     public bool CanJump()
