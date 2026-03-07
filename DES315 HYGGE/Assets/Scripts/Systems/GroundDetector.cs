@@ -11,15 +11,18 @@ public class GroundDetector : MonoBehaviour
 
     [Header("Coyote Time")]
     public float coyoteTime = 0.15f;
-    private float coyoteTimer;
+    public float coyoteTimer;
 
     private CapsuleCollider2D capsule;
     private bool isGrounded;
+    private PlayerMovement movement;
+
     public bool IsGrounded => isGrounded;
 
     private void Awake()
     {
         capsule = GetComponent<CapsuleCollider2D>();
+        movement = GetComponent<PlayerMovement>();
 
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         PhysicsMaterial2D mat = new PhysicsMaterial2D();
@@ -32,6 +35,7 @@ public class GroundDetector : MonoBehaviour
     private void OnEnable()
     {
         capsule = GetComponent<CapsuleCollider2D>();
+        movement = GetComponent<PlayerMovement>();
 
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         PhysicsMaterial2D mat = new PhysicsMaterial2D();
@@ -59,11 +63,13 @@ public class GroundDetector : MonoBehaviour
     public void ConsumeCoyoteTime()
     {
         coyoteTimer = 0f;
-        //player.OnGround = false;
     }
 
     private void FixedUpdate()
     {
+        if(movement.isJumping)
+            ConsumeCoyoteTime();
+
         Bounds bounds = capsule.bounds;
 
         float width = bounds.size.x * 0.8f;

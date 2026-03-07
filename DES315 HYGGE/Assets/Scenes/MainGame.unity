@@ -20365,6 +20365,11 @@ MonoBehaviour:
   dashDuration: 0.2
   dashCooldown: 0.5
   jumpBufferTime: 0.15
+  isJumping: 0
+  jumpCut: 0
+  jumpHeld: 0
+  jumpBufferedRelease: 0
+  showableGrav: 0
 --- !u!114 &1147384687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26651,6 +26656,11 @@ MonoBehaviour:
   dashDuration: 0.2
   dashCooldown: 0.5
   jumpBufferTime: 0.15
+  isJumping: 0
+  jumpCut: 0
+  jumpHeld: 0
+  jumpBufferedRelease: 0
+  showableGrav: 0
 --- !u!114 &1554406616
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -37,10 +37,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpBufferTime = 0.15f;
 
     private float jumpBufferTimer;
-    private bool isJumping = false;
-    private bool jumpCut = false;
+    public bool isJumping;
+    private bool jumpCut;
+    private bool jumpHeld = false;
+    private bool jumpBufferedRelease;
     private float jumpForce;
-
 
     private Vector2 moveInput;
 
@@ -76,19 +77,28 @@ public class PlayerMovement : MonoBehaviour
     public void JumpPressed()
     {
         jumpBufferTimer = jumpBufferTime;
+        jumpHeld = true;
+        jumpBufferedRelease = false;
     }
 
     public void JumpReleased()
     {
-        if (isJumping && rb.linearVelocity.y > 0)
+        jumpHeld = false;
+
+        Vector2 velocity = rb.linearVelocity;
+        if (isJumping && velocity.y > 0f && !jumpCut)
         {
-
+            //midair release
             rb.linearVelocity = new Vector2(
-            rb.linearVelocity.x,
-            rb.linearVelocity.y * jumpCutMultiplier
+                rb.linearVelocity.x,
+                rb.linearVelocity.y * jumpCutMultiplier
             );
-
             jumpCut = true;
+        }
+        else
+        {
+            //release before jump
+            jumpBufferedRelease = true;
         }
     }
 
@@ -110,7 +120,10 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         if (knockback != null && knockback.IsKnockedBack)
+        {
+            isDashing = false;
             return;
+        }
 
         if (jumpBufferTimer > 0f)
             jumpBufferTimer -= Time.fixedDeltaTime;
@@ -132,35 +145,38 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //HORIZ
-        float targetVelocityX = moveInput.x * moveSpeed;
+        {
+            float targetVelocityX = moveInput.x * moveSpeed;
 
-        if (sprintActive)
-            targetVelocityX *= 1.5f;
+            if (sprintActive)
+                targetVelocityX *= 1.5f;
 
-        float velocityDiff = targetVelocityX - velocity.x;
+            float velocityDiff = targetVelocityX - velocity.x;
 
-        //weaker force when stopping
-        float accelRate = (Mathf.Abs(targetVelocityX) > 0.01f) ? acceleration : deceleration;
+            //weaker force when stopping
+            float accelRate = (Mathf.Abs(targetVelocityX) > 0.01f) ? acceleration : deceleration;
 
-        float force = velocityDiff * accelRate;
+            float force = velocityDiff * accelRate;
 
-        rb.AddForce(Vector2.right * force, ForceMode2D.Force);
-
+            rb.AddForce(Vector2.right * force, ForceMode2D.Force);
+        }
         //JUMPING
 
         if (jumpBufferTimer > 0f && groundDetector.CanJump())
         {
+            Debug.Log("Jump!");
             jumpBufferTimer = 0f;
             groundDetector.ConsumeCoyoteTime();
 
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            float initialY = jumpBufferedRelease ? jumpForce * jumpCutMultiplier : jumpForce;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, initialY);
 
             isJumping = true;
-            jumpCut = false;
+            jumpCut = jumpBufferedRelease;
+            jumpBufferedRelease = false;
         }
 
         velocity = rb.linearVelocity;
-
 
         //GRAVITY
 
@@ -169,7 +185,7 @@ public class PlayerMovement : MonoBehaviour
         if (velocity.y > 0)
         {
             //rising
-            if (!jumpCut)
+            if (!jumpCut && jumpHeld)
                 velocity.y += baseGravity * (riseGravity - 1f) * Time.fixedDeltaTime;
             else
                 velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
@@ -180,16 +196,13 @@ public class PlayerMovement : MonoBehaviour
             velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
         }
 
-
-        //FALL SPEED CAP
-
         if (velocity.y < -terminalVelocity)
             velocity.y = -terminalVelocity;
 
 
         rb.linearVelocity = velocity;
 
-        if (rb.linearVelocity.y <= 0)
+        if (groundDetector.IsGrounded && rb.linearVelocity.y <= 0f)
         {
             isJumping = false;
             jumpCut = false;
