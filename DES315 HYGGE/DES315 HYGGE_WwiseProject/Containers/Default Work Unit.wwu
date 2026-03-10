@@ -1,6 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{17762C99-F83F-49A1-88BA-AC47A361EF53}" SchemaVersion="133">
 	<Containers>
-		<WorkUnit Name="Default Work Unit" ID="{17762C99-F83F-49A1-88BA-AC47A361EF53}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{17762C99-F83F-49A1-88BA-AC47A361EF53}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="SFootsteps" ID="{8CCF933F-1847-4780-917C-AF5601241E40}" ShortID="339365363">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FootstepsOnStone1" ID="{CD67F4C3-F735-4A25-8C9A-86F6B8AA83B3}" ShortID="657717843">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsOnStone1" ID="{BAC09004-594D-4A34-98A2-9D39663FCFC2}">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsOnStone1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="265268529"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsOnStone1" ID="{BAC09004-594D-4A34-98A2-9D39663FCFC2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FootstepsOnStone2" ID="{B539DC10-7EE9-42B4-9E6E-C7ED9167A042}" ShortID="620481448">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsOnStone2" ID="{A5102C17-D0CE-44F8-89D3-8E9B1DFAA57F}">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsOnStone2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="327021272"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsOnStone2" ID="{A5102C17-D0CE-44F8-89D3-8E9B1DFAA57F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FootstepsOnStone3" ID="{C21199E2-9B06-425F-BD6A-BF01E35A6B5C}" ShortID="684123322">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsOnStone3" ID="{EE81E1FD-F5EC-4DD5-BCD6-C50D8A10ED36}">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsOnStone3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="746925879"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsOnStone3" ID="{EE81E1FD-F5EC-4DD5-BCD6-C50D8A10ED36}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="GFootsteps" ID="{1AC06D69-0EE6-4821-873F-8FF7A2A2893A}" ShortID="307680364">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FootstepsOnGrass1" ID="{7F379AF6-FEB4-44E9-BB59-7E83517386B8}" ShortID="853481552">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsOnGrass1" ID="{9F9E48FE-45E0-46C9-9B6A-3D379AB32637}">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsOnGrass1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="540537894"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsOnGrass1" ID="{9F9E48FE-45E0-46C9-9B6A-3D379AB32637}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FootstepsOnGrass2" ID="{17CF710C-B457-41A8-A73E-B9F87600E864}" ShortID="394966689">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsOnGrass2" ID="{D1AF5E34-8DD1-4194-B51A-D05618A0C33C}">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsOnGrass2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="778461505"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsOnGrass2" ID="{D1AF5E34-8DD1-4194-B51A-D05618A0C33C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FootstepsOnGrass3" ID="{FA7918FF-30EC-4DA0-B8AB-40A5CCB09EA3}" ShortID="404061881">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsOnGrass3" ID="{7C809099-5461-430D-A4B3-C32D73C28514}">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsOnGrass3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="704320324"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsOnGrass3" ID="{7C809099-5461-430D-A4B3-C32D73C28514}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</Containers>
 </WwiseDocument>

@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	375687853	GFootsteps			\Default Work Unit\GFootsteps	
+	3194455577	SFootsteps			\Default Work Unit\SFootsteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	265268529	FootstepsOnStone1	.cache\23\{23CEBF34-5AB5-8916-4EA4-FAE55CA4EFCE}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone1		399836
+	327021272	FootstepsOnStone2	.cache\C4\{C4D1891A-348F-C817-A7F5-BFE73A4FAF1B}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone2		323932
+	540537894	FootstepsOnGrass1	.cache\30\{30DDFF9B-47B7-6EE7-2566-04250B66B5A6}.wem		\Containers\Default Work Unit\GFootsteps\FootstepsOnGrass1		221276
+	704320324	FootstepsOnGrass3	.cache\41\{41CA7E35-A409-B677-D337-FF4300FB1820}.wem		\Containers\Default Work Unit\GFootsteps\FootstepsOnGrass3		264696
+	746925879	FootstepsOnStone3	.cache\B5\{B540111E-415C-60A6-D60C-A6773A6C6FF8}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone3		323932
+	778461505	FootstepsOnGrass2	.cache\4F\{4F8D641A-2245-7E6A-1454-489F584690AB}.wem		\Containers\Default Work Unit\GFootsteps\FootstepsOnGrass2		246508
+

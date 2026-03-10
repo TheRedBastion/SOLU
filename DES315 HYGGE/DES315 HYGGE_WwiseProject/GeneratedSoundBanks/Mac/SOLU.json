@@ -1,0 +1,113 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "771268306",
+    "Type": "User",
+    "GUID": "{8347E92C-8AC0-4678-A174-309ADDA96D38}",
+    "Language": "SFX",
+    "Hash": "{588BE695-C2AD-0E85-6869-61709F50711D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SOLU",
+    "ShortName": "SOLU",
+    "Path": "SOLU.bnk",
+    "Media": [
+     {
+      "Id": "265268529",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsOnStone1.wav",
+      "CachePath": "23/{23CEBF34-5AB5-8916-4EA4-FAE55CA4EFCE}.wem"
+     },
+     {
+      "Id": "327021272",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsOnStone2.wav",
+      "CachePath": "C4/{C4D1891A-348F-C817-A7F5-BFE73A4FAF1B}.wem"
+     },
+     {
+      "Id": "540537894",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsOnGrass1.wav",
+      "CachePath": "30/{30DDFF9B-47B7-6EE7-2566-04250B66B5A6}.wem"
+     },
+     {
+      "Id": "704320324",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsOnGrass3.wav",
+      "CachePath": "41/{41CA7E35-A409-B677-D337-FF4300FB1820}.wem"
+     },
+     {
+      "Id": "746925879",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsOnStone3.wav",
+      "CachePath": "B5/{B540111E-415C-60A6-D60C-A6773A6C6FF8}.wem"
+     },
+     {
+      "Id": "778461505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsOnGrass2.wav",
+      "CachePath": "4F/{4F8D641A-2245-7E6A-1454-489F584690AB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "375687853",
+      "Name": "GFootsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\GFootsteps",
+      "GUID": "{E5E87D08-1C9A-4155-9CC2-733F877FBF0C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2538549",
+      "DurationMax": "1.5",
+      "MediaRefs": [
+       {
+        "Id": "540537894"
+       },
+       {
+        "Id": "704320324"
+       },
+       {
+        "Id": "778461505"
+       }
+      ]
+     },
+     {
+      "Id": "3194455577",
+      "Name": "SFootsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFootsteps",
+      "GUID": "{7F709BAD-9387-45D4-B000-0571E7D5B90C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8358049",
+      "DurationMax": "2.2660997",
+      "MediaRefs": [
+       {
+        "Id": "265268529"
+       },
+       {
+        "Id": "327021272"
+       },
+       {
+        "Id": "746925879"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{468EBB87-2DB7-5475-E335-0F53D7569A17}"
+ }
+}
