@@ -43,6 +43,12 @@ public class PlayerMovement : MonoBehaviour
     private bool jumpBufferedRelease;
     private float jumpForce;
 
+    [Header("Jump Bools")]
+    [SerializeField] private bool fallGravityOnRelease = false;
+    [SerializeField] private bool doubleJumpActive = false;
+
+    private bool doubleJumpReady;
+
     private Vector2 moveInput;
 
     public void Init(float moveSpeed, float jumpForce)
@@ -89,6 +95,7 @@ public class PlayerMovement : MonoBehaviour
         if (isJumping && velocity.y > 0f && !jumpCut)
         {
             //midair release
+
             rb.linearVelocity = new Vector2(
                 rb.linearVelocity.x,
                 rb.linearVelocity.y * jumpCutMultiplier
@@ -162,18 +169,30 @@ public class PlayerMovement : MonoBehaviour
         }
         //JUMPING
 
-        if (jumpBufferTimer > 0f && groundDetector.CanJump())
+        if (jumpBufferTimer > 0f && groundDetector.CanJump())//fiorst jump
         {
-            Debug.Log("Jump!");
             jumpBufferTimer = 0f;
             groundDetector.ConsumeCoyoteTime();
 
             float initialY = jumpBufferedRelease ? jumpForce * jumpCutMultiplier : jumpForce;
+
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, initialY);
 
             isJumping = true;
             jumpCut = jumpBufferedRelease;
             jumpBufferedRelease = false;
+            doubleJumpReady = true;
+        }
+        else if (jumpBufferTimer > 0f && doubleJumpActive && doubleJumpReady && !groundDetector.IsGrounded)//double jump
+        {
+            jumpBufferTimer = 0f;
+            doubleJumpReady = false;
+
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+
+            isJumping = true;
+            jumpCut = false;
         }
 
         velocity = rb.linearVelocity;
@@ -185,10 +204,15 @@ public class PlayerMovement : MonoBehaviour
         if (velocity.y > 0)
         {
             //rising
-            if (!jumpCut && jumpHeld)
-                velocity.y += baseGravity * (riseGravity - 1f) * Time.fixedDeltaTime;
+            if (fallGravityOnRelease)
+            {
+                if (!jumpCut && jumpHeld)
+                    velocity.y += baseGravity * (riseGravity - 1f) * Time.fixedDeltaTime;
+                else
+                    velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
+            }
             else
-                velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
+                velocity.y += baseGravity * (riseGravity - 1f) * Time.fixedDeltaTime;
         }
         else if (velocity.y < 0)
         {
@@ -206,6 +230,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = false;
             jumpCut = false;
+            doubleJumpReady = false;
         }
 
         //FLIP
