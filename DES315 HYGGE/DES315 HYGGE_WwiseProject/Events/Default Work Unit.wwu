@@ -25,6 +25,127 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MoonDamaged" ID="{651F836B-074E-4E22-ABBB-AEE5B9736198}">
+					<ChildrenList>
+						<Action Name="" ID="{7C38728D-BF3D-4620-9EBE-80868A5066F3}" ShortID="441929136">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MoonDamaged-1" ID="{FC275340-CB4A-40A3-94C2-E3A5342D613D}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SunDamagedCave" ID="{E79522BD-4620-4F48-817B-17021BB7C25C}">
+					<ChildrenList>
+						<Action Name="" ID="{282A310D-2520-401C-A327-B3FED3D40A59}" ShortID="392756475">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SunDamagedWithEcho-1" ID="{0C63F6C2-2513-421D-9294-4403A530465A}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SunDamaged" ID="{7E8CA049-5BF9-488F-A06C-65509B32ABCD}">
+					<ChildrenList>
+						<Action Name="" ID="{14D19A9A-1C35-4F1E-8524-DB40564F040B}" ShortID="273753052">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SunDamaged-1" ID="{B4283C83-389A-4538-BD14-01ADD0A4B51A}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BatSlain" ID="{FF9124F6-DB93-48B3-909F-5E9E6BE48C8F}">
+					<ChildrenList>
+						<Action Name="" ID="{53750B3B-F0DC-486D-B2CD-E9874D00102D}" ShortID="202977239">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BatKilled" ID="{CFBC3D15-9C9A-4F8B-AE11-52FE0991FF53}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BatDamaged" ID="{D104E6F7-CF5B-49F2-8BC7-9724A66B410A}">
+					<ChildrenList>
+						<Action Name="" ID="{834E8E3F-3FAB-4C64-9E97-1A4FF18AF082}" ShortID="542017401">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BatDamaged" ID="{2821EB33-0B8A-4051-A665-1FEF52D7795E}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BatAttacks" ID="{43FAEE7F-BC73-4991-8B41-669096A7372B}">
+					<ChildrenList>
+						<Action Name="" ID="{6B743E50-DB22-4738-BB9E-4C769E4D5C45}" ShortID="198844380">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BatAttack-2" ID="{3E92FB20-C37B-465C-964C-B0206444D443}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ArmoredEnemyAttack" ID="{78005111-4E15-4EA1-8647-4E9419B333A0}">
+					<ChildrenList>
+						<Action Name="" ID="{3AAC2C6F-6C5C-4E5C-AD83-749DF24F35FC}" ShortID="246272233">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ArmoredEnemyAttack" ID="{67FE7E83-D9EB-4412-A6C7-9B4C40C82E4B}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MoonMusic1" ID="{3DAE1915-4E41-4369-88B7-E39E9F934AD6}">
+					<ChildrenList>
+						<Action Name="" ID="{97247846-D50B-49E8-92C0-6D2CE8BD2C05}" ShortID="991540683">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level-1-Moon" ID="{44EAE38F-51C4-4BBE-96D8-2922871888CB}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SunMusic1" ID="{2C1BB2F8-B689-40CC-B752-6965D2E52F8D}">
+					<ChildrenList>
+						<Action Name="" ID="{2E4AF310-D751-4E9D-A4AF-A461FD86D30B}" ShortID="693390288">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level-1-Sun" ID="{8C8C6C35-84D6-400B-8DA9-97231B0422BB}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CavesAmbience" ID="{2972C3C2-C432-4C99-8958-2B8300F9BADD}">
+					<ChildrenList>
+						<Action Name="" ID="{F3D84F8C-160F-4D5E-B014-FE9BD54293AD}" ShortID="308371825">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CaveAmbience1" ID="{554DF6AE-3769-49BD-9DA5-C77F4CF8A5C2}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FloralAmbience" ID="{085609C8-0167-492A-9884-E3786A0137D2}">
+					<ChildrenList>
+						<Action Name="" ID="{6466EB37-F4DC-4FBF-A189-ABCF64770608}" ShortID="769522703">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FloralAmbience1" ID="{2A153EE8-222A-4562-A4AB-E8F50715F5AB}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

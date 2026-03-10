@@ -41,9 +41,18 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2769296183",
+      "Name": "ArmoredEnemy",
+      "ObjectPath": "\\Switches\\Default Work Unit\\ArmoredEnemy",
+      "GUID": "{A96C2E2D-AC06-4327-9A13-6D90C371D5DD}",
+      "Switches": []
+     }
     ]
    }
   ],
-  "FileHash": "{5A7E2A99-7847-5CB3-264D-BED1D89504CB}"
+  "FileHash": "{8DC043D4-1459-5ED1-9DFE-7E9ECB707683}"
  }
 }

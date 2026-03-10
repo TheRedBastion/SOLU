@@ -159,6 +159,295 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="SunDamaged-1" ID="{B4283C83-389A-4538-BD14-01ADD0A4B51A}" ShortID="1017895197">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SunDamaged-1" ID="{0ECEB77E-EE16-4380-885A-9268F3C7DAA2}">
+							<Language>SFX</Language>
+							<AudioFile>SunDamaged-1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="281847246"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SunDamaged-1" ID="{0ECEB77E-EE16-4380-885A-9268F3C7DAA2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SunDamagedWithEcho-1" ID="{0C63F6C2-2513-421D-9294-4403A530465A}" ShortID="9558892">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SunDamagedWithEcho-1" ID="{D2D2DA38-F63C-4E7B-BE79-78A9EEB58C56}">
+							<Language>SFX</Language>
+							<AudioFile>SunDamagedWithEcho-1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1000089471"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SunDamagedWithEcho-1" ID="{D2D2DA38-F63C-4E7B-BE79-78A9EEB58C56}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MoonDamaged-1" ID="{FC275340-CB4A-40A3-94C2-E3A5342D613D}" ShortID="13741650">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MoonDamaged-1" ID="{9DC05294-5479-40DE-9F8E-0281FAFFA55A}">
+							<Language>SFX</Language>
+							<AudioFile>MoonDamaged-1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="345978686"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MoonDamaged-1" ID="{9DC05294-5479-40DE-9F8E-0281FAFFA55A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BatAttack-2" ID="{3E92FB20-C37B-465C-964C-B0206444D443}" ShortID="895396217">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BatAttack-2" ID="{3B606C3E-9E2F-4765-80C1-0EDC0E4809F1}">
+							<Language>SFX</Language>
+							<AudioFile>BatAttack-2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="255574596"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BatAttack-2" ID="{3B606C3E-9E2F-4765-80C1-0EDC0E4809F1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BatDamaged" ID="{2821EB33-0B8A-4051-A665-1FEF52D7795E}" ShortID="332830847">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BatDamaged" ID="{444A24E1-C403-4DDF-AB12-6BA60A41B496}">
+							<Language>SFX</Language>
+							<AudioFile>BatDamaged.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="513277040"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BatDamaged" ID="{444A24E1-C403-4DDF-AB12-6BA60A41B496}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BatKilled" ID="{CFBC3D15-9C9A-4F8B-AE11-52FE0991FF53}" ShortID="180377832">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BatKilled" ID="{1A49C2CB-4E16-4A5B-8E7A-A698BDCB3520}">
+							<Language>SFX</Language>
+							<AudioFile>BatKilled.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="538011636"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BatKilled" ID="{1A49C2CB-4E16-4A5B-8E7A-A698BDCB3520}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<SwitchContainer Name="ArmoredEnemyAttack" ID="{67FE7E83-D9EB-4412-A6C7-9B4C40C82E4B}" ShortID="601513055">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="ArmoredEnemy" ID="{A96C2E2D-AC06-4327-9A13-6D90C371D5DD}" WorkUnitID="{FD62577A-2C77-4FA1-9C35-108E3569917A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ShieldEnemyAttack-MetalInCave" ID="{A4F01AEE-1191-48F9-B827-C6706A52DA5C}" ShortID="1004217471">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ShieldEnemyAttack-MetalInCave" ID="{CB173950-44AF-45E2-BF94-C3F4AB229A1D}">
+									<Language>SFX</Language>
+									<AudioFile>ShieldEnemyAttack-MetalInCave.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="58044122"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ShieldEnemyAttack-MetalInCave" ID="{CB173950-44AF-45E2-BF94-C3F4AB229A1D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ShieldEnemyAttack-Wooden" ID="{0626ED4B-7692-430A-BAD7-253A6F8EC6B2}" ShortID="474325899">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ShieldEnemyAttack-Wooden" ID="{901AC162-5B66-438E-8000-31CF3DB52E7A}">
+									<Language>SFX</Language>
+									<AudioFile>ShieldEnemyAttack-Wooden.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="69010280"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ShieldEnemyAttack-Wooden" ID="{901AC162-5B66-438E-8000-31CF3DB52E7A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="ShieldEnemyAttack-Wooden" ID="{0626ED4B-7692-430A-BAD7-253A6F8EC6B2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="ShieldEnemyAttack-MetalInCave" ID="{A4F01AEE-1191-48F9-B827-C6706A52DA5C}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<Sound Name="CaveAmbience1" ID="{554DF6AE-3769-49BD-9DA5-C77F4CF8A5C2}" ShortID="229224126">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CaveAmbience1" ID="{C71EBCD4-5A72-4B9D-97EA-5A2CBB11D59C}">
+							<Language>SFX</Language>
+							<AudioFile>CaveAmbience1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="497125793"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="CaveAmbience1" ID="{C71EBCD4-5A72-4B9D-97EA-5A2CBB11D59C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FloralAmbience1" ID="{2A153EE8-222A-4562-A4AB-E8F50715F5AB}" ShortID="933874273">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FloralAmbience1" ID="{90FBCACA-D2F4-4967-BE46-F7CCB756596E}">
+							<Language>SFX</Language>
+							<AudioFile>FloralAmbience1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="125192489"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FloralAmbience1" ID="{90FBCACA-D2F4-4967-BE46-F7CCB756596E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Level-1-Moon" ID="{44EAE38F-51C4-4BBE-96D8-2922871888CB}" ShortID="613388150">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Level-1-Moon" ID="{FAD35ED5-92D4-4E95-9E57-2E1BE587F4E6}">
+							<Language>SFX</Language>
+							<AudioFile>Level-1-Moon.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="779731089"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Level-1-Moon" ID="{FAD35ED5-92D4-4E95-9E57-2E1BE587F4E6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Level-1-Sun" ID="{8C8C6C35-84D6-400B-8DA9-97231B0422BB}" ShortID="39756429">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Level-1-Sun" ID="{011E2ED0-C526-4415-B569-53C34D59CC76}">
+							<Language>SFX</Language>
+							<AudioFile>Level-1-Sun.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="686907197"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Level-1-Sun" ID="{011E2ED0-C526-4415-B569-53C34D59CC76}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>
