@@ -48,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private bool doubleJumpActive = false;
 
     private bool doubleJumpReady;
+    private bool wasGrounded;
 
     private Vector2 moveInput;
 
@@ -132,6 +133,16 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
+        bool grounded = groundDetector.IsGrounded;
+
+        if (wasGrounded && !grounded)
+        {
+            //player walked off ledge
+            doubleJumpReady = true;
+        }
+
+        wasGrounded = grounded;
+
         if (jumpBufferTimer > 0f)
             jumpBufferTimer -= Time.fixedDeltaTime;
 
@@ -183,7 +194,7 @@ public class PlayerMovement : MonoBehaviour
             jumpBufferedRelease = false;
             doubleJumpReady = true;
         }
-        else if (jumpBufferTimer > 0f && doubleJumpActive && doubleJumpReady && !groundDetector.IsGrounded)//double jump
+        else if (jumpBufferTimer > 0f && doubleJumpActive && doubleJumpReady && !groundDetector.CanJump())//double jump
         {
             jumpBufferTimer = 0f;
             doubleJumpReady = false;
