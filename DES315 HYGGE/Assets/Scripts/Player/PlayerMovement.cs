@@ -243,9 +243,11 @@ public class PlayerMovement : MonoBehaviour
             velocity.y += gravityAccel * fallGravity * Time.fixedDeltaTime;
         }
 
-        if (velocity.y < -terminalVelocity)
-            velocity.y = -terminalVelocity;
+        float maxFallSpeed = groundDetector.InWater
+            ? terminalVelocity * waterGravityMultiplier
+            : terminalVelocity;
 
+        velocity.y = Mathf.Max(velocity.y, -maxFallSpeed);
 
         rb.linearVelocity = velocity;
 
