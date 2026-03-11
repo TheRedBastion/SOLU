@@ -18141,7 +18141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be3f08d5e8a7c6640a093c1e2937191f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PatrolPath
-  startPosition: {x: 120, y: 0}
+  startPosition: {x: 123, y: 0}
   endPosition: {x: 130, y: 0}
 --- !u!1 &1013215602
 GameObject:
@@ -26174,7 +26174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 120
+      value: 123.15
       objectReference: {fileID: 0}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.y
