@@ -19,7 +19,8 @@ public class KnockbackReceiver : MonoBehaviour
         //face the knockback source
         FaceDirection(-data.direction.x);
 
-        StartCoroutine(KnockbackCoroutine(data));
+        if(data.noKnockback) return;
+            StartCoroutine(KnockbackCoroutine(data));
     }
 
     private IEnumerator KnockbackCoroutine(KnockbackData data)

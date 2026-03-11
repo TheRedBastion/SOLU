@@ -8,12 +8,14 @@ public struct KnockbackData
     public Vector2 direction;
     public float knockbackForce;
     public float duration;
+    public bool noKnockback;
 
-    public KnockbackData(Vector2 direction, float knockbackForce, float duration)
+    public KnockbackData(Vector2 direction, float knockbackForce, float duration, bool noKnockback = false)
     {
         this.direction = direction.normalized;
         this.knockbackForce = knockbackForce;
         this.duration = duration;
+        this.noKnockback = noKnockback;
     }
 
 }
