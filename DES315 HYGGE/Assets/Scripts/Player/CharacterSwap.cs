@@ -26,7 +26,7 @@ public class CharacterSwap : MonoBehaviour
 
     private void Awake()
     {
-        swapAction = InputActions.FindActionMap("Player").FindAction("Interact");
+        swapAction = InputActions.FindActionMap("Player").FindAction("Swap");
     }
 
     private void OnDisable()

@@ -61,7 +61,7 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    void Interact()
+    protected virtual void Interact()
     {
         isInteracting = true;
 

@@ -120,7 +120,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        OnGround = true;
+        //OnGround = true;
         //OnSwap = false;
     }
 
