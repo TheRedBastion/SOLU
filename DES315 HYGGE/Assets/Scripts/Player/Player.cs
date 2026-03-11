@@ -10,14 +10,10 @@ using UnityEngine.UI;
 [System.Serializable]
 public class PlayerStats
 {
-    public int health;
-    public int maxHealth;
     public float moveSpeed;
     public float jumpForce;
-    public PlayerStats(int health, int maxHealth, float moveSpeed, float jumpForce)
+    public PlayerStats(float moveSpeed, float jumpForce)
     {
-        this.health = health;
-        this.maxHealth = maxHealth;
         this.moveSpeed = moveSpeed;
         this.jumpForce = jumpForce;
     }
@@ -39,8 +35,8 @@ public class Player : MonoBehaviour
     private InputAction dashAction;
 
     [Header("Stats")]
-    public PlayerStats moonStats = new PlayerStats(150, 150, 5f, 15f);
-    public PlayerStats sunStats = new PlayerStats(100, 100, 7f, 12f);
+    public PlayerStats moonStats = new PlayerStats(5f, 15f);
+    public PlayerStats sunStats = new PlayerStats(7f, 12f);
 
     private PlayerStats currentStats;
 
@@ -114,7 +110,7 @@ public class Player : MonoBehaviour
         knockback = activeObject.GetComponent<KnockbackReceiver>();
         stamina = activeObject.GetComponent<Stamina>();
 
-        movement.Init(currentStats.moveSpeed, currentStats.jumpForce);
+        movement.Init(currentStats.moveSpeed);
 
         currentHealth.OnDamageTaken.AddListener(HandleDamage);
 
@@ -170,8 +166,6 @@ public class Player : MonoBehaviour
 
     private void HandleDamage(int damage, KnockbackData hitDirection)
     {
-        currentStats.health = currentHealth.CurrentHealth;
-
         knockback?.ApplyKnockback(hitDirection);
     }
 }

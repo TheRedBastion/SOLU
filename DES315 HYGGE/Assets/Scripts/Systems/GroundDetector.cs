@@ -16,8 +16,10 @@ public class GroundDetector : MonoBehaviour
     private CapsuleCollider2D capsule;
     private bool isGrounded;
     private PlayerMovement movement;
+    private bool inWater;
 
     public bool IsGrounded => isGrounded;
+    public bool InWater => inWater;
 
     private void Awake()
     {
@@ -116,11 +118,27 @@ public class GroundDetector : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Water"))
+        {
+            inWater = true;
+        }
+    }
+
     private void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Swap"))
         {
             player.OnSwap = false;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Water"))
+        {
+            inWater = false;
         }
     }
 }

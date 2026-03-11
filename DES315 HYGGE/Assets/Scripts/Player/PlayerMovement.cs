@@ -8,8 +8,10 @@ public class PlayerMovement : MonoBehaviour
     private KnockbackReceiver knockback;
 
     [Header("Gravity")]
+    [SerializeField] private float gravity = -30f;
     [SerializeField] private float riseGravity = 1f;
     [SerializeField] private float fallGravity = 3.5f;
+    [SerializeField] private float waterGravityMultiplier = 0.5f;
     [SerializeField] private float jumpCutMultiplier = 0.5f;
     [SerializeField] private float terminalVelocity = 20f;
 
@@ -33,8 +35,9 @@ public class PlayerMovement : MonoBehaviour
     private float dashCooldownTimer;
     private float dashDirection;
 
-    [Header("Jump Buffer")]
+    [Header("Jump Vars")]
     [SerializeField] private float jumpBufferTime = 0.15f;
+    [SerializeField] private float jumpHeight = 6.5f;
 
     private float jumpBufferTimer;
     public bool isJumping;
@@ -52,10 +55,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 moveInput;
 
-    public void Init(float moveSpeed, float jumpForce)
+    public void Init(float moveSpeed)
     {
         this.moveSpeed = moveSpeed;
-        this.jumpForce = jumpForce;
     }
 
     private void Awake()
@@ -65,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
         knockback = GetComponent<KnockbackReceiver>();
 
         originalGravity = rb.gravityScale;
+        jumpForce = Mathf.Sqrt(jumpHeight * -2f * gravity);
     }
 
     private void OnEnable()
@@ -185,9 +188,12 @@ public class PlayerMovement : MonoBehaviour
             jumpBufferTimer = 0f;
             groundDetector.ConsumeCoyoteTime();
 
-            float initialY = jumpBufferedRelease ? jumpForce * jumpCutMultiplier : jumpForce;
+            float jumpVelocity = jumpBufferedRelease ? jumpForce * jumpCutMultiplier : jumpForce;
 
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, initialY);
+            rb.linearVelocity = new Vector2(
+                rb.linearVelocity.x,
+                Mathf.Max(rb.linearVelocity.y, 0f) + jumpVelocity
+            );
 
             isJumping = true;
             jumpCut = jumpBufferedRelease;
@@ -199,8 +205,10 @@ public class PlayerMovement : MonoBehaviour
             jumpBufferTimer = 0f;
             doubleJumpReady = false;
 
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            rb.linearVelocity = new Vector2(
+                rb.linearVelocity.x,
+                jumpForce
+            );
 
             isJumping = true;
             jumpCut = false;
@@ -210,7 +218,9 @@ public class PlayerMovement : MonoBehaviour
 
         //GRAVITY
 
-        float baseGravity = Physics2D.gravity.y * rb.gravityScale;
+        float gravityAccel = gravity;
+        if (groundDetector.InWater)
+            gravityAccel *= waterGravityMultiplier;
 
         if (velocity.y > 0)
         {
@@ -218,17 +228,19 @@ public class PlayerMovement : MonoBehaviour
             if (fallGravityOnRelease)
             {
                 if (!jumpCut && jumpHeld)
-                    velocity.y += baseGravity * (riseGravity - 1f) * Time.fixedDeltaTime;
+                    velocity.y += gravityAccel * riseGravity * Time.fixedDeltaTime;
                 else
-                    velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
+                    velocity.y += gravityAccel * fallGravity * Time.fixedDeltaTime;
             }
             else
-                velocity.y += baseGravity * (riseGravity - 1f) * Time.fixedDeltaTime;
+            {
+                velocity.y += gravityAccel * riseGravity * Time.fixedDeltaTime;
+            }
         }
-        else if (velocity.y < 0)
+        else
         {
             //falling
-            velocity.y += baseGravity * (fallGravity - 1f) * Time.fixedDeltaTime;
+            velocity.y += gravityAccel * fallGravity * Time.fixedDeltaTime;
         }
 
         if (velocity.y < -terminalVelocity)
@@ -237,7 +249,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.linearVelocity = velocity;
 
-        if (groundDetector.IsGrounded && rb.linearVelocity.y <= 0f)
+        if (grounded && rb.linearVelocity.y <= 0f)
         {
             isJumping = false;
             jumpCut = false;
