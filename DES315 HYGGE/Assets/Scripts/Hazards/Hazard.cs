@@ -11,10 +11,16 @@ public class Hazard : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Health health = collision.gameObject.GetComponentInParent<Health>();
+        Health health = collision.gameObject.GetComponent<Health>();
         if (health != null)
         {
-            health.TakeDamage(1);
+            Player player = collision.gameObject.GetComponentInParent<Player>();
+
+            if (player != null && !player.isGodmode)
+            {
+                health.TakeDamage(1);
+            }
+
         }
 
         //KnockbackReceiver kb = collision.gameObject.GetComponentInParent<KnockbackReceiver>();
