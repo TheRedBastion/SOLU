@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: fe4e1d50d8448af4f844386dba986c88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7192252220061042718
+    second: CAVETILING_GAPPED_0
+  - first:
+      213: 3506733609367841773
+    second: CAVETILING_GAPPED_1
+  - first:
+      213: -4152752692854152606
+    second: CAVETILING_GAPPED_2
+  - first:
+      213: 7346730965167026917
+    second: CAVETILING_GAPPED_3
+  - first:
+      213: -2921829652612128918
+    second: CAVETILING_GAPPED_4
+  - first:
+      213: 6960082032749258404
+    second: CAVETILING_GAPPED_5
+  - first:
+      213: 7952552748499980821
+    second: CAVETILING_GAPPED_6
+  - first:
+      213: 8760921561204434821
+    second: CAVETILING_GAPPED_7
+  - first:
+      213: 7244778444383429294
+    second: CAVETILING_GAPPED_8
+  - first:
+      213: -4351399641622265489
+    second: CAVETILING_GAPPED_9
+  - first:
+      213: -3000168066273497316
+    second: CAVETILING_GAPPED_10
+  - first:
+      213: 8872013832230918436
+    second: CAVETILING_GAPPED_11
+  - first:
+      213: 851214726118243300
+    second: CAVETILING_GAPPED_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 688
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e73f3846bcff2c90800000000000000
+      internalID: -7192252220061042718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 687
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb2b4463ab6aa030800000000000000
+      internalID: 3506733609367841773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_2
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 687
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262a1669d657e56c0800000000000000
+      internalID: -4152752692854152606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2b42f53e4d4f560800000000000000
+      internalID: 7346730965167026917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_4
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 522
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fd9d559639377d0800000000000000
+      internalID: -2921829652612128918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_5
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a629919bbd279060800000000000000
+      internalID: 6960082032749258404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 359
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512d5ef17942d5e60800000000000000
+      internalID: 7952552748499980821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 357
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587a6a81ebb059970800000000000000
+      internalID: 8760921561204434821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_8
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 359
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2a1e55c9f9a8460800000000000000
+      internalID: 7244778444383429294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 192
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61c755a419bc93c0800000000000000
+      internalID: -4351399641622265489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 192
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f2c4f0a034d56d0800000000000000
+      internalID: -3000168066273497316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_11
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 193
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429d9701399bf1b70800000000000000
+      internalID: 8872013832230918436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAVETILING_GAPPED_12
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 199
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebfbd1984f10db00800000000000000
+      internalID: 851214726118243300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9109ce1b4cd568f48ba8ae8f6ea878c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CAVETILING_GAPPED_0: -7192252220061042718
+      CAVETILING_GAPPED_1: 3506733609367841773
+      CAVETILING_GAPPED_10: -3000168066273497316
+      CAVETILING_GAPPED_11: 8872013832230918436
+      CAVETILING_GAPPED_12: 851214726118243300
+      CAVETILING_GAPPED_2: -4152752692854152606
+      CAVETILING_GAPPED_3: 7346730965167026917
+      CAVETILING_GAPPED_4: -2921829652612128918
+      CAVETILING_GAPPED_5: 6960082032749258404
+      CAVETILING_GAPPED_6: 7952552748499980821
+      CAVETILING_GAPPED_7: 8760921561204434821
+      CAVETILING_GAPPED_8: 7244778444383429294
+      CAVETILING_GAPPED_9: -4351399641622265489
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
