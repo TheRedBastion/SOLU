@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{17762C99-F83F-49A1-88BA-AC47A361EF53}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="SFootsteps" ID="{8CCF933F-1847-4780-917C-AF5601241E40}" ShortID="339365363">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -92,6 +99,18 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="FootstepsOnGrass1" ID="{7F379AF6-FEB4-44E9-BB59-7E83517386B8}" ShortID="853481552">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-400</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -226,6 +245,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="BatAttack-2" ID="{3E92FB20-C37B-465C-964C-B0206444D443}" ShortID="895396217">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -361,6 +387,9 @@
 					</GroupingInfo>
 				</SwitchContainer>
 				<Sound Name="CaveAmbience1" ID="{554DF6AE-3769-49BD-9DA5-C77F4CF8A5C2}" ShortID="229224126">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -383,6 +412,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="FloralAmbience1" ID="{2A153EE8-222A-4562-A4AB-E8F50715F5AB}" ShortID="933874273">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -405,6 +437,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Level-1-Moon" ID="{44EAE38F-51C4-4BBE-96D8-2922871888CB}" ShortID="613388150">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -415,6 +450,12 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Level-1-Moon" ID="{FAD35ED5-92D4-4E95-9E57-2E1BE587F4E6}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.903108414206677"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.230206537999834"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="153.452570299373"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Level-1-Moon.wav</AudioFile>
 							<MediaIDList>
@@ -427,6 +468,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Level-1-Sun" ID="{8C8C6C35-84D6-400B-8DA9-97231B0422BB}" ShortID="39756429">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -437,6 +481,12 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Level-1-Sun" ID="{011E2ED0-C526-4415-B569-53C34D59CC76}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.72248673136534"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.903108414206685"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="153.709055342112"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Level-1-Sun.wav</AudioFile>
 							<MediaIDList>

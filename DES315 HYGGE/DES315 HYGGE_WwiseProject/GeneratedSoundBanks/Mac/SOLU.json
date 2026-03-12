@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8347E92C-8AC0-4678-A174-309ADDA96D38}",
     "Language": "SFX",
-    "Hash": "{7E40CCAF-4537-CF64-33B7-C4B1D631F842}",
+    "Hash": "{5ACBAB51-DE1C-BE3B-7E31-4045BBFAFB03}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SOLU",
     "ShortName": "SOLU",
     "Path": "SOLU.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FloralAmbience1.wav",
-      "CachePath": "12/{1226B298-4899-A5D0-F4A9-0BC035562D0A}.wem"
+      "CachePath": "1C/{1CBBDBB8-B05E-F3B6-A67E-D7DFB23E4E8D}.wem"
      },
      {
       "Id": "255574596",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "CaveAmbience1.wav",
-      "CachePath": "B5/{B51B0615-1199-4E3B-1FC4-8AC5AC3A1E47}.wem"
+      "CachePath": "A5/{A5923301-8F6F-814C-092E-A42A64CB7561}.wem"
      },
      {
       "Id": "513277040",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Level-1-Sun.wav",
-      "CachePath": "A5/{A56FF462-A347-8137-8B46-4679DCFD7805}.wem"
+      "CachePath": "9A/{9A7796AE-F5F7-533C-EB7F-D2DCF20A4ED0}.wem"
      },
      {
       "Id": "704320324",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Level-1-Moon.wav",
-      "CachePath": "9F/{9F73479F-4F05-3DE4-3D5A-A144693AD24B}.wem"
+      "CachePath": "50/{50E28706-6977-5A01-28A2-2C52802CB535}.wem"
      },
      {
       "Id": "1000089471",
@@ -201,9 +201,7 @@
       "Name": "CavesAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\CavesAmbience",
       "GUID": "{2972C3C2-C432-4C99-8958-2B8300F9BADD}",
-      "DurationType": "OneShot",
-      "DurationMin": "13",
-      "DurationMax": "13",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "497125793"
@@ -215,9 +213,7 @@
       "Name": "FloralAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\FloralAmbience",
       "GUID": "{085609C8-0167-492A-9884-E3786A0137D2}",
-      "DurationType": "OneShot",
-      "DurationMin": "14",
-      "DurationMax": "14",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "125192489"
@@ -230,8 +226,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\GFootsteps",
       "GUID": "{E5E87D08-1C9A-4155-9CC2-733F877FBF0C}",
       "DurationType": "OneShot",
-      "DurationMin": "1.2538549",
-      "DurationMax": "1.5",
+      "DurationMin": "1.3968934",
+      "DurationMax": "1.5797582",
       "MediaRefs": [
        {
         "Id": "540537894"
@@ -263,9 +259,7 @@
       "Name": "MoonMusic1",
       "ObjectPath": "\\Events\\Default Work Unit\\MoonMusic1",
       "GUID": "{3DAE1915-4E41-4369-88B7-E39E9F934AD6}",
-      "DurationType": "OneShot",
-      "DurationMin": "156.599",
-      "DurationMax": "156.599",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "779731089"
@@ -325,9 +319,7 @@
       "Name": "SunMusic1",
       "ObjectPath": "\\Events\\Default Work Unit\\SunMusic1",
       "GUID": "{2C1BB2F8-B689-40CC-B752-6965D2E52F8D}",
-      "DurationType": "OneShot",
-      "DurationMin": "156.599",
-      "DurationMax": "156.599",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "686907197"
@@ -346,6 +338,6 @@
     ]
    }
   ],
-  "FileHash": "{FD4A5877-1C2A-6EE4-127C-9C2DA1C68A1B}"
+  "FileHash": "{042640FB-477F-B7D2-4DC4-79DE459A1CCC}"
  }
 }

@@ -3,7 +3,7 @@
   "Project": {
    "Name": "DES315 HYGGE_WwiseProject",
    "GUID": "{61FE96A4-0DB7-449D-929F-BAC6BA3D8132}",
-   "Generator": "2025.1.3.9039"
+   "Generator": "2025.1.5.9095"
   },
   "CacheRoot": "../.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{8F6F934F-A698-B5FB-8AE4-BB2EDC81B1C1}"
+  "FileHash": "{FDD5034D-0E40-407A-70E3-0BDDF8036BB2}"
  }
 }
