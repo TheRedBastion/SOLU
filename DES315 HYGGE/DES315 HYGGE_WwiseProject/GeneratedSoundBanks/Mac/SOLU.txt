@@ -17,20 +17,20 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	2769296183	ArmoredEnemy			\Default Work Unit\ArmoredEnemy	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	125192489	FloralAmbience1	.cache\1C\{1CBBDBB8-B05E-F3B6-A67E-D7DFB23E4E8D}.wem		\Containers\Default Work Unit\FloralAmbience1		2469696
-	255574596	BatAttack-2	.cache\BC\{BC3E0004-14FB-DA9F-9625-683FAE214CAE}.wem		\Containers\Default Work Unit\BatAttack-2		294328
-	265268529	FootstepsOnStone1	.cache\23\{23CEBF34-5AB5-8916-4EA4-FAE55CA4EFCE}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone1		399836
-	281847246	SunDamaged-1	.cache\47\{4787E1BC-69BC-9AC3-60E9-D918C8288EF3}.wem		\Containers\Default Work Unit\SunDamaged-1		352900
-	327021272	FootstepsOnStone2	.cache\C4\{C4D1891A-348F-C817-A7F5-BFE73A4FAF1B}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone2		323932
-	345978686	MoonDamaged-1	.cache\3F\{3F9467B9-F4EE-C347-B694-D898974501DC}.wem		\Containers\Default Work Unit\MoonDamaged-1		352896
-	497125793	CaveAmbience1	.cache\A5\{A5923301-8F6F-814C-092E-A42A64CB7561}.wem		\Containers\Default Work Unit\CaveAmbience1		2293296
-	513277040	BatDamaged	.cache\B3\{B33CB801-8FB5-E786-9CFC-AF8A56C351E8}.wem		\Containers\Default Work Unit\BatDamaged		352896
-	538011636	BatKilled	.cache\91\{916DE6E2-9C22-90A9-EF24-C3BB0F752075}.wem		\Containers\Default Work Unit\BatKilled		352896
-	540537894	FootstepsOnGrass1	.cache\30\{30DDFF9B-47B7-6EE7-2566-04250B66B5A6}.wem		\Containers\Default Work Unit\GFootsteps\FootstepsOnGrass1		221276
-	686907197	Level-1-Sun	.cache\9A\{9A7796AE-F5F7-533C-EB7F-D2DCF20A4ED0}.wem		\Containers\Default Work Unit\Level-1-Sun		27114372
-	704320324	FootstepsOnGrass3	.cache\41\{41CA7E35-A409-B677-D337-FF4300FB1820}.wem		\Containers\Default Work Unit\GFootsteps\FootstepsOnGrass3		264696
-	746925879	FootstepsOnStone3	.cache\B5\{B540111E-415C-60A6-D60C-A6773A6C6FF8}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone3		323932
-	778461505	FootstepsOnGrass2	.cache\4F\{4F8D641A-2245-7E6A-1454-489F584690AB}.wem		\Containers\Default Work Unit\GFootsteps\FootstepsOnGrass2		246508
-	779731089	Level-1-Moon	.cache\50\{50E28706-6977-5A01-28A2-2C52802CB535}.wem		\Containers\Default Work Unit\Level-1-Moon		27069128
-	1000089471	SunDamagedWithEcho-1	.cache\42\{42106BC0-6776-67D7-F681-67A302BD005D}.wem		\Containers\Default Work Unit\SunDamagedWithEcho-1		352900
+	125192489	FloralAmbience1	.cache\F6\{F6CC7C7E-55D0-F212-A635-ED1BD6DAA010}.wem		\Containers\Default Work Unit\FloralAmbience1		2307336
+	255574596	BatAttack-2	.cache\1E\{1E91129E-5684-A1EC-AAF6-15D924B0C873}.wem		\Containers\Default Work Unit\BatAttack-2		162652
+	265268529	FootstepsOnStone1	.cache\BC\{BC9EFE7F-81FF-FD0C-9ACD-C746A33E0449}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone1		55424
+	281847246	SunDamaged-1	.cache\F3\{F3E801C9-DEF1-612D-1EF8-D459EBA87DD4}.wem		\Containers\Default Work Unit\SunDamaged-1		137228
+	327021272	FootstepsOnStone2	.cache\91\{91EEFAA9-7370-7681-60FE-882F6A07FB06}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone2		144644
+	345978686	MoonDamaged-1	.cache\0D\{0D16D5E9-E7CF-520E-7496-AC65E29DC166}.wem		\Containers\Default Work Unit\MoonDamaged-1		98164
+	497125793	CaveAmbience1	.cache\D1\{D1C879E6-EE5B-683E-F531-3CD77BD9C9AC}.wem		\Containers\Default Work Unit\CaveAmbience1		2034088
+	513277040	BatDamaged	.cache\B6\{B6322EEA-6E0C-E294-BFAE-F92C445070A4}.wem		\Containers\Default Work Unit\BatDamaged		56252
+	538011636	BatKilled	.cache\0B\{0B903DAB-8973-7E5C-CC63-62A8B66624D0}.wem		\Containers\Default Work Unit\BatKilled		149032
+	540537894	FootstepsOnGrass1	.cache\4A\{4A3181B1-16A4-BD2B-A414-B619E783AEA3}.wem		\Containers\Default Work Unit\GFootsteps\FootstepsOnGrass1		74332
+	686907197	Level-1-Sun	.cache\3B\{3B0439E1-7BE5-148E-AE21-2D2BE348B68C}.wem		\Containers\Default Work Unit\Level-1-Sun		27114372
+	704320324	FootstepsOnGrass3	.cache\26\{26136FE9-B48A-9F47-6D6D-CFAA3F401348}.wem		\Containers\Default Work Unit\GFootsteps\FootstepsOnGrass3		83412
+	746925879	FootstepsOnStone3	.cache\89\{89C69DC8-9429-EC21-3CB5-87512363746B}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone3		116260
+	778461505	FootstepsOnGrass2	.cache\1D\{1DF70DE2-FED8-AA01-D31C-474911306E74}.wem		\Containers\Default Work Unit\GFootsteps\FootstepsOnGrass2		77116
+	779731089	Level-1-Moon	.cache\54\{54D40746-F6DB-D6F8-962C-DBBAFABC5264}.wem		\Containers\Default Work Unit\Level-1-Moon		27069128
+	1000089471	SunDamagedWithEcho-1	.cache\E0\{E0EE8545-9E81-86A0-89DA-A87D19DBCDE2}.wem		\Containers\Default Work Unit\SunDamagedWithEcho-1		209256
 

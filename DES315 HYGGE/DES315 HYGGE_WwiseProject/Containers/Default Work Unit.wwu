@@ -31,6 +31,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="FootstepsOnStone1" ID="{BAC09004-594D-4A34-98A2-9D39663FCFC2}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.313647097961119"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>FootstepsOnStone1.wav</AudioFile>
 									<MediaIDList>
@@ -43,6 +48,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="FootstepsOnStone2" ID="{B539DC10-7EE9-42B4-9E6E-C7ED9167A042}" ShortID="620481448">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -53,6 +65,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="FootstepsOnStone2" ID="{A5102C17-D0CE-44F8-89D3-8E9B1DFAA57F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.819442326528257"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>FootstepsOnStone2.wav</AudioFile>
 									<MediaIDList>
@@ -75,6 +91,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="FootstepsOnStone3" ID="{EE81E1FD-F5EC-4DD5-BCD6-C50D8A10ED36}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.658518238357061"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>FootstepsOnStone3.wav</AudioFile>
 									<MediaIDList>
@@ -121,6 +141,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="FootstepsOnGrass1" ID="{9F9E48FE-45E0-46C9-9B6A-3D379AB32637}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.420843947667341"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>FootstepsOnGrass1.wav</AudioFile>
 									<MediaIDList>
@@ -143,6 +167,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="FootstepsOnGrass2" ID="{D1AF5E34-8DD1-4194-B51A-D05618A0C33C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.43662992263469"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>FootstepsOnGrass2.wav</AudioFile>
 									<MediaIDList>
@@ -165,6 +193,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="FootstepsOnGrass3" ID="{7C809099-5461-430D-A4B3-C32D73C28514}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.472318339100346"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>FootstepsOnGrass3.wav</AudioFile>
 									<MediaIDList>
@@ -189,6 +221,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="SunDamaged-1" ID="{0ECEB77E-EE16-4380-885A-9268F3C7DAA2}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.77740214012513"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>SunDamaged-1.wav</AudioFile>
 							<MediaIDList>
@@ -201,6 +237,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SunDamagedWithEcho-1" ID="{0C63F6C2-2513-421D-9294-4403A530465A}" ShortID="9558892">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -211,6 +254,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="SunDamagedWithEcho-1" ID="{D2D2DA38-F63C-4E7B-BE79-78A9EEB58C56}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.1857112623955"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>SunDamagedWithEcho-1.wav</AudioFile>
 							<MediaIDList>
@@ -233,6 +280,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="MoonDamaged-1" ID="{9DC05294-5479-40DE-9F8E-0281FAFFA55A}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.55594002306805"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>MoonDamaged-1.wav</AudioFile>
 							<MediaIDList>
@@ -262,6 +313,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="BatAttack-2" ID="{3B606C3E-9E2F-4765-80C1-0EDC0E4809F1}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.92152630825417"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>BatAttack-2.wav</AudioFile>
 							<MediaIDList>
@@ -284,6 +339,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="BatDamaged" ID="{444A24E1-C403-4DDF-AB12-6BA60A41B496}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.230680507497116"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.549019607843138"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>BatDamaged.wav</AudioFile>
 							<MediaIDList>
@@ -306,6 +366,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="BatKilled" ID="{1A49C2CB-4E16-4A5B-8E7A-A698BDCB3520}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.244521337946943"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.08881199538639"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>BatKilled.wav</AudioFile>
 							<MediaIDList>
@@ -341,6 +406,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="ShieldEnemyAttack-MetalInCave" ID="{CB173950-44AF-45E2-BF94-C3F4AB229A1D}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.55132641291811"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>ShieldEnemyAttack-MetalInCave.wav</AudioFile>
 									<MediaIDList>
@@ -363,6 +432,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="ShieldEnemyAttack-Wooden" ID="{901AC162-5B66-438E-8000-31CF3DB52E7A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.144175317185698"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.08131487889273"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>ShieldEnemyAttack-Wooden.wav</AudioFile>
 									<MediaIDList>
@@ -400,6 +474,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="CaveAmbience1" ID="{C71EBCD4-5A72-4B9D-97EA-5A2CBB11D59C}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="11.5305651672434"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>CaveAmbience1.wav</AudioFile>
 							<MediaIDList>
@@ -425,6 +503,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="FloralAmbience1" ID="{90FBCACA-D2F4-4967-BE46-F7CCB756596E}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="13.0795847750865"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>FloralAmbience1.wav</AudioFile>
 							<MediaIDList>
