@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private GroundDetector groundDetector;
     private KnockbackReceiver knockback;
+    private Animator m_animator;
 
     [Header("Gravity")]
     [SerializeField] private float gravity = -30f;
@@ -65,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         groundDetector = GetComponent<GroundDetector>();
         knockback = GetComponent<KnockbackReceiver>();
+        m_animator = GetComponent<Animator>();
 
         originalGravity = rb.gravityScale;
         jumpForce = Mathf.Sqrt(jumpHeight * -2f * gravity);
@@ -263,10 +265,16 @@ public class PlayerMovement : MonoBehaviour
         if (moveInput.x > 0.05f)
         {
             transform.localScale = new Vector3(.5f, .5f, 1);
+            m_Animator.SetBool("Moving", true);
         }
         else if (moveInput.x < -0.05f)
         {
             transform.localScale = new Vector3(-.5f, .5f, 1);
+            m_Animator.SetBool("Moving", true);
+        }
+        else if ((moveInput.x == 0)
+        {
+            m_Animator.SetBool("Moving", false);
         }
 
         //DASH COOLDOWN
