@@ -272,7 +272,7 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-.5f, .5f, 1);
             m_Animator.SetBool("Moving", true);
         }
-        else if ((moveInput.x == 0)
+        else if (moveInput.x == 0)
         {
             m_Animator.SetBool("Moving", false);
         }
