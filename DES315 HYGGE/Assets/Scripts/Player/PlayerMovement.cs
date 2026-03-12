@@ -265,16 +265,16 @@ public class PlayerMovement : MonoBehaviour
         if (moveInput.x > 0.05f)
         {
             transform.localScale = new Vector3(.5f, .5f, 1);
-            m_Animator.SetBool("Moving", true);
+            m_animator.SetBool("Moving", true);
         }
         else if (moveInput.x < -0.05f)
         {
             transform.localScale = new Vector3(-.5f, .5f, 1);
-            m_Animator.SetBool("Moving", true);
+            m_animator.SetBool("Moving", true);
         }
         else if (moveInput.x == 0)
         {
-            m_Animator.SetBool("Moving", false);
+            m_animator.SetBool("Moving", false);
         }
 
         //DASH COOLDOWN
