@@ -10,14 +10,15 @@ public class Interactable : MonoBehaviour
     public InputActionAsset InputActions;
     private InputAction interactAction;
 
-    private SpriteRenderer sprite;
+    [SerializeField] private Sprite[] sprites;
+    private SpriteRenderer spriteR;
     private bool playerInRange;
     private bool isInteracting;
     private CharacterUI currUI;
 
     private void Awake()
     {
-        sprite = GetComponent<SpriteRenderer>();
+        spriteR = GetComponent<SpriteRenderer>();
         interactAction = InputActions.FindActionMap("Player").FindAction("Interact");
     }
 
@@ -44,6 +45,7 @@ public class Interactable : MonoBehaviour
 
             currUI.pressEUI.SetActive(true);
             SetOutline(true);
+            spriteR.sprite = sprites[1];
         }
     }
 
@@ -58,6 +60,7 @@ public class Interactable : MonoBehaviour
             currUI.pressEUI.SetActive(false);
             currUI.dialogueUI.SetActive(false);
             SetOutline(false);
+            spriteR.sprite = sprites[0];
         }
     }
 
