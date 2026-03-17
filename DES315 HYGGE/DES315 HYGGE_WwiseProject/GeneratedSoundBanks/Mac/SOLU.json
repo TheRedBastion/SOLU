@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8347E92C-8AC0-4678-A174-309ADDA96D38}",
     "Language": "SFX",
-    "Hash": "{7E40CCAF-4537-CF64-33B7-C4B1D631F842}",
+    "Hash": "{A96F07BB-E530-2F9A-A9AC-4DA32F479D3A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SOLU",
     "ShortName": "SOLU",
     "Path": "SOLU.bnk",
@@ -201,6 +201,7 @@
       "Name": "CavesAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\CavesAmbience",
       "GUID": "{2972C3C2-C432-4C99-8958-2B8300F9BADD}",
+      "MaxAttenuation": "25",
       "DurationType": "OneShot",
       "DurationMin": "13",
       "DurationMax": "13",
@@ -215,6 +216,7 @@
       "Name": "FloralAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\FloralAmbience",
       "GUID": "{085609C8-0167-492A-9884-E3786A0137D2}",
+      "MaxAttenuation": "25",
       "DurationType": "OneShot",
       "DurationMin": "14",
       "DurationMax": "14",
@@ -263,6 +265,7 @@
       "Name": "MoonMusic1",
       "ObjectPath": "\\Events\\Default Work Unit\\MoonMusic1",
       "GUID": "{3DAE1915-4E41-4369-88B7-E39E9F934AD6}",
+      "MaxAttenuation": "25",
       "DurationType": "OneShot",
       "DurationMin": "156.599",
       "DurationMax": "156.599",
@@ -325,6 +328,7 @@
       "Name": "SunMusic1",
       "ObjectPath": "\\Events\\Default Work Unit\\SunMusic1",
       "GUID": "{2C1BB2F8-B689-40CC-B752-6965D2E52F8D}",
+      "MaxAttenuation": "25",
       "DurationType": "OneShot",
       "DurationMin": "156.599",
       "DurationMax": "156.599",
@@ -346,6 +350,6 @@
     ]
    }
   ],
-  "FileHash": "{FD4A5877-1C2A-6EE4-127C-9C2DA1C68A1B}"
+  "FileHash": "{C32BB72A-6FDD-27CC-F968-B12F6E9E8ADF}"
  }
 }

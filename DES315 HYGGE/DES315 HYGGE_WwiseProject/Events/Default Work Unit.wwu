@@ -107,7 +107,7 @@
 						<Action Name="" ID="{97247846-D50B-49E8-92C0-6D2CE8BD2C05}" ShortID="991540683">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Level-1-Moon" ID="{44EAE38F-51C4-4BBE-96D8-2922871888CB}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+									<ObjectRef Name="Music-1-Moon" ID="{44EAE38F-51C4-4BBE-96D8-2922871888CB}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -118,7 +118,7 @@
 						<Action Name="" ID="{2E4AF310-D751-4E9D-A4AF-A461FD86D30B}" ShortID="693390288">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Level-1-Sun" ID="{8C8C6C35-84D6-400B-8DA9-97231B0422BB}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+									<ObjectRef Name="Music-1-Sun" ID="{8C8C6C35-84D6-400B-8DA9-97231B0422BB}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

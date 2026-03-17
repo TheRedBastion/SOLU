@@ -361,7 +361,13 @@
 					</GroupingInfo>
 				</SwitchContainer>
 				<Sound Name="CaveAmbience1" ID="{554DF6AE-3769-49BD-9DA5-C77F4CF8A5C2}" ShortID="229224126">
+					<PropertyList>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Sun Music and Ambience Attenuation" ID="{6FAF3799-1227-4BC8-B589-C6F0C1ADD185}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
@@ -383,7 +389,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="FloralAmbience1" ID="{2A153EE8-222A-4562-A4AB-E8F50715F5AB}" ShortID="933874273">
+					<PropertyList>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Moon Music and Ambience Atenuation" ID="{E9E96006-DDEC-484C-98C0-677045300559}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
@@ -404,8 +416,14 @@
 						<ActiveSource Name="FloralAmbience1" ID="{90FBCACA-D2F4-4967-BE46-F7CCB756596E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Level-1-Moon" ID="{44EAE38F-51C4-4BBE-96D8-2922871888CB}" ShortID="613388150">
+				<Sound Name="Music-1-Moon" ID="{44EAE38F-51C4-4BBE-96D8-2922871888CB}" ShortID="613388150">
+					<PropertyList>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Moon Music and Ambience Atenuation" ID="{E9E96006-DDEC-484C-98C0-677045300559}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
@@ -414,7 +432,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Level-1-Moon" ID="{FAD35ED5-92D4-4E95-9E57-2E1BE587F4E6}">
+						<AudioFileSource Name="Music-1-Moon" ID="{FAD35ED5-92D4-4E95-9E57-2E1BE587F4E6}">
 							<Language>SFX</Language>
 							<AudioFile>Level-1-Moon.wav</AudioFile>
 							<MediaIDList>
@@ -423,11 +441,17 @@
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Level-1-Moon" ID="{FAD35ED5-92D4-4E95-9E57-2E1BE587F4E6}" Platform="Linked"/>
+						<ActiveSource Name="Music-1-Moon" ID="{FAD35ED5-92D4-4E95-9E57-2E1BE587F4E6}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Level-1-Sun" ID="{8C8C6C35-84D6-400B-8DA9-97231B0422BB}" ShortID="39756429">
+				<Sound Name="Music-1-Sun" ID="{8C8C6C35-84D6-400B-8DA9-97231B0422BB}" ShortID="39756429">
+					<PropertyList>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Sun Music and Ambience Attenuation" ID="{6FAF3799-1227-4BC8-B589-C6F0C1ADD185}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
@@ -436,7 +460,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Level-1-Sun" ID="{011E2ED0-C526-4415-B569-53C34D59CC76}">
+						<AudioFileSource Name="Music-1-Sun" ID="{011E2ED0-C526-4415-B569-53C34D59CC76}">
 							<Language>SFX</Language>
 							<AudioFile>Level-1-Sun.wav</AudioFile>
 							<MediaIDList>
@@ -445,7 +469,7 @@
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Level-1-Sun" ID="{011E2ED0-C526-4415-B569-53C34D59CC76}" Platform="Linked"/>
+						<ActiveSource Name="Music-1-Sun" ID="{011E2ED0-C526-4415-B569-53C34D59CC76}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

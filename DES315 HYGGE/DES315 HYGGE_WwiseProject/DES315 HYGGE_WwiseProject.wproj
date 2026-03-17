@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="133" WwiseVersion="v2025.1.3" WwiseBuild="9039">
+<WwiseDocument Type="Project" SchemaVersion="133" WwiseVersion="v2025.1.5" WwiseBuild="9095">
 	<ProjectInfo>
 		<Project Name="DES315 HYGGE_WwiseProject" ID="{61FE96A4-0DB7-449D-929F-BAC6BA3D8132}">
 			<Platforms>
@@ -11871,6 +11871,16 @@
 								<Value>False</Value>
 							</ValueList>
 						</Property>
+						<Property Name="EnableHPF" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="EnableLPF" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="HPF" Type="int16">
 							<ValueList>
 								<Value>20</Value>
@@ -11891,7 +11901,7 @@
 								<Value>False</Value>
 							</ValueList>
 						</Property>
-						<Property Name="SidechainScope" Type="int32">
+						<Property Name="SidechainScope" Type="int16">
 							<ValueList>
 								<Value>0</Value>
 							</ValueList>
@@ -11910,6 +11920,16 @@
 								<Value>0</Value>
 							</ValueList>
 						</Property>
+						<Property Name="EnableHPF" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="EnableLPF" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="HPF" Type="int16">
 							<ValueList>
 								<Value>0</Value>
@@ -11930,7 +11950,7 @@
 								<Value>False</Value>
 							</ValueList>
 						</Property>
-						<Property Name="SidechainScope" Type="int32">
+						<Property Name="SidechainScope" Type="int16">
 							<ValueList>
 								<Value>0</Value>
 							</ValueList>
@@ -12640,7 +12660,7 @@
 					<WorkUnit Name="Virtual Acoustics" ID="{32CD8547-A946-4547-BBB1-69F44E796139}" PersistMode="Standalone" />
 				</PhysicalFolder>
 			</PhysicalFolderList>
-			<EnvironmentalCurves Name="Physically_Based" ID="{7AF96D5E-B0A7-4524-B96B-04F53DEAEC94}" />
+			<EnvironmentalCurves Name="Basic" ID="{7AF96D5E-B0A7-4524-B96B-04F53DEAEC94}" />
 		</Project>
 	</ProjectInfo>
 </WwiseDocument>
