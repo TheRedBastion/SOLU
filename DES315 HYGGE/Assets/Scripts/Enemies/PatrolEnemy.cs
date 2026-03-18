@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class PatrolEnemy : BaseEnemy
 {
+    [Header("Enemy Vars")]
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float groundCheckDistance = 5f;
-    public PatrolPath patrolPath;
+    [SerializeField] private PatrolPath patrolPath;
 
-    public float moveSpeed = 2f;
+    [SerializeField] private float moveSpeed = 2f;
 
     private bool movingRight = false;
 
@@ -47,7 +48,7 @@ public class PatrolEnemy : BaseEnemy
 
     void Patrol()
     {
-        if (knockback != null && knockback.IsKnockedBack) return;
+        if (knockback != null && (knockback.IsKnockedBack || knockback.IsStunned)) return;
 
         if (patrolPath == null) return;
 

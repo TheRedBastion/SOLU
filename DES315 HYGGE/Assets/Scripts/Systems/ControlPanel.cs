@@ -8,11 +8,16 @@ public class ControlPanel : MonoBehaviour
     public bool audioEnabled = true;
     public string masterVolumeRTPC = "Master_Volume_Control";
 
+    [Header("Gameplay Settings")]
+    public bool doorsEnabled = true;
+    public GameObject doors;
+
     private void OnValidate()
     {
         if (!Application.isPlaying) return;
 
         ApplyAudioState();
+        ApplyDoors();
     }
 
     private void Awake()
@@ -30,6 +35,7 @@ public class ControlPanel : MonoBehaviour
         }
 
         ApplyAudioState();
+        ApplyDoors();
     }
 
     public void SetAudioEnabled(bool enabled)
@@ -44,5 +50,13 @@ public class ControlPanel : MonoBehaviour
         AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, volume);
 
         AudioListener.pause = !audioEnabled;
+    }
+
+    private void ApplyDoors()
+    {
+        if (doors != null)
+        {
+            doors.SetActive(doorsEnabled);
+        }
     }
 }

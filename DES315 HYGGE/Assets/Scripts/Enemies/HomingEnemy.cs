@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class HomingEnemy : BaseEnemy
 {
-    public float speed = 2f;
-    public float detectionRange = 5f;
+    [Header("Enemy Vars")]
+    [SerializeField] private float speed = 2f;
+    [SerializeField] private float detectionRange = 5f;
 
     protected override void Update()
     {
         base.Update();
 
-        if (knockback != null && knockback.IsKnockedBack) return;
+        if (knockback != null && (knockback.IsKnockedBack || knockback.IsStunned)) return;
         if (player == null) return;
 
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);

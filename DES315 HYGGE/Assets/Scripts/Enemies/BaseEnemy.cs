@@ -3,10 +3,15 @@ using UnityEngine;
 
 public abstract class BaseEnemy : MonoBehaviour
 {
-    [SerializeField] protected int contactDamage = 10;
-    [SerializeField] protected float attackKnockbackDuration = 0.2f;
-    [SerializeField] protected float attackKnockbackForce = 5f;
+    [Header("Damage")]
+    [SerializeField] private int contactDamage = 10;
+    [SerializeField] private float attackKnockbackDuration = 0.2f;
+    [SerializeField] private float attackKnockbackForce = 5f;
+    [SerializeField] private float stunDuration = 0f;
     [SerializeField] private float damageRate = 0.2f;
+
+    [Header("Hit")]
+    [SerializeField] private float flashDuration = 0.1f;
 
     protected Transform player;
     protected Rigidbody2D rb;
@@ -20,6 +25,9 @@ public abstract class BaseEnemy : MonoBehaviour
     protected float knockbackDuration = 0.2f;
 
     private float damageTimer = 0f;
+    private SpriteRenderer sr;
+    private Color originalColor;
+    private float flashTimer = 0f;
 
     protected virtual void Awake()
     {
@@ -27,6 +35,10 @@ public abstract class BaseEnemy : MonoBehaviour
         health = GetComponent<Health>();
         characterSwap = GetComponentInParent<CharacterSwap>();
         knockback = GetComponent<KnockbackReceiver>();
+
+        sr = GetComponent<SpriteRenderer>();
+        if (sr != null)
+            originalColor = sr.color;
     }
 
     protected virtual void OnEnable()
@@ -55,9 +67,21 @@ public abstract class BaseEnemy : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update()
     {
+        if (sr == null) return;
+
         if (characterSwap != null && characterSwap.swappedThisFrame)
         {
             player = characterSwap.character;
+        }
+
+        if (flashTimer > 0f)
+        {
+            flashTimer -= Time.deltaTime;
+            sr.color = new Color(1f, 1f, 1f, 0.5f);
+        }
+        else if (sr.color != originalColor)
+        {
+            sr.color = originalColor;
         }
     }
 
@@ -116,20 +140,9 @@ public abstract class BaseEnemy : MonoBehaviour
 
     protected virtual void HandleDamage(int damage, KnockbackData data)
     {
-        StartCoroutine(Flash());
+        flashTimer = flashDuration;
 
         knockback?.ApplyKnockback(data);
-    }
-
-    protected virtual IEnumerator Flash()
-    {
-        SpriteRenderer sr = GetComponent<SpriteRenderer>();
-        if (sr == null) yield break;
-
-        Color original = sr.color;
-        sr.color = new Color(1f, 1f, 1f, 0.5f);
-        yield return new WaitForSeconds(0.1f);
-        sr.color = original;
     }
 
 }

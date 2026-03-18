@@ -3,24 +3,48 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
+    [Header("Attack Info")]
     [SerializeField] private GameObject attackPoint;
     [SerializeField] private float radius = 1f;
     [SerializeField] private LayerMask enemies;
     [SerializeField] private Vector2 attackOffset = new Vector2(1.3f, -0.3f);
+    public int attackDamage = 10;
 
+    [Header("Attack KB Info")]
     [SerializeField] private float attackKnockbackDuration = 0.2f;
     [SerializeField] private float attackKnockbackForce = 5f;
+    [SerializeField] private float stunDuration = 0f;
 
+    [Header("Moon Projectile")]
     [SerializeField] private GameObject moonProjectilePrefab;
     [SerializeField] private Transform projectileSpawnPoint;
+    [SerializeField] private float moonProjCooldown = 3f;
+    private float moonProjTimer = 0f;
 
-    public int attackDamage = 10;
+    [Header("Sun AOE")]
+    [SerializeField] private GameObject sunAOEPrefab;
+    [SerializeField] private float sunAOECooldown = 3f;
+    private float sunAOETimer = 0f;
 
     private Player player;
 
     private void Awake()
     {
         player = GetComponentInParent<Player>();
+    }
+
+    private void Update()
+    {
+        if (player.character == 0)
+        {
+            if(moonProjTimer > 0f)
+                moonProjTimer -= Time.deltaTime;
+        }
+        else
+        {
+            if (sunAOETimer > 0f)
+                sunAOETimer -= Time.deltaTime;
+        }
     }
 
     public void Attack()
@@ -58,9 +82,11 @@ public class PlayerCombat : MonoBehaviour
 
     public void SpecialAttack1()
     {
+        Transform active = player.GetActiveCharacterTransform();
+
         if (player.character == 0)
         {
-            Transform active = player.GetActiveCharacterTransform();
+            if (moonProjTimer > 0f) return;
 
             float dir = Mathf.Sign(active.localScale.x);
 
@@ -81,10 +107,16 @@ public class PlayerCombat : MonoBehaviour
             {
                 mp.SetDirection(dir);
             }
+
+            moonProjTimer = moonProjCooldown;
         }
         else
         {
-            //sun
+            if (sunAOETimer > 0f) return;
+
+            Instantiate(sunAOEPrefab, active.position, Quaternion.identity);
+
+            sunAOETimer = sunAOECooldown;
         }
     }
 
