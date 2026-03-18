@@ -9,13 +9,15 @@ public struct KnockbackData
     public float knockbackForce;
     public float duration;
     public bool noKnockback;
+    public float stunDuration;
 
-    public KnockbackData(Vector2 direction, float knockbackForce, float duration, bool noKnockback = false)
+    public KnockbackData(Vector2 direction, float knockbackForce, float duration, bool noKnockback = false, float stunDuration = 0f)
     {
         this.direction = direction.normalized;
         this.knockbackForce = knockbackForce;
         this.duration = duration;
         this.noKnockback = noKnockback;
+        this.stunDuration = stunDuration <= duration ? duration : stunDuration;
     }
 
 }
@@ -55,6 +57,14 @@ public class Health : MonoBehaviour
     {
         if (isInvincible) return;
 
+        Player player = GetComponentInParent<Player>();
+
+        if (player != null)
+        {
+            if (player.isGodmode)
+                return;
+        }
+
         CurrentHealth -= damage;
         CurrentHealth = Mathf.Clamp(CurrentHealth, 0, maxHealth);
 
@@ -68,7 +78,7 @@ public class Health : MonoBehaviour
             return;
         }
 
-        if (invincibilityDuration > 0f)
+        if (invincibilityDuration > 0f || !isInvincible)
         {
             StartCoroutine(InvincibilityCoroutine());
         }
@@ -101,13 +111,11 @@ public class Health : MonoBehaviour
 
         while (timer < invincibilityDuration)
         {
-            spriteRenderer.color = brightHalfColor;
-            yield return new WaitForSeconds(blinkInterval);
+            float t = Mathf.PingPong(timer / blinkInterval, 1f);
+            spriteRenderer.color = Color.Lerp(brightColor * blinkAlpha, brightColor, t);
 
-            spriteRenderer.color = brightColor;
-            yield return new WaitForSeconds(blinkInterval);
-
-            timer += blinkInterval * 2f;
+            timer += Time.deltaTime;
+            yield return null;
         }
 
         //original color

@@ -132,7 +132,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (knockback != null && knockback.IsKnockedBack)
+        if (knockback != null && (knockback.IsKnockedBack || knockback.IsStunned))
         {
             isDashing = false;
             return;
