@@ -6,10 +6,13 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private GameObject attackPoint;
     [SerializeField] private float radius = 1f;
     [SerializeField] private LayerMask enemies;
-    [SerializeField] private Vector2 attackOffset = new Vector2(1f, 1f);
+    [SerializeField] private Vector2 attackOffset = new Vector2(1.3f, -0.3f);
 
     [SerializeField] private float attackKnockbackDuration = 0.2f;
     [SerializeField] private float attackKnockbackForce = 5f;
+
+    [SerializeField] private GameObject moonProjectilePrefab;
+    [SerializeField] private Transform projectileSpawnPoint;
 
     public int attackDamage = 10;
 
@@ -17,7 +20,7 @@ public class PlayerCombat : MonoBehaviour
 
     private void Awake()
     {
-        player = GetComponent<Player>();
+        player = GetComponentInParent<Player>();
     }
 
     public void Attack()
@@ -44,11 +47,44 @@ public class PlayerCombat : MonoBehaviour
                 KnockbackData kb = new KnockbackData(
                     hitDirection,
                     attackKnockbackForce,
-                    attackKnockbackDuration
+                    attackKnockbackDuration,
+                    false
                 );
 
                 health.TakeDamage(attackDamage, kb);
             }
+        }
+    }
+
+    public void SpecialAttack1()
+    {
+        if (player.character == 0)
+        {
+            Transform active = player.GetActiveCharacterTransform();
+
+            float dir = Mathf.Sign(active.localScale.x);
+
+            Vector3 spawnPos = projectileSpawnPoint != null
+                ? projectileSpawnPoint.position
+                : active.position;
+
+            GameObject proj = Instantiate(
+                moonProjectilePrefab,
+                spawnPos,
+                Quaternion.identity
+            );
+
+            proj.transform.localScale = new Vector3(dir, 1, 1);
+
+            MoonProjectile mp = proj.GetComponent<MoonProjectile>();
+            if (mp != null)
+            {
+                mp.SetDirection(dir);
+            }
+        }
+        else
+        {
+            //sun
         }
     }
 

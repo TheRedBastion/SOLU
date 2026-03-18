@@ -53,6 +53,7 @@ public class Player : MonoBehaviour
     //combat
     private PlayerCombat combat;
     private InputAction attackAction;
+    private InputAction specialAttack1Action;
 
     private KnockbackReceiver knockback;
     //health
@@ -67,7 +68,6 @@ public class Player : MonoBehaviour
     {
         RefreshInput();
         SetActiveCharacter(character);
-        combat = GetComponent<PlayerCombat>();
     }
 
     private void OnEnable()
@@ -89,7 +89,7 @@ public class Player : MonoBehaviour
         attackAction = playerMap.FindAction("Attack");
         sprintAction = playerMap.FindAction("Sprint");
         dashAction = playerMap.FindAction("Dash");
-
+        specialAttack1Action = playerMap.FindAction("SpecialAttack1");
     }
 
     public void SetActiveCharacter(int newCharacter)
@@ -109,6 +109,7 @@ public class Player : MonoBehaviour
         currentHealth = activeObject.GetComponent<Health>();
         knockback = activeObject.GetComponent<KnockbackReceiver>();
         stamina = activeObject.GetComponent<Stamina>();
+        combat = activeObject.GetComponent<PlayerCombat>();
 
         movement.Init(currentStats.moveSpeed);
 
@@ -138,8 +139,10 @@ public class Player : MonoBehaviour
 
         if (attackAction.WasPressedThisFrame())
             combat.Attack();
+        if (specialAttack1Action.WasPressedThisFrame())
+            combat.SpecialAttack1();
 
-        if(dashAction.WasPressedThisFrame())
+        if (dashAction.WasPressedThisFrame())
             movement.DashPressed();
 
         HandleSprint();
