@@ -6,6 +6,14 @@ public class ControlPanel : MonoBehaviour
 
     [Header("Audio Settings")]
     public bool audioEnabled = true;
+    public string masterVolumeRTPC = "Master_Volume_Control";
+
+    private void OnValidate()
+    {
+        if (!Application.isPlaying) return;
+
+        ApplyAudioState();
+    }
 
     private void Awake()
     {
@@ -24,12 +32,6 @@ public class ControlPanel : MonoBehaviour
         ApplyAudioState();
     }
 
-    private void Update()
-    {
-        //apply audio state continuously in case it changes at runtime
-        ApplyAudioState();
-    }
-
     public void SetAudioEnabled(bool enabled)
     {
         audioEnabled = enabled;
@@ -38,6 +40,9 @@ public class ControlPanel : MonoBehaviour
 
     private void ApplyAudioState()
     {
+        float volume = audioEnabled ? 100f : 0f;
+        AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, volume);
+
         AudioListener.pause = !audioEnabled;
     }
 }
