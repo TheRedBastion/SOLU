@@ -42,5 +42,29 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 8226389
+    locked: 0
+  - name: Interactables
+    uniqueID: 1871502577
+    locked: 0
+  - name: Hazards
+    uniqueID: 2105752525
+    locked: 0
+  - name: Ground
+    uniqueID: 1430551217
+    locked: 0
+  - name: Enemies
+    uniqueID: 2654362749
+    locked: 0
+  - name: Player
+    uniqueID: 3364222305
+    locked: 0
+  - name: Foreground
+    uniqueID: 3348041163
+    locked: 0
+  - name: UI
+    uniqueID: 2576089507
+    locked: 0
   m_RenderingLayers:
   - Default

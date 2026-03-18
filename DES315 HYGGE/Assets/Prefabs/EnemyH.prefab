@@ -165,8 +165,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1640604547
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
@@ -221,7 +221,9 @@ MonoBehaviour:
   contactDamage: 1
   attackKnockbackDuration: 0.2
   attackKnockbackForce: 10
+  stunDuration: 0
   damageRate: 0.2
+  flashDuration: 0.1
   speed: 3.5
   detectionRange: 14
 --- !u!60 &4255928586273883775
@@ -288,6 +290,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 30
   invincibilityDuration: 0
+  blinkInterval: 0.1
+  blinkAlpha: 0.5
+  brightnessMultiplier: 1.5
   OnDamageTaken:
     m_PersistentCalls:
       m_Calls: []
