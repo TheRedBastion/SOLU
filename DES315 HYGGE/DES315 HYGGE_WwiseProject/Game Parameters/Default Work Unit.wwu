@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}"/>
+				<GameParameter Name="Music_Volume_Control" ID="{7459ACAF-8518-4341-B044-3D82EFA291CE}"/>
+				<GameParameter Name="Sound_Effects_Volume_Control" ID="{2299838D-A9B3-4353-96CC-9F46E95FD33B}"/>
+				<GameParameter Name="Ambience_Volume_Control" ID="{8AE39C9B-BE03-4C00-BA88-CFCCA993CCAB}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

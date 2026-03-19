@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{95DF42CC-456E-48D2-0FB1-1ECC7189D9A2}",
+    "Hash": "{16A3DF5F-0160-F16C-96BA-FE6A8D4E0564}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,13 +36,49 @@
     },
     "Busses": [
      {
+      "Id": "85412153",
+      "Name": "Ambience",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Ambience",
+      "GUID": "{6D658D32-B3EC-4C78-93D3-6BF2B8B290F7}"
+     },
+     {
+      "Id": "978636652",
+      "Name": "Sound Effects",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Sound Effects",
+      "GUID": "{C4FC5072-FA27-441B-B67A-45A6C118EC18}"
+     },
+     {
       "Id": "2246998526",
       "Name": "Main Audio Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Music",
+      "GUID": "{C253C558-A1B1-44DF-9F4B-1E9E26439B30}"
      }
     ],
     "GameParameters": [
+     {
+      "Id": "37298357",
+      "Name": "Music_Volume_Control",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Volume_Control",
+      "GUID": "{7459ACAF-8518-4341-B044-3D82EFA291CE}"
+     },
+     {
+      "Id": "421945036",
+      "Name": "Ambience_Volume_Control",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambience_Volume_Control",
+      "GUID": "{8AE39C9B-BE03-4C00-BA88-CFCCA993CCAB}"
+     },
+     {
+      "Id": "1045451248",
+      "Name": "Sound_Effects_Volume_Control",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Sound_Effects_Volume_Control",
+      "GUID": "{2299838D-A9B3-4353-96CC-9F46E95FD33B}"
+     },
      {
       "Id": "2232728930",
       "Name": "Master_Volume_Control",
@@ -61,6 +97,6 @@
     ]
    }
   ],
-  "FileHash": "{6FF2B116-F916-0C85-E32A-F016E8625B10}"
+  "FileHash": "{2C0F2344-9A3C-D981-E004-E5B0B93E7714}"
  }
 }

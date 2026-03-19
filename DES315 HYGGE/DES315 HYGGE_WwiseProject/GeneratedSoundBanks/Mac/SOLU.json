@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8347E92C-8AC0-4678-A174-309ADDA96D38}",
     "Language": "SFX",
-    "Hash": "{A96F07BB-E530-2F9A-A9AC-4DA32F479D3A}",
+    "Hash": "{98CDD648-D22F-971B-B102-E8094B96F3DB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SOLU",
     "ShortName": "SOLU",
     "Path": "SOLU.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FloralAmbience1.wav",
-      "CachePath": "12/{1226B298-4899-A5D0-F4A9-0BC035562D0A}.wem"
+      "CachePath": "D9/{D9456F8B-28C3-F00D-A618-B3347A8A48E6}.wem"
      },
      {
       "Id": "255574596",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "BatAttack-2.wav",
-      "CachePath": "BC/{BC3E0004-14FB-DA9F-9625-683FAE214CAE}.wem"
+      "CachePath": "C7/{C73FA2F4-D8B3-A2B7-3E3B-56EC1291325C}.wem"
      },
      {
       "Id": "265268529",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FootstepsOnStone1.wav",
-      "CachePath": "23/{23CEBF34-5AB5-8916-4EA4-FAE55CA4EFCE}.wem"
+      "CachePath": "0D/{0D1B576F-8ECB-9DA0-C23B-E5FD2237748A}.wem"
      },
      {
       "Id": "281847246",
@@ -45,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SunDamaged-1.wav",
-      "CachePath": "47/{4787E1BC-69BC-9AC3-60E9-D918C8288EF3}.wem"
+      "CachePath": "39/{393EDCCE-6FE5-B60D-2C9C-4846E8799532}.wem"
      },
      {
       "Id": "327021272",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FootstepsOnStone2.wav",
-      "CachePath": "C4/{C4D1891A-348F-C817-A7F5-BFE73A4FAF1B}.wem"
+      "CachePath": "56/{56B18DA6-CE17-5B90-7CA7-10B1053C4AE9}.wem"
      },
      {
       "Id": "345978686",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "MoonDamaged-1.wav",
-      "CachePath": "3F/{3F9467B9-F4EE-C347-B694-D898974501DC}.wem"
+      "CachePath": "CF/{CFF53D31-9A1A-6005-38E6-05A0A247CE2B}.wem"
      },
      {
       "Id": "497125793",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "CaveAmbience1.wav",
-      "CachePath": "B5/{B51B0615-1199-4E3B-1FC4-8AC5AC3A1E47}.wem"
+      "CachePath": "3C/{3C568565-1F61-43F0-E036-2A09F0B8C1F4}.wem"
      },
      {
       "Id": "513277040",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "BatDamaged.wav",
-      "CachePath": "B3/{B33CB801-8FB5-E786-9CFC-AF8A56C351E8}.wem"
+      "CachePath": "D4/{D49E68B7-0F6C-AAC7-0C0F-33991CEE906E}.wem"
      },
      {
       "Id": "538011636",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "BatKilled.wav",
-      "CachePath": "91/{916DE6E2-9C22-90A9-EF24-C3BB0F752075}.wem"
+      "CachePath": "C8/{C86A4DF2-A3D4-064E-B942-EAEA8B6F285C}.wem"
      },
      {
       "Id": "540537894",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FootstepsOnGrass1.wav",
-      "CachePath": "30/{30DDFF9B-47B7-6EE7-2566-04250B66B5A6}.wem"
+      "CachePath": "71/{712EA712-1563-0E5D-D1A3-9C9748097DC3}.wem"
      },
      {
       "Id": "686907197",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Level-1-Sun.wav",
-      "CachePath": "A5/{A56FF462-A347-8137-8B46-4679DCFD7805}.wem"
+      "CachePath": "3B/{3B0439E1-7BE5-148E-AE21-2D2BE348B68C}.wem"
      },
      {
       "Id": "704320324",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FootstepsOnGrass3.wav",
-      "CachePath": "41/{41CA7E35-A409-B677-D337-FF4300FB1820}.wem"
+      "CachePath": "3E/{3ED8E593-3944-D71B-3081-FE82D896A622}.wem"
      },
      {
       "Id": "746925879",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FootstepsOnStone3.wav",
-      "CachePath": "B5/{B540111E-415C-60A6-D60C-A6773A6C6FF8}.wem"
+      "CachePath": "89/{89C69DC8-9429-EC21-3CB5-87512363746B}.wem"
      },
      {
       "Id": "778461505",
@@ -125,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FootstepsOnGrass2.wav",
-      "CachePath": "4F/{4F8D641A-2245-7E6A-1454-489F584690AB}.wem"
+      "CachePath": "CE/{CECE56EE-9CE4-C356-C27B-FD1E26AA237E}.wem"
      },
      {
       "Id": "779731089",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Level-1-Moon.wav",
-      "CachePath": "9F/{9F73479F-4F05-3DE4-3D5A-A144693AD24B}.wem"
+      "CachePath": "54/{54D40746-F6DB-D6F8-962C-DBBAFABC5264}.wem"
      },
      {
       "Id": "1000089471",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SunDamagedWithEcho-1.wav",
-      "CachePath": "42/{42106BC0-6776-67D7-F681-67A302BD005D}.wem"
+      "CachePath": "12/{126B1CF2-82A9-0D70-0E11-92CBF8D382C7}.wem"
      }
     ],
     "Events": [
@@ -160,8 +160,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\BatAttacks",
       "GUID": "{43FAEE7F-BC73-4991-8B41-669096A7372B}",
       "DurationType": "OneShot",
-      "DurationMin": "1.6679819",
-      "DurationMax": "1.6679819",
+      "DurationMin": "0.9215263",
+      "DurationMax": "0.9215263",
       "MediaRefs": [
        {
         "Id": "255574596"
@@ -174,8 +174,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\BatDamaged",
       "GUID": "{D104E6F7-CF5B-49F2-8BC7-9724A66B410A}",
       "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
+      "DurationMin": "0.3183391",
+      "DurationMax": "0.3183391",
       "MediaRefs": [
        {
         "Id": "513277040"
@@ -188,8 +188,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\BatSlain",
       "GUID": "{FF9124F6-DB93-48B3-909F-5E9E6BE48C8F}",
       "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
+      "DurationMin": "0.8442907",
+      "DurationMax": "0.8442907",
       "MediaRefs": [
        {
         "Id": "538011636"
@@ -201,10 +201,7 @@
       "Name": "CavesAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\CavesAmbience",
       "GUID": "{2972C3C2-C432-4C99-8958-2B8300F9BADD}",
-      "MaxAttenuation": "25",
-      "DurationType": "OneShot",
-      "DurationMin": "13",
-      "DurationMax": "13",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "497125793"
@@ -216,10 +213,7 @@
       "Name": "FloralAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\FloralAmbience",
       "GUID": "{085609C8-0167-492A-9884-E3786A0137D2}",
-      "MaxAttenuation": "25",
-      "DurationType": "OneShot",
-      "DurationMin": "14",
-      "DurationMax": "14",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "125192489"
@@ -232,8 +226,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\GFootsteps",
       "GUID": "{E5E87D08-1C9A-4155-9CC2-733F877FBF0C}",
       "DurationType": "OneShot",
-      "DurationMin": "1.2538549",
-      "DurationMax": "1.5",
+      "DurationMin": "0.43662992",
+      "DurationMax": "0.53023016",
       "MediaRefs": [
        {
         "Id": "540537894"
@@ -252,8 +246,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\MoonDamaged",
       "GUID": "{651F836B-074E-4E22-ABBB-AEE5B9736198}",
       "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
+      "DurationMin": "0.55594003",
+      "DurationMax": "0.55594003",
       "MediaRefs": [
        {
         "Id": "345978686"
@@ -265,10 +259,7 @@
       "Name": "MoonMusic1",
       "ObjectPath": "\\Events\\Default Work Unit\\MoonMusic1",
       "GUID": "{3DAE1915-4E41-4369-88B7-E39E9F934AD6}",
-      "MaxAttenuation": "25",
-      "DurationType": "OneShot",
-      "DurationMin": "156.599",
-      "DurationMax": "156.599",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "779731089"
@@ -281,8 +272,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFootsteps",
       "GUID": "{7F709BAD-9387-45D4-B000-0571E7D5B90C}",
       "DurationType": "OneShot",
-      "DurationMin": "1.8358049",
-      "DurationMax": "2.2660997",
+      "DurationMin": "0.3136471",
+      "DurationMax": "0.81944233",
       "MediaRefs": [
        {
         "Id": "265268529"
@@ -301,8 +292,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SunDamaged",
       "GUID": "{7E8CA049-5BF9-488F-A06C-65509B32ABCD}",
       "DurationType": "OneShot",
-      "DurationMin": "2.0000226",
-      "DurationMax": "2.0000226",
+      "DurationMin": "0.77740216",
+      "DurationMax": "0.77740216",
       "MediaRefs": [
        {
         "Id": "281847246"
@@ -315,8 +306,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SunDamagedCave",
       "GUID": "{E79522BD-4620-4F48-817B-17021BB7C25C}",
       "DurationType": "OneShot",
-      "DurationMin": "2.0000226",
-      "DurationMax": "2.0000226",
+      "DurationMin": "1.1857113",
+      "DurationMax": "1.1857113",
       "MediaRefs": [
        {
         "Id": "1000089471"
@@ -328,10 +319,7 @@
       "Name": "SunMusic1",
       "ObjectPath": "\\Events\\Default Work Unit\\SunMusic1",
       "GUID": "{2C1BB2F8-B689-40CC-B752-6965D2E52F8D}",
-      "MaxAttenuation": "25",
-      "DurationType": "OneShot",
-      "DurationMin": "156.599",
-      "DurationMax": "156.599",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "686907197"
@@ -350,6 +338,6 @@
     ]
    }
   ],
-  "FileHash": "{C32BB72A-6FDD-27CC-F968-B12F6E9E8ADF}"
+  "FileHash": "{957B80CB-17F5-6265-3AF6-50105FCB79AA}"
  }
 }
