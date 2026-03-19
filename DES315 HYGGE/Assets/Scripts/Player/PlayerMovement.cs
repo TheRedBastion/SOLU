@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private GroundDetector groundDetector;
     private KnockbackReceiver knockback;
+    private Stamina stamina;
     private Animator m_animator;
 
     [Header("Gravity")]
@@ -67,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
         groundDetector = GetComponent<GroundDetector>();
         knockback = GetComponent<KnockbackReceiver>();
         m_animator = GetComponent<Animator>();
+        stamina = GetComponent<Stamina>();
 
         originalGravity = rb.gravityScale;
         jumpForce = Mathf.Sqrt(jumpHeight * -2f * gravity);
@@ -77,6 +79,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         groundDetector = GetComponent<GroundDetector>();
         knockback = GetComponent<KnockbackReceiver>();
+        stamina = GetComponent<Stamina>();
 
         originalGravity = rb.gravityScale;
     }
@@ -117,8 +120,10 @@ public class PlayerMovement : MonoBehaviour
 
     public void DashPressed()
     {
-        if (!canDash || isDashing)
+        if (!canDash || isDashing || stamina.SprintLocked)
             return;
+
+        stamina.CurrentStamina -= 10f;
 
         isDashing = true;
         canDash = false;

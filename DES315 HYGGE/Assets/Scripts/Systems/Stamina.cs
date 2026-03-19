@@ -19,6 +19,21 @@ public class Stamina : MonoBehaviour
 
     private Player player;
     private bool sprintLocked = false;
+    public bool SprintLocked => sprintLocked;
+
+    public float CurrentStamina
+    {
+        get { return currentStamina; }
+        set
+        {
+            currentStamina = Mathf.Clamp(value, 0f, maxStamina);
+
+            if (currentStamina <= 0f)
+                sprintLocked = true;
+            else if (currentStamina >= sprintLockThreshold)
+                sprintLocked = false;
+        }
+    }
 
     private void Awake()
     {
@@ -98,4 +113,5 @@ public class Stamina : MonoBehaviour
         if (player != null)
             player.sprintActive = false;
     }
+
 }
