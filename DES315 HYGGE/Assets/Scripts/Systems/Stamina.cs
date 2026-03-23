@@ -26,6 +26,7 @@ public class Stamina : MonoBehaviour
         get { return currentStamina; }
         set
         {
+            if (player == null || player.isGodmode) return;
             currentStamina = Mathf.Clamp(value, 0f, maxStamina);
 
             if (currentStamina <= 0f)
