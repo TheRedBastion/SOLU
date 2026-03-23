@@ -12,7 +12,7 @@ public class MainGameParallax : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float dist = (cam.transform.position.x * parallaxEffect);// 0 with cam 1 wont move
 
