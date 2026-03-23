@@ -39,6 +39,7 @@ public abstract class BaseEnemy : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         if (sr != null)
             originalColor = sr.color;
+
     }
 
     protected virtual void OnEnable()
@@ -143,6 +144,11 @@ public abstract class BaseEnemy : MonoBehaviour
         flashTimer = flashDuration;
 
         knockback?.ApplyKnockback(data);
+    }
+
+    public void SetCharacterSwap(CharacterSwap cs)
+    {
+        characterSwap = cs;
     }
 
 }

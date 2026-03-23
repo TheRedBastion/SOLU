@@ -29,4 +29,9 @@ public class HomingEnemy : BaseEnemy
             rb.linearVelocity = Vector2.zero;
         }
     }
+
+    public void SetDetectionRange(float newRange)
+    {
+        detectionRange = newRange;
+    }
 }
