@@ -45,7 +45,8 @@ public class Interactable : MonoBehaviour
 
             currUI.pressEUI.SetActive(true);
             SetOutline(true);
-            spriteR.sprite = sprites[1];
+            if(sprites.Length > 0)
+                spriteR.sprite = sprites[1];
         }
     }
 
@@ -60,7 +61,8 @@ public class Interactable : MonoBehaviour
             currUI.pressEUI.SetActive(false);
             currUI.dialogueUI.SetActive(false);
             SetOutline(false);
-            spriteR.sprite = sprites[0];
+            if (sprites.Length > 0)
+                spriteR.sprite = sprites[0];
         }
     }
 
