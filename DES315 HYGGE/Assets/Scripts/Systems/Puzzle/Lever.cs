@@ -1,8 +1,10 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Lever : Interactable, ITrackableActivator
 {
-    public PuzzleDoor door;
+    public List<PuzzleDoor> doors = new List<PuzzleDoor>();
     private bool isActive = false;
     public bool IsActive => isActive;
     public Transform handlePivot;
@@ -11,7 +13,10 @@ public class Lever : Interactable, ITrackableActivator
     protected override void Interact()
     {
         isActive = !isActive;
-        door.ActivatorChanged();
+        foreach (var a in doors)
+        {
+            a.ActivatorChanged();
+        }
         AnimateLever();
     }
 

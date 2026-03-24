@@ -1,8 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PressurePlate : MonoBehaviour, ITrackableActivator
 {
-    public PuzzleDoor door;
+    public List<PuzzleDoor> doors = new List<PuzzleDoor>();
     private bool isActive = false;
     public bool IsActive => isActive;
 
@@ -18,7 +19,10 @@ public class PressurePlate : MonoBehaviour, ITrackableActivator
         if (!isActive && other.CompareTag("Player"))
         {
             isActive = true;
-            door.ActivatorChanged();
+            foreach (var a in doors)
+            {
+                a.ActivatorChanged();
+            }
             AnimatePlate(true);
         }
     }
@@ -29,7 +33,10 @@ public class PressurePlate : MonoBehaviour, ITrackableActivator
         if (isActive && other.CompareTag("Player") && otherGO.activeInHierarchy)
         {
             isActive = false;
-            door.ActivatorChanged();
+            foreach (var a in doors)
+            {
+                a.ActivatorChanged();
+            }
             AnimatePlate(false);
         }
     }
