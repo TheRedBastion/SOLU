@@ -124,7 +124,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
+        width: 1919
         height: 1080
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -144,10 +144,10 @@ TextureImporter:
       name: Floral Layering background 5_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 559
-        width: 409
-        height: 76
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: Floral Layering background 5_2
       rect:
         serializedVersion: 2
-        x: 1131
-        y: 526
-        width: 663
-        height: 110
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
