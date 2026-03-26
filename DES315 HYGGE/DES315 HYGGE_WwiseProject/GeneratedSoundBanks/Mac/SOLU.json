@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8347E92C-8AC0-4678-A174-309ADDA96D38}",
     "Language": "SFX",
-    "Hash": "{F5A1F048-E6F5-C7B6-B0CD-E0E1F6922763}",
+    "Hash": "{A4D234A2-A60E-BCEE-3EFE-E96C02D4B74C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SOLU",
     "ShortName": "SOLU",
     "Path": "SOLU.bnk",
@@ -252,8 +252,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\MoonDamaged",
       "GUID": "{651F836B-074E-4E22-ABBB-AEE5B9736198}",
       "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
+      "DurationMin": "2.7163448",
+      "DurationMax": "2.7163448",
       "MediaRefs": [
        {
         "Id": "345978686"
@@ -350,6 +350,6 @@
     ]
    }
   ],
-  "FileHash": "{9694A1A4-951F-D928-C641-5B758C6B74B6}"
+  "FileHash": "{8FE9FD11-B49C-7920-29F3-46D7604C709E}"
  }
 }

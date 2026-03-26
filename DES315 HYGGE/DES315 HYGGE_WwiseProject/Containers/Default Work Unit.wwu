@@ -207,7 +207,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -236,7 +236,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -263,9 +263,14 @@
 				</Sound>
 				<Sound Name="MoonDamaged-1" ID="{FC275340-CB4A-40A3-94C2-E3A5342D613D}" ShortID="13741650">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-530</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
