@@ -5,6 +5,7 @@ public class MainGameParallax : MonoBehaviour
     private float startPos , leng, lengy, startPosy;
     public GameObject cam;
     public float parallaxEffect;
+    public float layer;
 
     void Start()
     {
@@ -27,6 +28,12 @@ public class MainGameParallax : MonoBehaviour
 
             transform.position = new Vector3(startPos + dist, startPosy + disty , transform.position.z);
 
+        if (layer == 1)
+        {
+
+        }
+        else
+        {
             if (move > startPos + leng)
             {
                 startPos += leng;
@@ -35,15 +42,17 @@ public class MainGameParallax : MonoBehaviour
             {
                 startPos -= leng;
             }
+        }
 
-            if (movey > startPosy + lengy)
-            {
-                startPos += lengy;
-            }
-            else if (movey < startPosy - lengy)
-            {
-                startPosy -= lengy;
-            }
+
+         if (movey > startPosy + lengy)
+         {
+             startPosy += lengy;
+         }
+         else if (movey < startPosy - lengy)
+         {
+             startPosy -= lengy;
+         }
       
 
 
