@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{17762C99-F83F-49A1-88BA-AC47A361EF53}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="SFootsteps" ID="{8CCF933F-1847-4780-917C-AF5601241E40}" ShortID="339365363">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -82,6 +85,9 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="GFootsteps" ID="{1AC06D69-0EE6-4821-873F-8FF7A2A2893A}" ShortID="307680364">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>

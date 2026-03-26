@@ -1,0 +1,102 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{13656909-7E58-1E27-95BB-556DB52646D4}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
+       "GUID": "{C25BAF07-1C31-451E-BD59-1D56A8AE05D4}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System",
+       "GUID": "{55025AFF-16E5-44ED-9B12-D3E81C0B5410}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "85412153",
+      "Name": "Ambience",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Ambience",
+      "GUID": "{6D658D32-B3EC-4C78-93D3-6BF2B8B290F7}"
+     },
+     {
+      "Id": "978636652",
+      "Name": "Sound Effects",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Sound Effects",
+      "GUID": "{C4FC5072-FA27-441B-B67A-45A6C118EC18}"
+     },
+     {
+      "Id": "2246998526",
+      "Name": "Main Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Music",
+      "GUID": "{C253C558-A1B1-44DF-9F4B-1E9E26439B30}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "37298357",
+      "Name": "Music_Volume_Control",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Volume_Control",
+      "GUID": "{7459ACAF-8518-4341-B044-3D82EFA291CE}"
+     },
+     {
+      "Id": "421945036",
+      "Name": "Ambience_Volume_Control",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambience_Volume_Control",
+      "GUID": "{8AE39C9B-BE03-4C00-BA88-CFCCA993CCAB}"
+     },
+     {
+      "Id": "1045451248",
+      "Name": "Sound_Effects_Volume_Control",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Sound_Effects_Volume_Control",
+      "GUID": "{2299838D-A9B3-4353-96CC-9F46E95FD33B}"
+     },
+     {
+      "Id": "2232728930",
+      "Name": "Master_Volume_Control",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume_Control",
+      "GUID": "{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2769296183",
+      "Name": "ArmoredEnemy",
+      "ObjectPath": "\\Switches\\Default Work Unit\\ArmoredEnemy",
+      "GUID": "{A96C2E2D-AC06-4327-9A13-6D90C371D5DD}",
+      "Switches": []
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8C88419D-6BDF-4628-4018-B1DE27AF7364}"
+ }
+}

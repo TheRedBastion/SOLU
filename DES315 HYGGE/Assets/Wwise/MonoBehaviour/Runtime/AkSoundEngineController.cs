@@ -280,7 +280,8 @@ public class AkSoundEngineController
 			else
 			{
 				AkUnitySoundEngine.Suspend(renderAnyway);
-			}
+                AkUnitySoundEngine.WakeupFromSuspend();
+            }
 
 			AkUnitySoundEngine.RenderAudio();
 		}
