@@ -28,6 +28,7 @@ public class MainGameParallax : MonoBehaviour
 
             transform.position = new Vector3(startPos + dist, startPosy + disty , transform.position.z);
 
+        //cloud was being annoying so i removed the inf loop for it i copy pasted it like 3 times
         if (layer == 1)
         {
 
@@ -45,15 +46,15 @@ public class MainGameParallax : MonoBehaviour
         }
 
 
-         if (movey > startPosy + lengy)
-         {
-             startPosy += lengy;
-         }
-         else if (movey < startPosy - lengy)
-         {
-             startPosy -= lengy;
-         }
-      
+        if (movey > startPosy + lengy)
+        {
+            startPosy += lengy;
+        }
+        else if (movey < startPosy - lengy)
+        {
+            startPosy -= lengy;
+        }
+
 
 
     }
