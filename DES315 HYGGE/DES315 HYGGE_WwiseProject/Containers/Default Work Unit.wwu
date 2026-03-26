@@ -6,6 +6,11 @@
 				<RandomSequenceContainer Name="SFootsteps" ID="{8CCF933F-1847-4780-917C-AF5601241E40}" ShortID="339365363">
 					<PropertyList>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -39,6 +44,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="FootstepsOnStone2" ID="{B539DC10-7EE9-42B4-9E6E-C7ED9167A042}" ShortID="620481448">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -61,6 +73,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="FootstepsOnStone3" ID="{C21199E2-9B06-425F-BD6A-BF01E35A6B5C}" ShortID="684123322">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -87,6 +106,11 @@
 				<RandomSequenceContainer Name="GFootsteps" ID="{1AC06D69-0EE6-4821-873F-8FF7A2A2893A}" ShortID="307680364">
 					<PropertyList>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -98,6 +122,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="FootstepsOnGrass1" ID="{7F379AF6-FEB4-44E9-BB59-7E83517386B8}" ShortID="853481552">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -142,6 +173,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="FootstepsOnGrass3" ID="{FA7918FF-30EC-4DA0-B8AB-40A5CCB09EA3}" ShortID="404061881">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -166,6 +204,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<Sound Name="SunDamaged-1" ID="{B4283C83-389A-4538-BD14-01ADD0A4B51A}" ShortID="1017895197">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -188,6 +233,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SunDamagedWithEcho-1" ID="{0C63F6C2-2513-421D-9294-4403A530465A}" ShortID="9558892">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -210,6 +262,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="MoonDamaged-1" ID="{FC275340-CB4A-40A3-94C2-E3A5342D613D}" ShortID="13741650">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>

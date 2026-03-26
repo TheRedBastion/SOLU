@@ -6889,7 +6889,7 @@ MonoBehaviour:
   DamageTakenSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 289ac10c535def042983abd50a5af8ae, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: b0ba67b93c9d703488e5b6256d16fb36, type: 2}
 --- !u!114 &1147384682
 MonoBehaviour:
   m_ObjectHideFlags: 0

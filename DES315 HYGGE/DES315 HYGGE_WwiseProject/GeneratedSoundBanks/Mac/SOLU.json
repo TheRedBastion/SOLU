@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8347E92C-8AC0-4678-A174-309ADDA96D38}",
     "Language": "SFX",
-    "Hash": "{D3DB2CE0-98E0-0590-19EC-BD582125A2EB}",
+    "Hash": "{F5A1F048-E6F5-C7B6-B0CD-E0E1F6922763}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SOLU",
     "ShortName": "SOLU",
     "Path": "SOLU.bnk",
@@ -350,6 +350,6 @@
     ]
    }
   ],
-  "FileHash": "{A65D7450-D82F-81C4-37F3-C07CA459B84C}"
+  "FileHash": "{9694A1A4-951F-D928-C641-5B758C6B74B6}"
  }
 }
