@@ -18,6 +18,8 @@ public class CharacterSwap : MonoBehaviour
     public float swapCooldown = 5f;
     private float canSwap = -1f;
 
+    private float onetime = 2;
+
     public bool swappedThisFrame { get; private set; } //child can read it, only parent can write it
     private void OnEnable()
     {
@@ -50,6 +52,20 @@ public class CharacterSwap : MonoBehaviour
             currentCharacter = 1 - currentCharacter; //toggle between 0 and 1 (math trick)
             Swap();
             swappedThisFrame = true;
+        }
+        if(onetime == 2)
+        {
+            currentCharacter = 1 - currentCharacter; //toggle between 0 and 1 (math trick)
+            Swap();
+            //swappedThisFrame = true;
+            onetime = 1;
+        }
+        else if (onetime == 1)
+        {
+            currentCharacter = 1 - currentCharacter; //toggle between 0 and 1 (math trick)
+            Swap();
+            swappedThisFrame = true;
+            onetime = 0;
         }
 
     }
