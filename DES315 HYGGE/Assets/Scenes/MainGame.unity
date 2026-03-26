@@ -1909,7 +1909,7 @@ GameObject:
   - component: {fileID: 280299540}
   - component: {fileID: 280299539}
   m_Layer: 5
-  m_Name: Image
+  m_Name: trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1924,7 +1924,7 @@ RectTransform:
   m_GameObject: {fileID: 280299537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.52, y: 4.52, z: 4.52}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1944106303}
@@ -1932,7 +1932,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 177.62, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280299539
 MonoBehaviour:
@@ -1954,7 +1954,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -9017768394670922657, guid: 86194627670708a4486d806a07992938, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11306,12 +11306,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 280299538}
   - {fileID: 618440395}
   - {fileID: 276681754}
   - {fileID: 1712364896}
   - {fileID: 1628501352}
   - {fileID: 1736496578}
-  - {fileID: 280299538}
   m_Father: {fileID: 519420032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
