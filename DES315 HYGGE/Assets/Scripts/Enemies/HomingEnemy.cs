@@ -22,6 +22,8 @@ public class HomingEnemy : BaseEnemy
             //move towards player
             Vector2 direction = (player.position - transform.position).normalized;
             rb.linearVelocity = direction * speed;
+
+            UpdateFacingDirection(direction.x);
         }
         else
         {
@@ -33,5 +35,17 @@ public class HomingEnemy : BaseEnemy
     public void SetDetectionRange(float newRange)
     {
         detectionRange = newRange;
+    }
+
+    void UpdateFacingDirection(float directionX)
+    {
+        Vector3 scale = transform.localScale;
+
+        if (directionX > 0)//SIGNS ARE FLIPPED AS BAT SPRITE IS FLIPPED TO LEFT
+            scale.x = -Mathf.Abs(scale.x);
+        else if (directionX < 0)
+            scale.x = Mathf.Abs(scale.x);
+
+        transform.localScale = scale;
     }
 }
