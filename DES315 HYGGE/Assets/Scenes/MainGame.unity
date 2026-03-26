@@ -8421,6 +8421,7 @@ MonoBehaviour:
   character: 0
   OnGround: 0
   OnSwap: 1
+  isWalking: 0
   sprintActive: 0
 --- !u!1001 &1320893500
 PrefabInstance:
