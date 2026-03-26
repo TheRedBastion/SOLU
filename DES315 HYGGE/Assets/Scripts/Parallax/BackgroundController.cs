@@ -26,7 +26,15 @@ public class MainGameParallax : MonoBehaviour
         float movey = cam.transform.position.y * (1 - parallaxEffect);
 
 
-            transform.position = new Vector3(startPos + dist, startPosy + disty , transform.position.z);
+        if(layer==2)//tree
+        {
+            transform.position = new Vector3(cam.transform.position.x, cam.transform.position.y, transform.position.z);
+        }
+        else
+        {
+            transform.position = new Vector3(startPos + dist, startPosy + disty, transform.position.z);
+        }
+
 
         //cloud was being annoying so i removed the inf loop for it i copy pasted it like 3 times
         if (layer == 1)
