@@ -40,7 +40,9 @@ public class Health : MonoBehaviour
 
     public UnityEvent<int, KnockbackData> OnDamageTaken; //passes damage
     public UnityEvent OnDeath;
-    
+
+    public AK.Wwise.Event DamageTakenSound = new AK.Wwise.Event();
+
     private void Awake()
     {
         CurrentHealth = maxHealth;
@@ -71,6 +73,9 @@ public class Health : MonoBehaviour
         Debug.Log($"{gameObject.name} took {damage} damage. Current health: {CurrentHealth}/{maxHealth}");
 
         OnDamageTaken.Invoke(damage, knockback);
+
+        if (CurrentHealth > 0)
+            DamageTakenSound.Post(gameObject);
 
         if (CurrentHealth <= 0)
         {

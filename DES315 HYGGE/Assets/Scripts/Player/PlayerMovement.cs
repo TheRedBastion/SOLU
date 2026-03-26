@@ -24,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
     public bool sprintActive;    
     private float moveSpeed;
     //[SerializeField] float maxSpeed = 50f; //might need later for speed caps
+    [SerializeField] private float FootstepSpeed = 0.4f;
+    
+    private float WalkingCount = 0.0f;
 
     [Header("Dash")]
     [SerializeField] private float dashSpeed = 20f;
@@ -56,6 +59,8 @@ public class PlayerMovement : MonoBehaviour
     private bool wasGrounded;
 
     private Vector2 moveInput;
+
+    public AK.Wwise.Event footstepSound = new AK.Wwise.Event();
 
     public void Init(float moveSpeed)
     {
@@ -274,6 +279,15 @@ public class PlayerMovement : MonoBehaviour
                 m_animator.SetBool("Moving", true);
 
                 p.isWalking = true;
+
+                WalkingCount += Time.deltaTime * (moveSpeed / 10.0f);
+
+                if (WalkingCount > FootstepSpeed)
+                {
+                    footstepSound.Post(gameObject);
+
+                    WalkingCount = 0.0f;
+                }
             }
             else if (moveInput.x < -0.05f)
             {
@@ -281,12 +295,23 @@ public class PlayerMovement : MonoBehaviour
                 m_animator.SetBool("Moving", true);
 
                 p.isWalking = true;
+
+                WalkingCount += Time.deltaTime * (moveSpeed / 10.0f);
+
+                if (WalkingCount > FootstepSpeed)
+                {
+                    footstepSound.Post(gameObject);
+
+                    WalkingCount = 0.0f;
+                }
             }
             else if (moveInput.x == 0)// could mess up float == 0!
             {
                 m_animator.SetBool("Moving", false);
 
                 p.isWalking = false;
+
+                WalkingCount = FootstepSpeed;
             }
         }
 
@@ -301,6 +326,5 @@ public class PlayerMovement : MonoBehaviour
                 dashCooldownTimer = 0f;
             }
         }
-
     }
 }

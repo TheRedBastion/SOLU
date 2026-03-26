@@ -6903,6 +6903,10 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+  DamageTakenSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 289ac10c535def042983abd50a5af8ae, type: 2}
 --- !u!114 &1147384682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6955,6 +6959,7 @@ MonoBehaviour:
   acceleration: 60
   deceleration: 15
   sprintActive: 0
+  FootstepSpeed: 0.4
   dashSpeed: 20
   dashDuration: 0.2
   dashCooldown: 0.5
@@ -6963,6 +6968,10 @@ MonoBehaviour:
   isJumping: 0
   fallGravityOnRelease: 0
   doubleJumpActive: 0
+  footstepSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 289ac10c535def042983abd50a5af8ae, type: 2}
 --- !u!114 &1147384687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8421,6 +8430,7 @@ MonoBehaviour:
   character: 0
   OnGround: 0
   OnSwap: 1
+  isWalking: 0
   sprintActive: 0
 --- !u!1001 &1320893500
 PrefabInstance:
@@ -9441,6 +9451,10 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+  DamageTakenSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8f78160bafc00964ab8222f6d922770a, type: 2}
 --- !u!114 &1554406611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9493,6 +9507,7 @@ MonoBehaviour:
   acceleration: 60
   deceleration: 15
   sprintActive: 0
+  FootstepSpeed: 0.4
   dashSpeed: 20
   dashDuration: 0.2
   dashCooldown: 0.5
@@ -9501,6 +9516,10 @@ MonoBehaviour:
   isJumping: 0
   fallGravityOnRelease: 0
   doubleJumpActive: 1
+  footstepSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 18344ea1b0430e3469711e29632ed655, type: 2}
 --- !u!114 &1554406616
 MonoBehaviour:
   m_ObjectHideFlags: 0
