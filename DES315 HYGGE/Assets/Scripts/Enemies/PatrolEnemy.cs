@@ -55,29 +55,34 @@ public class PatrolEnemy : BaseEnemy
         if (movingRight)
         {
             rb.linearVelocity = new Vector2(moveSpeed, rb.linearVelocity.y);
+            UpdateFacingDirection(1);
 
             if (transform.position.x >= patrolPath.endPosition.x)
             {
                 movingRight = false;
-                Flip();
             }
         }
         else
         {
             rb.linearVelocity = new Vector2(-moveSpeed, rb.linearVelocity.y);
+            UpdateFacingDirection(-1);
 
             if (transform.position.x <= patrolPath.startPosition.x)
             {
                 movingRight = true;
-                Flip();
             }
         }
     }
 
-    void Flip()
+    void UpdateFacingDirection(float direction)
     {
         Vector3 scale = transform.localScale;
-        scale.x *= -1;
+
+        if (direction > 0)
+            scale.x = Mathf.Abs(scale.x);
+        else if (direction < 0)
+            scale.x = -Mathf.Abs(scale.x);
+
         transform.localScale = scale;
     }
 }
