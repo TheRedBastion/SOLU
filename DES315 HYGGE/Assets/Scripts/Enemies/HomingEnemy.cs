@@ -41,10 +41,10 @@ public class HomingEnemy : BaseEnemy
     {
         Vector3 scale = transform.localScale;
 
-        if (directionX > 0)//SIGNS ARE FLIPPED AS BAT SPRITE IS FLIPPED TO LEFT
-            scale.x = -Mathf.Abs(scale.x);
-        else if (directionX < 0)
+        if (directionX > 0)
             scale.x = Mathf.Abs(scale.x);
+        else if (directionX < 0)
+            scale.x = -Mathf.Abs(scale.x);
 
         transform.localScale = scale;
     }
