@@ -266,20 +266,28 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //FLIP
+        {
+            Player p = GetComponentInParent<Player>();
+            if (moveInput.x > 0.05f)
+            {
+                transform.localScale = new Vector3(.5f, .5f, 1);
+                m_animator.SetBool("Moving", true);
 
-        if (moveInput.x > 0.05f)
-        {
-            transform.localScale = new Vector3(.5f, .5f, 1);
-            m_animator.SetBool("Moving", true);
-        }
-        else if (moveInput.x < -0.05f)
-        {
-            transform.localScale = new Vector3(-.5f, .5f, 1);
-            m_animator.SetBool("Moving", true);
-        }
-        else if (moveInput.x == 0)
-        {
-            m_animator.SetBool("Moving", false);
+                p.isWalking = true;
+            }
+            else if (moveInput.x < -0.05f)
+            {
+                transform.localScale = new Vector3(-.5f, .5f, 1);
+                m_animator.SetBool("Moving", true);
+
+                p.isWalking = true;
+            }
+            else if (moveInput.x == 0)// could mess up float == 0!
+            {
+                m_animator.SetBool("Moving", false);
+
+                p.isWalking = false;
+            }
         }
 
         //DASH COOLDOWN

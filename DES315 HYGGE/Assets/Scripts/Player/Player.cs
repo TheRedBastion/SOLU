@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
 
     public bool OnGround;
     public bool OnSwap;
+    public bool isWalking;
 
     public bool sprintActive = false;
 
