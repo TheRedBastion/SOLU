@@ -54,14 +54,14 @@ public class MainGameParallax : MonoBehaviour
         }
 
 
-        if (movey > startPosy + lengy)
-        {
-            startPosy += lengy;
-        }
-        else if (movey < startPosy - lengy)
-        {
-            startPosy -= lengy;
-        }
+        //if (movey > startPosy + lengy)
+        //{
+        //    startPosy += lengy;
+        //}
+        //else if (movey < startPosy - lengy)
+        //{
+        //    startPosy -= lengy;
+        //}
 
 
 
