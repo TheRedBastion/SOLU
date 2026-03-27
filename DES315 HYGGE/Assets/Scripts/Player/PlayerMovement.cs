@@ -195,7 +195,7 @@ public class PlayerMovement : MonoBehaviour
         }
         //JUMPING
 
-        if (jumpBufferTimer > 0f && groundDetector.CanJump())//fiorst jump
+        if (jumpBufferTimer > 0f && groundDetector.CanJump())//first jump
         {
             jumpBufferTimer = 0f;
             groundDetector.ConsumeCoyoteTime();
@@ -206,6 +206,8 @@ public class PlayerMovement : MonoBehaviour
                 rb.linearVelocity.x,
                 Mathf.Max(rb.linearVelocity.y, 0f) + jumpVelocity
             );
+
+            m_animator.SetBool("Jumping", true);
 
             isJumping = true;
             jumpCut = jumpBufferedRelease;
@@ -224,6 +226,12 @@ public class PlayerMovement : MonoBehaviour
 
             isJumping = true;
             jumpCut = false;
+            m_animator.SetBool("Moving", true);
+        }
+
+        if (isJumping == false && grounded)
+        {
+            m_animator.SetBool("Jumping", false);
         }
 
         velocity = rb.linearVelocity;
