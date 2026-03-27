@@ -2015,6 +2015,7 @@ GameObject:
   - component: {fileID: 280299538}
   - component: {fileID: 280299540}
   - component: {fileID: 280299539}
+  - component: {fileID: 280299541}
   m_Layer: 5
   m_Name: trees
   m_TagString: Untagged
@@ -2079,6 +2080,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280299537}
   m_CullTransparentMesh: 1
+--- !u!114 &280299541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280299537}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Mask
+  m_ShowMaskGraphic: 1
 --- !u!1001 &291898226
 PrefabInstance:
   m_ObjectHideFlags: 0
