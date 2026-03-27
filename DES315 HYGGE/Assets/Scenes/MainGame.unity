@@ -6982,7 +6982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 6
+  maxHealth: 4
   invincibilityDuration: 1.5
   blinkInterval: 0.1
   blinkAlpha: 0.5
@@ -9530,7 +9530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eb81382a50bae4fa22fa1e616b2e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 4
+  maxHealth: 5
   invincibilityDuration: 1.5
   blinkInterval: 0.1
   blinkAlpha: 0.5
