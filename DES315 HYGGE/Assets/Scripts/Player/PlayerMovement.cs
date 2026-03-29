@@ -226,6 +226,7 @@ public class PlayerMovement : MonoBehaviour
 
             isJumping = true;
             jumpCut = false;
+            m_animator.Play(0);
             m_animator.SetBool("Moving", true);
         }
 
