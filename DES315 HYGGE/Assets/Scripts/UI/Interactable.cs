@@ -18,6 +18,7 @@ public class Interactable : MonoBehaviour
 
     private void Awake()
     {
+        InputActions.FindActionMap("Player").Enable();
         spriteR = GetComponent<SpriteRenderer>();
         interactAction = InputActions.FindActionMap("Player").FindAction("Interact");
     }
@@ -30,6 +31,12 @@ public class Interactable : MonoBehaviour
 
     void Update()
     {
+        if (interactAction == null)
+        {
+            //not getting filled in awake???
+            interactAction = InputActions.FindActionMap("Player").FindAction("Interact");
+        }
+
         if (playerInRange && !isInteracting && interactAction.WasPressedThisFrame())
         {
             Interact();

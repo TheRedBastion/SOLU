@@ -123,8 +123,8 @@ Transform:
   m_GameObject: {fileID: 3269598911033209221}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: 0.65, y: 0.65, z: 0}
-  m_LocalScale: {x: 2, y: 0.35000002, z: 1}
+  m_LocalPosition: {x: 0.59, y: 0.62, z: 0}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 662945816784043457}
@@ -178,7 +178,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -4627913510394143481, guid: 1255c1d1d43bc4549a3da25c140ffe6e, type: 3}
   m_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -214,8 +214,8 @@ Transform:
   m_GameObject: {fileID: 6660093944927614324}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: 0.5, y: 0.5, z: 0}
-  m_LocalScale: {x: 2, y: 0.35000002, z: 1}
+  m_LocalPosition: {x: 0.5, y: 0.509, z: 0}
+  m_LocalScale: {x: 1.72, y: 1.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2645442060572074727}
@@ -246,7 +246,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 0600edb67cbd9df49bfff63bbc2c899e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -269,7 +269,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -4627913510394143481, guid: 1255c1d1d43bc4549a3da25c140ffe6e, type: 3}
   m_Color: {r: 1, g: 0.5176471, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -305,8 +305,8 @@ Transform:
   m_GameObject: {fileID: 6729563474658925641}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.45, y: 2.73, z: 1}
+  m_LocalPosition: {x: -0.32, y: 0.335, z: 0}
+  m_LocalScale: {x: 1, y: 1.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3009775864023763954}
@@ -360,8 +360,8 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
+  m_Sprite: {fileID: -3833527923613340859, guid: 1255c1d1d43bc4549a3da25c140ffe6e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -396,8 +396,8 @@ Transform:
   m_GameObject: {fileID: 6920829985020110204}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.45, y: 2.73, z: 1}
+  m_LocalPosition: {x: -0.361, y: 0.272, z: 0}
+  m_LocalScale: {x: 1.1688985, y: 1.4434073, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 357069284348401897}
@@ -428,7 +428,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 0600edb67cbd9df49bfff63bbc2c899e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -451,7 +451,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -3833527923613340859, guid: 1255c1d1d43bc4549a3da25c140ffe6e, type: 3}
   m_Color: {r: 1, g: 0.5176471, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -587,6 +587,6 @@ MonoBehaviour:
   OutlineGO: {fileID: 510418739181552008}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   sprites: []
-  door: {fileID: 0}
+  doors: []
   handlePivot: {fileID: 662945816784043457}
   handlePivotOutline: {fileID: 2645442060572074727}

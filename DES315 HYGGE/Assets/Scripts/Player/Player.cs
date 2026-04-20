@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
     private void OnDisable()
     {
         currentHealth.OnDamageTaken.RemoveListener(HandleDamage);
-        InputActions.FindActionMap("Player").Disable();
+        //InputActions.FindActionMap("Player").Disable();
     }
 
     public void RefreshInput()

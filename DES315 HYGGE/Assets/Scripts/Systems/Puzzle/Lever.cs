@@ -10,6 +10,14 @@ public class Lever : Interactable, ITrackableActivator
     public Transform handlePivot;
     public Transform handlePivotOutline;
 
+    private Quaternion initialLocalRot;
+
+    private void Awake()
+    {
+        if (handlePivot != null)
+            initialLocalRot = handlePivot.localRotation;
+    }
+
     protected override void Interact()
     {
         isActive = !isActive;
@@ -22,9 +30,13 @@ public class Lever : Interactable, ITrackableActivator
 
     private void AnimateLever()
     {
-        float angle = isActive ? -90 : 0;
+        if (handlePivot == null) return;
 
-        handlePivot.rotation = Quaternion.Euler(0, 0, angle);
-        handlePivotOutline.rotation = Quaternion.Euler(0, 0, angle);
+        float targetAngle = isActive ? -90f : 0f;
+        Quaternion targetRot = initialLocalRot * Quaternion.Euler(0, 0, targetAngle);
+
+        handlePivot.localRotation = targetRot;
+        if (handlePivotOutline != null)
+            handlePivotOutline.localRotation = targetRot;
     }
 }
