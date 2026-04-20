@@ -273,11 +273,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.32434738, y: -0.29642317}
-      - {x: 0.25608099, y: -0.04222243}
-      - {x: -0.45225447, y: 0.9116338}
+    - - {x: 1.4200085, y: -1.2940028}
+      - {x: 2.5205035, y: -0.71341497}
+      - {x: 2.179093, y: 0.85762256}
+      - {x: 1.2121494, y: 1.5309229}
+      - {x: -0.508404, y: 1.7647418}
+      - {x: -2.4677143, y: 1.6205199}
+      - {x: -2.1163473, y: 0.051835954}
       - {x: -1.6208047, y: -0.6229417}
-      - {x: 0.61797947, y: -1.3898082}
+      - {x: -0.79979223, y: -1.890198}
   m_UseDelaunayMesh: 1
 --- !u!114 &2253400490043441329
 MonoBehaviour:
@@ -302,6 +306,10 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+  DamageTakenSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &7658038026885376397
 MonoBehaviour:
   m_ObjectHideFlags: 0

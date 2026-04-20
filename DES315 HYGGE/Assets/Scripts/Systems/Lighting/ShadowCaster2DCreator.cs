@@ -13,8 +13,8 @@ public class ShadowCaster2DCreator : MonoBehaviour
 {
     [Header("Shadow Settings")]
     [SerializeField] private bool selfShadows = false;
-    [SerializeField] private string sortingLayerA = "BG";
-    [SerializeField] private string sortingLayerB = "Entities";
+    [SerializeField] private string sortingLayerA = "Background";
+    [SerializeField] private string sortingLayerB = "Enemies";
 
     [Header("Generation")]
     [SerializeField] private string childPrefix = "__shadow_caster_";
