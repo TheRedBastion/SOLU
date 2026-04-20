@@ -16,6 +16,9 @@ public class CharacterSwap : MonoBehaviour
     private InputAction swapAction;
 
     public float swapCooldown = 5f;
+
+    public GameObject MoonLights;
+    public GameObject SunLights;
     private float canSwap = -1f;
 
     private float onetime = 2;
@@ -79,12 +82,30 @@ public class CharacterSwap : MonoBehaviour
         characterOptions[currentCharacter].gameObject.SetActive(true);
         characterOptions[other].gameObject.SetActive(false);
 
+        if (currentCharacter == 0)
+        {
+            SunLights.SetActive(false);
+        }
+        else if (currentCharacter == 1)
+        {
+            MoonLights.SetActive(false);
+        }
+
         if (player != null)
-        { 
+        {
             player.SetActiveCharacter(currentCharacter);
         }
 
         canSwap = Time.time + swapCooldown;
+
+        if (currentCharacter == 0)
+        {
+            MoonLights.SetActive(true);
+        }
+        else if (currentCharacter == 1)
+        {
+            SunLights.SetActive(true);
+        }
 
         //healthTracker.DrawHearts(0); causes null ref??
     }
