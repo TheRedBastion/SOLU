@@ -150,6 +150,8 @@ public class Player : MonoBehaviour
 
         movement.sprintActive = sprintActive;
 
+        OnGround = movement.onGround;
+
         if (currentHealth.CurrentHealth <= 0)
         {
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

@@ -58,6 +58,8 @@ public class PlayerMovement : MonoBehaviour
     private bool doubleJumpReady;
     private bool wasGrounded;
 
+    public bool onGround { get; private set; }
+
     private Vector2 moveInput;
 
     public AK.Wwise.Event footstepSound = new AK.Wwise.Event();
@@ -335,5 +337,7 @@ public class PlayerMovement : MonoBehaviour
                 dashCooldownTimer = 0f;
             }
         }
+
+        onGround = grounded;
     }
 }
