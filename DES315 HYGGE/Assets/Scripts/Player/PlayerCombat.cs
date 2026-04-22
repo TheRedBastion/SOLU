@@ -26,11 +26,14 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private float sunAOECooldown = 3f;
     private float sunAOETimer = 0f;
 
+    private Animator m_animator;
+
     private Player player;
 
     private void Awake()
     {
         player = GetComponentInParent<Player>();
+        m_animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -49,6 +52,15 @@ public class PlayerCombat : MonoBehaviour
 
     public void Attack()
     {
+
+        m_animator.SetBool("Punching", true);
+
+        //if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("Punching"))
+        //{
+        //    m_animator.SetBool("Punching", false);
+        //}
+
+
         UpdateAttackPoint();
 
         StartCoroutine(showAttack(0.2f));
@@ -143,5 +155,8 @@ public class PlayerCombat : MonoBehaviour
         sr.enabled = true;
         yield return new WaitForSeconds(t);
         sr.enabled = false;
+        m_animator.SetBool("Punching", false);
     }
+
+    
 }
