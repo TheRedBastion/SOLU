@@ -94,13 +94,13 @@ public class PlayerCombat : MonoBehaviour
 
     public void SpecialAttack1()
     {
-        m_animator.SetBool("Special", true);
+        
         Transform active = player.GetActiveCharacterTransform();
 
         if (player.character == 0)
         {
             if (moonProjTimer > 0f) return;
-
+            m_animator.SetBool("Special", true);
             float dir = Mathf.Sign(active.localScale.x);
 
             Vector3 spawnPos = projectileSpawnPoint != null
@@ -126,11 +126,13 @@ public class PlayerCombat : MonoBehaviour
         else
         {
             if (sunAOETimer > 0f) return;
-
+            m_animator.SetBool("Special", true);
             Instantiate(sunAOEPrefab, active.position, Quaternion.identity);
 
             sunAOETimer = sunAOECooldown;
         }
+
+        StartCoroutine(showAttack(0.2f));
     }
 
     private void UpdateAttackPoint()
