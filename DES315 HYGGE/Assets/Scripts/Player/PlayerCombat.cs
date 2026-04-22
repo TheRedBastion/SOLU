@@ -94,6 +94,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void SpecialAttack1()
     {
+        m_animator.SetBool("Special", true);
         Transform active = player.GetActiveCharacterTransform();
 
         if (player.character == 0)
@@ -156,6 +157,7 @@ public class PlayerCombat : MonoBehaviour
         yield return new WaitForSeconds(t);
         sr.enabled = false;
         m_animator.SetBool("Punching", false);
+        m_animator.SetBool("Special", false);
     }
 
     
