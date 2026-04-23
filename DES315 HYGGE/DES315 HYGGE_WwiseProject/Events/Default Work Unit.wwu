@@ -91,17 +91,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="ArmoredEnemyAttack" ID="{78005111-4E15-4EA1-8647-4E9419B333A0}">
-					<ChildrenList>
-						<Action Name="" ID="{3AAC2C6F-6C5C-4E5C-AD83-749DF24F35FC}" ShortID="246272233">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ArmoredEnemyAttack" ID="{67FE7E83-D9EB-4412-A6C7-9B4C40C82E4B}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="MoonMusic1" ID="{3DAE1915-4E41-4369-88B7-E39E9F934AD6}">
 					<ChildrenList>
 						<Action Name="" ID="{97247846-D50B-49E8-92C0-6D2CE8BD2C05}" ShortID="991540683">
@@ -141,6 +130,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FloralAmbience1" ID="{2A153EE8-222A-4562-A4AB-E8F50715F5AB}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SpiderAttacks" ID="{7E4B05FB-1CC6-4C94-A718-458ED8507604}">
+					<ChildrenList>
+						<Action Name="" ID="{2BFBEFF9-4C89-476E-A010-1281C37E5A5D}" ShortID="79398698">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SpiderAttack" ID="{09772311-261C-4F6B-A34D-EB70360A13B8}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

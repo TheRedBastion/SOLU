@@ -29,6 +29,8 @@ public abstract class BaseEnemy : MonoBehaviour
     private Color originalColor;
     private float flashTimer = 0f;
 
+    public AK.Wwise.Event AttackingSound = new AK.Wwise.Event();
+
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -91,6 +93,7 @@ public abstract class BaseEnemy : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             TryDamagePlayer(other.gameObject);
+            AttackingSound.Post(gameObject);
         }
     }
 
@@ -103,6 +106,7 @@ public abstract class BaseEnemy : MonoBehaviour
             {
                 TryDamagePlayer(other.gameObject);
                 damageTimer = damageRate;
+                AttackingSound.Post(gameObject);
             }
         }
     }
@@ -116,6 +120,7 @@ public abstract class BaseEnemy : MonoBehaviour
             {
                 TryDamagePlayer(collision.gameObject);
                 damageTimer = damageRate;
+                AttackingSound.Post(gameObject);
             }
         }
     }

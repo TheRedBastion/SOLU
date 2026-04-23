@@ -13,7 +13,6 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID ARMOREDENEMYATTACK = 1992179679U;
         static const AkUniqueID BATATTACKS = 3626407789U;
         static const AkUniqueID BATDAMAGED = 3293333115U;
         static const AkUniqueID BATSLAIN = 770143801U;
@@ -23,6 +22,7 @@ namespace AK
         static const AkUniqueID MOONDAMAGED = 1483277815U;
         static const AkUniqueID MOONMUSIC1 = 3770854140U;
         static const AkUniqueID SFOOTSTEPS = 3194455577U;
+        static const AkUniqueID SPIDERATTACKS = 100760629U;
         static const AkUniqueID SUNDAMAGED = 1689873234U;
         static const AkUniqueID SUNDAMAGEDCAVE = 1203409809U;
         static const AkUniqueID SUNMUSIC1 = 1938177371U;

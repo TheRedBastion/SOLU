@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	100760629	SpiderAttacks			\Default Work Unit\SpiderAttacks	
 	375687853	GFootsteps			\Default Work Unit\GFootsteps	
 	770143801	BatSlain			\Default Work Unit\BatSlain	
 	815341915	FloralAmbience			\Default Work Unit\FloralAmbience	
@@ -6,17 +7,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	1483277815	MoonDamaged			\Default Work Unit\MoonDamaged	
 	1689873234	SunDamaged			\Default Work Unit\SunDamaged	
 	1938177371	SunMusic1			\Default Work Unit\SunMusic1	
-	1992179679	ArmoredEnemyAttack			\Default Work Unit\ArmoredEnemyAttack	
 	3194455577	SFootsteps			\Default Work Unit\SFootsteps	
 	3280349325	CavesAmbience			\Default Work Unit\CavesAmbience	
 	3293333115	BatDamaged			\Default Work Unit\BatDamaged	
 	3626407789	BatAttacks			\Default Work Unit\BatAttacks	
 	3770854140	MoonMusic1			\Default Work Unit\MoonMusic1	
 
-Switch Group	ID	Name			Wwise Object Path	Notes
-	2769296183	ArmoredEnemy			\Default Work Unit\ArmoredEnemy	
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	37298357	Music_Volume_Control			\Default Work Unit\Music_Volume_Control	
+	421945036	Ambience_Volume_Control			\Default Work Unit\Ambience_Volume_Control	
+	1045451248	Sound_Effects_Volume_Control			\Default Work Unit\Sound_Effects_Volume_Control	
+	2232728930	Master_Volume_Control			\Default Work Unit\Master_Volume_Control	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	69010280	SpiderAttack	.cache\67\{670BB68D-21AC-0BAB-05F6-F6BA96577DD5}.wem		\Containers\Default Work Unit\SpiderAttack		441096
 	125192489	FloralAmbience1	.cache\12\{1226B298-4899-A5D0-F4A9-0BC035562D0A}.wem		\Containers\Default Work Unit\FloralAmbience1		2469696
 	255574596	BatAttack-2	.cache\BC\{BC3E0004-14FB-DA9F-9625-683FAE214CAE}.wem		\Containers\Default Work Unit\BatAttack-2		294328
 	265268529	FootstepsOnStone1	.cache\23\{23CEBF34-5AB5-8916-4EA4-FAE55CA4EFCE}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone1		399836

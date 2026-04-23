@@ -42,6 +42,7 @@ public class Health : MonoBehaviour
     public UnityEvent OnDeath;
 
     public AK.Wwise.Event DamageTakenSound = new AK.Wwise.Event();
+    public AK.Wwise.Event Slain = new AK.Wwise.Event();
 
     private void Awake()
     {
@@ -79,6 +80,7 @@ public class Health : MonoBehaviour
 
         if (CurrentHealth <= 0)
         {
+            Slain.Post(gameObject);
             Die();
             return;
         }

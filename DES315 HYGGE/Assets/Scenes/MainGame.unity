@@ -328,7 +328,7 @@ MonoBehaviour:
     rid: -2
   m_ShadowCastingSource: 1
   m_ShadowMesh:
-    m_Mesh: {fileID: 1038018797}
+    m_Mesh: {fileID: 1582780301}
     m_LocalBounds:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0.165, y: 2.65, z: 0}
@@ -699,6 +699,10 @@ PrefabInstance:
       propertyPath: attackKnockbackForce
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 6279862062427777995, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -890,6 +894,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 578250312}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 925.62
@@ -1299,6 +1307,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 899.98
@@ -1339,6 +1355,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH (3)
@@ -1356,6 +1376,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 587.8
@@ -1396,6 +1424,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH (7)
@@ -2168,6 +2200,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186023693}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 342.1
@@ -2208,6 +2248,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -2312,6 +2356,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 70989850}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 877.5
@@ -2803,6 +2851,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 1622616269}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 713.84
@@ -3099,6 +3151,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 377012800}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 638.2
@@ -3311,6 +3367,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186023693}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 320.8
@@ -3351,6 +3415,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -3590,6 +3658,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 1338488985}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 845.6401
@@ -4621,6 +4693,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 1659498670}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 617.68
@@ -4879,6 +4955,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 816.35095
@@ -4919,6 +5003,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -5332,6 +5420,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186023693}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 351.74
@@ -5372,6 +5468,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -5401,6 +5501,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 645529402}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1011.53
@@ -5896,6 +6000,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 2069885877}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 948.85004
@@ -6232,6 +6340,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 790.6
@@ -6272,6 +6388,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH (2)
@@ -6406,6 +6526,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 924.8319
@@ -6446,6 +6574,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -6480,6 +6612,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 789150771}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 778.55
@@ -6538,6 +6674,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 758.7
@@ -6578,6 +6722,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH (1)
@@ -6700,6 +6848,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186023693}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 340.14
@@ -6740,6 +6896,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -7331,6 +7491,184 @@ MonoBehaviour:
   - {x: 0.22161865, y: -0.20658875, z: 0.000029599463}
   - {x: -0.4730835, y: 0.84796906, z: 0.00005934936}
   - {x: -0.9817505, y: -0.2867508, z: 0.00013264615}
+--- !u!43 &877020009
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 20
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.165, y: 2.65, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 0
+  m_KeepIndices: 0
+  m_IndexFormat: 1
+  m_IndexBuffer: 030000000400000005000000050000000000000003000000000000000800000009000000090000000100000000000000010000000c0000000d0000000d0000000200000001000000020000001000000011000000110000000300000002000000030000000600000007000000000000000a0000000b000000010000000e0000000f000000020000001200000013000000
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 20
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 560
+    _typelessdata: c3f528be9a9929c000000000000080bf00000000c3f5283e9a9929c0c3f5283e9a9929c000000000000080bf00000000c3f5283e9a992940c3f5283e9a99294000000000000080bf00000000c3f528be9a992940c3f528be9a99294000000000000080bf00000000c3f528be9a9929c0c3f528be9a992940000000000000000000000000c3f528be9a9929c0c3f528be9a9929c0000000000000000000000000c3f528be9a992940c3f528be9a992940000000000000803f00000000c3f528be9a9929c0c3f528be9a992940000000000000404000000000c3f528be9a9929c0c3f528be9a9929c0000000000000000000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000000000000000c3f528be9a9929c0c3f528be9a9929c0000000000000803f00000000c3f5283e9a9929c0c3f528be9a9929c0000000000000404000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000000000000000c3f5283e9a992940c3f5283e9a992940000000000000000000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000803f00000000c3f5283e9a992940c3f5283e9a9929c0000000000000404000000000c3f5283e9a992940c3f5283e9a992940000000000000000000000000c3f528be9a992940c3f528be9a992940000000000000000000000000c3f5283e9a992940c3f5283e9a992940000000000000803f00000000c3f528be9a992940c3f5283e9a992940000000000000404000000000c3f528be9a992940
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!1 &882139559
 GameObject:
   m_ObjectHideFlags: 0
@@ -7576,6 +7914,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186023693}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 336.46
@@ -7616,6 +7962,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -8299,6 +8649,10 @@ PrefabInstance:
       propertyPath: attackKnockbackForce
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 6279862062427777995, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -8584,184 +8938,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!43 &1038018797
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 12
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 20
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.165, y: 2.65, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 0
-  m_KeepIndices: 0
-  m_IndexFormat: 1
-  m_IndexBuffer: 030000000400000005000000050000000000000003000000000000000800000009000000090000000100000000000000010000000c0000000d0000000d0000000200000001000000020000001000000011000000110000000300000002000000030000000600000007000000000000000a0000000b000000010000000e0000000f000000020000001200000013000000
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 20
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 560
-    _typelessdata: c3f528be9a9929c000000000000080bf00000000c3f5283e9a9929c0c3f5283e9a9929c000000000000080bf00000000c3f5283e9a992940c3f5283e9a99294000000000000080bf00000000c3f528be9a992940c3f528be9a99294000000000000080bf00000000c3f528be9a9929c0c3f528be9a992940000000000000000000000000c3f528be9a9929c0c3f528be9a9929c0000000000000000000000000c3f528be9a992940c3f528be9a992940000000000000803f00000000c3f528be9a9929c0c3f528be9a992940000000000000404000000000c3f528be9a9929c0c3f528be9a9929c0000000000000000000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000000000000000c3f528be9a9929c0c3f528be9a9929c0000000000000803f00000000c3f5283e9a9929c0c3f528be9a9929c0000000000000404000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000000000000000c3f5283e9a992940c3f5283e9a992940000000000000000000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000803f00000000c3f5283e9a992940c3f5283e9a9929c0000000000000404000000000c3f5283e9a992940c3f5283e9a992940000000000000000000000000c3f528be9a992940c3f528be9a992940000000000000000000000000c3f5283e9a992940c3f5283e9a992940000000000000803f00000000c3f528be9a992940c3f5283e9a992940000000000000404000000000c3f528be9a992940
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  'm_MeshMetrics[0]': 1
-  'm_MeshMetrics[1]': 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
-  m_MeshLodInfo:
-    serializedVersion: 2
-    m_LodSelectionCurve:
-      serializedVersion: 1
-      m_LodSlope: 0
-      m_LodBias: 0
-    m_NumLevels: 1
-    m_SubMeshes:
-    - serializedVersion: 2
-      m_Levels:
-      - serializedVersion: 1
-        m_IndexStart: 0
-        m_IndexCount: 0
 --- !u!1 &1040229334
 GameObject:
   m_ObjectHideFlags: 0
@@ -8988,6 +9164,10 @@ PrefabInstance:
       propertyPath: attackKnockbackForce
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 6279862062427777995, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -9203,7 +9383,7 @@ MonoBehaviour:
     rid: -2
   m_ShadowCastingSource: 1
   m_ShadowMesh:
-    m_Mesh: {fileID: 2109966170}
+    m_Mesh: {fileID: 877020009}
     m_LocalBounds:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0.165, y: 2.65, z: 0}
@@ -9704,6 +9884,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 289ac10c535def042983abd50a5af8ae, type: 2}
+  Slain:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1147384682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10121,6 +10305,10 @@ PrefabInstance:
       propertyPath: attackKnockbackForce
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 6279862062427777995, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -10519,6 +10707,10 @@ PrefabInstance:
       propertyPath: attackKnockbackForce
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 6279862062427777995, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -10592,6 +10784,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 953.96
@@ -10632,6 +10832,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH (4)
@@ -11509,6 +11713,10 @@ PrefabInstance:
       propertyPath: attackKnockbackForce
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 6279862062427777995, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -11582,6 +11790,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 735.0803
@@ -11622,6 +11838,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -11962,6 +12182,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186023693}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 284.2101
@@ -12002,6 +12230,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH (1)
@@ -12242,6 +12474,10 @@ PrefabInstance:
       propertyPath: attackKnockbackForce
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 6279862062427777995, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -12810,6 +13046,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8f78160bafc00964ab8222f6d922770a, type: 2}
+  Slain:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1554406611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13147,6 +13387,184 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c25831a8d14bc4582127bdc6acb8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lever
+--- !u!43 &1582780301
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 20
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.165, y: 2.65, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 0
+  m_KeepIndices: 0
+  m_IndexFormat: 1
+  m_IndexBuffer: 030000000400000005000000050000000000000003000000000000000800000009000000090000000100000000000000010000000c0000000d0000000d0000000200000001000000020000001000000011000000110000000300000002000000030000000600000007000000000000000a0000000b000000010000000e0000000f000000020000001200000013000000
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 20
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 560
+    _typelessdata: c3f528be9a9929c000000000000080bf00000000c3f5283e9a9929c0c3f5283e9a9929c000000000000080bf00000000c3f5283e9a992940c3f5283e9a99294000000000000080bf00000000c3f528be9a992940c3f528be9a99294000000000000080bf00000000c3f528be9a9929c0c3f528be9a992940000000000000000000000000c3f528be9a9929c0c3f528be9a9929c0000000000000000000000000c3f528be9a992940c3f528be9a992940000000000000803f00000000c3f528be9a9929c0c3f528be9a992940000000000000404000000000c3f528be9a9929c0c3f528be9a9929c0000000000000000000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000000000000000c3f528be9a9929c0c3f528be9a9929c0000000000000803f00000000c3f5283e9a9929c0c3f528be9a9929c0000000000000404000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000000000000000c3f5283e9a992940c3f5283e9a992940000000000000000000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000803f00000000c3f5283e9a992940c3f5283e9a9929c0000000000000404000000000c3f5283e9a992940c3f5283e9a992940000000000000000000000000c3f528be9a992940c3f528be9a992940000000000000000000000000c3f5283e9a992940c3f5283e9a992940000000000000803f00000000c3f528be9a992940c3f5283e9a992940000000000000404000000000c3f528be9a992940
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!114 &1589790121 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 431737495379980634, guid: 2675c6d3328e5cb4a933667509c2b1b7, type: 3}
@@ -13171,6 +13589,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186023693}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 246.59785
@@ -13211,6 +13637,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -13271,6 +13701,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 733.1486
@@ -13311,6 +13749,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -13729,6 +14171,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 947.357
@@ -13769,6 +14219,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -14001,6 +14455,10 @@ PrefabInstance:
       propertyPath: attackKnockbackForce
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 6279862062427777995, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -15049,6 +15507,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 598.4
@@ -15089,6 +15555,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH (6)
@@ -15223,6 +15693,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 688.3
@@ -15263,6 +15741,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH (1)
@@ -15406,6 +15888,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 376984127}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 874
@@ -15585,6 +16071,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 1984576266}
+    - target: {fileID: 5990869618571840368, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9921da8d704087f4e839c5cd56fbe068, type: 2}
     - target: {fileID: 8487833311960581452, guid: 6a819f82a0bcd1948bab27c9a585f9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 906.92
@@ -15766,6 +16256,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186023693}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 205.20088
@@ -15806,6 +16304,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -15823,6 +16325,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186023693}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 215.3
@@ -15863,6 +16373,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH
@@ -15885,6 +16399,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412090798}
     m_Modifications:
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: Slain.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
+    - target: {fileID: 2253400490043441329, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: DamageTakenSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
     - target: {fileID: 2809846954946706910, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 636.5
@@ -15925,6 +16447,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852722099227854027, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
+      propertyPath: AttackingSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
     - target: {fileID: 7335321280127348757, guid: b4774c91027f02b4bb0ff0df2e6f042f, type: 3}
       propertyPath: m_Name
       value: EnemyH (5)
@@ -16356,184 +16882,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085345502}
   m_CullTransparentMesh: 1
---- !u!43 &2109966170
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 12
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 20
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.165, y: 2.65, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 0
-  m_KeepIndices: 0
-  m_IndexFormat: 1
-  m_IndexBuffer: 030000000400000005000000050000000000000003000000000000000800000009000000090000000100000000000000010000000c0000000d0000000d0000000200000001000000020000001000000011000000110000000300000002000000030000000600000007000000000000000a0000000b000000010000000e0000000f000000020000001200000013000000
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 20
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 560
-    _typelessdata: c3f528be9a9929c000000000000080bf00000000c3f5283e9a9929c0c3f5283e9a9929c000000000000080bf00000000c3f5283e9a992940c3f5283e9a99294000000000000080bf00000000c3f528be9a992940c3f528be9a99294000000000000080bf00000000c3f528be9a9929c0c3f528be9a992940000000000000000000000000c3f528be9a9929c0c3f528be9a9929c0000000000000000000000000c3f528be9a992940c3f528be9a992940000000000000803f00000000c3f528be9a9929c0c3f528be9a992940000000000000404000000000c3f528be9a9929c0c3f528be9a9929c0000000000000000000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000000000000000c3f528be9a9929c0c3f528be9a9929c0000000000000803f00000000c3f5283e9a9929c0c3f528be9a9929c0000000000000404000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000000000000000c3f5283e9a992940c3f5283e9a992940000000000000000000000000c3f5283e9a9929c0c3f5283e9a9929c0000000000000803f00000000c3f5283e9a992940c3f5283e9a9929c0000000000000404000000000c3f5283e9a992940c3f5283e9a992940000000000000000000000000c3f528be9a992940c3f528be9a992940000000000000000000000000c3f5283e9a992940c3f5283e9a992940000000000000803f00000000c3f528be9a992940c3f5283e9a992940000000000000404000000000c3f528be9a992940
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  'm_MeshMetrics[0]': 1
-  'm_MeshMetrics[1]': 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
-  m_MeshLodInfo:
-    serializedVersion: 2
-    m_LodSelectionCurve:
-      serializedVersion: 1
-      m_LodSlope: 0
-      m_LodBias: 0
-    m_NumLevels: 1
-    m_SubMeshes:
-    - serializedVersion: 2
-      m_Levels:
-      - serializedVersion: 1
-        m_IndexStart: 0
-        m_IndexCount: 0
 --- !u!1 &2112655275
 GameObject:
   m_ObjectHideFlags: 0
