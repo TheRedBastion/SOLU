@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -7,10 +8,28 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject pauseMenuUI;
 
-    // Update is called once per frame
+    public InputActionAsset InputActions;
+
+    private InputAction pauseAction;
+
+    private void Awake()
+    {
+        RefreshInput();
+    }
+    private void OnEnable()
+    {
+        InputActions.FindActionMap("Player").Enable();
+    }
+
+    public void RefreshInput()
+    {
+        var playerActionMap = InputActions.FindActionMap("Player");
+        pauseAction = playerActionMap.FindAction("Pause");
+    }
+
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(pauseAction.WasPressedThisFrame())
         {
             if(GameIsPaused)
             {
@@ -23,7 +42,7 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    void Resume()
+    public void Resume()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
@@ -35,5 +54,10 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
