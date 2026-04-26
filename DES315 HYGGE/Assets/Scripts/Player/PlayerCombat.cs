@@ -113,7 +113,7 @@ public class PlayerCombat : MonoBehaviour
                 Quaternion.identity
             );
 
-            proj.transform.localScale = new Vector3(dir, 1, 1);
+            //proj.transform.localScale = new Vector3(dir, 1, 1);
 
             MoonProjectile mp = proj.GetComponent<MoonProjectile>();
             if (mp != null)
