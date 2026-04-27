@@ -94,13 +94,24 @@ public class PlayerCombat : MonoBehaviour
 
     public void SpecialAttack1()
     {
-        
+        if (player.character == 0)
+        {
+            if (moonProjTimer > 0f) return;
+        }
+        else
+        {
+            if (sunAOETimer > 0f) return;
+        }
+
+        m_animator.SetBool("Special", true);
+    }
+
+    public void PerformSpecialAttack()
+    {
         Transform active = player.GetActiveCharacterTransform();
 
         if (player.character == 0)
         {
-            if (moonProjTimer > 0f) return;
-            m_animator.SetBool("Special", true);
             float dir = Mathf.Sign(active.localScale.x);
 
             Vector3 spawnPos = projectileSpawnPoint != null
@@ -113,8 +124,6 @@ public class PlayerCombat : MonoBehaviour
                 Quaternion.identity
             );
 
-            //proj.transform.localScale = new Vector3(dir, 1, 1);
-
             MoonProjectile mp = proj.GetComponent<MoonProjectile>();
             if (mp != null)
             {
@@ -125,10 +134,7 @@ public class PlayerCombat : MonoBehaviour
         }
         else
         {
-            if (sunAOETimer > 0f) return;
-            m_animator.SetBool("Special", true);
             Instantiate(sunAOEPrefab, active.position, Quaternion.identity);
-
             sunAOETimer = sunAOECooldown;
         }
 
