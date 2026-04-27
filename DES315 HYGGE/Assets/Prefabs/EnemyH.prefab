@@ -234,7 +234,9 @@ MonoBehaviour:
   orbitRange: 6
   orbitDistance: 4
   dashSpeed: 6
-  dashCooldown: 3.5
+  dashCooldown: 5
+  repositionMaxTime: 1.5
+  anglePhaseMaxTime: 1.5
 --- !u!60 &4255928586273883775
 PolygonCollider2D:
   m_ObjectHideFlags: 0

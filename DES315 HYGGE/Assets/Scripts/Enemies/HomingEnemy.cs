@@ -12,6 +12,11 @@ public class HomingEnemy : BaseEnemy
     [SerializeField] private float dashSpeed = 6f;
     [SerializeField] private float dashCooldown = 3.5f;
 
+    [Header("State Fallbacks")]
+    private float stateTimer;
+    [SerializeField] private float repositionMaxTime = 1.5f;
+    [SerializeField] private float anglePhaseMaxTime = 1.5f;
+
     private float dashTimer;
     private bool isDashing = false;
 
@@ -48,6 +53,7 @@ public class HomingEnemy : BaseEnemy
         Vector2 perp = new Vector2(-dirToPlayer.y, dirToPlayer.x);
 
         dashTimer -= Time.deltaTime;
+        stateTimer += Time.deltaTime;
 
         //---------------- DASH ----------------
         if (isDashing)
@@ -62,6 +68,7 @@ public class HomingEnemy : BaseEnemy
 
                 inReposition = true;
                 inAnglePhase = false;
+                stateTimer = 0f;
 
                 //PURE LEFT/RIGHT SNAP
                 repositionTarget = (Vector2)player.position + Vector2.right * lockedSide * orbitDistance;
@@ -75,13 +82,16 @@ public class HomingEnemy : BaseEnemy
         if (inReposition)
         {
             Vector2 move = repositionTarget - (Vector2)transform.position;
+            Vector2 velocityDir = rb.linearVelocity.normalized;
 
             rb.linearVelocity = move.normalized * dashSpeed;
 
-            if (move.magnitude < 0.2f)
+            if (move.magnitude < 0.2f || Vector2.Dot(move.normalized, velocityDir) < 0f ||
+                stateTimer > repositionMaxTime)
             {
                 inReposition = false;
                 inAnglePhase = true;
+                stateTimer = 0f;
                 //wobbleTime = 0f;
 
                 //ANGLED TARGET
@@ -99,6 +109,7 @@ public class HomingEnemy : BaseEnemy
         if (inAnglePhase)
         {
             Vector2 move = angleTarget - (Vector2)transform.position;
+            Vector2 velocityDir = rb.linearVelocity.normalized;
 
             wobbleTime += Time.deltaTime;
 
@@ -110,10 +121,11 @@ public class HomingEnemy : BaseEnemy
 
             rb.linearVelocity = finalMove * speed;
 
-            if (move.magnitude < 0.15f)
+            if (move.magnitude < 0.15f || Vector2.Dot(move.normalized, velocityDir) < 0f ||
+                stateTimer > anglePhaseMaxTime)
             {
                 inAnglePhase = false;
-
+                stateTimer = 0f;
                 Vector2 dir = Quaternion.Euler(0, 0, lockedSide == 1 ? 15f : 165f) * Vector2.right;
 
                 arcForward = dir.normalized;
