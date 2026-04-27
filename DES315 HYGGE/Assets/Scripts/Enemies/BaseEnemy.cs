@@ -93,7 +93,6 @@ public abstract class BaseEnemy : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             TryDamagePlayer(other.gameObject);
-            AttackingSound.Post(gameObject);
         }
     }
 
@@ -106,7 +105,6 @@ public abstract class BaseEnemy : MonoBehaviour
             {
                 TryDamagePlayer(other.gameObject);
                 damageTimer = damageRate;
-                AttackingSound.Post(gameObject);
             }
         }
     }
@@ -120,7 +118,6 @@ public abstract class BaseEnemy : MonoBehaviour
             {
                 TryDamagePlayer(collision.gameObject);
                 damageTimer = damageRate;
-                AttackingSound.Post(gameObject);
             }
         }
     }
@@ -140,6 +137,7 @@ public abstract class BaseEnemy : MonoBehaviour
                 attackKnockbackForce,
                 attackKnockbackDuration
             );
+            AttackingSound.Post(gameObject);
             playerHealth.TakeDamage(contactDamage, kb);
         }
     }
