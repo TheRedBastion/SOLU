@@ -1,0 +1,1950 @@
+fileFormatVersion: 2
+guid: ed7138fa04f303e42bfffd8634c05165
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6425212128175459677
+    second: SOLU_Options_Audio_0
+  - first:
+      213: 1036700460963272501
+    second: SOLU_Options_Audio_1
+  - first:
+      213: 7886475841141969476
+    second: SOLU_Options_Audio_2
+  - first:
+      213: -8489671538381758106
+    second: SOLU_Options_Audio_3
+  - first:
+      213: -7454942321670051557
+    second: SOLU_Options_Audio_4
+  - first:
+      213: -4214264073750793343
+    second: SOLU_Options_Audio_5
+  - first:
+      213: 8201662969387980572
+    second: SOLU_Options_Audio_6
+  - first:
+      213: -7123583026499000993
+    second: SOLU_Options_Audio_7
+  - first:
+      213: -3958809763910928076
+    second: SOLU_Options_Audio_8
+  - first:
+      213: 414552026531114900
+    second: SOLU_Options_Audio_9
+  - first:
+      213: 7832073511256141009
+    second: SOLU_Options_Audio_10
+  - first:
+      213: -856312534992826113
+    second: SOLU_Options_Audio_11
+  - first:
+      213: -4711375048771860343
+    second: SOLU_Options_Audio_12
+  - first:
+      213: -3831084247164468957
+    second: SOLU_Options_Audio_13
+  - first:
+      213: 3624882842622486798
+    second: SOLU_Options_Audio_14
+  - first:
+      213: -8960794800047678254
+    second: SOLU_Options_Audio_15
+  - first:
+      213: -7967881056336831122
+    second: SOLU_Options_Audio_16
+  - first:
+      213: -6525938031517093979
+    second: SOLU_Options_Audio_17
+  - first:
+      213: -5229298760131752498
+    second: SOLU_Options_Audio_18
+  - first:
+      213: 8061016337444821089
+    second: SOLU_Options_Audio_19
+  - first:
+      213: 1297701721752737874
+    second: SOLU_Options_Audio_20
+  - first:
+      213: 2134637320415914129
+    second: SOLU_Options_Audio_21
+  - first:
+      213: 4932715551079018309
+    second: SOLU_Options_Audio_22
+  - first:
+      213: -5371419643381032832
+    second: SOLU_Options_Audio_23
+  - first:
+      213: -4026297404091697251
+    second: SOLU_Options_Audio_24
+  - first:
+      213: -9043625067639355447
+    second: SOLU_Options_Audio_25
+  - first:
+      213: 3913745152857178517
+    second: SOLU_Options_Audio_26
+  - first:
+      213: -3993614189687711588
+    second: SOLU_Options_Audio_27
+  - first:
+      213: 7523522738649409780
+    second: SOLU_Options_Audio_28
+  - first:
+      213: -5247540215868634739
+    second: SOLU_Options_Audio_29
+  - first:
+      213: -176107044886783309
+    second: SOLU_Options_Audio_30
+  - first:
+      213: 136160346330713766
+    second: SOLU_Options_Audio_31
+  - first:
+      213: -7301244562084510250
+    second: SOLU_Options_Audio_32
+  - first:
+      213: -2542268985619880638
+    second: SOLU_Options_Audio_33
+  - first:
+      213: -8469847366668866494
+    second: SOLU_Options_Audio_34
+  - first:
+      213: 3340335403222743761
+    second: SOLU_Options_Audio_35
+  - first:
+      213: -7785857759437211791
+    second: SOLU_Options_Audio_36
+  - first:
+      213: -1486747102784528654
+    second: SOLU_Options_Audio_37
+  - first:
+      213: 5376311304508723642
+    second: SOLU_Options_Audio_38
+  - first:
+      213: -9100829259650265439
+    second: SOLU_Options_Audio_39
+  - first:
+      213: 4383993739232487596
+    second: SOLU_Options_Audio_40
+  - first:
+      213: 5685503509328847000
+    second: SOLU_Options_Audio_41
+  - first:
+      213: -7120678939851958340
+    second: SOLU_Options_Audio_42
+  - first:
+      213: 6405759813579789934
+    second: SOLU_Options_Audio_43
+  - first:
+      213: 7879134975242404004
+    second: SOLU_Options_Audio_44
+  - first:
+      213: -6320318846111654558
+    second: SOLU_Options_Audio_45
+  - first:
+      213: 1040275673971338716
+    second: SOLU_Options_Audio_46
+  - first:
+      213: 1991205850862008887
+    second: SOLU_Options_Audio_47
+  - first:
+      213: -5158645377331092129
+    second: SOLU_Options_Audio_48
+  - first:
+      213: -3102739768941898535
+    second: SOLU_Options_Audio_49
+  - first:
+      213: 1491046212514699510
+    second: SOLU_Options_Audio_50
+  - first:
+      213: 859954835001721745
+    second: SOLU_Options_Audio_51
+  - first:
+      213: 2401934806029376032
+    second: SOLU_Options_Audio_52
+  - first:
+      213: 1317627228388088933
+    second: SOLU_Options_Audio_53
+  - first:
+      213: -7177024769576143171
+    second: SOLU_Options_Audio_54
+  - first:
+      213: -7616019573315615655
+    second: SOLU_Options_Audio_55
+  - first:
+      213: 5765263786264656884
+    second: SOLU_Options_Audio_56
+  - first:
+      213: 8237100290483999603
+    second: SOLU_Options_Audio_57
+  - first:
+      213: -5169833042387456132
+    second: SOLU_Options_Audio_58
+  - first:
+      213: -7601918410294314743
+    second: SOLU_Options_Audio_59
+  - first:
+      213: -5071399633662382420
+    second: SOLU_Options_Audio_60
+  - first:
+      213: 2803118673743822894
+    second: SOLU_Options_Audio_61
+  - first:
+      213: -4229091035848097586
+    second: SOLU_Options_Audio_62
+  - first:
+      213: -657777980871373050
+    second: SOLU_Options_Audio_63
+  - first:
+      213: -8483561133851733319
+    second: SOLU_Options_Audio_64
+  - first:
+      213: -8310082190381810825
+    second: SOLU_Options_Audio_65
+  - first:
+      213: -3835253257862780224
+    second: SOLU_Options_Audio_66
+  - first:
+      213: 9169254730177095781
+    second: SOLU_Options_Audio_67
+  - first:
+      213: -4122630888772236909
+    second: SOLU_Options_Audio_68
+  - first:
+      213: 5273174033859022013
+    second: SOLU_Options_Audio_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_0
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1964
+        width: 436
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d0e6a6360fa2950800000000000000
+      internalID: 6425212128175459677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 2211
+        width: 27
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537133a9399136e00800000000000000
+      internalID: 1036700460963272501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 2280
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44297f04ef3627d60800000000000000
+      internalID: 7886475841141969476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_3
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 2211
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661e20f47b0ae2a80800000000000000
+      internalID: -8489671538381758106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_4
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 2211
+        width: 11
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19a4d7d479ba8890800000000000000
+      internalID: -7454942321670051557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_5
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 2209
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183b46e272de385c0800000000000000
+      internalID: -4214264073750793343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_6
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 2209
+        width: 43
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1798d1340922d170800000000000000
+      internalID: 8201662969387980572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_7
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2277
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f556681daf2f32d90800000000000000
+      internalID: -7123583026499000993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_8
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 2213
+        width: 42
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439bdb09e7b7f09c0800000000000000
+      internalID: -3958809763910928076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_9
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 2283
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f2e4a2fd8c0c500800000000000000
+      internalID: 414552026531114900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_10
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 2213
+        width: 10
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc2b25cc5d11bc60800000000000000
+      internalID: 7832073511256141009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_11
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 2211
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0d90f4944cd14f0800000000000000
+      internalID: -856312534992826113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_12
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 2210
+        width: 36
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9888056ea55dd9eb0800000000000000
+      internalID: -4711375048771860343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_13
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 2280
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321ca27dc2145dac0800000000000000
+      internalID: -3831084247164468957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_14
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 2211
+        width: 28
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09ebea6dbb2e4230800000000000000
+      internalID: 3624882842622486798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_15
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2189
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc9dfd0b9cd4a380800000000000000
+      internalID: -8960794800047678254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_16
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 2211
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d9a7815666c6190800000000000000
+      internalID: -7967881056336831122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_17
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 2211
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af263dafe53f65a0800000000000000
+      internalID: -6525938031517093979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_18
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2211
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdc4f1db7ccd67b0800000000000000
+      internalID: -5229298760131752498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_19
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2211
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168d40a56ab7edf60800000000000000
+      internalID: 8061016337444821089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_20
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 2211
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2581c7527dc520210800000000000000
+      internalID: 1297701721752737874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_21
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 2211
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198aea74551cf9d10800000000000000
+      internalID: 2134637320415914129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_22
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 2211
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f2c18b8a6847440800000000000000
+      internalID: 4932715551079018309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_23
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 2190
+        width: 36
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088d7b81b42e475b0800000000000000
+      internalID: -5371419643381032832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_24
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 2211
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97790dd7d7bf18c0800000000000000
+      internalID: -4026297404091697251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_25
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 2190
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7c9898ae69e7280800000000000000
+      internalID: -9043625067639355447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_26
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 2209
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59185790b7a605630800000000000000
+      internalID: 3913745152857178517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_27
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2209
+        width: 16
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9854b5bd05d398c0800000000000000
+      internalID: -3993614189687711588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_28
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 2209
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8a5c8c11ce86860800000000000000
+      internalID: 7523522738649409780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_29
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 2213
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89c290f9fdfc27b0800000000000000
+      internalID: -5247540215868634739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_30
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 2213
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba541363975e8df0800000000000000
+      internalID: -176107044886783309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_31
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 2213
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae49831d1db3e100800000000000000
+      internalID: 136160346330713766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_32
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 2213
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d543b221c4ccaa90800000000000000
+      internalID: -7301244562084510250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_33
+      rect:
+        serializedVersion: 2
+        x: 3039
+        y: 2213
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24562acb3db08bcd0800000000000000
+      internalID: -2542268985619880638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_34
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 2211
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cace7f1be057a80800000000000000
+      internalID: -8469847366668866494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_35
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 2211
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dab0c3f9514b5e20800000000000000
+      internalID: 3340335403222743761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_36
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 2211
+        width: 10
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177b6097e9313f390800000000000000
+      internalID: -7785857759437211791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_37
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 2211
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fedfab13630e5be0800000000000000
+      internalID: -1486747102784528654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_38
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1964
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1d82385ae7c9a40800000000000000
+      internalID: 5376311304508723642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_39
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1964
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae8011b10c53b180800000000000000
+      internalID: -9100829259650265439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_40
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1964
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca82d74141317dc30800000000000000
+      internalID: 4383993739232487596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_41
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1964
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89068c29157f6ee40800000000000000
+      internalID: 5685503509328847000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_42
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1964
+        width: 24
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7d48e2b344e2d90800000000000000
+      internalID: -7120678939851958340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_43
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1964
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6655ec7c94d5e850800000000000000
+      internalID: 6405759813579789934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_44
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1963
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a00ea8b38f485d60800000000000000
+      internalID: 7879134975242404004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_45
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1964
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dde46fe77b948a0800000000000000
+      internalID: -6320318846111654558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_46
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1964
+        width: 24
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddaa8fb63dcf6e00800000000000000
+      internalID: 1040275673971338716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_47
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1964
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a3f47eb2f22ab10800000000000000
+      internalID: 1991205850862008887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_48
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1964
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5528f96c5fc868b0800000000000000
+      internalID: -5158645377331092129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_49
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1964
+        width: 24
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d49db18e9ad0f4d0800000000000000
+      internalID: -3102739768941898535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_50
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1714
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f851a061a241b410800000000000000
+      internalID: 1491046212514699510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_51
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1714
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193482fbd5c2feb00800000000000000
+      internalID: 859954835001721745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_52
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1714
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a1707eaf2655120800000000000000
+      internalID: 2401934806029376032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_53
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1714
+        width: 9
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c547eabf6294210800000000000000
+      internalID: 1317627228388088933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_54
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1714
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6fb316ff5166c90800000000000000
+      internalID: -7177024769576143171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_55
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1714
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954c91aac867e4690800000000000000
+      internalID: -7616019573315615655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_56
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1714
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb7ab03ed4520050800000000000000
+      internalID: 5765263786264656884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_57
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1714
+        width: 24
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373d099721f005270800000000000000
+      internalID: 8237100290483999603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_58
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1714
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f2b682d301148b0800000000000000
+      internalID: -5169833042387456132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_59
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1714
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909b7e68b7f808690800000000000000
+      internalID: -7601918410294314743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_60
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1714
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caee18117e4ce99b0800000000000000
+      internalID: -5071399633662382420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_61
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1464
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20c3cb059da6e620800000000000000
+      internalID: 2803118673743822894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_62
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1464
+        width: 24
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec04c7d0c104f45c0800000000000000
+      internalID: -4229091035848097586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_63
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1464
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f8615596a1fd6f0800000000000000
+      internalID: -657777980871373050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_64
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1464
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2157ab816544a80800000000000000
+      internalID: -8483561133851733319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_65
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1464
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bfdfbc648acac80800000000000000
+      internalID: -8310082190381810825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_66
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1464
+        width: 24
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caed656b7176cac0800000000000000
+      internalID: -3835253257862780224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_67
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1464
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568a647a89cbf3f70800000000000000
+      internalID: 9169254730177095781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_68
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1464
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3998dae9c0979c6c0800000000000000
+      internalID: -4122630888772236909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Audio_69
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1464
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc0bf668d31e2940800000000000000
+      internalID: 5273174033859022013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f524df51620f67442a75af98986c3e8d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SOLU_Options_Audio_0: 6425212128175459677
+      SOLU_Options_Audio_1: 1036700460963272501
+      SOLU_Options_Audio_10: 7832073511256141009
+      SOLU_Options_Audio_11: -856312534992826113
+      SOLU_Options_Audio_12: -4711375048771860343
+      SOLU_Options_Audio_13: -3831084247164468957
+      SOLU_Options_Audio_14: 3624882842622486798
+      SOLU_Options_Audio_15: -8960794800047678254
+      SOLU_Options_Audio_16: -7967881056336831122
+      SOLU_Options_Audio_17: -6525938031517093979
+      SOLU_Options_Audio_18: -5229298760131752498
+      SOLU_Options_Audio_19: 8061016337444821089
+      SOLU_Options_Audio_2: 7886475841141969476
+      SOLU_Options_Audio_20: 1297701721752737874
+      SOLU_Options_Audio_21: 2134637320415914129
+      SOLU_Options_Audio_22: 4932715551079018309
+      SOLU_Options_Audio_23: -5371419643381032832
+      SOLU_Options_Audio_24: -4026297404091697251
+      SOLU_Options_Audio_25: -9043625067639355447
+      SOLU_Options_Audio_26: 3913745152857178517
+      SOLU_Options_Audio_27: -3993614189687711588
+      SOLU_Options_Audio_28: 7523522738649409780
+      SOLU_Options_Audio_29: -5247540215868634739
+      SOLU_Options_Audio_3: -8489671538381758106
+      SOLU_Options_Audio_30: -176107044886783309
+      SOLU_Options_Audio_31: 136160346330713766
+      SOLU_Options_Audio_32: -7301244562084510250
+      SOLU_Options_Audio_33: -2542268985619880638
+      SOLU_Options_Audio_34: -8469847366668866494
+      SOLU_Options_Audio_35: 3340335403222743761
+      SOLU_Options_Audio_36: -7785857759437211791
+      SOLU_Options_Audio_37: -1486747102784528654
+      SOLU_Options_Audio_38: 5376311304508723642
+      SOLU_Options_Audio_39: -9100829259650265439
+      SOLU_Options_Audio_4: -7454942321670051557
+      SOLU_Options_Audio_40: 4383993739232487596
+      SOLU_Options_Audio_41: 5685503509328847000
+      SOLU_Options_Audio_42: -7120678939851958340
+      SOLU_Options_Audio_43: 6405759813579789934
+      SOLU_Options_Audio_44: 7879134975242404004
+      SOLU_Options_Audio_45: -6320318846111654558
+      SOLU_Options_Audio_46: 1040275673971338716
+      SOLU_Options_Audio_47: 1991205850862008887
+      SOLU_Options_Audio_48: -5158645377331092129
+      SOLU_Options_Audio_49: -3102739768941898535
+      SOLU_Options_Audio_5: -4214264073750793343
+      SOLU_Options_Audio_50: 1491046212514699510
+      SOLU_Options_Audio_51: 859954835001721745
+      SOLU_Options_Audio_52: 2401934806029376032
+      SOLU_Options_Audio_53: 1317627228388088933
+      SOLU_Options_Audio_54: -7177024769576143171
+      SOLU_Options_Audio_55: -7616019573315615655
+      SOLU_Options_Audio_56: 5765263786264656884
+      SOLU_Options_Audio_57: 8237100290483999603
+      SOLU_Options_Audio_58: -5169833042387456132
+      SOLU_Options_Audio_59: -7601918410294314743
+      SOLU_Options_Audio_6: 8201662969387980572
+      SOLU_Options_Audio_60: -5071399633662382420
+      SOLU_Options_Audio_61: 2803118673743822894
+      SOLU_Options_Audio_62: -4229091035848097586
+      SOLU_Options_Audio_63: -657777980871373050
+      SOLU_Options_Audio_64: -8483561133851733319
+      SOLU_Options_Audio_65: -8310082190381810825
+      SOLU_Options_Audio_66: -3835253257862780224
+      SOLU_Options_Audio_67: 9169254730177095781
+      SOLU_Options_Audio_68: -4122630888772236909
+      SOLU_Options_Audio_69: 5273174033859022013
+      SOLU_Options_Audio_7: -7123583026499000993
+      SOLU_Options_Audio_8: -3958809763910928076
+      SOLU_Options_Audio_9: 414552026531114900
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
