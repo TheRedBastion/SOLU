@@ -23,4 +23,24 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void GameplayButton()
+    {
+
+    }
+
+    public void AudioButton()
+    {
+
+    }
+
+    public void CreditsButton()
+    {
+
+    }
+
+    public void VisualsButton()
+    {
+
+    }
 }
