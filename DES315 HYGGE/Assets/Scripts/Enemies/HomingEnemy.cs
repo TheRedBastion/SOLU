@@ -76,16 +76,16 @@ public class HomingEnemy : BaseEnemy
         {
             Vector2 move = repositionTarget - (Vector2)transform.position;
 
-            rb.linearVelocity = move.normalized * speed;
+            rb.linearVelocity = move.normalized * dashSpeed;
 
             if (move.magnitude < 0.2f)
             {
                 inReposition = false;
                 inAnglePhase = true;
-                wobbleTime = 0f;
+                //wobbleTime = 0f;
 
                 //ANGLED TARGET
-                float angle = lockedSide == 1 ? 35f : 145f; // RIGHT HERE CHANGE THIS HERE MIGHYT BE SOMETHING
+                float angle = lockedSide == 1 ? 15f : 165f; // RIGHT HERE CHANGE THIS HERE MIGHYT BE SOMETHING
                 Vector2 dir = Quaternion.Euler(0, 0, angle) * Vector2.right;
 
                 angleTarget = (Vector2)player.position + dir * orbitDistance;
@@ -147,9 +147,10 @@ public class HomingEnemy : BaseEnemy
 
             perp = new Vector2(-arcForward.y, arcForward.x);
 
-            float wobble = Mathf.Sin(Time.time * 2.5f) * 0.2f;
+            wobbleTime += Time.deltaTime;
+            float wobble = Mathf.Sin(wobbleTime * 2.5f) * 0.2f;
 
-            Vector2 wiggledDir = (arcForward + perp * wobble).normalized;
+            Vector2 wiggledDir = arcForward + perp * wobble;
 
             Vector2 orbitPos = (Vector2)player.position + wiggledDir * orbitDistance;
 
@@ -160,11 +161,7 @@ public class HomingEnemy : BaseEnemy
 
             Vector2 radialForce = radialDir.normalized * distanceError;
 
-            Vector2 move =
-                radialForce * 2.0f +
-                wiggledDir * 1.2f;
-
-            rb.linearVelocity = move.normalized * speed;
+            rb.linearVelocity = (radialForce * 2.0f + wiggledDir * 1.2f).normalized * speed;
 
         }
         else
