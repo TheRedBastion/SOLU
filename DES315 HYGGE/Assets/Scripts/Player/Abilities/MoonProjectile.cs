@@ -27,6 +27,8 @@ public class MoonProjectile : MonoBehaviour
     public void SetDirection(float dir)
     {
         direction = dir;
+        Vector3 ls = transform.localScale;
+        transform.localScale = new Vector3(ls.x * dir, ls.y, ls.z);
     }
 
     private void Update()
