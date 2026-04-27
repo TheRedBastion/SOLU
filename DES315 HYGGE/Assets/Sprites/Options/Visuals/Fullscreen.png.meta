@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c52111464b0e6f4439461e3308be98f7
+guid: 7b713b212380c9042828e2764b50de82
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -257,10 +257,10 @@ TextureImporter:
       name: SOLU_Options_Visuals_0
       rect:
         serializedVersion: 2
-        x: 2772
-        y: 2213
-        width: 327
-        height: 95
+        x: 348
+        y: 1964
+        width: 328
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

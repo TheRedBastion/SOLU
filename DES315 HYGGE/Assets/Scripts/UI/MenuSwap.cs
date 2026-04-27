@@ -17,6 +17,10 @@ public class MainMenu : MonoBehaviour
     public GameObject MusicVolumeSlider;
     public GameObject SFXVolumeSlider;
 
+    //visuals
+    public GameObject Fullscreen;
+    public GameObject FullscreenCheck;
+
     public void LoadGame()
     {
         SceneManager.LoadScene(1);
@@ -51,6 +55,9 @@ public class MainMenu : MonoBehaviour
         MusicVolumeSlider.SetActive(false);
         SFXVolumeSlider.SetActive(false);
 
+        //visuals
+        Fullscreen.SetActive(false);
+        FullscreenCheck.SetActive(false);
     }
 
     public void AudioButton()
@@ -66,21 +73,10 @@ public class MainMenu : MonoBehaviour
         MasterVolumeSlider.SetActive(true);
         MusicVolumeSlider.SetActive(true);
         SFXVolumeSlider.SetActive(true);
-    }
 
-    public void CreditsButton()
-    {
-        //gameplay
-        Godmode.SetActive(false);
-        GodmodeCheck.SetActive(false);
-
-        //audio
-        MasterVolume.SetActive(false);
-        MusicVolume.SetActive(false);
-        SFXVolume.SetActive(false);
-        MasterVolumeSlider.SetActive(false);
-        MusicVolumeSlider.SetActive(false);
-        SFXVolumeSlider.SetActive(false);
+        //visuals
+        Fullscreen.SetActive(false);
+        FullscreenCheck.SetActive(false);
     }
 
     public void VisualsButton()
@@ -96,5 +92,29 @@ public class MainMenu : MonoBehaviour
         MasterVolumeSlider.SetActive(false);
         MusicVolumeSlider.SetActive(false);
         SFXVolumeSlider.SetActive(false);
+
+        //visuals
+        Fullscreen.SetActive(true);
+        FullscreenCheck.SetActive(true);
     }
+    public void CreditsButton()
+    {
+        //gameplay
+        Godmode.SetActive(false);
+        GodmodeCheck.SetActive(false);
+
+        //audio
+        MasterVolume.SetActive(false);
+        MusicVolume.SetActive(false);
+        SFXVolume.SetActive(false);
+        MasterVolumeSlider.SetActive(false);
+        MusicVolumeSlider.SetActive(false);
+        SFXVolumeSlider.SetActive(false);
+
+        //visuals
+        Fullscreen.SetActive(false);
+        FullscreenCheck.SetActive(false);
+    }
+
+
 }
