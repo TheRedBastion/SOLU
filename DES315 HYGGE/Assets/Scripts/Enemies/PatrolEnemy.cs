@@ -187,11 +187,9 @@ public class PatrolEnemy : BaseEnemy
         float dir = Mathf.Sign(player.position.x - transform.position.x);
 
         UpdateFacingDirection(dir);
-        Debug.Log("Player spotted! Reacting...");
 
         if (!didReactJump && IsGrounded())
         {
-            Debug.Log("Jumping to react to player!");
             rb.linearVelocity = new Vector2(0, jumpForce * 0.5f);
             didReactJump = true;
         }
