@@ -21,6 +21,7 @@ public class PlayerStats
 
 public class Player : MonoBehaviour
 {
+    [Header("Absolutes")]
     public bool isGodmode;
 
     [Header("Player Objects")]
@@ -127,8 +128,10 @@ public class Player : MonoBehaviour
     }
 
     void Update()
-    {
+    { 
         //Debug.Log(curStam);
+        isGodmode = gamevar.GodModeToggle;
+
         moveAmt = moveAction.ReadValue<Vector2>();
         movement.SetMoveInput(moveAmt);
 
