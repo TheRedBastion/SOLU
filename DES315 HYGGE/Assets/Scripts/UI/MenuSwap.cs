@@ -9,8 +9,10 @@ public class MainMenu : MonoBehaviour
     //gameplay
     public GameObject Godmode;
     public GameObject GodmodeCheck;
-    public bool GodModeToggleMS;
+    public GameObject FreeCam;
+    public GameObject FreeCamToggle;
     
+
     //audio
     public GameObject MasterVolume;
     public GameObject MusicVolume;
@@ -71,6 +73,7 @@ public class MainMenu : MonoBehaviour
             AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, gamevar.MasterValueFloat);
             Debug.Log(gamevar.MasterValueFloat);
             gamevar.GodModeToggle = GodmodeCheck.GetComponent<Toggle>().isOn;
+            gamevar.FreeCamToggle = FreeCamToggle.GetComponent<Toggle>().isOn;
         }
     }
 
@@ -79,6 +82,8 @@ public class MainMenu : MonoBehaviour
         //gameplay
         Godmode.SetActive(true);
         GodmodeCheck.SetActive(true);
+        FreeCam.SetActive(true);
+        FreeCamToggle.SetActive(true);
 
 
         //audio
@@ -105,6 +110,8 @@ public class MainMenu : MonoBehaviour
         //gameplay
         Godmode.SetActive(false);
         GodmodeCheck.SetActive(false);
+        FreeCam.SetActive(false);
+        FreeCamToggle.SetActive(false);
 
         //audio
         MasterVolume.SetActive(true);
@@ -137,6 +144,8 @@ public class MainMenu : MonoBehaviour
         //gameplay
         Godmode.SetActive(false);
         GodmodeCheck.SetActive(false);
+        FreeCam.SetActive(false);
+        FreeCamToggle.SetActive(false);
 
         //audio
         MasterVolume.SetActive(false);
@@ -156,17 +165,19 @@ public class MainMenu : MonoBehaviour
         AdditionalCredits.SetActive(false);
     }
 
-    public void OnMasterVolumeChanged(float value)
-    {
-        gamevar.MasterValueFloat = value;
-        AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, value);
-    }
+    //public void OnMasterVolumeChanged(float value)
+    //{
+    //    gamevar.MasterValueFloat = value;
+    //    AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, value);
+    //}
 
     public void CreditsButton()
     {
         //gameplay
         Godmode.SetActive(false);
         GodmodeCheck.SetActive(false);
+        FreeCam.SetActive(false);
+        FreeCamToggle.SetActive(false);
 
         //audio
         MasterVolume.SetActive(false);
