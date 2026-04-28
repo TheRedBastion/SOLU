@@ -190,17 +190,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="SpiderPatrol" ID="{75DC71AB-AF29-4C2C-ACFB-12CE40CCDE74}">
-					<ChildrenList>
-						<Action Name="" ID="{F9C182DF-29B2-4D47-AB42-6A97A6B524F5}" ShortID="329598467">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SpiderEnemyPatrolling" ID="{02592C35-AF1F-421B-B927-840688FADEBC}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="MenuMusic" ID="{A1F322FE-C571-47A2-9D76-EFA72B5DFCE6}">
 					<ChildrenList>
 						<Action Name="" ID="{BE6A49BA-66F1-4D97-944A-1E69C6D6628D}" ShortID="401095550">

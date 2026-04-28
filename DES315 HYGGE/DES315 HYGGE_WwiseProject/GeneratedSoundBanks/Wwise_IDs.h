@@ -27,7 +27,6 @@ namespace AK
         static const AkUniqueID SFOOTSTEPS = 3194455577U;
         static const AkUniqueID SPIDERATTACKS = 100760629U;
         static const AkUniqueID SPIDERDAMAGED = 2503095715U;
-        static const AkUniqueID SPIDERPATROL = 2526768912U;
         static const AkUniqueID SPIDERSLAIN = 2172038785U;
         static const AkUniqueID SUNDAMAGED = 1689873234U;
         static const AkUniqueID SUNDAMAGEDCAVE = 1203409809U;

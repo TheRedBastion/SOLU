@@ -18,7 +18,6 @@
 						<ObjectRef Name="FloralAmbience" ID="{085609C8-0167-492A-9884-E3786A0137D2}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BatAttacks" ID="{43FAEE7F-BC73-4991-8B41-669096A7372B}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BatDamaged" ID="{D104E6F7-CF5B-49F2-8BC7-9724A66B410A}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="SpiderPatrol" ID="{75DC71AB-AF29-4C2C-ACFB-12CE40CCDE74}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SpiderAttacks" ID="{7E4B05FB-1CC6-4C94-A718-458ED8507604}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CavesAmbience" ID="{2972C3C2-C432-4C99-8958-2B8300F9BADD}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MoonDamaged" ID="{651F836B-074E-4E22-ABBB-AEE5B9736198}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
