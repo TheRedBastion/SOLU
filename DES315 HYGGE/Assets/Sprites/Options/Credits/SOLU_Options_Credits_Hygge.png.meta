@@ -1,0 +1,6071 @@
+fileFormatVersion: 2
+guid: ffa63b573c646f44b816ce1900854fb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 344474426918850006
+    second: SOLU_Options_Credits_Hygge_0
+  - first:
+      213: -8067226534419441458
+    second: SOLU_Options_Credits_Hygge_1
+  - first:
+      213: 6386936355099313685
+    second: SOLU_Options_Credits_Hygge_2
+  - first:
+      213: 6922189950535567136
+    second: SOLU_Options_Credits_Hygge_3
+  - first:
+      213: -6595687859662040388
+    second: SOLU_Options_Credits_Hygge_4
+  - first:
+      213: 3163736605031038760
+    second: SOLU_Options_Credits_Hygge_5
+  - first:
+      213: -9075426617622963791
+    second: SOLU_Options_Credits_Hygge_6
+  - first:
+      213: 390499102417943295
+    second: SOLU_Options_Credits_Hygge_7
+  - first:
+      213: -2334725419785876724
+    second: SOLU_Options_Credits_Hygge_8
+  - first:
+      213: 1868556973045449347
+    second: SOLU_Options_Credits_Hygge_9
+  - first:
+      213: -1387257401349840683
+    second: SOLU_Options_Credits_Hygge_10
+  - first:
+      213: -2481993875923684089
+    second: SOLU_Options_Credits_Hygge_11
+  - first:
+      213: 6949744115224197656
+    second: SOLU_Options_Credits_Hygge_12
+  - first:
+      213: -2826088708032334420
+    second: SOLU_Options_Credits_Hygge_13
+  - first:
+      213: -2064808694885438175
+    second: SOLU_Options_Credits_Hygge_14
+  - first:
+      213: -1736573808631058652
+    second: SOLU_Options_Credits_Hygge_15
+  - first:
+      213: -5994367015130093697
+    second: SOLU_Options_Credits_Hygge_16
+  - first:
+      213: 723979056009860154
+    second: SOLU_Options_Credits_Hygge_17
+  - first:
+      213: 1683257730207704443
+    second: SOLU_Options_Credits_Hygge_18
+  - first:
+      213: 362317937806892915
+    second: SOLU_Options_Credits_Hygge_19
+  - first:
+      213: 3339374734312215312
+    second: SOLU_Options_Credits_Hygge_20
+  - first:
+      213: -1250990292097038766
+    second: SOLU_Options_Credits_Hygge_21
+  - first:
+      213: 3444623274991450201
+    second: SOLU_Options_Credits_Hygge_22
+  - first:
+      213: -5708380875489050239
+    second: SOLU_Options_Credits_Hygge_23
+  - first:
+      213: 6357501138887601831
+    second: SOLU_Options_Credits_Hygge_24
+  - first:
+      213: 5324326078463558663
+    second: SOLU_Options_Credits_Hygge_25
+  - first:
+      213: -5546012375690747229
+    second: SOLU_Options_Credits_Hygge_26
+  - first:
+      213: 4675492656757316177
+    second: SOLU_Options_Credits_Hygge_27
+  - first:
+      213: -538258883204766040
+    second: SOLU_Options_Credits_Hygge_28
+  - first:
+      213: -7773876645796295668
+    second: SOLU_Options_Credits_Hygge_29
+  - first:
+      213: 6801406216475309888
+    second: SOLU_Options_Credits_Hygge_30
+  - first:
+      213: 3301016263301528254
+    second: SOLU_Options_Credits_Hygge_31
+  - first:
+      213: 6130052428674842967
+    second: SOLU_Options_Credits_Hygge_32
+  - first:
+      213: 5283184125331256171
+    second: SOLU_Options_Credits_Hygge_33
+  - first:
+      213: 8908555618707597966
+    second: SOLU_Options_Credits_Hygge_34
+  - first:
+      213: 1531519801392036335
+    second: SOLU_Options_Credits_Hygge_35
+  - first:
+      213: -8087720334890696251
+    second: SOLU_Options_Credits_Hygge_36
+  - first:
+      213: 7225077431800689743
+    second: SOLU_Options_Credits_Hygge_37
+  - first:
+      213: -1374168468670397614
+    second: SOLU_Options_Credits_Hygge_38
+  - first:
+      213: -6906304578803050947
+    second: SOLU_Options_Credits_Hygge_39
+  - first:
+      213: 930297339028052572
+    second: SOLU_Options_Credits_Hygge_40
+  - first:
+      213: 4270334212301949944
+    second: SOLU_Options_Credits_Hygge_41
+  - first:
+      213: 2299966627815860780
+    second: SOLU_Options_Credits_Hygge_42
+  - first:
+      213: -5732115673578139554
+    second: SOLU_Options_Credits_Hygge_43
+  - first:
+      213: 3686383214038032779
+    second: SOLU_Options_Credits_Hygge_44
+  - first:
+      213: -3994244022029354207
+    second: SOLU_Options_Credits_Hygge_45
+  - first:
+      213: -8042535102436438666
+    second: SOLU_Options_Credits_Hygge_46
+  - first:
+      213: -4538485790850787292
+    second: SOLU_Options_Credits_Hygge_47
+  - first:
+      213: -4663277642605322311
+    second: SOLU_Options_Credits_Hygge_48
+  - first:
+      213: -770717869146334928
+    second: SOLU_Options_Credits_Hygge_49
+  - first:
+      213: -7854104230815574973
+    second: SOLU_Options_Credits_Hygge_50
+  - first:
+      213: -9091361088876944948
+    second: SOLU_Options_Credits_Hygge_51
+  - first:
+      213: 2873480708685133928
+    second: SOLU_Options_Credits_Hygge_52
+  - first:
+      213: 7806357621164081211
+    second: SOLU_Options_Credits_Hygge_53
+  - first:
+      213: -9060957645020504959
+    second: SOLU_Options_Credits_Hygge_54
+  - first:
+      213: 8329110784299571182
+    second: SOLU_Options_Credits_Hygge_55
+  - first:
+      213: -693461841480995662
+    second: SOLU_Options_Credits_Hygge_56
+  - first:
+      213: 4847553669980044049
+    second: SOLU_Options_Credits_Hygge_57
+  - first:
+      213: -4074067455068544665
+    second: SOLU_Options_Credits_Hygge_58
+  - first:
+      213: -1929943148704354076
+    second: SOLU_Options_Credits_Hygge_59
+  - first:
+      213: 1738911487327811123
+    second: SOLU_Options_Credits_Hygge_60
+  - first:
+      213: -1886277258563586513
+    second: SOLU_Options_Credits_Hygge_61
+  - first:
+      213: 2749472773007512609
+    second: SOLU_Options_Credits_Hygge_62
+  - first:
+      213: 667867351439346541
+    second: SOLU_Options_Credits_Hygge_63
+  - first:
+      213: 4855565452478144668
+    second: SOLU_Options_Credits_Hygge_64
+  - first:
+      213: -3038080363720650176
+    second: SOLU_Options_Credits_Hygge_65
+  - first:
+      213: -2813751379969380373
+    second: SOLU_Options_Credits_Hygge_66
+  - first:
+      213: 5678318157507084665
+    second: SOLU_Options_Credits_Hygge_67
+  - first:
+      213: 8060391905807760423
+    second: SOLU_Options_Credits_Hygge_68
+  - first:
+      213: 5732316993973748179
+    second: SOLU_Options_Credits_Hygge_69
+  - first:
+      213: -8441015630244791564
+    second: SOLU_Options_Credits_Hygge_70
+  - first:
+      213: 2346715579933117585
+    second: SOLU_Options_Credits_Hygge_71
+  - first:
+      213: 9006995717321360641
+    second: SOLU_Options_Credits_Hygge_72
+  - first:
+      213: 7350869340951791416
+    second: SOLU_Options_Credits_Hygge_73
+  - first:
+      213: -4651488804293811179
+    second: SOLU_Options_Credits_Hygge_74
+  - first:
+      213: 7541566336528487089
+    second: SOLU_Options_Credits_Hygge_75
+  - first:
+      213: 5593780796115558410
+    second: SOLU_Options_Credits_Hygge_76
+  - first:
+      213: 6379495851769303925
+    second: SOLU_Options_Credits_Hygge_77
+  - first:
+      213: -4489870097258418442
+    second: SOLU_Options_Credits_Hygge_78
+  - first:
+      213: 3596749450740318596
+    second: SOLU_Options_Credits_Hygge_79
+  - first:
+      213: 4081886359388417613
+    second: SOLU_Options_Credits_Hygge_80
+  - first:
+      213: 7358025443049754727
+    second: SOLU_Options_Credits_Hygge_81
+  - first:
+      213: 4224185142598024875
+    second: SOLU_Options_Credits_Hygge_82
+  - first:
+      213: -3190957821207065750
+    second: SOLU_Options_Credits_Hygge_83
+  - first:
+      213: -4271313969809233830
+    second: SOLU_Options_Credits_Hygge_84
+  - first:
+      213: -468908485377220109
+    second: SOLU_Options_Credits_Hygge_85
+  - first:
+      213: -8185989327069533469
+    second: SOLU_Options_Credits_Hygge_86
+  - first:
+      213: 1324235743192775707
+    second: SOLU_Options_Credits_Hygge_87
+  - first:
+      213: 788474061219250811
+    second: SOLU_Options_Credits_Hygge_88
+  - first:
+      213: -8303021418307533125
+    second: SOLU_Options_Credits_Hygge_89
+  - first:
+      213: 703639190847991398
+    second: SOLU_Options_Credits_Hygge_90
+  - first:
+      213: 530789712919070587
+    second: SOLU_Options_Credits_Hygge_91
+  - first:
+      213: 7078953664879615682
+    second: SOLU_Options_Credits_Hygge_92
+  - first:
+      213: -620561656533996989
+    second: SOLU_Options_Credits_Hygge_93
+  - first:
+      213: -738431497441139660
+    second: SOLU_Options_Credits_Hygge_94
+  - first:
+      213: -5596407207268355614
+    second: SOLU_Options_Credits_Hygge_95
+  - first:
+      213: 4636617374396265384
+    second: SOLU_Options_Credits_Hygge_96
+  - first:
+      213: -7657924275879893142
+    second: SOLU_Options_Credits_Hygge_97
+  - first:
+      213: 8208701736770480344
+    second: SOLU_Options_Credits_Hygge_98
+  - first:
+      213: 5606490045214312374
+    second: SOLU_Options_Credits_Hygge_99
+  - first:
+      213: 6205574455523228330
+    second: SOLU_Options_Credits_Hygge_100
+  - first:
+      213: -8176106139343419937
+    second: SOLU_Options_Credits_Hygge_101
+  - first:
+      213: -6989849063875853933
+    second: SOLU_Options_Credits_Hygge_102
+  - first:
+      213: 7936055734508791074
+    second: SOLU_Options_Credits_Hygge_103
+  - first:
+      213: 178492464046143439
+    second: SOLU_Options_Credits_Hygge_104
+  - first:
+      213: -8772943515766485010
+    second: SOLU_Options_Credits_Hygge_105
+  - first:
+      213: -2595114910574077617
+    second: SOLU_Options_Credits_Hygge_106
+  - first:
+      213: 3904307623814360299
+    second: SOLU_Options_Credits_Hygge_107
+  - first:
+      213: 7453282711640114955
+    second: SOLU_Options_Credits_Hygge_108
+  - first:
+      213: 5121876044154915067
+    second: SOLU_Options_Credits_Hygge_109
+  - first:
+      213: -5163474941907332357
+    second: SOLU_Options_Credits_Hygge_110
+  - first:
+      213: -8264092605521378823
+    second: SOLU_Options_Credits_Hygge_111
+  - first:
+      213: 1606102735486978195
+    second: SOLU_Options_Credits_Hygge_112
+  - first:
+      213: -8804542791137856921
+    second: SOLU_Options_Credits_Hygge_113
+  - first:
+      213: -5085960188521977258
+    second: SOLU_Options_Credits_Hygge_114
+  - first:
+      213: 2633665512431162701
+    second: SOLU_Options_Credits_Hygge_115
+  - first:
+      213: -5014849915028799864
+    second: SOLU_Options_Credits_Hygge_116
+  - first:
+      213: -5573883257507271725
+    second: SOLU_Options_Credits_Hygge_117
+  - first:
+      213: 2744339522197567008
+    second: SOLU_Options_Credits_Hygge_118
+  - first:
+      213: -2368509364934193111
+    second: SOLU_Options_Credits_Hygge_119
+  - first:
+      213: 5640539431686116280
+    second: SOLU_Options_Credits_Hygge_120
+  - first:
+      213: -3257696690212750770
+    second: SOLU_Options_Credits_Hygge_121
+  - first:
+      213: 4736291825604725207
+    second: SOLU_Options_Credits_Hygge_122
+  - first:
+      213: 7840711718526294981
+    second: SOLU_Options_Credits_Hygge_123
+  - first:
+      213: 3834319492330953538
+    second: SOLU_Options_Credits_Hygge_124
+  - first:
+      213: 3940414324370575651
+    second: SOLU_Options_Credits_Hygge_125
+  - first:
+      213: -7742445891579195408
+    second: SOLU_Options_Credits_Hygge_126
+  - first:
+      213: 2866091965796080237
+    second: SOLU_Options_Credits_Hygge_127
+  - first:
+      213: 2245885209432767923
+    second: SOLU_Options_Credits_Hygge_128
+  - first:
+      213: 7531468343944376190
+    second: SOLU_Options_Credits_Hygge_129
+  - first:
+      213: 2358769716712090849
+    second: SOLU_Options_Credits_Hygge_130
+  - first:
+      213: -96072199846785632
+    second: SOLU_Options_Credits_Hygge_131
+  - first:
+      213: -6342178268556935426
+    second: SOLU_Options_Credits_Hygge_132
+  - first:
+      213: -3237784895735303912
+    second: SOLU_Options_Credits_Hygge_133
+  - first:
+      213: 4814142138462377027
+    second: SOLU_Options_Credits_Hygge_134
+  - first:
+      213: -6130352791394874791
+    second: SOLU_Options_Credits_Hygge_135
+  - first:
+      213: -7319901201238822450
+    second: SOLU_Options_Credits_Hygge_136
+  - first:
+      213: -8743548493170642474
+    second: SOLU_Options_Credits_Hygge_137
+  - first:
+      213: 9207827111951913540
+    second: SOLU_Options_Credits_Hygge_138
+  - first:
+      213: -8349510888038292422
+    second: SOLU_Options_Credits_Hygge_139
+  - first:
+      213: 430012314389622451
+    second: SOLU_Options_Credits_Hygge_140
+  - first:
+      213: -4712675410308476960
+    second: SOLU_Options_Credits_Hygge_141
+  - first:
+      213: -1659327103006793681
+    second: SOLU_Options_Credits_Hygge_142
+  - first:
+      213: -1092226567080463123
+    second: SOLU_Options_Credits_Hygge_143
+  - first:
+      213: -3963962692912025631
+    second: SOLU_Options_Credits_Hygge_144
+  - first:
+      213: 4427977665923458500
+    second: SOLU_Options_Credits_Hygge_145
+  - first:
+      213: 7801701383428764563
+    second: SOLU_Options_Credits_Hygge_146
+  - first:
+      213: -9198853683043611324
+    second: SOLU_Options_Credits_Hygge_147
+  - first:
+      213: 6076344065232553485
+    second: SOLU_Options_Credits_Hygge_148
+  - first:
+      213: -7630250347945349064
+    second: SOLU_Options_Credits_Hygge_149
+  - first:
+      213: 5363977160215156350
+    second: SOLU_Options_Credits_Hygge_150
+  - first:
+      213: -4179286053357325518
+    second: SOLU_Options_Credits_Hygge_151
+  - first:
+      213: -7377752603775700083
+    second: SOLU_Options_Credits_Hygge_152
+  - first:
+      213: -224652574802023814
+    second: SOLU_Options_Credits_Hygge_153
+  - first:
+      213: -4170849202393205637
+    second: SOLU_Options_Credits_Hygge_154
+  - first:
+      213: 2387057493368408278
+    second: SOLU_Options_Credits_Hygge_155
+  - first:
+      213: 9027732178109494092
+    second: SOLU_Options_Credits_Hygge_156
+  - first:
+      213: -8487857162247565840
+    second: SOLU_Options_Credits_Hygge_157
+  - first:
+      213: -6010553850881202676
+    second: SOLU_Options_Credits_Hygge_158
+  - first:
+      213: -2813280024493195197
+    second: SOLU_Options_Credits_Hygge_159
+  - first:
+      213: 8113386359256266651
+    second: SOLU_Options_Credits_Hygge_160
+  - first:
+      213: 4320778866790637681
+    second: SOLU_Options_Credits_Hygge_161
+  - first:
+      213: -3910044111940258164
+    second: SOLU_Options_Credits_Hygge_162
+  - first:
+      213: -8930169165996818287
+    second: SOLU_Options_Credits_Hygge_163
+  - first:
+      213: -4030318243485322197
+    second: SOLU_Options_Credits_Hygge_164
+  - first:
+      213: 982211376235085727
+    second: SOLU_Options_Credits_Hygge_165
+  - first:
+      213: -3750227475330082924
+    second: SOLU_Options_Credits_Hygge_166
+  - first:
+      213: 9160159610605151219
+    second: SOLU_Options_Credits_Hygge_167
+  - first:
+      213: 7480835022507141771
+    second: SOLU_Options_Credits_Hygge_168
+  - first:
+      213: -8138597178876316794
+    second: SOLU_Options_Credits_Hygge_169
+  - first:
+      213: -2416511519692325472
+    second: SOLU_Options_Credits_Hygge_170
+  - first:
+      213: -5203023325901327883
+    second: SOLU_Options_Credits_Hygge_171
+  - first:
+      213: -3636959747740254550
+    second: SOLU_Options_Credits_Hygge_172
+  - first:
+      213: -6285966227176974390
+    second: SOLU_Options_Credits_Hygge_173
+  - first:
+      213: 3340192408344367474
+    second: SOLU_Options_Credits_Hygge_174
+  - first:
+      213: 2405507610074672831
+    second: SOLU_Options_Credits_Hygge_175
+  - first:
+      213: 1418454107356970439
+    second: SOLU_Options_Credits_Hygge_176
+  - first:
+      213: 7455152723862636627
+    second: SOLU_Options_Credits_Hygge_177
+  - first:
+      213: -5145141442423230455
+    second: SOLU_Options_Credits_Hygge_178
+  - first:
+      213: 8158080980552087474
+    second: SOLU_Options_Credits_Hygge_179
+  - first:
+      213: 2210741688152242731
+    second: SOLU_Options_Credits_Hygge_180
+  - first:
+      213: -2429238400364874767
+    second: SOLU_Options_Credits_Hygge_181
+  - first:
+      213: 2324838622719936980
+    second: SOLU_Options_Credits_Hygge_182
+  - first:
+      213: -4839829921508139085
+    second: SOLU_Options_Credits_Hygge_183
+  - first:
+      213: -3861972644947679146
+    second: SOLU_Options_Credits_Hygge_184
+  - first:
+      213: -1678060200356214923
+    second: SOLU_Options_Credits_Hygge_185
+  - first:
+      213: -8350981892051323258
+    second: SOLU_Options_Credits_Hygge_186
+  - first:
+      213: -8402660411632291043
+    second: SOLU_Options_Credits_Hygge_187
+  - first:
+      213: -6148740108146612827
+    second: SOLU_Options_Credits_Hygge_188
+  - first:
+      213: -4089555861087646376
+    second: SOLU_Options_Credits_Hygge_189
+  - first:
+      213: 142447419432917109
+    second: SOLU_Options_Credits_Hygge_190
+  - first:
+      213: -6095526197650667279
+    second: SOLU_Options_Credits_Hygge_191
+  - first:
+      213: 1682987494029672595
+    second: SOLU_Options_Credits_Hygge_192
+  - first:
+      213: 7875902346031915438
+    second: SOLU_Options_Credits_Hygge_193
+  - first:
+      213: -5781674021022164346
+    second: SOLU_Options_Credits_Hygge_194
+  - first:
+      213: 2037988177159465350
+    second: SOLU_Options_Credits_Hygge_195
+  - first:
+      213: -6257717692660623941
+    second: SOLU_Options_Credits_Hygge_196
+  - first:
+      213: 2148650317021223035
+    second: SOLU_Options_Credits_Hygge_197
+  - first:
+      213: -5360287533986828637
+    second: SOLU_Options_Credits_Hygge_198
+  - first:
+      213: -914538111043826222
+    second: SOLU_Options_Credits_Hygge_199
+  - first:
+      213: -2886453106758270425
+    second: SOLU_Options_Credits_Hygge_200
+  - first:
+      213: 2745346042094359658
+    second: SOLU_Options_Credits_Hygge_201
+  - first:
+      213: -5520923586481548226
+    second: SOLU_Options_Credits_Hygge_202
+  - first:
+      213: -343589144573251488
+    second: SOLU_Options_Credits_Hygge_203
+  - first:
+      213: 3325673936167862701
+    second: SOLU_Options_Credits_Hygge_204
+  - first:
+      213: -6087125372923659740
+    second: SOLU_Options_Credits_Hygge_205
+  - first:
+      213: -5383154381489207722
+    second: SOLU_Options_Credits_Hygge_206
+  - first:
+      213: -8023753840350669391
+    second: SOLU_Options_Credits_Hygge_207
+  - first:
+      213: -7121824800473471652
+    second: SOLU_Options_Credits_Hygge_208
+  - first:
+      213: -7558057874978400595
+    second: SOLU_Options_Credits_Hygge_209
+  - first:
+      213: 1388646446933540911
+    second: SOLU_Options_Credits_Hygge_210
+  - first:
+      213: -7300193037295203738
+    second: SOLU_Options_Credits_Hygge_211
+  - first:
+      213: 7545449868341206615
+    second: SOLU_Options_Credits_Hygge_212
+  - first:
+      213: 7439327484466443594
+    second: SOLU_Options_Credits_Hygge_213
+  - first:
+      213: -8106481368171552003
+    second: SOLU_Options_Credits_Hygge_214
+  - first:
+      213: 6306979639603776801
+    second: SOLU_Options_Credits_Hygge_215
+  - first:
+      213: -3553041789344780603
+    second: SOLU_Options_Credits_Hygge_216
+  - first:
+      213: -9121458561315377405
+    second: SOLU_Options_Credits_Hygge_217
+  - first:
+      213: 6494463029138935162
+    second: SOLU_Options_Credits_Hygge_218
+  - first:
+      213: 7001215876187073323
+    second: SOLU_Options_Credits_Hygge_219
+  - first:
+      213: -3980179690687677050
+    second: SOLU_Options_Credits_Hygge_220
+  - first:
+      213: 6972584317567204872
+    second: SOLU_Options_Credits_Hygge_221
+  - first:
+      213: 8479600440389264039
+    second: SOLU_Options_Credits_Hygge_222
+  - first:
+      213: -2641472614945487162
+    second: SOLU_Options_Credits_Hygge_223
+  - first:
+      213: -5443966604974635702
+    second: SOLU_Options_Credits_Hygge_224
+  - first:
+      213: 8403133492261680834
+    second: SOLU_Options_Credits_Hygge_225
+  - first:
+      213: -26487205973225504
+    second: SOLU_Options_Credits_Hygge_226
+  - first:
+      213: -5064691559766093891
+    second: SOLU_Options_Credits_Hygge_227
+  - first:
+      213: -5442206896751502845
+    second: SOLU_Options_Credits_Hygge_228
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_0
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1290
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd44ba8aa1d7c400800000000000000
+      internalID: 344474426918850006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_1
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1290
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8d25d75347b0090800000000000000
+      internalID: -8067226534419441458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_2
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1290
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51609b886c4f2a850800000000000000
+      internalID: 6386936355099313685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_3
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1339
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027837da51f801060800000000000000
+      internalID: 6922189950535567136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_4
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1290
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2dc7b46d86774a0800000000000000
+      internalID: -6595687859662040388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_5
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1290
+        width: 12
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f76c91ea9d7eb20800000000000000
+      internalID: 3163736605031038760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_6
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1339
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9557f239b9d0280800000000000000
+      internalID: -9075426617622963791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_7
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1290
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffafabc5dd45b6500800000000000000
+      internalID: 390499102417943295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_8
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1290
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b8691c993699fd0800000000000000
+      internalID: -2334725419785876724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_9
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1290
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38204fcbaa27ee910800000000000000
+      internalID: 1868556973045449347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_10
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1290
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0e2845eb87fbce0800000000000000
+      internalID: -1387257401349840683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_11
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1290
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705bfd258bf2e8dd0800000000000000
+      internalID: -2481993875923684089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_12
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1290
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81abcc39373727060800000000000000
+      internalID: 6949744115224197656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_13
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 1290
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca57df51b47b7c8d0800000000000000
+      internalID: -2826088708032334420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_14
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1290
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d273c8e635853e0800000000000000
+      internalID: -2064808694885438175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_15
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1290
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f6c42625376e7e0800000000000000
+      internalID: -1736573808631058652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_16
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1290
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f772ad195fabfcca0800000000000000
+      internalID: -5994367015130093697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_17
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1290
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a345a4a9d171c0a00800000000000000
+      internalID: 723979056009860154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_18
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1311
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75e572ccf12c5710800000000000000
+      internalID: 1683257730207704443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_19
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1290
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f5bbaae36370500800000000000000
+      internalID: 362317937806892915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_20
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1290
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013189ac0a7d75e20800000000000000
+      internalID: 3339374734312215312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_21
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1290
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256081615f693aee0800000000000000
+      internalID: -1250990292097038766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_22
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1290
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95878e24e92cdcf20800000000000000
+      internalID: 3444623274991450201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_23
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1290
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18187d986d1c7c0b0800000000000000
+      internalID: -5708380875489050239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_24
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1290
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae69823a916a3850800000000000000
+      internalID: 6357501138887601831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_25
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1154
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7044b2fdb5ec3e940800000000000000
+      internalID: 5324326078463558663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_26
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1154
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2680bd02b9803b0800000000000000
+      internalID: -5546012375690747229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_27
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1203
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a97fbaccfa2e040800000000000000
+      internalID: 4675492656757316177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_28
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1154
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6a165c568b788f0800000000000000
+      internalID: -538258883204766040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_29
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1154
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c4b9fd064ad1490800000000000000
+      internalID: -7773876645796295668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_30
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1203
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047f4222be2736e50800000000000000
+      internalID: 6801406216475309888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_31
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1154
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaffdb4dc09fcd20800000000000000
+      internalID: 3301016263301528254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_32
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1154
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7514fa99432521550800000000000000
+      internalID: 6130052428674842967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_33
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1154
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b633a5178f3a15940800000000000000
+      internalID: 5283184125331256171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_34
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1153
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a60eab22c81ab70800000000000000
+      internalID: 8908555618707597966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_35
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1154
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9f270252d014510800000000000000
+      internalID: 1531519801392036335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_36
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1154
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1032cb435a2cf80800000000000000
+      internalID: -8087720334890696251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_37
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1154
+        width: 12
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44fb25e4a1a44460800000000000000
+      internalID: 7225077431800689743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_38
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1154
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253cb53fe09fdece0800000000000000
+      internalID: -1374168468670397614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_39
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1175
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d365ac5a390e720a0800000000000000
+      internalID: -6906304578803050947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_40
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1153
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a124c308419ec00800000000000000
+      internalID: 930297339028052572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_41
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1154
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb84744756434b30800000000000000
+      internalID: 4270334212301949944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_42
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1154
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aa736567f1bef10800000000000000
+      internalID: 2299966627815860780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_43
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 1154
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e501de83a2f6370b0800000000000000
+      internalID: -5732115673578139554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_44
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1154
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8123ba700aa82330800000000000000
+      internalID: 3686383214038032779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_45
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1154
+        width: 12
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b76b079389198c0800000000000000
+      internalID: -3994244022029354207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_46
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1138
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d8aad7fec236090800000000000000
+      internalID: -8042535102436438666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_47
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1154
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4285e2a183f0401c0800000000000000
+      internalID: -4538485790850787292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_48
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 1154
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf1d7fe0b5b84fb0800000000000000
+      internalID: -4663277642605322311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_49
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1154
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0399c737e2cdd45f0800000000000000
+      internalID: -770717869146334928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_50
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1017
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344585d90dd900390800000000000000
+      internalID: -7854104230815574973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_51
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1066
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc16eacf14ff4d180800000000000000
+      internalID: -9091361088876944948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_52
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1017
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8687d1eea77a0e720800000000000000
+      internalID: 2873480708685133928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_53
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1066
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30062785e0c55c60800000000000000
+      internalID: 7806357621164081211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_54
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1017
+        width: 12
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c51b36703014280800000000000000
+      internalID: -9060957645020504959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_55
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1017
+        width: 12
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee71d09f022f69370800000000000000
+      internalID: 8329110784299571182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_56
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1017
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcac3911245066f0800000000000000
+      internalID: -693461841480995662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_57
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1017
+        width: 12
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b3dc02168f54340800000000000000
+      internalID: 4847553669980044049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_58
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1017
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761e8a52c310677c0800000000000000
+      internalID: -4074067455068544665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_59
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1066
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e037c87ee67735e0800000000000000
+      internalID: -1929943148704354076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_60
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1017
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336350ad8cad12810800000000000000
+      internalID: 1738911487327811123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_61
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1017
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f267b67c3d892d5e0800000000000000
+      internalID: -1886277258563586513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_62
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1017
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12498b27be6182620800000000000000
+      internalID: 2749472773007512609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_63
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1017
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b8f9f41ddb44900800000000000000
+      internalID: 667867351439346541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_64
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1017
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c906e9a9d0f626340800000000000000
+      internalID: 4855565452478144668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_65
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1017
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0425751710296d5d0800000000000000
+      internalID: -3038080363720650176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_66
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1017
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befe8ae170c83f8d0800000000000000
+      internalID: -2813751379969380373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_67
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1002
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9714cdb77407dce40800000000000000
+      internalID: 5678318157507084665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_68
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1017
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cfa188bb34cdf60800000000000000
+      internalID: 8060391905807760423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_69
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1017
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d18db55fe74d8f40800000000000000
+      internalID: 5732316993973748179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_70
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1017
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa3db7b10d7bda80800000000000000
+      internalID: -8441015630244791564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_71
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1038
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cc9c2f265319020800000000000000
+      internalID: 2346715579933117585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_72
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1017
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105876042e64ffc70800000000000000
+      internalID: 9006995717321360641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_73
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1017
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837cdb118b8830660800000000000000
+      internalID: 7350869340951791416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_74
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1017
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5146c5fb397927fb0800000000000000
+      internalID: -4651488804293811179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_75
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1017
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b213da40a609a860800000000000000
+      internalID: 7541566336528487089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_76
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1017
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00aed73ff911ad40800000000000000
+      internalID: 5593780796115558410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_77
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1017
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57399ca5da5888850800000000000000
+      internalID: 6379495851769303925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_78
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1002
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe63455fe6c0b1c0800000000000000
+      internalID: -4489870097258418442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_79
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1017
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481457da1983ae130800000000000000
+      internalID: 3596749450740318596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_80
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1017
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4eebd06406c5a830800000000000000
+      internalID: 4081886359388417613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_81
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1017
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760544de725fc1660800000000000000
+      internalID: 7358025443049754727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_82
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 881
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baeb90aa1025f9a30800000000000000
+      internalID: 4224185142598024875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_83
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 881
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bc2bd94c077b3d0800000000000000
+      internalID: -3190957821207065750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_84
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 880
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a586b59239e39b4c0800000000000000
+      internalID: -4271313969809233830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_85
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 881
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1ace8873a1e79f0800000000000000
+      internalID: -468908485377220109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_86
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 880
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaa1e80416856e80800000000000000
+      internalID: -8185989327069533469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_87
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 930
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c71ef6461a06210800000000000000
+      internalID: 1324235743192775707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_88
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 881
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72459d2bf831fa00800000000000000
+      internalID: 788474061219250811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_89
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 930
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6c157e20eb5cc80800000000000000
+      internalID: -8303021418307533125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_90
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 881
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ea984bd14d3c900800000000000000
+      internalID: 703639190847991398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_91
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 880
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7709f08e6ebd5700800000000000000
+      internalID: 530789712919070587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_92
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 881
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce59903ade7d3260800000000000000
+      internalID: 7078953664879615682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_93
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 881
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a201516725367f0800000000000000
+      internalID: -620561656533996989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_94
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 881
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434af08277090c5f0800000000000000
+      internalID: -738431497441139660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_95
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 881
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e17558cb419552b0800000000000000
+      internalID: -5596407207268355614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_96
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 880
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a33b48afe2985040800000000000000
+      internalID: 4636617374396265384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_97
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 881
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67a65bc17699b590800000000000000
+      internalID: -7657924275879893142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_98
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 881
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8265fecba2be170800000000000000
+      internalID: 8208701736770480344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_99
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 881
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b743cdddf04ecd40800000000000000
+      internalID: 5606490045214312374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_100
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 881
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa33b8b611ae1650800000000000000
+      internalID: 6205574455523228330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_101
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 902
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd58b8ef8c2a88e80800000000000000
+      internalID: -8176106139343419937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_102
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 880
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391451a6f411ffe90800000000000000
+      internalID: -6989849063875853933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_103
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 881
+        width: 12
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225291db4a8822e60800000000000000
+      internalID: 7936055734508791074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_104
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 881
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7fd8a43f12a7200800000000000000
+      internalID: 178492464046143439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_105
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 881
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef0c2c7a5e304680800000000000000
+      internalID: -8772943515766485010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_106
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 865
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4999e30dbc4cfbd0800000000000000
+      internalID: -2595114910574077617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_107
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 881
+        width: 13
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beced431913ee2630800000000000000
+      internalID: 3904307623814360299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_108
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 881
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b078ed513216f6760800000000000000
+      internalID: 7453282711640114955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_109
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 881
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8cf63102f841740800000000000000
+      internalID: 5121876044154915067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_110
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 881
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf29bf8c5e6a758b0800000000000000
+      internalID: -5163474941907332357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_111
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 881
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f147f07f8b005d80800000000000000
+      internalID: -8264092605521378823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_112
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 744
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3980c7dade50a4610800000000000000
+      internalID: 1606102735486978195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_113
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 744
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762708cdafaffc580800000000000000
+      internalID: -8804542791137856921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_114
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 744
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a6e55b72a0b69b0800000000000000
+      internalID: -5085960188521977258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_115
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 744
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4518ad64d8ac8420800000000000000
+      internalID: 2633665512431162701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_116
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 744
+        width: 13
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e7fc4729ca76ab0800000000000000
+      internalID: -5014849915028799864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_117
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 744
+        width: 13
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db28c085b695a2b0800000000000000
+      internalID: -5573883257507271725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_118
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 744
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026b6ab514ad51620800000000000000
+      internalID: 2744339522197567008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_119
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 744
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92059ef084d512fd0800000000000000
+      internalID: -2368509364934193111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_120
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 744
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b31c3f6ab8374e40800000000000000
+      internalID: 5640539431686116280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_121
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 744
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a37e9ce165ac2d0800000000000000
+      internalID: -3257696690212750770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_122
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 793
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d981c94250bab140800000000000000
+      internalID: 4736291825604725207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_123
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 744
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb900124cdcfcc60800000000000000
+      internalID: 7840711718526294981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_124
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 744
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b1ebf534d363530800000000000000
+      internalID: 3834319492330953538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_125
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 744
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32118f763f92fa630800000000000000
+      internalID: 3940414324370575651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_126
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 744
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff4dbb9b7e4d8490800000000000000
+      internalID: -7742445891579195408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_127
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 744
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a50ea257766c720800000000000000
+      internalID: 2866091965796080237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_128
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 744
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd3b82e2bcfa2f10800000000000000
+      internalID: 2245885209432767923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_129
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 744
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f67ed2e86258860800000000000000
+      internalID: 7531468343944376190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_130
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 765
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eca29f5f880cb020800000000000000
+      internalID: 2358769716712090849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_131
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 744
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad875fd7deaaaef0800000000000000
+      internalID: -96072199846785632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_132
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 744
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe3670977e0cf7a0800000000000000
+      internalID: -6342178268556935426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_133
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 744
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8117296bac31113d0800000000000000
+      internalID: -3237784895735303912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_134
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 744
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3441a4db4c44fc240800000000000000
+      internalID: 4814142138462377027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_135
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 744
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a8511cd9c9ceaa0800000000000000
+      internalID: -6130352791394874791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_136
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 608
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec17435d3ac7a6a90800000000000000
+      internalID: -7319901201238822450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_137
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 608
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1792488fca8a680800000000000000
+      internalID: -8743548493170642474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_138
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 657
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442da1129f5c8cf70800000000000000
+      internalID: 9207827111951913540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_139
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 608
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34a83eb514902c80800000000000000
+      internalID: -8349510888038292422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_140
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 607
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3beac30fbe5b7f500800000000000000
+      internalID: 430012314389622451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_141
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 608
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef48d2eea6399eb0800000000000000
+      internalID: -4712675410308476960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_142
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 657
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f202a139ac2e8f8e0800000000000000
+      internalID: -1659327103006793681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_143
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 608
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4bcee59b1a7d0f0800000000000000
+      internalID: -1092226567080463123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_144
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 608
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efe31aceec2df8c0800000000000000
+      internalID: -3963962692912025631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_145
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 608
+        width: 12
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c52bba0a36537d30800000000000000
+      internalID: 4427977665923458500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_146
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 608
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393f1f2b216354c60800000000000000
+      internalID: 7801701383428764563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_147
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 608
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d4469105b175080800000000000000
+      internalID: -9198853683043611324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_148
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 608
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d064d35cbb2835450800000000000000
+      internalID: 6076344065232553485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_149
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 608
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830ba6f3cb7eb1690800000000000000
+      internalID: -7630250347945349064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_150
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 608
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76dee1cecca07a40800000000000000
+      internalID: 5363977160215156350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_151
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 629
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23374ee2a713006c0800000000000000
+      internalID: -4179286053357325518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_152
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 608
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d837c3b8815fc9990800000000000000
+      internalID: -7377752603775700083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_153
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 608
+        width: 13
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a6c096cafd1ecf0800000000000000
+      internalID: -224652574802023814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_154
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 608
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74b1af9fba2e16c0800000000000000
+      internalID: -4170849202393205637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_155
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 607
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d888ae9428802120800000000000000
+      internalID: 2387057493368408278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_156
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 608
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c437493c592f84d70800000000000000
+      internalID: 9027732178109494092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_157
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 608
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd8afba1e2153a80800000000000000
+      internalID: -8487857162247565840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_158
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 471
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06aede2e19369ca0800000000000000
+      internalID: -6010553850881202676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_159
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 471
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340816e19b835f8d0800000000000000
+      internalID: -2813280024493195197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_160
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 471
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9738fc38e9889070800000000000000
+      internalID: 8113386359256266651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_161
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 471
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1702214ac7d76fb30800000000000000
+      internalID: 4320778866790637681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_162
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 471
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8671b3b89bbcb9c0800000000000000
+      internalID: -3910044111940258164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_163
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 471
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1900d94257aa11480800000000000000
+      internalID: -8930169165996818287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_164
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 471
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24f74d39ee6118c0800000000000000
+      internalID: -4030318243485322197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_165
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 520
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ff6deea0481ad00800000000000000
+      internalID: 982211376235085727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_166
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 471
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4975a021bf384fbc0800000000000000
+      internalID: -3750227475330082924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_167
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 520
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3200c12ac6f1f70800000000000000
+      internalID: 9160159610605151219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_168
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 471
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ae6db51d341d760800000000000000
+      internalID: 7480835022507141771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_169
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 471
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683b4176cf4ed0f80800000000000000
+      internalID: -8138597178876316794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_170
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 471
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad79197393d67ed0800000000000000
+      internalID: -2416511519692325472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_171
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 471
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f174951ad52bc7b0800000000000000
+      internalID: -5203023325901327883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_172
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 471
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae3c8df06ce68dc0800000000000000
+      internalID: -3636959747740254550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_173
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 471
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac793075503c3c8a0800000000000000
+      internalID: -6285966227176974390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_174
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 471
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27192dc5c4fba5e20800000000000000
+      internalID: 3340192408344367474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_175
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 492
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbeeffa2d64126120800000000000000
+      internalID: 2405507610074672831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_176
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 471
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdb43fce7c5fa310800000000000000
+      internalID: 1418454107356970439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_177
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 471
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3584e1c37e5067760800000000000000
+      internalID: 7455152723862636627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_178
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 471
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900f8354e19c898b0800000000000000
+      internalID: -5145141442423230455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_179
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 471
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b77daead63573170800000000000000
+      internalID: 8158080980552087474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_180
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 471
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a36743ad12eae10800000000000000
+      internalID: 2210741688152242731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_181
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 471
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f37387ab8c994ed0800000000000000
+      internalID: -2429238400364874767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_182
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 471
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9845be86c734020800000000000000
+      internalID: 2324838622719936980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_183
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 471
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf5333345875dcb0800000000000000
+      internalID: -4839829921508139085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_184
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 471
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6582e9d4754876ac0800000000000000
+      internalID: -3861972644947679146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_185
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 456
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5770c06732556b8e0800000000000000
+      internalID: -1678060200356214923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_186
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 471
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686bf8ee63a5b1c80800000000000000
+      internalID: -8350981892051323258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_187
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 471
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d137b64ffd0c36b80800000000000000
+      internalID: -8402660411632291043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_188
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 471
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a569b5f2794baaa0800000000000000
+      internalID: -6148740108146612827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_189
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 471
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d01ca9c9afe37c0800000000000000
+      internalID: -4089555861087646376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_190
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 471
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578587a5c231af100800000000000000
+      internalID: 142447419432917109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_191
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 471
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8c1fdf737586ba0800000000000000
+      internalID: -6095526197650667279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_192
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 456
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390401f753c2b5710800000000000000
+      internalID: 1682987494029672595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_193
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 335
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1e5e49473dc4d60800000000000000
+      internalID: 7875902346031915438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_194
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 384
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a9ed94c1e53cfa0800000000000000
+      internalID: -5781674021022164346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_195
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 335
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689290c0373684c10800000000000000
+      internalID: 2037988177159465350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_196
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 334
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb55940d9ee1829a0800000000000000
+      internalID: -6257717692660623941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_197
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 335
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78949c441a81dd10800000000000000
+      internalID: 2148650317021223035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_198
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 335
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aea2ca43ee6c95b0800000000000000
+      internalID: -5360287533986828637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_199
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 334
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd0da5fe68ee43f0800000000000000
+      internalID: -914538111043826222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_200
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 335
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722c9d6413241f7d0800000000000000
+      internalID: -2886453106758270425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_201
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 335
+        width: 13
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a641f880ead691620800000000000000
+      internalID: 2745346042094359658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_202
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 335
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3411bbcf3db163b0800000000000000
+      internalID: -5520923586481548226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_203
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 384
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060f7015e735b3bf0800000000000000
+      internalID: -343589144573251488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_204
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 335
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da18f0423da272e20800000000000000
+      internalID: 3325673936167862701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_205
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 334
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a3e9b69bf268ba0800000000000000
+      internalID: -6087125372923659740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_206
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 335
+        width: 13
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6568f387c913b45b0800000000000000
+      internalID: -5383154381489207722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_207
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 319
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5d8b4d466e5a090800000000000000
+      internalID: -8023753840350669391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_208
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 335
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c552637b3123a2d90800000000000000
+      internalID: -7121824800473471652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_209
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 335
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6911238626c1790800000000000000
+      internalID: -7558057874978400595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_210
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 356
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20051c0696754310800000000000000
+      internalID: 1388646446933540911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_211
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 335
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a4d345c1180ba90800000000000000
+      internalID: -7300193037295203738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_212
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 335
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75edef08da2d6b860800000000000000
+      internalID: 7545449868341206615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_213
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 335
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a453c6f8eeccd3760800000000000000
+      internalID: 7439327484466443594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_214
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 335
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2efc7452eff7f80800000000000000
+      internalID: -8106481368171552003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_215
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 335
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d44300194e68750800000000000000
+      internalID: 6306979639603776801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_216
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 335
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce6cf1415f01bec0800000000000000
+      internalID: -3553041789344780603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_217
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 334
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fe95b14c11a6180800000000000000
+      internalID: -9121458561315377405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_218
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 335
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dcbb247b7f02a50800000000000000
+      internalID: 6494463029138935162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_219
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 335
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ba4ffceb0592160800000000000000
+      internalID: 7001215876187073323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_220
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 335
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d3652c8af83c8c0800000000000000
+      internalID: -3980179690687677050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_221
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 319
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e7d079e7893c060800000000000000
+      internalID: 6972584317567204872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_222
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 335
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2e5a67ca79da570800000000000000
+      internalID: 8479600440389264039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_223
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 334
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6804ed6aa975bd0800000000000000
+      internalID: -2641472614945487162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_224
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 335
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45c56557352374b0800000000000000
+      internalID: -5443966604974635702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_225
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 335
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6f176b36ded9470800000000000000
+      internalID: 8403133492261680834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_226
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 335
+        width: 13
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef8fd8c606e1aff0800000000000000
+      internalID: -26487205973225504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_227
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 335
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf093b3cd996b9b0800000000000000
+      internalID: -5064691559766093891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Hygge_228
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 319
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a12f459a56974b0800000000000000
+      internalID: -5442206896751502845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SOLU_Options_Credits_Hygge_0: 344474426918850006
+      SOLU_Options_Credits_Hygge_1: -8067226534419441458
+      SOLU_Options_Credits_Hygge_10: -1387257401349840683
+      SOLU_Options_Credits_Hygge_100: 6205574455523228330
+      SOLU_Options_Credits_Hygge_101: -8176106139343419937
+      SOLU_Options_Credits_Hygge_102: -6989849063875853933
+      SOLU_Options_Credits_Hygge_103: 7936055734508791074
+      SOLU_Options_Credits_Hygge_104: 178492464046143439
+      SOLU_Options_Credits_Hygge_105: -8772943515766485010
+      SOLU_Options_Credits_Hygge_106: -2595114910574077617
+      SOLU_Options_Credits_Hygge_107: 3904307623814360299
+      SOLU_Options_Credits_Hygge_108: 7453282711640114955
+      SOLU_Options_Credits_Hygge_109: 5121876044154915067
+      SOLU_Options_Credits_Hygge_11: -2481993875923684089
+      SOLU_Options_Credits_Hygge_110: -5163474941907332357
+      SOLU_Options_Credits_Hygge_111: -8264092605521378823
+      SOLU_Options_Credits_Hygge_112: 1606102735486978195
+      SOLU_Options_Credits_Hygge_113: -8804542791137856921
+      SOLU_Options_Credits_Hygge_114: -5085960188521977258
+      SOLU_Options_Credits_Hygge_115: 2633665512431162701
+      SOLU_Options_Credits_Hygge_116: -5014849915028799864
+      SOLU_Options_Credits_Hygge_117: -5573883257507271725
+      SOLU_Options_Credits_Hygge_118: 2744339522197567008
+      SOLU_Options_Credits_Hygge_119: -2368509364934193111
+      SOLU_Options_Credits_Hygge_12: 6949744115224197656
+      SOLU_Options_Credits_Hygge_120: 5640539431686116280
+      SOLU_Options_Credits_Hygge_121: -3257696690212750770
+      SOLU_Options_Credits_Hygge_122: 4736291825604725207
+      SOLU_Options_Credits_Hygge_123: 7840711718526294981
+      SOLU_Options_Credits_Hygge_124: 3834319492330953538
+      SOLU_Options_Credits_Hygge_125: 3940414324370575651
+      SOLU_Options_Credits_Hygge_126: -7742445891579195408
+      SOLU_Options_Credits_Hygge_127: 2866091965796080237
+      SOLU_Options_Credits_Hygge_128: 2245885209432767923
+      SOLU_Options_Credits_Hygge_129: 7531468343944376190
+      SOLU_Options_Credits_Hygge_13: -2826088708032334420
+      SOLU_Options_Credits_Hygge_130: 2358769716712090849
+      SOLU_Options_Credits_Hygge_131: -96072199846785632
+      SOLU_Options_Credits_Hygge_132: -6342178268556935426
+      SOLU_Options_Credits_Hygge_133: -3237784895735303912
+      SOLU_Options_Credits_Hygge_134: 4814142138462377027
+      SOLU_Options_Credits_Hygge_135: -6130352791394874791
+      SOLU_Options_Credits_Hygge_136: -7319901201238822450
+      SOLU_Options_Credits_Hygge_137: -8743548493170642474
+      SOLU_Options_Credits_Hygge_138: 9207827111951913540
+      SOLU_Options_Credits_Hygge_139: -8349510888038292422
+      SOLU_Options_Credits_Hygge_14: -2064808694885438175
+      SOLU_Options_Credits_Hygge_140: 430012314389622451
+      SOLU_Options_Credits_Hygge_141: -4712675410308476960
+      SOLU_Options_Credits_Hygge_142: -1659327103006793681
+      SOLU_Options_Credits_Hygge_143: -1092226567080463123
+      SOLU_Options_Credits_Hygge_144: -3963962692912025631
+      SOLU_Options_Credits_Hygge_145: 4427977665923458500
+      SOLU_Options_Credits_Hygge_146: 7801701383428764563
+      SOLU_Options_Credits_Hygge_147: -9198853683043611324
+      SOLU_Options_Credits_Hygge_148: 6076344065232553485
+      SOLU_Options_Credits_Hygge_149: -7630250347945349064
+      SOLU_Options_Credits_Hygge_15: -1736573808631058652
+      SOLU_Options_Credits_Hygge_150: 5363977160215156350
+      SOLU_Options_Credits_Hygge_151: -4179286053357325518
+      SOLU_Options_Credits_Hygge_152: -7377752603775700083
+      SOLU_Options_Credits_Hygge_153: -224652574802023814
+      SOLU_Options_Credits_Hygge_154: -4170849202393205637
+      SOLU_Options_Credits_Hygge_155: 2387057493368408278
+      SOLU_Options_Credits_Hygge_156: 9027732178109494092
+      SOLU_Options_Credits_Hygge_157: -8487857162247565840
+      SOLU_Options_Credits_Hygge_158: -6010553850881202676
+      SOLU_Options_Credits_Hygge_159: -2813280024493195197
+      SOLU_Options_Credits_Hygge_16: -5994367015130093697
+      SOLU_Options_Credits_Hygge_160: 8113386359256266651
+      SOLU_Options_Credits_Hygge_161: 4320778866790637681
+      SOLU_Options_Credits_Hygge_162: -3910044111940258164
+      SOLU_Options_Credits_Hygge_163: -8930169165996818287
+      SOLU_Options_Credits_Hygge_164: -4030318243485322197
+      SOLU_Options_Credits_Hygge_165: 982211376235085727
+      SOLU_Options_Credits_Hygge_166: -3750227475330082924
+      SOLU_Options_Credits_Hygge_167: 9160159610605151219
+      SOLU_Options_Credits_Hygge_168: 7480835022507141771
+      SOLU_Options_Credits_Hygge_169: -8138597178876316794
+      SOLU_Options_Credits_Hygge_17: 723979056009860154
+      SOLU_Options_Credits_Hygge_170: -2416511519692325472
+      SOLU_Options_Credits_Hygge_171: -5203023325901327883
+      SOLU_Options_Credits_Hygge_172: -3636959747740254550
+      SOLU_Options_Credits_Hygge_173: -6285966227176974390
+      SOLU_Options_Credits_Hygge_174: 3340192408344367474
+      SOLU_Options_Credits_Hygge_175: 2405507610074672831
+      SOLU_Options_Credits_Hygge_176: 1418454107356970439
+      SOLU_Options_Credits_Hygge_177: 7455152723862636627
+      SOLU_Options_Credits_Hygge_178: -5145141442423230455
+      SOLU_Options_Credits_Hygge_179: 8158080980552087474
+      SOLU_Options_Credits_Hygge_18: 1683257730207704443
+      SOLU_Options_Credits_Hygge_180: 2210741688152242731
+      SOLU_Options_Credits_Hygge_181: -2429238400364874767
+      SOLU_Options_Credits_Hygge_182: 2324838622719936980
+      SOLU_Options_Credits_Hygge_183: -4839829921508139085
+      SOLU_Options_Credits_Hygge_184: -3861972644947679146
+      SOLU_Options_Credits_Hygge_185: -1678060200356214923
+      SOLU_Options_Credits_Hygge_186: -8350981892051323258
+      SOLU_Options_Credits_Hygge_187: -8402660411632291043
+      SOLU_Options_Credits_Hygge_188: -6148740108146612827
+      SOLU_Options_Credits_Hygge_189: -4089555861087646376
+      SOLU_Options_Credits_Hygge_19: 362317937806892915
+      SOLU_Options_Credits_Hygge_190: 142447419432917109
+      SOLU_Options_Credits_Hygge_191: -6095526197650667279
+      SOLU_Options_Credits_Hygge_192: 1682987494029672595
+      SOLU_Options_Credits_Hygge_193: 7875902346031915438
+      SOLU_Options_Credits_Hygge_194: -5781674021022164346
+      SOLU_Options_Credits_Hygge_195: 2037988177159465350
+      SOLU_Options_Credits_Hygge_196: -6257717692660623941
+      SOLU_Options_Credits_Hygge_197: 2148650317021223035
+      SOLU_Options_Credits_Hygge_198: -5360287533986828637
+      SOLU_Options_Credits_Hygge_199: -914538111043826222
+      SOLU_Options_Credits_Hygge_2: 6386936355099313685
+      SOLU_Options_Credits_Hygge_20: 3339374734312215312
+      SOLU_Options_Credits_Hygge_200: -2886453106758270425
+      SOLU_Options_Credits_Hygge_201: 2745346042094359658
+      SOLU_Options_Credits_Hygge_202: -5520923586481548226
+      SOLU_Options_Credits_Hygge_203: -343589144573251488
+      SOLU_Options_Credits_Hygge_204: 3325673936167862701
+      SOLU_Options_Credits_Hygge_205: -6087125372923659740
+      SOLU_Options_Credits_Hygge_206: -5383154381489207722
+      SOLU_Options_Credits_Hygge_207: -8023753840350669391
+      SOLU_Options_Credits_Hygge_208: -7121824800473471652
+      SOLU_Options_Credits_Hygge_209: -7558057874978400595
+      SOLU_Options_Credits_Hygge_21: -1250990292097038766
+      SOLU_Options_Credits_Hygge_210: 1388646446933540911
+      SOLU_Options_Credits_Hygge_211: -7300193037295203738
+      SOLU_Options_Credits_Hygge_212: 7545449868341206615
+      SOLU_Options_Credits_Hygge_213: 7439327484466443594
+      SOLU_Options_Credits_Hygge_214: -8106481368171552003
+      SOLU_Options_Credits_Hygge_215: 6306979639603776801
+      SOLU_Options_Credits_Hygge_216: -3553041789344780603
+      SOLU_Options_Credits_Hygge_217: -9121458561315377405
+      SOLU_Options_Credits_Hygge_218: 6494463029138935162
+      SOLU_Options_Credits_Hygge_219: 7001215876187073323
+      SOLU_Options_Credits_Hygge_22: 3444623274991450201
+      SOLU_Options_Credits_Hygge_220: -3980179690687677050
+      SOLU_Options_Credits_Hygge_221: 6972584317567204872
+      SOLU_Options_Credits_Hygge_222: 8479600440389264039
+      SOLU_Options_Credits_Hygge_223: -2641472614945487162
+      SOLU_Options_Credits_Hygge_224: -5443966604974635702
+      SOLU_Options_Credits_Hygge_225: 8403133492261680834
+      SOLU_Options_Credits_Hygge_226: -26487205973225504
+      SOLU_Options_Credits_Hygge_227: -5064691559766093891
+      SOLU_Options_Credits_Hygge_228: -5442206896751502845
+      SOLU_Options_Credits_Hygge_23: -5708380875489050239
+      SOLU_Options_Credits_Hygge_24: 6357501138887601831
+      SOLU_Options_Credits_Hygge_25: 5324326078463558663
+      SOLU_Options_Credits_Hygge_26: -5546012375690747229
+      SOLU_Options_Credits_Hygge_27: 4675492656757316177
+      SOLU_Options_Credits_Hygge_28: -538258883204766040
+      SOLU_Options_Credits_Hygge_29: -7773876645796295668
+      SOLU_Options_Credits_Hygge_3: 6922189950535567136
+      SOLU_Options_Credits_Hygge_30: 6801406216475309888
+      SOLU_Options_Credits_Hygge_31: 3301016263301528254
+      SOLU_Options_Credits_Hygge_32: 6130052428674842967
+      SOLU_Options_Credits_Hygge_33: 5283184125331256171
+      SOLU_Options_Credits_Hygge_34: 8908555618707597966
+      SOLU_Options_Credits_Hygge_35: 1531519801392036335
+      SOLU_Options_Credits_Hygge_36: -8087720334890696251
+      SOLU_Options_Credits_Hygge_37: 7225077431800689743
+      SOLU_Options_Credits_Hygge_38: -1374168468670397614
+      SOLU_Options_Credits_Hygge_39: -6906304578803050947
+      SOLU_Options_Credits_Hygge_4: -6595687859662040388
+      SOLU_Options_Credits_Hygge_40: 930297339028052572
+      SOLU_Options_Credits_Hygge_41: 4270334212301949944
+      SOLU_Options_Credits_Hygge_42: 2299966627815860780
+      SOLU_Options_Credits_Hygge_43: -5732115673578139554
+      SOLU_Options_Credits_Hygge_44: 3686383214038032779
+      SOLU_Options_Credits_Hygge_45: -3994244022029354207
+      SOLU_Options_Credits_Hygge_46: -8042535102436438666
+      SOLU_Options_Credits_Hygge_47: -4538485790850787292
+      SOLU_Options_Credits_Hygge_48: -4663277642605322311
+      SOLU_Options_Credits_Hygge_49: -770717869146334928
+      SOLU_Options_Credits_Hygge_5: 3163736605031038760
+      SOLU_Options_Credits_Hygge_50: -7854104230815574973
+      SOLU_Options_Credits_Hygge_51: -9091361088876944948
+      SOLU_Options_Credits_Hygge_52: 2873480708685133928
+      SOLU_Options_Credits_Hygge_53: 7806357621164081211
+      SOLU_Options_Credits_Hygge_54: -9060957645020504959
+      SOLU_Options_Credits_Hygge_55: 8329110784299571182
+      SOLU_Options_Credits_Hygge_56: -693461841480995662
+      SOLU_Options_Credits_Hygge_57: 4847553669980044049
+      SOLU_Options_Credits_Hygge_58: -4074067455068544665
+      SOLU_Options_Credits_Hygge_59: -1929943148704354076
+      SOLU_Options_Credits_Hygge_6: -9075426617622963791
+      SOLU_Options_Credits_Hygge_60: 1738911487327811123
+      SOLU_Options_Credits_Hygge_61: -1886277258563586513
+      SOLU_Options_Credits_Hygge_62: 2749472773007512609
+      SOLU_Options_Credits_Hygge_63: 667867351439346541
+      SOLU_Options_Credits_Hygge_64: 4855565452478144668
+      SOLU_Options_Credits_Hygge_65: -3038080363720650176
+      SOLU_Options_Credits_Hygge_66: -2813751379969380373
+      SOLU_Options_Credits_Hygge_67: 5678318157507084665
+      SOLU_Options_Credits_Hygge_68: 8060391905807760423
+      SOLU_Options_Credits_Hygge_69: 5732316993973748179
+      SOLU_Options_Credits_Hygge_7: 390499102417943295
+      SOLU_Options_Credits_Hygge_70: -8441015630244791564
+      SOLU_Options_Credits_Hygge_71: 2346715579933117585
+      SOLU_Options_Credits_Hygge_72: 9006995717321360641
+      SOLU_Options_Credits_Hygge_73: 7350869340951791416
+      SOLU_Options_Credits_Hygge_74: -4651488804293811179
+      SOLU_Options_Credits_Hygge_75: 7541566336528487089
+      SOLU_Options_Credits_Hygge_76: 5593780796115558410
+      SOLU_Options_Credits_Hygge_77: 6379495851769303925
+      SOLU_Options_Credits_Hygge_78: -4489870097258418442
+      SOLU_Options_Credits_Hygge_79: 3596749450740318596
+      SOLU_Options_Credits_Hygge_8: -2334725419785876724
+      SOLU_Options_Credits_Hygge_80: 4081886359388417613
+      SOLU_Options_Credits_Hygge_81: 7358025443049754727
+      SOLU_Options_Credits_Hygge_82: 4224185142598024875
+      SOLU_Options_Credits_Hygge_83: -3190957821207065750
+      SOLU_Options_Credits_Hygge_84: -4271313969809233830
+      SOLU_Options_Credits_Hygge_85: -468908485377220109
+      SOLU_Options_Credits_Hygge_86: -8185989327069533469
+      SOLU_Options_Credits_Hygge_87: 1324235743192775707
+      SOLU_Options_Credits_Hygge_88: 788474061219250811
+      SOLU_Options_Credits_Hygge_89: -8303021418307533125
+      SOLU_Options_Credits_Hygge_9: 1868556973045449347
+      SOLU_Options_Credits_Hygge_90: 703639190847991398
+      SOLU_Options_Credits_Hygge_91: 530789712919070587
+      SOLU_Options_Credits_Hygge_92: 7078953664879615682
+      SOLU_Options_Credits_Hygge_93: -620561656533996989
+      SOLU_Options_Credits_Hygge_94: -738431497441139660
+      SOLU_Options_Credits_Hygge_95: -5596407207268355614
+      SOLU_Options_Credits_Hygge_96: 4636617374396265384
+      SOLU_Options_Credits_Hygge_97: -7657924275879893142
+      SOLU_Options_Credits_Hygge_98: 8208701736770480344
+      SOLU_Options_Credits_Hygge_99: 5606490045214312374
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

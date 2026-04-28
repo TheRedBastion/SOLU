@@ -1,0 +1,5369 @@
+fileFormatVersion: 2
+guid: 29139cd9c1fe5184fb7b8b717ab4ef49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3467696301763640977
+    second: SOLU_Options_Credits_Other_0
+  - first:
+      213: -3629677014402258671
+    second: SOLU_Options_Credits_Other_1
+  - first:
+      213: -7575485529286641497
+    second: SOLU_Options_Credits_Other_2
+  - first:
+      213: 5230391329479880646
+    second: SOLU_Options_Credits_Other_3
+  - first:
+      213: 2827316644374990464
+    second: SOLU_Options_Credits_Other_4
+  - first:
+      213: 1478026362405023890
+    second: SOLU_Options_Credits_Other_5
+  - first:
+      213: 3013246899124501707
+    second: SOLU_Options_Credits_Other_6
+  - first:
+      213: 6525458609869468043
+    second: SOLU_Options_Credits_Other_7
+  - first:
+      213: -7105128475398205364
+    second: SOLU_Options_Credits_Other_8
+  - first:
+      213: 3684513761099326025
+    second: SOLU_Options_Credits_Other_9
+  - first:
+      213: 5583467441367127155
+    second: SOLU_Options_Credits_Other_10
+  - first:
+      213: -2949441416934365084
+    second: SOLU_Options_Credits_Other_11
+  - first:
+      213: 643952576160038567
+    second: SOLU_Options_Credits_Other_12
+  - first:
+      213: -1869813641655608921
+    second: SOLU_Options_Credits_Other_13
+  - first:
+      213: 3650494459625926328
+    second: SOLU_Options_Credits_Other_14
+  - first:
+      213: -6638097599012653903
+    second: SOLU_Options_Credits_Other_15
+  - first:
+      213: 4680062441406604556
+    second: SOLU_Options_Credits_Other_16
+  - first:
+      213: -4216404354533712747
+    second: SOLU_Options_Credits_Other_17
+  - first:
+      213: -9111927329746346259
+    second: SOLU_Options_Credits_Other_18
+  - first:
+      213: -4034480247128520448
+    second: SOLU_Options_Credits_Other_19
+  - first:
+      213: 6174766397781336670
+    second: SOLU_Options_Credits_Other_20
+  - first:
+      213: 2795488556281299643
+    second: SOLU_Options_Credits_Other_21
+  - first:
+      213: -4728387427028247247
+    second: SOLU_Options_Credits_Other_22
+  - first:
+      213: 3988113400425736538
+    second: SOLU_Options_Credits_Other_23
+  - first:
+      213: -4468407651168058405
+    second: SOLU_Options_Credits_Other_24
+  - first:
+      213: -3031683438311001824
+    second: SOLU_Options_Credits_Other_25
+  - first:
+      213: 599202876435051131
+    second: SOLU_Options_Credits_Other_26
+  - first:
+      213: -5112443551093358173
+    second: SOLU_Options_Credits_Other_27
+  - first:
+      213: -6588632477974808709
+    second: SOLU_Options_Credits_Other_28
+  - first:
+      213: -2167722492840908537
+    second: SOLU_Options_Credits_Other_29
+  - first:
+      213: 747284650333039574
+    second: SOLU_Options_Credits_Other_30
+  - first:
+      213: -1989540246088637874
+    second: SOLU_Options_Credits_Other_31
+  - first:
+      213: 8046125367553808754
+    second: SOLU_Options_Credits_Other_32
+  - first:
+      213: 5411620960596682415
+    second: SOLU_Options_Credits_Other_33
+  - first:
+      213: -7329552374832152765
+    second: SOLU_Options_Credits_Other_34
+  - first:
+      213: 8397291148639237167
+    second: SOLU_Options_Credits_Other_35
+  - first:
+      213: -8574092141594429206
+    second: SOLU_Options_Credits_Other_36
+  - first:
+      213: 932139837883766178
+    second: SOLU_Options_Credits_Other_37
+  - first:
+      213: -8533756774831268357
+    second: SOLU_Options_Credits_Other_38
+  - first:
+      213: 7299167762852566871
+    second: SOLU_Options_Credits_Other_39
+  - first:
+      213: -1280402840507316929
+    second: SOLU_Options_Credits_Other_40
+  - first:
+      213: 5157251071274328403
+    second: SOLU_Options_Credits_Other_41
+  - first:
+      213: -4421761351586239758
+    second: SOLU_Options_Credits_Other_42
+  - first:
+      213: 4574253772879385882
+    second: SOLU_Options_Credits_Other_43
+  - first:
+      213: 1394108089795823521
+    second: SOLU_Options_Credits_Other_44
+  - first:
+      213: -3470559476133256404
+    second: SOLU_Options_Credits_Other_45
+  - first:
+      213: -6307572633158465926
+    second: SOLU_Options_Credits_Other_46
+  - first:
+      213: -6133550382186670010
+    second: SOLU_Options_Credits_Other_47
+  - first:
+      213: 8611950007070821182
+    second: SOLU_Options_Credits_Other_48
+  - first:
+      213: 116753027718485111
+    second: SOLU_Options_Credits_Other_49
+  - first:
+      213: -4543338517076414104
+    second: SOLU_Options_Credits_Other_50
+  - first:
+      213: 2787667570461240665
+    second: SOLU_Options_Credits_Other_51
+  - first:
+      213: -8743694198902350454
+    second: SOLU_Options_Credits_Other_52
+  - first:
+      213: -3746930956683444916
+    second: SOLU_Options_Credits_Other_53
+  - first:
+      213: 445457687152089216
+    second: SOLU_Options_Credits_Other_54
+  - first:
+      213: -1817385932311964481
+    second: SOLU_Options_Credits_Other_55
+  - first:
+      213: 5313423502945975541
+    second: SOLU_Options_Credits_Other_56
+  - first:
+      213: -1000355859356967451
+    second: SOLU_Options_Credits_Other_57
+  - first:
+      213: 3527444286875331764
+    second: SOLU_Options_Credits_Other_58
+  - first:
+      213: -1649864205161335808
+    second: SOLU_Options_Credits_Other_59
+  - first:
+      213: -2387271903362967732
+    second: SOLU_Options_Credits_Other_60
+  - first:
+      213: 2635712582369635291
+    second: SOLU_Options_Credits_Other_61
+  - first:
+      213: 2121836673159031612
+    second: SOLU_Options_Credits_Other_62
+  - first:
+      213: -3567406577830143968
+    second: SOLU_Options_Credits_Other_63
+  - first:
+      213: 8654981915087189459
+    second: SOLU_Options_Credits_Other_64
+  - first:
+      213: 1102815920010323736
+    second: SOLU_Options_Credits_Other_65
+  - first:
+      213: -2505336925649639229
+    second: SOLU_Options_Credits_Other_66
+  - first:
+      213: 8697037656806955001
+    second: SOLU_Options_Credits_Other_67
+  - first:
+      213: 8096866967758963898
+    second: SOLU_Options_Credits_Other_68
+  - first:
+      213: -1290932913058181081
+    second: SOLU_Options_Credits_Other_69
+  - first:
+      213: -626546140028060216
+    second: SOLU_Options_Credits_Other_70
+  - first:
+      213: -2255962999255351898
+    second: SOLU_Options_Credits_Other_71
+  - first:
+      213: -1679935579154202543
+    second: SOLU_Options_Credits_Other_72
+  - first:
+      213: -8104349043775256725
+    second: SOLU_Options_Credits_Other_73
+  - first:
+      213: 5361741256836943397
+    second: SOLU_Options_Credits_Other_74
+  - first:
+      213: 876774185721190059
+    second: SOLU_Options_Credits_Other_75
+  - first:
+      213: 4673211304093850285
+    second: SOLU_Options_Credits_Other_76
+  - first:
+      213: 4817394211284342937
+    second: SOLU_Options_Credits_Other_77
+  - first:
+      213: 2171103336601083407
+    second: SOLU_Options_Credits_Other_78
+  - first:
+      213: 7090044564357134210
+    second: SOLU_Options_Credits_Other_79
+  - first:
+      213: -293736054628930331
+    second: SOLU_Options_Credits_Other_80
+  - first:
+      213: 1409452987052227401
+    second: SOLU_Options_Credits_Other_81
+  - first:
+      213: -1783695378227634764
+    second: SOLU_Options_Credits_Other_82
+  - first:
+      213: -810916017493062298
+    second: SOLU_Options_Credits_Other_83
+  - first:
+      213: -8326242603794593448
+    second: SOLU_Options_Credits_Other_84
+  - first:
+      213: 5455797666394390828
+    second: SOLU_Options_Credits_Other_85
+  - first:
+      213: 544811507386515507
+    second: SOLU_Options_Credits_Other_86
+  - first:
+      213: -8396500864920855246
+    second: SOLU_Options_Credits_Other_87
+  - first:
+      213: 8009924358699865593
+    second: SOLU_Options_Credits_Other_88
+  - first:
+      213: -3897632179081320080
+    second: SOLU_Options_Credits_Other_89
+  - first:
+      213: -6891200361616769307
+    second: SOLU_Options_Credits_Other_90
+  - first:
+      213: -5868806990776986840
+    second: SOLU_Options_Credits_Other_91
+  - first:
+      213: 4849879644986140052
+    second: SOLU_Options_Credits_Other_92
+  - first:
+      213: 4172477263169970359
+    second: SOLU_Options_Credits_Other_93
+  - first:
+      213: -3377005080115802862
+    second: SOLU_Options_Credits_Other_94
+  - first:
+      213: 9201563472845279483
+    second: SOLU_Options_Credits_Other_95
+  - first:
+      213: -7188758708704009430
+    second: SOLU_Options_Credits_Other_96
+  - first:
+      213: 3491493699122331853
+    second: SOLU_Options_Credits_Other_97
+  - first:
+      213: 5475492496906057741
+    second: SOLU_Options_Credits_Other_98
+  - first:
+      213: -1242074325568259531
+    second: SOLU_Options_Credits_Other_99
+  - first:
+      213: -6885358740807879913
+    second: SOLU_Options_Credits_Other_100
+  - first:
+      213: -439989173388853789
+    second: SOLU_Options_Credits_Other_101
+  - first:
+      213: -6335127248383798845
+    second: SOLU_Options_Credits_Other_102
+  - first:
+      213: 3942402081779882692
+    second: SOLU_Options_Credits_Other_103
+  - first:
+      213: 8263814959850746137
+    second: SOLU_Options_Credits_Other_104
+  - first:
+      213: -2523905608716032474
+    second: SOLU_Options_Credits_Other_105
+  - first:
+      213: -8652952477617270150
+    second: SOLU_Options_Credits_Other_106
+  - first:
+      213: -3297978757975140285
+    second: SOLU_Options_Credits_Other_107
+  - first:
+      213: 7174117420733607777
+    second: SOLU_Options_Credits_Other_108
+  - first:
+      213: 752780017337918113
+    second: SOLU_Options_Credits_Other_109
+  - first:
+      213: 8328973143299664412
+    second: SOLU_Options_Credits_Other_110
+  - first:
+      213: -2096344896582206905
+    second: SOLU_Options_Credits_Other_111
+  - first:
+      213: 8300808932003763546
+    second: SOLU_Options_Credits_Other_112
+  - first:
+      213: 2431513754981943090
+    second: SOLU_Options_Credits_Other_113
+  - first:
+      213: -2258531100139990828
+    second: SOLU_Options_Credits_Other_114
+  - first:
+      213: -4054515813703569335
+    second: SOLU_Options_Credits_Other_115
+  - first:
+      213: -8289891590069079526
+    second: SOLU_Options_Credits_Other_116
+  - first:
+      213: -928118987727661552
+    second: SOLU_Options_Credits_Other_117
+  - first:
+      213: -2195709843510405448
+    second: SOLU_Options_Credits_Other_118
+  - first:
+      213: 6949832823526734641
+    second: SOLU_Options_Credits_Other_119
+  - first:
+      213: -8759579368337100392
+    second: SOLU_Options_Credits_Other_120
+  - first:
+      213: 6704137331679527295
+    second: SOLU_Options_Credits_Other_121
+  - first:
+      213: 6126885465509014734
+    second: SOLU_Options_Credits_Other_122
+  - first:
+      213: 7347640071696894721
+    second: SOLU_Options_Credits_Other_123
+  - first:
+      213: -4000910512750638282
+    second: SOLU_Options_Credits_Other_124
+  - first:
+      213: 6950220811969273428
+    second: SOLU_Options_Credits_Other_125
+  - first:
+      213: -3616350565663071442
+    second: SOLU_Options_Credits_Other_126
+  - first:
+      213: 1596716498206173694
+    second: SOLU_Options_Credits_Other_127
+  - first:
+      213: -6444759093367270929
+    second: SOLU_Options_Credits_Other_128
+  - first:
+      213: -7340763586586344487
+    second: SOLU_Options_Credits_Other_129
+  - first:
+      213: 3678797982766583204
+    second: SOLU_Options_Credits_Other_130
+  - first:
+      213: -5141691881691139119
+    second: SOLU_Options_Credits_Other_131
+  - first:
+      213: -7048487540053896177
+    second: SOLU_Options_Credits_Other_132
+  - first:
+      213: -1454871794632882054
+    second: SOLU_Options_Credits_Other_133
+  - first:
+      213: -5593359063005653406
+    second: SOLU_Options_Credits_Other_134
+  - first:
+      213: 3758837329894676132
+    second: SOLU_Options_Credits_Other_135
+  - first:
+      213: 3598341800474431466
+    second: SOLU_Options_Credits_Other_136
+  - first:
+      213: -5155363035758480139
+    second: SOLU_Options_Credits_Other_137
+  - first:
+      213: 3318241229866700509
+    second: SOLU_Options_Credits_Other_138
+  - first:
+      213: 5835222760545812724
+    second: SOLU_Options_Credits_Other_139
+  - first:
+      213: -5107103268559945037
+    second: SOLU_Options_Credits_Other_140
+  - first:
+      213: 5730586234995857188
+    second: SOLU_Options_Credits_Other_141
+  - first:
+      213: 6881029414137068899
+    second: SOLU_Options_Credits_Other_142
+  - first:
+      213: 7240689821849244922
+    second: SOLU_Options_Credits_Other_143
+  - first:
+      213: 4037475616790627164
+    second: SOLU_Options_Credits_Other_144
+  - first:
+      213: -6947772168249224424
+    second: SOLU_Options_Credits_Other_145
+  - first:
+      213: -8541549956384400588
+    second: SOLU_Options_Credits_Other_146
+  - first:
+      213: -1117769850019530613
+    second: SOLU_Options_Credits_Other_147
+  - first:
+      213: 3613953928414477973
+    second: SOLU_Options_Credits_Other_148
+  - first:
+      213: -1692974369084062728
+    second: SOLU_Options_Credits_Other_149
+  - first:
+      213: 9083297766233243760
+    second: SOLU_Options_Credits_Other_150
+  - first:
+      213: -1694644091900615374
+    second: SOLU_Options_Credits_Other_151
+  - first:
+      213: -3912322952809622757
+    second: SOLU_Options_Credits_Other_152
+  - first:
+      213: -3587666614081733295
+    second: SOLU_Options_Credits_Other_153
+  - first:
+      213: 9128978411242117350
+    second: SOLU_Options_Credits_Other_154
+  - first:
+      213: 3154415865539148539
+    second: SOLU_Options_Credits_Other_155
+  - first:
+      213: 1328693852791395648
+    second: SOLU_Options_Credits_Other_156
+  - first:
+      213: 826565969848549706
+    second: SOLU_Options_Credits_Other_157
+  - first:
+      213: 443284901628982427
+    second: SOLU_Options_Credits_Other_158
+  - first:
+      213: -5864471208819440243
+    second: SOLU_Options_Credits_Other_159
+  - first:
+      213: 89213082069489624
+    second: SOLU_Options_Credits_Other_160
+  - first:
+      213: 2040375391897425838
+    second: SOLU_Options_Credits_Other_161
+  - first:
+      213: -4625250124801351242
+    second: SOLU_Options_Credits_Other_162
+  - first:
+      213: -4116996332158960724
+    second: SOLU_Options_Credits_Other_163
+  - first:
+      213: -4732407633840780082
+    second: SOLU_Options_Credits_Other_164
+  - first:
+      213: 1004366517637689857
+    second: SOLU_Options_Credits_Other_165
+  - first:
+      213: 2721126947441399937
+    second: SOLU_Options_Credits_Other_166
+  - first:
+      213: -4506318665061468599
+    second: SOLU_Options_Credits_Other_167
+  - first:
+      213: -3382578675909528536
+    second: SOLU_Options_Credits_Other_168
+  - first:
+      213: -5624487095082763391
+    second: SOLU_Options_Credits_Other_169
+  - first:
+      213: -6922825246914753746
+    second: SOLU_Options_Credits_Other_170
+  - first:
+      213: -7025278896919068941
+    second: SOLU_Options_Credits_Other_171
+  - first:
+      213: 7245773696494798621
+    second: SOLU_Options_Credits_Other_172
+  - first:
+      213: -1677928732441517757
+    second: SOLU_Options_Credits_Other_173
+  - first:
+      213: -7612279537250416305
+    second: SOLU_Options_Credits_Other_174
+  - first:
+      213: -3590277497350818316
+    second: SOLU_Options_Credits_Other_175
+  - first:
+      213: 875958942557048523
+    second: SOLU_Options_Credits_Other_176
+  - first:
+      213: 1169960157242178535
+    second: SOLU_Options_Credits_Other_177
+  - first:
+      213: -3265279672000292673
+    second: SOLU_Options_Credits_Other_178
+  - first:
+      213: -2666019903804222504
+    second: SOLU_Options_Credits_Other_179
+  - first:
+      213: -3417952672472091312
+    second: SOLU_Options_Credits_Other_180
+  - first:
+      213: -7752993737074242488
+    second: SOLU_Options_Credits_Other_181
+  - first:
+      213: -1050990527182455202
+    second: SOLU_Options_Credits_Other_182
+  - first:
+      213: -4967694507406737376
+    second: SOLU_Options_Credits_Other_183
+  - first:
+      213: -2149267475408323558
+    second: SOLU_Options_Credits_Other_184
+  - first:
+      213: 5543103970405585387
+    second: SOLU_Options_Credits_Other_185
+  - first:
+      213: -6135758336553229413
+    second: SOLU_Options_Credits_Other_186
+  - first:
+      213: -8741092745768535784
+    second: SOLU_Options_Credits_Other_187
+  - first:
+      213: -7875636469023415786
+    second: SOLU_Options_Credits_Other_188
+  - first:
+      213: 6133094975707499413
+    second: SOLU_Options_Credits_Other_189
+  - first:
+      213: -7442305491977515328
+    second: SOLU_Options_Credits_Other_190
+  - first:
+      213: 8440431131399622097
+    second: SOLU_Options_Credits_Other_191
+  - first:
+      213: -7454158807366671123
+    second: SOLU_Options_Credits_Other_192
+  - first:
+      213: -251552176027232219
+    second: SOLU_Options_Credits_Other_193
+  - first:
+      213: 8232182762300842686
+    second: SOLU_Options_Credits_Other_194
+  - first:
+      213: 982528210572320796
+    second: SOLU_Options_Credits_Other_195
+  - first:
+      213: -6616753859177458467
+    second: SOLU_Options_Credits_Other_196
+  - first:
+      213: -1852167056438113475
+    second: SOLU_Options_Credits_Other_197
+  - first:
+      213: 3458204940980772391
+    second: SOLU_Options_Credits_Other_198
+  - first:
+      213: 7571932082307120235
+    second: SOLU_Options_Credits_Other_199
+  - first:
+      213: 3683853345601330384
+    second: SOLU_Options_Credits_Other_200
+  - first:
+      213: 9113058385890207257
+    second: SOLU_Options_Credits_Other_201
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_0
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 2001
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f614170169440efc0800000000000000
+      internalID: -3467696301763640977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_1
+      rect:
+        serializedVersion: 2
+        x: 2845
+        y: 2001
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119272b7cfbc0adc0800000000000000
+      internalID: -3629677014402258671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_2
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 2050
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8f1c93c087ed690800000000000000
+      internalID: -7575485529286641497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_3
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 2001
+        width: 35
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf6eedc335169840800000000000000
+      internalID: 5230391329479880646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_4
+      rect:
+        serializedVersion: 2
+        x: 3106
+        y: 2001
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e458f1285ac3720800000000000000
+      internalID: 2827316644374990464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_5
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 2001
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29070db4521038410800000000000000
+      internalID: 1478026362405023890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_6
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 2001
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccfcd2071431d920800000000000000
+      internalID: 3013246899124501707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_7
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 2001
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81b8c548061f8a50800000000000000
+      internalID: 6525458609869468043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_8
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 2001
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c409064db43856d90800000000000000
+      internalID: -7105128475398205364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_9
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 2001
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9422d5c8eb5022330800000000000000
+      internalID: 3684513761099326025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_10
+      rect:
+        serializedVersion: 2
+        x: 2986
+        y: 2001
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37495a13e067c7d40800000000000000
+      internalID: 5583467441367127155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_11
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 2001
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4686dc978aa7117d0800000000000000
+      internalID: -2949441416934365084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_12
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 2001
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae773ac477cfe800800000000000000
+      internalID: 643952576160038567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_13
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 2001
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a910fc46661d06e0800000000000000
+      internalID: -1869813641655608921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_14
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 2028
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bee880be5929a230800000000000000
+      internalID: 3650494459625926328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_15
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 2001
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b43a72676db0e3a0800000000000000
+      internalID: -6638097599012653903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_16
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 1988
+        width: 481
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0520b29efbe2f040800000000000000
+      internalID: 4680062441406604556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_17
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 1896
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c9b9a34925c75c0800000000000000
+      internalID: -4216404354533712747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_18
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 1896
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee9b43ee5eeb8180800000000000000
+      internalID: -9111927329746346259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_19
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1896
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00903904795a208c0800000000000000
+      internalID: -4034480247128520448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_20
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 1881
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5266cec25d21b550800000000000000
+      internalID: 6174766397781336670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_21
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1896
+        width: 35
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb201d2e7029bc620800000000000000
+      internalID: 2795488556281299643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_22
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 1896
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dde8befa4616eb0800000000000000
+      internalID: -4728387427028247247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_23
+      rect:
+        serializedVersion: 2
+        x: 3011
+        y: 1896
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59e95cf100a85730800000000000000
+      internalID: 3988113400425736538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_24
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 1896
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd38d787ae60df1c0800000000000000
+      internalID: -4468407651168058405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_25
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 1896
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021b904b9fb4de5d0800000000000000
+      internalID: -3031683438311001824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_26
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 1896
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72bd4667dbc05800800000000000000
+      internalID: 599202876435051131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_27
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 1686
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a108da5da3fc09b0800000000000000
+      internalID: -5112443551093358173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_28
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 1686
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77b5ba5ba97094a0800000000000000
+      internalID: -6588632477974808709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_29
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1686
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709e79ab0e3bae1e0800000000000000
+      internalID: -2167722492840908537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_30
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 1735
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbe3312e63ee5a00800000000000000
+      internalID: 747284650333039574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_31
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 1686
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e422b8defabb364e0800000000000000
+      internalID: -1989540246088637874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_32
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 1686
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279dd4f346499af60800000000000000
+      internalID: 8046125367553808754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_33
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 1686
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa66c677790f91b40800000000000000
+      internalID: 5411620960596682415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_34
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 1686
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f328fd2f2384a90800000000000000
+      internalID: -7329552374832152765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_35
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 1735
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f247c261fcb298470800000000000000
+      internalID: 8397291148639237167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_36
+      rect:
+        serializedVersion: 2
+        x: 3041
+        y: 1686
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8bbccef94b20980800000000000000
+      internalID: -8574092141594429206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_37
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 1735
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a55d0e6e30afec00800000000000000
+      internalID: 932139837883766178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_38
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1686
+        width: 12
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd59945d61029980800000000000000
+      internalID: -8533756774831268357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_39
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 1686
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7575fcc586adb4560800000000000000
+      internalID: 7299167762852566871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_40
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 1735
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35092286681b3ee0800000000000000
+      internalID: -1280402840507316929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_41
+      rect:
+        serializedVersion: 2
+        x: 3317
+        y: 1686
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3512fc8668c329740800000000000000
+      internalID: 5157251071274328403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_42
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 1671
+        width: 1066
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faa62d6a7fb2a2c0800000000000000
+      internalID: -4421761351586239758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_43
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 1581
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1557fc22930b7f30800000000000000
+      internalID: 4574253772879385882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_44
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 1581
+        width: 8
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a747cedbedd85310800000000000000
+      internalID: 1394108089795823521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_45
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 1581
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2326355b8816dfc0800000000000000
+      internalID: -3470559476133256404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_46
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 1581
+        width: 26
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a764d9deb100778a0800000000000000
+      internalID: -6307572633158465926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_47
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 1581
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6485dc1ac6041eaa0800000000000000
+      internalID: -6133550382186670010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_48
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 1581
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b01e247eac38770800000000000000
+      internalID: 8611950007070821182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_49
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 1581
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7749c97924ace9100800000000000000
+      internalID: 116753027718485111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_50
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 1581
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8617f4bb0b1d2f0c0800000000000000
+      internalID: -4543338517076414104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_51
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1581
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95de739b2e8cfa620800000000000000
+      internalID: 2787667570461240665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_52
+      rect:
+        serializedVersion: 2
+        x: 3191
+        y: 1581
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d18c1c37828a680800000000000000
+      internalID: -8743694198902350454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_53
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 1581
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4df7f0a52a300cc0800000000000000
+      internalID: -3746930956683444916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_54
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 1581
+        width: 21
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088da2508659e2600800000000000000
+      internalID: 445457687152089216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_55
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 1581
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4d0cc9f1957c6e0800000000000000
+      internalID: -1817385932311964481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_56
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 1632
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc7e4236821db940800000000000000
+      internalID: 5313423502945975541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_57
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 1632
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed1c0265a50e12f0800000000000000
+      internalID: -1000355859356967451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_58
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 1581
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc6f24c3eff3f030800000000000000
+      internalID: 3527444286875331764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_59
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 1632
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004f9bb2f318a19e0800000000000000
+      internalID: -1649864205161335808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_60
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 1632
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4797c92ad4beded0800000000000000
+      internalID: -2387271903362967732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_61
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb6b2a01aee39420800000000000000
+      internalID: 2635712582369635291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_62
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b6a075637427d10800000000000000
+      internalID: 2121836673159031612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_63
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028da0f4e960e7ec0800000000000000
+      internalID: -3567406577830143968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_64
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5b33a123cac1870800000000000000
+      internalID: 8654981915087189459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_65
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 1581
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8176cdc7c3dfd4f00800000000000000
+      internalID: 1102815920010323736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_66
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8ebf707514b3dd0800000000000000
+      internalID: -2505336925649639229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_67
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f79c248ba512b870800000000000000
+      internalID: 8697037656806955001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_68
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 1581
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab40edeab99dd5070800000000000000
+      internalID: 8096866967758963898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_69
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7209e40fa5fa51ee0800000000000000
+      internalID: -1290932913058181081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_70
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd3c30fa9f0e47f0800000000000000
+      internalID: -626546140028060216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_71
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 1581
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adb5f2da9531b0e0800000000000000
+      internalID: -2255962999255351898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_72
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 1581
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15049fecd7bafa8e0800000000000000
+      internalID: -1679935579154202543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_73
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67cffdbb71978f80800000000000000
+      internalID: -8104349043775256725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_74
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 1581
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e825fe34bb86a40800000000000000
+      internalID: 5361741256836943397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_75
+      rect:
+        serializedVersion: 2
+        x: 3161
+        y: 1581
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6d4200a7dea2c00800000000000000
+      internalID: 876774185721190059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_76
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 1581
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa9adcdbe49ad040800000000000000
+      internalID: 4673211304093850285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_77
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 1581
+        width: 8
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99850a2f282dad240800000000000000
+      internalID: 4817394211284342937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_78
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ed5cc4bfe412e10800000000000000
+      internalID: 2171103336601083407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_79
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 1566
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287323477f5e46260800000000000000
+      internalID: 7090044564357134210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_80
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 1581
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec2e165d907cebf0800000000000000
+      internalID: -293736054628930331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_81
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 1581
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b7cdc26026f8310800000000000000
+      internalID: 1409452987052227401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_82
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 1581
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd5c31018a0f37e0800000000000000
+      internalID: -1783695378227634764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_83
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 1581
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dc6a2bd2c0fb4f0800000000000000
+      internalID: -810916017493062298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_84
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 1371
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8598917577e337c80800000000000000
+      internalID: -8326242603794593448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_85
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 1371
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21c7df4213e6bb40800000000000000
+      internalID: 5455797666394390828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_86
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 1371
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330815fed2f8f8700800000000000000
+      internalID: 544811507386515507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_87
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 1371
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dd12e23f2a97b80800000000000000
+      internalID: -8396500864920855246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_88
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 1371
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5dd0e04c7f82f60800000000000000
+      internalID: 8009924358699865593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_89
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 1371
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079e9b40f24d8e9c0800000000000000
+      internalID: -3897632179081320080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_90
+      rect:
+        serializedVersion: 2
+        x: 3048
+        y: 1371
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eef9c148c98d50a0800000000000000
+      internalID: -6891200361616769307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_91
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 1398
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823986bd22fcd8ea0800000000000000
+      internalID: -5868806990776986840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_92
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 1371
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495ebc267db3e4340800000000000000
+      internalID: 4849879644986140052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_93
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 1358
+        width: 245
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0e3a0d6fd97e930800000000000000
+      internalID: 4172477263169970359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_94
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 1266
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d020395c77221d0800000000000000
+      internalID: -3377005080115802862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_95
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 1266
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf017210a3582bf70800000000000000
+      internalID: 9201563472845279483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_96
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 1266
+        width: 8
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23a3b7ca066c3c90800000000000000
+      internalID: -7188758708704009430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_97
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 1266
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc083b74507447030800000000000000
+      internalID: 3491493699122331853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_98
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 1317
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08f6606a6bdcfb40800000000000000
+      internalID: 5475492496906057741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_99
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 1266
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53afedf4bf343cee0800000000000000
+      internalID: -1242074325568259531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_100
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 1266
+        width: 26
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713f30794ba4270a0800000000000000
+      internalID: -6885358740807879913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_101
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 1266
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edb32f8d28d4e9f0800000000000000
+      internalID: -439989173388853789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_102
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 1266
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c19f21255b1518a0800000000000000
+      internalID: -6335127248383798845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_103
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 1266
+        width: 8
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca104e3ec936b630800000000000000
+      internalID: 3942402081779882692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_104
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1266
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91176732ce7fea270800000000000000
+      internalID: 8263814959850746137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_105
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 1266
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6266dd9983949fcd0800000000000000
+      internalID: -2523905608716032474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_106
+      rect:
+        serializedVersion: 2
+        x: 3041
+        y: 1266
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72594121998ae780800000000000000
+      internalID: -8652952477617270150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_107
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1266
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3489b160bc93b32d0800000000000000
+      internalID: -3297978757975140285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_108
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 1266
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fa4c7b8c59f8360800000000000000
+      internalID: 7174117420733607777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_109
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 1266
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a26077ff69627a00800000000000000
+      internalID: 752780017337918113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_110
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 1161
+        width: 24
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a252ee1f4769370800000000000000
+      internalID: 8328973143299664412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_111
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 1161
+        width: 9
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ab3886c6948e2e0800000000000000
+      internalID: -2096344896582206905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_112
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 1161
+        width: 8
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55597c7eb5623370800000000000000
+      internalID: 8300808932003763546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_113
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 1212
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237cc20a0e87eb120800000000000000
+      internalID: 2431513754981943090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_114
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 1161
+        width: 9
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0dbfd3ee518a0e0800000000000000
+      internalID: -2258531100139990828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_115
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 1161
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940bef369577bb7c0800000000000000
+      internalID: -4054515813703569335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_116
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 1161
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a123f63458364fc80800000000000000
+      internalID: -8289891590069079526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_117
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 1161
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0169233b2b8ae13f0800000000000000
+      internalID: -928118987727661552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_118
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 1146
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6dbbbd7854781e0800000000000000
+      internalID: -2195709843510405448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_119
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 1161
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b39a69124c27060800000000000000
+      internalID: 6949832823526734641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_120
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 1161
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8913d6889f8bf6680800000000000000
+      internalID: -8759579368337100392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_121
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 1161
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7181341261e90d50800000000000000
+      internalID: 6704137331679527295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_122
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 1056
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc2b278ed1170550800000000000000
+      internalID: 6126885465509014734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_123
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 1056
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b4bea37bf08f560800000000000000
+      internalID: 7347640071696894721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_124
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 1056
+        width: 8
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b4f5d1619e978c0800000000000000
+      internalID: -4000910512750638282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_125
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 1056
+        width: 9
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e94ff2105247060800000000000000
+      internalID: 6950220811969273428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_126
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 1056
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23ae5e125420ddc0800000000000000
+      internalID: -3616350565663071442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_127
+      rect:
+        serializedVersion: 2
+        x: 2914
+        y: 1056
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9a592023da82610800000000000000
+      internalID: 1596716498206173694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_128
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 1056
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe110e810cd9f86a0800000000000000
+      internalID: -6444759093367270929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_129
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 1056
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d30669396e502a90800000000000000
+      internalID: -7340763586586344487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_130
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 1056
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adc9333647bd0330800000000000000
+      internalID: 3678797982766583204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_131
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 1056
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d33a47b97a05a8b0800000000000000
+      internalID: -5141691881691139119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_132
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 1056
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0412534dedbe2e90800000000000000
+      internalID: -7048487540053896177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_133
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 951
+        width: 24
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a780c2f9fc14fcbe0800000000000000
+      internalID: -1454871794632882054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_134
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 951
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266165c21956062b0800000000000000
+      internalID: -5593359063005653406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_135
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 951
+        width: 8
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a699d8e2a21a2430800000000000000
+      internalID: 3758837329894676132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_136
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 951
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefc7bd7dc0efe130800000000000000
+      internalID: 3598341800474431466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_137
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 1002
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4bf6d12a87478b0800000000000000
+      internalID: -5155363035758480139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_138
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 951
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde824951d2cc0e20800000000000000
+      internalID: 3318241229866700509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_139
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 951
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f08b933f20eaf050800000000000000
+      internalID: 5835222760545812724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_140
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 936
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b28f36c2acef19b0800000000000000
+      internalID: -5107103268559945037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_141
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 951
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427dbab91d1278f40800000000000000
+      internalID: 5730586234995857188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_142
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 951
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d77ae7bc35e7f50800000000000000
+      internalID: 6881029414137068899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_143
+      rect:
+        serializedVersion: 2
+        x: 3011
+        y: 951
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af45c18b7091c7460800000000000000
+      internalID: 7240689821849244922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_144
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 951
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c534b189eaef70830800000000000000
+      internalID: 4037475616790627164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_145
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 951
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813d82b160e849f90800000000000000
+      internalID: -6947772168249224424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_146
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 951
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b547ad191567980800000000000000
+      internalID: -8541549956384400588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_147
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 951
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88b1fc5e32ec70f0800000000000000
+      internalID: -1117769850019530613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_148
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 741
+        width: 35
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59eb5c943f7572230800000000000000
+      internalID: 3613953928414477973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_149
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 790
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f347e4f7c85188e0800000000000000
+      internalID: -1692974369084062728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_150
+      rect:
+        serializedVersion: 2
+        x: 2946
+        y: 741
+        width: 13
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0708e69613b5e0e70800000000000000
+      internalID: 9083297766233243760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_151
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 741
+        width: 35
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235ac815d2a6b78e0800000000000000
+      internalID: -1694644091900615374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_152
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 741
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13dc27b003a4b9c0800000000000000
+      internalID: -3912322952809622757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_153
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 741
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d3127093c063ec0800000000000000
+      internalID: -3587666614081733295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_154
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 726
+        width: 455
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8db446f75a0be70800000000000000
+      internalID: 9128978411242117350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_155
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 636
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa3153548cb6cb20800000000000000
+      internalID: 3154415865539148539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_156
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 636
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04550e6f408707210800000000000000
+      internalID: 1328693852791395648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_157
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 636
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41cf38ce5d887b00800000000000000
+      internalID: 826565969848549706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_158
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 636
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94b3e7f44dd62600800000000000000
+      internalID: 443284901628982427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_159
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 636
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85cfc2c1863d9ea0800000000000000
+      internalID: -5864471208819440243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_160
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 687
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7d11253d2fc3100800000000000000
+      internalID: 89213082069489624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_161
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 636
+        width: 26
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea79e7acb9ed05c10800000000000000
+      internalID: 2040375391897425838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_162
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 636
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b162e1648fcfcfb0800000000000000
+      internalID: -4625250124801351242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_163
+      rect:
+        serializedVersion: 2
+        x: 3257
+        y: 636
+        width: 26
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab341016ad7dd6c0800000000000000
+      internalID: -4116996332158960724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_164
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 636
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccc294945c135eb0800000000000000
+      internalID: -4732407633840780082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_165
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 636
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1023714c60a30fd00800000000000000
+      internalID: 1004366517637689857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_166
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 636
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188dcf2aa8263c520800000000000000
+      internalID: 2721126947441399937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_167
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 636
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9467c44bc075671c0800000000000000
+      internalID: -4506318665061468599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_168
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 636
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824f99dad9aae01d0800000000000000
+      internalID: -3382578675909528536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_169
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 636
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bb2dd69cec1f1b0800000000000000
+      internalID: -5624487095082763391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_170
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 636
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b4a8bdd1f2def90800000000000000
+      internalID: -6922825246914753746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_171
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 636
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe37159012318e90800000000000000
+      internalID: -7025278896919068941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_172
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 636
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17017689c82e8460800000000000000
+      internalID: 7245773696494798621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_173
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 636
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341e66835bcc6b8e0800000000000000
+      internalID: -1677928732441517757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_174
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 636
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49c63ba710cb5690800000000000000
+      internalID: -7612279537250416305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_175
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 636
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5735563a5cc2ec0800000000000000
+      internalID: -3590277497350818316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_176
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 531
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce80f86408082c00800000000000000
+      internalID: 875958942557048523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_177
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 582
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebb7c570988c3010800000000000000
+      internalID: 1169960157242178535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_178
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 531
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb85e1240756fa2d0800000000000000
+      internalID: -3265279672000292673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_179
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 531
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3d0adc505600bd0800000000000000
+      internalID: -2666019903804222504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_180
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 582
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055343a472ef090d0800000000000000
+      internalID: -3417952672472091312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_181
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 531
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c8cd3f545d76490800000000000000
+      internalID: -7752993737074242488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_182
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 531
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e3df41fa12a61f0800000000000000
+      internalID: -1050990527182455202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_183
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 531
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020cc5d5a243f0bb0800000000000000
+      internalID: -4967694507406737376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_184
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 531
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c7cf05e944c22e0800000000000000
+      internalID: -2149267475408323558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_185
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 531
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1151541bf0dec40800000000000000
+      internalID: 5543103970405585387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_186
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 531
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b936a123d4869daa0800000000000000
+      internalID: -6135758336553229413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_187
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 531
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819f8b3c57661b680800000000000000
+      internalID: -8741092745768535784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_188
+      rect:
+        serializedVersion: 2
+        x: 3106
+        y: 531
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6126fbbbb5e14b290800000000000000
+      internalID: -7875636469023415786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_189
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 426
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b47c8c2612d1550800000000000000
+      internalID: 6133094975707499413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_190
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 426
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cecdb8069e97b890800000000000000
+      internalID: -7442305491977515328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_191
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 477
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd093a056f622570800000000000000
+      internalID: 8440431131399622097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_192
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 426
+        width: 24
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de46f8bfe028d8890800000000000000
+      internalID: -7454158807366671123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_193
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 426
+        width: 26
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5289b61f0ae428cf0800000000000000
+      internalID: -251552176027232219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_194
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 426
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb229093b969e3270800000000000000
+      internalID: 8232182762300842686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_195
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 426
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10a6fca334a2ad00800000000000000
+      internalID: 982528210572320796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_196
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 426
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd458811c619c24a0800000000000000
+      internalID: -6616753859177458467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_197
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 426
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b435810e7cb46e0800000000000000
+      internalID: -1852167056438113475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_198
+      rect:
+        serializedVersion: 2
+        x: 3005
+        y: 411
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ed8ab42130eff20800000000000000
+      internalID: 3458204940980772391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_199
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 426
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cbc4d6c18e41960800000000000000
+      internalID: 7571932082307120235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_200
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 426
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc9335991daf1330800000000000000
+      internalID: 3683853345601330384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Credits_Other_201
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 411
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9166164a156187e70800000000000000
+      internalID: 9113058385890207257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SOLU_Options_Credits_Other_0: -3467696301763640977
+      SOLU_Options_Credits_Other_1: -3629677014402258671
+      SOLU_Options_Credits_Other_10: 5583467441367127155
+      SOLU_Options_Credits_Other_100: -6885358740807879913
+      SOLU_Options_Credits_Other_101: -439989173388853789
+      SOLU_Options_Credits_Other_102: -6335127248383798845
+      SOLU_Options_Credits_Other_103: 3942402081779882692
+      SOLU_Options_Credits_Other_104: 8263814959850746137
+      SOLU_Options_Credits_Other_105: -2523905608716032474
+      SOLU_Options_Credits_Other_106: -8652952477617270150
+      SOLU_Options_Credits_Other_107: -3297978757975140285
+      SOLU_Options_Credits_Other_108: 7174117420733607777
+      SOLU_Options_Credits_Other_109: 752780017337918113
+      SOLU_Options_Credits_Other_11: -2949441416934365084
+      SOLU_Options_Credits_Other_110: 8328973143299664412
+      SOLU_Options_Credits_Other_111: -2096344896582206905
+      SOLU_Options_Credits_Other_112: 8300808932003763546
+      SOLU_Options_Credits_Other_113: 2431513754981943090
+      SOLU_Options_Credits_Other_114: -2258531100139990828
+      SOLU_Options_Credits_Other_115: -4054515813703569335
+      SOLU_Options_Credits_Other_116: -8289891590069079526
+      SOLU_Options_Credits_Other_117: -928118987727661552
+      SOLU_Options_Credits_Other_118: -2195709843510405448
+      SOLU_Options_Credits_Other_119: 6949832823526734641
+      SOLU_Options_Credits_Other_12: 643952576160038567
+      SOLU_Options_Credits_Other_120: -8759579368337100392
+      SOLU_Options_Credits_Other_121: 6704137331679527295
+      SOLU_Options_Credits_Other_122: 6126885465509014734
+      SOLU_Options_Credits_Other_123: 7347640071696894721
+      SOLU_Options_Credits_Other_124: -4000910512750638282
+      SOLU_Options_Credits_Other_125: 6950220811969273428
+      SOLU_Options_Credits_Other_126: -3616350565663071442
+      SOLU_Options_Credits_Other_127: 1596716498206173694
+      SOLU_Options_Credits_Other_128: -6444759093367270929
+      SOLU_Options_Credits_Other_129: -7340763586586344487
+      SOLU_Options_Credits_Other_13: -1869813641655608921
+      SOLU_Options_Credits_Other_130: 3678797982766583204
+      SOLU_Options_Credits_Other_131: -5141691881691139119
+      SOLU_Options_Credits_Other_132: -7048487540053896177
+      SOLU_Options_Credits_Other_133: -1454871794632882054
+      SOLU_Options_Credits_Other_134: -5593359063005653406
+      SOLU_Options_Credits_Other_135: 3758837329894676132
+      SOLU_Options_Credits_Other_136: 3598341800474431466
+      SOLU_Options_Credits_Other_137: -5155363035758480139
+      SOLU_Options_Credits_Other_138: 3318241229866700509
+      SOLU_Options_Credits_Other_139: 5835222760545812724
+      SOLU_Options_Credits_Other_14: 3650494459625926328
+      SOLU_Options_Credits_Other_140: -5107103268559945037
+      SOLU_Options_Credits_Other_141: 5730586234995857188
+      SOLU_Options_Credits_Other_142: 6881029414137068899
+      SOLU_Options_Credits_Other_143: 7240689821849244922
+      SOLU_Options_Credits_Other_144: 4037475616790627164
+      SOLU_Options_Credits_Other_145: -6947772168249224424
+      SOLU_Options_Credits_Other_146: -8541549956384400588
+      SOLU_Options_Credits_Other_147: -1117769850019530613
+      SOLU_Options_Credits_Other_148: 3613953928414477973
+      SOLU_Options_Credits_Other_149: -1692974369084062728
+      SOLU_Options_Credits_Other_15: -6638097599012653903
+      SOLU_Options_Credits_Other_150: 9083297766233243760
+      SOLU_Options_Credits_Other_151: -1694644091900615374
+      SOLU_Options_Credits_Other_152: -3912322952809622757
+      SOLU_Options_Credits_Other_153: -3587666614081733295
+      SOLU_Options_Credits_Other_154: 9128978411242117350
+      SOLU_Options_Credits_Other_155: 3154415865539148539
+      SOLU_Options_Credits_Other_156: 1328693852791395648
+      SOLU_Options_Credits_Other_157: 826565969848549706
+      SOLU_Options_Credits_Other_158: 443284901628982427
+      SOLU_Options_Credits_Other_159: -5864471208819440243
+      SOLU_Options_Credits_Other_16: 4680062441406604556
+      SOLU_Options_Credits_Other_160: 89213082069489624
+      SOLU_Options_Credits_Other_161: 2040375391897425838
+      SOLU_Options_Credits_Other_162: -4625250124801351242
+      SOLU_Options_Credits_Other_163: -4116996332158960724
+      SOLU_Options_Credits_Other_164: -4732407633840780082
+      SOLU_Options_Credits_Other_165: 1004366517637689857
+      SOLU_Options_Credits_Other_166: 2721126947441399937
+      SOLU_Options_Credits_Other_167: -4506318665061468599
+      SOLU_Options_Credits_Other_168: -3382578675909528536
+      SOLU_Options_Credits_Other_169: -5624487095082763391
+      SOLU_Options_Credits_Other_17: -4216404354533712747
+      SOLU_Options_Credits_Other_170: -6922825246914753746
+      SOLU_Options_Credits_Other_171: -7025278896919068941
+      SOLU_Options_Credits_Other_172: 7245773696494798621
+      SOLU_Options_Credits_Other_173: -1677928732441517757
+      SOLU_Options_Credits_Other_174: -7612279537250416305
+      SOLU_Options_Credits_Other_175: -3590277497350818316
+      SOLU_Options_Credits_Other_176: 875958942557048523
+      SOLU_Options_Credits_Other_177: 1169960157242178535
+      SOLU_Options_Credits_Other_178: -3265279672000292673
+      SOLU_Options_Credits_Other_179: -2666019903804222504
+      SOLU_Options_Credits_Other_18: -9111927329746346259
+      SOLU_Options_Credits_Other_180: -3417952672472091312
+      SOLU_Options_Credits_Other_181: -7752993737074242488
+      SOLU_Options_Credits_Other_182: -1050990527182455202
+      SOLU_Options_Credits_Other_183: -4967694507406737376
+      SOLU_Options_Credits_Other_184: -2149267475408323558
+      SOLU_Options_Credits_Other_185: 5543103970405585387
+      SOLU_Options_Credits_Other_186: -6135758336553229413
+      SOLU_Options_Credits_Other_187: -8741092745768535784
+      SOLU_Options_Credits_Other_188: -7875636469023415786
+      SOLU_Options_Credits_Other_189: 6133094975707499413
+      SOLU_Options_Credits_Other_19: -4034480247128520448
+      SOLU_Options_Credits_Other_190: -7442305491977515328
+      SOLU_Options_Credits_Other_191: 8440431131399622097
+      SOLU_Options_Credits_Other_192: -7454158807366671123
+      SOLU_Options_Credits_Other_193: -251552176027232219
+      SOLU_Options_Credits_Other_194: 8232182762300842686
+      SOLU_Options_Credits_Other_195: 982528210572320796
+      SOLU_Options_Credits_Other_196: -6616753859177458467
+      SOLU_Options_Credits_Other_197: -1852167056438113475
+      SOLU_Options_Credits_Other_198: 3458204940980772391
+      SOLU_Options_Credits_Other_199: 7571932082307120235
+      SOLU_Options_Credits_Other_2: -7575485529286641497
+      SOLU_Options_Credits_Other_20: 6174766397781336670
+      SOLU_Options_Credits_Other_200: 3683853345601330384
+      SOLU_Options_Credits_Other_201: 9113058385890207257
+      SOLU_Options_Credits_Other_21: 2795488556281299643
+      SOLU_Options_Credits_Other_22: -4728387427028247247
+      SOLU_Options_Credits_Other_23: 3988113400425736538
+      SOLU_Options_Credits_Other_24: -4468407651168058405
+      SOLU_Options_Credits_Other_25: -3031683438311001824
+      SOLU_Options_Credits_Other_26: 599202876435051131
+      SOLU_Options_Credits_Other_27: -5112443551093358173
+      SOLU_Options_Credits_Other_28: -6588632477974808709
+      SOLU_Options_Credits_Other_29: -2167722492840908537
+      SOLU_Options_Credits_Other_3: 5230391329479880646
+      SOLU_Options_Credits_Other_30: 747284650333039574
+      SOLU_Options_Credits_Other_31: -1989540246088637874
+      SOLU_Options_Credits_Other_32: 8046125367553808754
+      SOLU_Options_Credits_Other_33: 5411620960596682415
+      SOLU_Options_Credits_Other_34: -7329552374832152765
+      SOLU_Options_Credits_Other_35: 8397291148639237167
+      SOLU_Options_Credits_Other_36: -8574092141594429206
+      SOLU_Options_Credits_Other_37: 932139837883766178
+      SOLU_Options_Credits_Other_38: -8533756774831268357
+      SOLU_Options_Credits_Other_39: 7299167762852566871
+      SOLU_Options_Credits_Other_4: 2827316644374990464
+      SOLU_Options_Credits_Other_40: -1280402840507316929
+      SOLU_Options_Credits_Other_41: 5157251071274328403
+      SOLU_Options_Credits_Other_42: -4421761351586239758
+      SOLU_Options_Credits_Other_43: 4574253772879385882
+      SOLU_Options_Credits_Other_44: 1394108089795823521
+      SOLU_Options_Credits_Other_45: -3470559476133256404
+      SOLU_Options_Credits_Other_46: -6307572633158465926
+      SOLU_Options_Credits_Other_47: -6133550382186670010
+      SOLU_Options_Credits_Other_48: 8611950007070821182
+      SOLU_Options_Credits_Other_49: 116753027718485111
+      SOLU_Options_Credits_Other_5: 1478026362405023890
+      SOLU_Options_Credits_Other_50: -4543338517076414104
+      SOLU_Options_Credits_Other_51: 2787667570461240665
+      SOLU_Options_Credits_Other_52: -8743694198902350454
+      SOLU_Options_Credits_Other_53: -3746930956683444916
+      SOLU_Options_Credits_Other_54: 445457687152089216
+      SOLU_Options_Credits_Other_55: -1817385932311964481
+      SOLU_Options_Credits_Other_56: 5313423502945975541
+      SOLU_Options_Credits_Other_57: -1000355859356967451
+      SOLU_Options_Credits_Other_58: 3527444286875331764
+      SOLU_Options_Credits_Other_59: -1649864205161335808
+      SOLU_Options_Credits_Other_6: 3013246899124501707
+      SOLU_Options_Credits_Other_60: -2387271903362967732
+      SOLU_Options_Credits_Other_61: 2635712582369635291
+      SOLU_Options_Credits_Other_62: 2121836673159031612
+      SOLU_Options_Credits_Other_63: -3567406577830143968
+      SOLU_Options_Credits_Other_64: 8654981915087189459
+      SOLU_Options_Credits_Other_65: 1102815920010323736
+      SOLU_Options_Credits_Other_66: -2505336925649639229
+      SOLU_Options_Credits_Other_67: 8697037656806955001
+      SOLU_Options_Credits_Other_68: 8096866967758963898
+      SOLU_Options_Credits_Other_69: -1290932913058181081
+      SOLU_Options_Credits_Other_7: 6525458609869468043
+      SOLU_Options_Credits_Other_70: -626546140028060216
+      SOLU_Options_Credits_Other_71: -2255962999255351898
+      SOLU_Options_Credits_Other_72: -1679935579154202543
+      SOLU_Options_Credits_Other_73: -8104349043775256725
+      SOLU_Options_Credits_Other_74: 5361741256836943397
+      SOLU_Options_Credits_Other_75: 876774185721190059
+      SOLU_Options_Credits_Other_76: 4673211304093850285
+      SOLU_Options_Credits_Other_77: 4817394211284342937
+      SOLU_Options_Credits_Other_78: 2171103336601083407
+      SOLU_Options_Credits_Other_79: 7090044564357134210
+      SOLU_Options_Credits_Other_8: -7105128475398205364
+      SOLU_Options_Credits_Other_80: -293736054628930331
+      SOLU_Options_Credits_Other_81: 1409452987052227401
+      SOLU_Options_Credits_Other_82: -1783695378227634764
+      SOLU_Options_Credits_Other_83: -810916017493062298
+      SOLU_Options_Credits_Other_84: -8326242603794593448
+      SOLU_Options_Credits_Other_85: 5455797666394390828
+      SOLU_Options_Credits_Other_86: 544811507386515507
+      SOLU_Options_Credits_Other_87: -8396500864920855246
+      SOLU_Options_Credits_Other_88: 8009924358699865593
+      SOLU_Options_Credits_Other_89: -3897632179081320080
+      SOLU_Options_Credits_Other_9: 3684513761099326025
+      SOLU_Options_Credits_Other_90: -6891200361616769307
+      SOLU_Options_Credits_Other_91: -5868806990776986840
+      SOLU_Options_Credits_Other_92: 4849879644986140052
+      SOLU_Options_Credits_Other_93: 4172477263169970359
+      SOLU_Options_Credits_Other_94: -3377005080115802862
+      SOLU_Options_Credits_Other_95: 9201563472845279483
+      SOLU_Options_Credits_Other_96: -7188758708704009430
+      SOLU_Options_Credits_Other_97: 3491493699122331853
+      SOLU_Options_Credits_Other_98: 5475492496906057741
+      SOLU_Options_Credits_Other_99: -1242074325568259531
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
