@@ -371,9 +371,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1448553173}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3476,6 +3476,9 @@ MonoBehaviour:
   HyggeLogo: {fileID: 1583903452}
   HyggeCredits: {fileID: 870339045}
   AdditionalCredits: {fileID: 833643168}
+  masterVolumeRTPC: Master_Volume_Control
+  MasterValue: {fileID: 35227145}
+  MasterValueFloat: 0
 --- !u!114 &1904323498
 MonoBehaviour:
   m_ObjectHideFlags: 0
