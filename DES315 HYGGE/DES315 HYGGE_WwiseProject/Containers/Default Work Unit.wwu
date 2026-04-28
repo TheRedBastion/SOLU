@@ -473,11 +473,6 @@
 					<PropertyList>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-2</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -487,7 +482,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+							<ObjectRef Name="Sound Effects" ID="{C4FC5072-FA27-441B-B67A-45A6C118EC18}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -508,53 +503,14 @@
 						<ActiveSource Name="SpiderAttack" ID="{C1F2EF0C-19EA-4750-942D-8345FA3999B0}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="SpiderEnemyPatrolling" ID="{02592C35-AF1F-421B-B927-840688FADEBC}" ShortID="886424957">
-					<PropertyList>
-						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
-						<Property Name="Lowpass" Type="int16">
-							<ValueList>
-								<Value>35</Value>
-							</ValueList>
-						</Property>
-						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Enemy Attenuations" ID="{FBD00B73-470C-40C4-A185-2CEA7E4A1E71}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SpiderEnemyPatrolling" ID="{D2F4D9CD-FAAA-4737-93EB-5139E8420F41}">
-							<PropertyList>
-								<Property Name="LoopBegin" Type="Real64" Value="0"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="1.99618"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>SpiderEnemyPatrolling.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="923601077"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SpiderEnemyPatrolling" ID="{D2F4D9CD-FAAA-4737-93EB-5139E8420F41}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="DoorOpening" ID="{401330C8-B87A-445B-BD02-65A0823C58AA}" ShortID="690414946">
 					<PropertyList>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -670,11 +626,6 @@
 							</ValueList>
 						</Property>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-3</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -684,7 +635,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+							<ObjectRef Name="Sound Effects" ID="{C4FC5072-FA27-441B-B67A-45A6C118EC18}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -720,11 +671,6 @@
 							</ValueList>
 						</Property>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-3</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -734,7 +680,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+							<ObjectRef Name="Sound Effects" ID="{C4FC5072-FA27-441B-B67A-45A6C118EC18}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

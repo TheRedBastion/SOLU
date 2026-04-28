@@ -12,7 +12,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1938177371	SunMusic1			\Default Work Unit\SunMusic1	
 	2172038785	SpiderSlain			\Default Work Unit\SpiderSlain	
 	2503095715	SpiderDamaged			\Default Work Unit\SpiderDamaged	
-	2526768912	SpiderPatrol			\Default Work Unit\SpiderPatrol	
 	2782712987	Lever			\Default Work Unit\Lever	
 	3194455577	SFootsteps			\Default Work Unit\SFootsteps	
 	3280349325	CavesAmbience			\Default Work Unit\CavesAmbience	
@@ -42,7 +41,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	779731089	Music-1-Moon	.cache\9F\{9F73479F-4F05-3DE4-3D5A-A144693AD24B}.wem		\Containers\Default Work Unit\Music-1-Moon		27624160
 	832316680	DoorOpening	.cache\6E\{6E63CD84-BAAE-E6D0-BEC0-D68F5BC9FD54}.wem		\Containers\Default Work Unit\DoorOpening		605476
 	916914792	Lever	.cache\17\{17E5A32A-D9B8-08C1-2165-519815E8953A}.wem		\Containers\Default Work Unit\Lever		258628
-	923601077	SpiderEnemyPatrolling	.cache\00\{00CE6CDD-1369-1B6F-D2CF-12A93946D5EE}.wem		\Containers\Default Work Unit\SpiderEnemyPatrolling		352224
 	1000089471	SunDamagedWithEcho-1	.cache\42\{42106BC0-6776-67D7-F681-67A302BD005D}.wem		\Containers\Default Work Unit\SunDamagedWithEcho-1		352900
 	1059155492	CharacterSwapTEST	.cache\08\{0874E0B5-F62E-9BA5-0008-044C6746DF79}.wem		\Containers\Default Work Unit\CharacterSwapTEST		477136
 

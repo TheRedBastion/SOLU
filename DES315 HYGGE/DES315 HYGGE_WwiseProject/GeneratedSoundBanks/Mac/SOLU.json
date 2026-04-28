@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8347E92C-8AC0-4678-A174-309ADDA96D38}",
     "Language": "SFX",
-    "Hash": "{CBE66026-1919-2A90-EA9D-95A47CF2B066}",
+    "Hash": "{E974C229-67DB-0E6A-ECEA-B6D790F1FB91}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SOLU",
     "ShortName": "SOLU",
     "Path": "SOLU.bnk",
@@ -182,14 +182,6 @@
       "Location": "Memory",
       "ShortName": "Lever.wav",
       "CachePath": "17/{17E5A32A-D9B8-08C1-2165-519815E8953A}.wem"
-     },
-     {
-      "Id": "923601077",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SpiderEnemyPatrolling.wav",
-      "CachePath": "00/{00CE6CDD-1369-1B6F-D2CF-12A93946D5EE}.wem"
      },
      {
       "Id": "1000089471",
@@ -426,21 +418,6 @@
       ]
      },
      {
-      "Id": "2526768912",
-      "Name": "SpiderPatrol",
-      "ObjectPath": "\\Events\\Default Work Unit\\SpiderPatrol",
-      "GUID": "{75DC71AB-AF29-4C2C-ACFB-12CE40CCDE74}",
-      "MaxAttenuation": "30",
-      "DurationType": "OneShot",
-      "DurationMin": "1.99618",
-      "DurationMax": "1.99618",
-      "MediaRefs": [
-       {
-        "Id": "923601077"
-       }
-      ]
-     },
-     {
       "Id": "2172038785",
       "Name": "SpiderSlain",
       "ObjectPath": "\\Events\\Default Work Unit\\SpiderSlain",
@@ -515,6 +492,6 @@
     ]
    }
   ],
-  "FileHash": "{7DA1C2F1-FFDF-E6C7-95D0-122A5488C26C}"
+  "FileHash": "{F68E3E9E-AA0E-CA76-76E0-2F07B50E6B74}"
  }
 }

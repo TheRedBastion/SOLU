@@ -17,15 +17,21 @@ namespace AK
         static const AkUniqueID BATDAMAGED = 3293333115U;
         static const AkUniqueID BATSLAIN = 770143801U;
         static const AkUniqueID CAVESAMBIENCE = 3280349325U;
+        static const AkUniqueID DOOROPEN = 1404805401U;
         static const AkUniqueID FLORALAMBIENCE = 815341915U;
         static const AkUniqueID GFOOTSTEPS = 375687853U;
+        static const AkUniqueID LEVER = 2782712987U;
+        static const AkUniqueID MENUMUSIC = 679636833U;
         static const AkUniqueID MOONDAMAGED = 1483277815U;
         static const AkUniqueID MOONMUSIC1 = 3770854140U;
         static const AkUniqueID SFOOTSTEPS = 3194455577U;
         static const AkUniqueID SPIDERATTACKS = 100760629U;
+        static const AkUniqueID SPIDERDAMAGED = 2503095715U;
+        static const AkUniqueID SPIDERSLAIN = 2172038785U;
         static const AkUniqueID SUNDAMAGED = 1689873234U;
         static const AkUniqueID SUNDAMAGEDCAVE = 1203409809U;
         static const AkUniqueID SUNMUSIC1 = 1938177371U;
+        static const AkUniqueID SWAPSOUND = 139181421U;
     } // namespace EVENTS
 
     namespace SWITCHES
