@@ -12,6 +12,8 @@ public class Lever : Interactable, ITrackableActivator
 
     private Quaternion initialLocalRot;
 
+    public AK.Wwise.Event LeverFlipped = new AK.Wwise.Event();
+
     private void Awake()
     {
         if (handlePivot != null)
@@ -24,6 +26,7 @@ public class Lever : Interactable, ITrackableActivator
         foreach (var a in doors)
         {
             a.ActivatorChanged();
+            LeverFlipped.Post(gameObject);
         }
         AnimateLever();
     }

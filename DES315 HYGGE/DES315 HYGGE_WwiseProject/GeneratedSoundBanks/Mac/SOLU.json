@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8347E92C-8AC0-4678-A174-309ADDA96D38}",
     "Language": "SFX",
-    "Hash": "{067D9E11-3FC6-B489-8D3D-86E28AD3E7D0}",
+    "Hash": "{CBE66026-1919-2A90-EA9D-95A47CF2B066}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SOLU",
     "ShortName": "SOLU",
     "Path": "SOLU.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "solu main menu.wav",
-      "CachePath": "96/{96CC65C5-9F37-048F-BE0F-0979A761651F}.wem"
+      "CachePath": "2C/{2CBA76FD-AC7B-E673-07FB-DAFA795FAFDE}.wem"
      },
      {
       "Id": "255574596",
@@ -214,6 +214,7 @@
       "Name": "BatAttacks",
       "ObjectPath": "\\Events\\Default Work Unit\\BatAttacks",
       "GUID": "{43FAEE7F-BC73-4991-8B41-669096A7372B}",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "1.6679819",
       "DurationMax": "1.6679819",
@@ -228,6 +229,7 @@
       "Name": "BatDamaged",
       "ObjectPath": "\\Events\\Default Work Unit\\BatDamaged",
       "GUID": "{D104E6F7-CF5B-49F2-8BC7-9724A66B410A}",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "2",
       "DurationMax": "2",
@@ -242,6 +244,7 @@
       "Name": "BatSlain",
       "ObjectPath": "\\Events\\Default Work Unit\\BatSlain",
       "GUID": "{FF9124F6-DB93-48B3-909F-5E9E6BE48C8F}",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "2",
       "DurationMax": "2",
@@ -271,6 +274,7 @@
       "Name": "DoorOpen",
       "ObjectPath": "\\Events\\Default Work Unit\\DoorOpen",
       "GUID": "{E746233D-CFC9-4FC8-A56C-C0F5E356007B}",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "3.43185",
       "DurationMax": "3.43185",
@@ -320,6 +324,7 @@
       "Name": "Lever",
       "ObjectPath": "\\Events\\Default Work Unit\\Lever",
       "GUID": "{6F0BF067-F97D-4537-B2B6-E1BDBD337EDF}",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "1.46561",
       "DurationMax": "1.46561",
@@ -334,9 +339,7 @@
       "Name": "MenuMusic",
       "ObjectPath": "\\Events\\Default Work Unit\\MenuMusic",
       "GUID": "{A1F322FE-C571-47A2-9D76-EFA72B5DFCE6}",
-      "DurationType": "OneShot",
-      "DurationMin": "91.67314",
-      "DurationMax": "91.67314",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "205899470"
@@ -397,6 +400,7 @@
       "Name": "SpiderAttacks",
       "ObjectPath": "\\Events\\Default Work Unit\\SpiderAttacks",
       "GUID": "{7E4B05FB-1CC6-4C94-A718-458ED8507604}",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "1.19982",
       "DurationMax": "1.19982",
@@ -411,6 +415,7 @@
       "Name": "SpiderDamaged",
       "ObjectPath": "\\Events\\Default Work Unit\\SpiderDamaged",
       "GUID": "{196FDC11-88EC-4428-9FED-FD0EB083AA74}",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "1.6296135",
       "DurationMax": "1.6296135",
@@ -425,6 +430,7 @@
       "Name": "SpiderPatrol",
       "ObjectPath": "\\Events\\Default Work Unit\\SpiderPatrol",
       "GUID": "{75DC71AB-AF29-4C2C-ACFB-12CE40CCDE74}",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "1.99618",
       "DurationMax": "1.99618",
@@ -439,6 +445,7 @@
       "Name": "SpiderSlain",
       "ObjectPath": "\\Events\\Default Work Unit\\SpiderSlain",
       "GUID": "{437CDE05-6FF8-4FFF-96E1-82BEC5CEBFCB}",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "1.29057",
       "DurationMax": "1.29057",
@@ -505,35 +512,9 @@
        }
       ]
      }
-    ],
-    "GameParameters": [
-     {
-      "Id": "37298357",
-      "Name": "Music_Volume_Control",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Volume_Control",
-      "GUID": "{7459ACAF-8518-4341-B044-3D82EFA291CE}"
-     },
-     {
-      "Id": "421945036",
-      "Name": "Ambience_Volume_Control",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambience_Volume_Control",
-      "GUID": "{8AE39C9B-BE03-4C00-BA88-CFCCA993CCAB}"
-     },
-     {
-      "Id": "1045451248",
-      "Name": "Sound_Effects_Volume_Control",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Sound_Effects_Volume_Control",
-      "GUID": "{2299838D-A9B3-4353-96CC-9F46E95FD33B}"
-     },
-     {
-      "Id": "2232728930",
-      "Name": "Master_Volume_Control",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume_Control",
-      "GUID": "{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}"
-     }
     ]
    }
   ],
-  "FileHash": "{49C13185-3D85-4394-6596-CEF9CE061090}"
+  "FileHash": "{7DA1C2F1-FFDF-E6C7-95D0-122A5488C26C}"
  }
 }

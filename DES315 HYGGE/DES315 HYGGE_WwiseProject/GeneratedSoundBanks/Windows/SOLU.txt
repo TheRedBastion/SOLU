@@ -20,15 +20,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3626407789	BatAttacks			\Default Work Unit\BatAttacks	
 	3770854140	MoonMusic1			\Default Work Unit\MoonMusic1	
 
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	37298357	Music_Volume_Control			\Default Work Unit\Music_Volume_Control	
-	421945036	Ambience_Volume_Control			\Default Work Unit\Ambience_Volume_Control	
-	1045451248	Sound_Effects_Volume_Control			\Default Work Unit\Sound_Effects_Volume_Control	
-	2232728930	Master_Volume_Control			\Default Work Unit\Master_Volume_Control	
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	125192489	FloralAmbience1	.cache\12\{1226B298-4899-A5D0-F4A9-0BC035562D0A}.wem		\Containers\Default Work Unit\FloralAmbience1		2469696
-	205899470	solu main menu	.cache\96\{96CC65C5-9F37-048F-BE0F-0979A761651F}.wem		\Containers\Default Work Unit\solu main menu		16171236
+	205899470	solu main menu	.cache\2C\{2CBA76FD-AC7B-E673-07FB-DAFA795FAFDE}.wem		\Containers\Default Work Unit\solu main menu		16171236
 	255574596	BatAttack-2	.cache\BC\{BC3E0004-14FB-DA9F-9625-683FAE214CAE}.wem		\Containers\Default Work Unit\BatAttack-2		294328
 	265268529	FootstepsOnStone1	.cache\23\{23CEBF34-5AB5-8916-4EA4-FAE55CA4EFCE}.wem		\Containers\Default Work Unit\SFootsteps\FootstepsOnStone1		399836
 	281847246	SunDamaged-1	.cache\47\{4787E1BC-69BC-9AC3-60E9-D918C8288EF3}.wem		\Containers\Default Work Unit\SunDamaged-1		352900
