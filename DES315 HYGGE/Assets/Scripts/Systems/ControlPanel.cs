@@ -46,8 +46,8 @@ public class ControlPanel : MonoBehaviour
 
     private void ApplyAudioState()
     {
-        float volume = audioEnabled ? 100f : 0f;
-        AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, volume);
+
+        AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, gamevar.MasterValueFloat);
 
         AudioListener.pause = !audioEnabled;
     }
