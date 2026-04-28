@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     private Stamina stamina;
     private Animator m_animator;
 
+    [SerializeField] private bool freeCam = false;
+    [SerializeField] private float freeCamSpeed = 8f;
+    private bool wasFreeCam = false;
     [Header("Gravity")]
     [SerializeField] private float gravity = -30f;
     [SerializeField] private float riseGravity = 1f;
@@ -144,6 +147,31 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        Debug.Log(moveInput);
+        if (freeCam)
+        {
+            if (!wasFreeCam) 
+            {
+                CapsuleCollider2D cc = GetComponent<CapsuleCollider2D>();
+                cc.enabled = false;
+                rb.linearVelocity = Vector2.zero;
+            }
+
+            rb.linearVelocity = moveInput * freeCamSpeed;
+
+            wasFreeCam = true;
+
+        }
+        else if(!freeCam && wasFreeCam)
+        {
+            CapsuleCollider2D cc = GetComponent<CapsuleCollider2D>();
+            cc.enabled = true;
+        }
+
+        wasFreeCam = freeCam;
+
+        if (freeCam) return;
+
         if (knockback != null && (knockback.IsKnockedBack || knockback.IsStunned))
         {
             isDashing = false;
