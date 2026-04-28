@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026b4175c1ed8234da3ba8b415ce5215, type: 3}
+  m_Name: 437CDE05-6FF8-4FFF-96E1-82BEC5CEBFCB
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
+  objectName: SpiderSlain
+  id: 2172038785
+  guid: 437CDE05-6FF8-4FFF-96E1-82BEC5CEBFCB
+  IsInUserDefinedSoundBank: 1

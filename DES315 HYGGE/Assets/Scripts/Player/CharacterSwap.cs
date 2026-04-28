@@ -23,6 +23,8 @@ public class CharacterSwap : MonoBehaviour
 
     private float onetime = 2;
 
+    public AK.Wwise.Event SwapSFX = new AK.Wwise.Event();
+
     public bool swappedThisFrame { get; private set; } //child can read it, only parent can write it
     private void OnEnable()
     {
@@ -78,6 +80,8 @@ public class CharacterSwap : MonoBehaviour
         int other = 1 - currentCharacter;
 
         character = characterOptions[currentCharacter];
+
+        SwapSFX.Post(gameObject);
 
         characterOptions[currentCharacter].gameObject.SetActive(true);
         characterOptions[other].gameObject.SetActive(false);
