@@ -1,151 +1,163 @@
 fileFormatVersion: 2
-guid: c52111464b0e6f4439461e3308be98f7
+guid: 292f0a0622897374ba0d83fbb47af9a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2441464960798252959
-    second: SOLU_Options_Visuals_0
+      213: -9067353482820439691
+    second: SOLU_Options_Gameplay_0
   - first:
-      213: -4051425805704251074
-    second: SOLU_Options_Visuals_1
+      213: 6242778795443859793
+    second: SOLU_Options_Gameplay_1
   - first:
-      213: 2703409606894752442
-    second: SOLU_Options_Visuals_2
+      213: -6112968985474084387
+    second: SOLU_Options_Gameplay_2
   - first:
-      213: 8700370718184912280
-    second: SOLU_Options_Visuals_3
+      213: 3020608385134628412
+    second: SOLU_Options_Gameplay_3
   - first:
-      213: 4484823786192440161
-    second: SOLU_Options_Visuals_4
+      213: -1389447230042249202
+    second: SOLU_Options_Gameplay_4
   - first:
-      213: -461710825373032915
-    second: SOLU_Options_Visuals_5
+      213: 1216078978548743177
+    second: SOLU_Options_Gameplay_5
   - first:
-      213: 669872185180884003
-    second: SOLU_Options_Visuals_6
+      213: 7039405706182402904
+    second: SOLU_Options_Gameplay_6
   - first:
-      213: 8431006021016534432
-    second: SOLU_Options_Visuals_7
+      213: 3336648397680804376
+    second: SOLU_Options_Gameplay_7
   - first:
-      213: 4539427531850773276
-    second: SOLU_Options_Visuals_8
+      213: 4211752960501842159
+    second: SOLU_Options_Gameplay_8
   - first:
-      213: 1164995058404653785
-    second: SOLU_Options_Visuals_9
+      213: 7937878086587892453
+    second: SOLU_Options_Gameplay_9
   - first:
-      213: 4873072408061213710
-    second: SOLU_Options_Visuals_10
+      213: 7844376351034316840
+    second: SOLU_Options_Gameplay_10
   - first:
-      213: 2666802680674780930
-    second: SOLU_Options_Visuals_11
+      213: -4831967088826676273
+    second: SOLU_Options_Gameplay_11
   - first:
-      213: -862014527522702022
-    second: SOLU_Options_Visuals_12
+      213: 2638532029680823203
+    second: SOLU_Options_Gameplay_12
   - first:
-      213: -2429854749712518581
-    second: SOLU_Options_Visuals_13
+      213: -3456079345218909382
+    second: SOLU_Options_Gameplay_13
   - first:
-      213: 6889757908893407213
-    second: SOLU_Options_Visuals_14
+      213: -2164646861004955093
+    second: SOLU_Options_Gameplay_14
   - first:
-      213: -232574937547194545
-    second: SOLU_Options_Visuals_15
+      213: -4033459420689163543
+    second: SOLU_Options_Gameplay_15
   - first:
-      213: -4158357239963213395
-    second: SOLU_Options_Visuals_16
+      213: -694431959622762159
+    second: SOLU_Options_Gameplay_16
   - first:
-      213: 859669886305951295
-    second: SOLU_Options_Visuals_17
+      213: 7851427038832526200
+    second: SOLU_Options_Gameplay_17
   - first:
-      213: -3850405928445125255
-    second: SOLU_Options_Visuals_18
+      213: -3270122271014160151
+    second: SOLU_Options_Gameplay_18
   - first:
-      213: 4611147480426323456
-    second: SOLU_Options_Visuals_19
+      213: 6909473719651258101
+    second: SOLU_Options_Gameplay_19
   - first:
-      213: 551529921271916085
-    second: SOLU_Options_Visuals_20
+      213: -916982777275921671
+    second: SOLU_Options_Gameplay_20
   - first:
-      213: -5192579310598387212
-    second: SOLU_Options_Visuals_21
+      213: 574438421632351764
+    second: SOLU_Options_Gameplay_21
   - first:
-      213: 7101775709566934408
-    second: SOLU_Options_Visuals_22
+      213: -3836278974929634862
+    second: SOLU_Options_Gameplay_22
   - first:
-      213: -4470146425113370903
-    second: SOLU_Options_Visuals_23
+      213: -6633328006831238564
+    second: SOLU_Options_Gameplay_23
   - first:
-      213: -7480767483173896254
-    second: SOLU_Options_Visuals_24
+      213: -7635529651717621377
+    second: SOLU_Options_Gameplay_24
   - first:
-      213: 966895912337909252
-    second: SOLU_Options_Visuals_25
+      213: -3964427973489576323
+    second: SOLU_Options_Gameplay_25
   - first:
-      213: -2511053949111838487
-    second: SOLU_Options_Visuals_26
+      213: 6806307140307443800
+    second: SOLU_Options_Gameplay_26
   - first:
-      213: 7731468973953162349
-    second: SOLU_Options_Visuals_27
+      213: 7399829391622498369
+    second: SOLU_Options_Gameplay_27
   - first:
-      213: -4811091002368608424
-    second: SOLU_Options_Visuals_28
+      213: 7824683321036594040
+    second: SOLU_Options_Gameplay_28
   - first:
-      213: 1290505513384169817
-    second: SOLU_Options_Visuals_29
+      213: -4368311925469913450
+    second: SOLU_Options_Gameplay_29
   - first:
-      213: -3782911913930494255
-    second: SOLU_Options_Visuals_30
+      213: -6563108452777562117
+    second: SOLU_Options_Gameplay_30
   - first:
-      213: -1339503327023401066
-    second: SOLU_Options_Visuals_31
+      213: 5353333647620566872
+    second: SOLU_Options_Gameplay_31
   - first:
-      213: -3853792206586434221
-    second: SOLU_Options_Visuals_32
+      213: 6622815649845547981
+    second: SOLU_Options_Gameplay_32
   - first:
-      213: -6974403826031161693
-    second: SOLU_Options_Visuals_33
+      213: -8187293599793399076
+    second: SOLU_Options_Gameplay_33
   - first:
-      213: 842224268251497446
-    second: SOLU_Options_Visuals_34
+      213: -9199733137524566269
+    second: SOLU_Options_Gameplay_34
   - first:
-      213: -7751869108278271301
-    second: SOLU_Options_Visuals_35
+      213: -5502998007146470985
+    second: SOLU_Options_Gameplay_35
   - first:
-      213: -8270132843390850974
-    second: SOLU_Options_Visuals_36
+      213: 3984375362236373664
+    second: SOLU_Options_Gameplay_36
   - first:
-      213: 8297515586511409294
-    second: SOLU_Options_Visuals_37
+      213: 8401656072481020713
+    second: SOLU_Options_Gameplay_37
   - first:
-      213: 2293750024387045418
-    second: SOLU_Options_Visuals_38
+      213: 7333308413037136170
+    second: SOLU_Options_Gameplay_38
   - first:
-      213: 5317040453676562790
-    second: SOLU_Options_Visuals_39
+      213: 5125852495532185606
+    second: SOLU_Options_Gameplay_39
   - first:
-      213: -7634540212522120264
-    second: SOLU_Options_Visuals_40
+      213: -4375071491017707176
+    second: SOLU_Options_Gameplay_40
   - first:
-      213: 5893226035903556170
-    second: SOLU_Options_Visuals_41
+      213: 3447337105020154449
+    second: SOLU_Options_Gameplay_41
   - first:
-      213: -2740037410882157119
-    second: SOLU_Options_Visuals_42
+      213: -6356018341062828676
+    second: SOLU_Options_Gameplay_42
   - first:
-      213: 1444070430294214278
-    second: SOLU_Options_Visuals_43
+      213: 3325921084555965669
+    second: SOLU_Options_Gameplay_43
   - first:
-      213: -62899052243345319
-    second: SOLU_Options_Visuals_44
+      213: 6466359556254434114
+    second: SOLU_Options_Gameplay_44
   - first:
-      213: -8030874639257723827
-    second: SOLU_Options_Visuals_45
+      213: 1013058328226359407
+    second: SOLU_Options_Gameplay_45
   - first:
-      213: -8992510396271692340
-    second: SOLU_Options_Visuals_46
+      213: 3918950135682990314
+    second: SOLU_Options_Gameplay_46
   - first:
-      213: -8799646103940931534
-    second: SOLU_Options_Visuals_47
+      213: 2529018763305783430
+    second: SOLU_Options_Gameplay_47
+  - first:
+      213: -8689379974973580357
+    second: SOLU_Options_Gameplay_48
+  - first:
+      213: 2795308054954668084
+    second: SOLU_Options_Gameplay_49
+  - first:
+      213: -7801022454912678606
+    second: SOLU_Options_Gameplay_50
+  - first:
+      213: 2155057547416068083
+    second: SOLU_Options_Gameplay_51
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -254,13 +266,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_0
+      name: SOLU_Options_Gameplay_0
       rect:
         serializedVersion: 2
-        x: 2772
-        y: 2213
-        width: 327
-        height: 93
+        x: 349
+        y: 1964
+        width: 274
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9f51f74273d1e120800000000000000
-      internalID: 2441464960798252959
+      spriteID: 571369b5c0a4a2280800000000000000
+      internalID: -9067353482820439691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_1
+      name: SOLU_Options_Gameplay_1
       rect:
         serializedVersion: 2
         x: 376
@@ -291,14 +303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e39b521f1b176c7c0800000000000000
-      internalID: -4051425805704251074
+      spriteID: 151b5c12d3ec2a650800000000000000
+      internalID: 6242778795443859793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_2
+      name: SOLU_Options_Gameplay_2
       rect:
         serializedVersion: 2
         x: 417
@@ -313,19 +325,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab21755d6b0748520800000000000000
-      internalID: 2703409606894752442
+      spriteID: dd156d9781f5a2ba0800000000000000
+      internalID: -6112968985474084387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_3
+      name: SOLU_Options_Gameplay_3
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1054
         y: 2211
-        width: 40
+        width: 48
         height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -335,19 +347,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8953f97521dedb870800000000000000
-      internalID: 8700370718184912280
+      spriteID: c3e0489825b5be920800000000000000
+      internalID: 3020608385134628412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_4
+      name: SOLU_Options_Gameplay_4
       rect:
         serializedVersion: 2
-        x: 1345
+        x: 1363
         y: 2211
-        width: 11
+        width: 16
         height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -357,14 +369,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16b0930d87b4d3e30800000000000000
-      internalID: 4484823786192440161
+      spriteID: e086e2b1b11b7bce0800000000000000
+      internalID: -1389447230042249202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_5
+      name: SOLU_Options_Gameplay_5
       rect:
         serializedVersion: 2
         x: 1987
@@ -379,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2e10b8537ca799f0800000000000000
-      internalID: -461710825373032915
+      spriteID: 90cb73f436160e010800000000000000
+      internalID: 1216078978548743177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_6
+      name: SOLU_Options_Gameplay_6
       rect:
         serializedVersion: 2
         x: 2096
@@ -401,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32c0f9a043ddb4900800000000000000
-      internalID: 669872185180884003
+      spriteID: 8532cd2813ef0b160800000000000000
+      internalID: 7039405706182402904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_7
+      name: SOLU_Options_Gameplay_7
       rect:
         serializedVersion: 2
         x: 2148
@@ -423,19 +435,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0adbed58e43f00570800000000000000
-      internalID: 8431006021016534432
+      spriteID: 81204241a082e4e20800000000000000
+      internalID: 3336648397680804376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_8
+      name: SOLU_Options_Gameplay_8
       rect:
         serializedVersion: 2
-        x: 2772
+        x: 2774
         y: 2213
-        width: 52
+        width: 42
         height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -445,20 +457,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c13f79f0a494ffe30800000000000000
-      internalID: 4539427531850773276
+      spriteID: fe08964b007237a30800000000000000
+      internalID: 4211752960501842159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_9
+      name: SOLU_Options_Gameplay_9
       rect:
         serializedVersion: 2
-        x: 2835
-        y: 2281
-        width: 16
-        height: 16
+        x: 2830
+        y: 2283
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,19 +479,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9da7b4d45d4ea2010800000000000000
-      internalID: 1164995058404653785
+      spriteID: 5e2cd652012092e60800000000000000
+      internalID: 7937878086587892453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_10
+      name: SOLU_Options_Gameplay_10
       rect:
         serializedVersion: 2
-        x: 3029
+        x: 3012
         y: 2213
-        width: 16
+        width: 10
         height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -489,14 +501,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0cfe375981a0a340800000000000000
-      internalID: 4873072408061213710
+      spriteID: 82810efdab2dcdc60800000000000000
+      internalID: 7844376351034316840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_11
+      name: SOLU_Options_Gameplay_11
       rect:
         serializedVersion: 2
         x: 3628
@@ -511,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2070ea3a8e2620520800000000000000
-      internalID: 2666802680674780930
+      spriteID: fcb8b18988761fcb0800000000000000
+      internalID: -4831967088826676273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_12
+      name: SOLU_Options_Gameplay_12
       rect:
         serializedVersion: 2
         x: 3782
@@ -533,14 +545,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3d78c7ba528904f0800000000000000
-      internalID: -862014527522702022
+      spriteID: 3abad95c6e2fd9420800000000000000
+      internalID: 2638532029680823203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_13
+      name: SOLU_Options_Gameplay_13
       rect:
         serializedVersion: 2
         x: 3835
@@ -555,14 +567,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b42f693aafb674ed0800000000000000
-      internalID: -2429854749712518581
+      spriteID: a3b89a8852a8900d0800000000000000
+      internalID: -3456079345218909382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_14
+      name: SOLU_Options_Gameplay_14
       rect:
         serializedVersion: 2
         x: 3858
@@ -577,14 +589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de7970c80565d9f50800000000000000
-      internalID: 6889757908893407213
+      spriteID: b22a2a11621a5f1e0800000000000000
+      internalID: -2164646861004955093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_15
+      name: SOLU_Options_Gameplay_15
       rect:
         serializedVersion: 2
         x: 328
@@ -599,14 +611,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4f37d7935ab5ccf0800000000000000
-      internalID: -232574937547194545
+      spriteID: 9ea9edde6064608c0800000000000000
+      internalID: -4033459420689163543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_16
+      name: SOLU_Options_Gameplay_16
       rect:
         serializedVersion: 2
         x: 417
@@ -621,14 +633,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da1a1d64f1c8a46c0800000000000000
-      internalID: -4158357239963213395
+      spriteID: 151c10edfc1ec56f0800000000000000
+      internalID: -694431959622762159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_17
+      name: SOLU_Options_Gameplay_17
       rect:
         serializedVersion: 2
         x: 445
@@ -643,14 +655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3edd55f4392eeb00800000000000000
-      internalID: 859669886305951295
+      spriteID: 873828d0b4fd5fc60800000000000000
+      internalID: 7851427038832526200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_18
+      name: SOLU_Options_Gameplay_18
       rect:
         serializedVersion: 2
         x: 497
@@ -665,14 +677,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97d58f9553c909ac0800000000000000
-      internalID: -3850405928445125255
+      spriteID: 9e87b10de113e92d0800000000000000
+      internalID: -3270122271014160151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_19
+      name: SOLU_Options_Gameplay_19
       rect:
         serializedVersion: 2
         x: 548
@@ -687,20 +699,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00e9fb9d3361eff30800000000000000
-      internalID: 4611147480426323456
+      spriteID: 5fec5b47db163ef50800000000000000
+      internalID: 6909473719651258101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_20
+      name: SOLU_Options_Gameplay_20
       rect:
         serializedVersion: 2
-        x: 1113
+        x: 1116
         y: 2211
-        width: 36
-        height: 60
+        width: 42
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -709,20 +721,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53669609a8d67a700800000000000000
-      internalID: 551529921271916085
+      spriteID: 9fa415fb5093643f0800000000000000
+      internalID: -916982777275921671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_21
+      name: SOLU_Options_Gameplay_21
       rect:
         serializedVersion: 2
-        x: 1165
+        x: 1171
         y: 2211
-        width: 60
-        height: 61
+        width: 68
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,20 +743,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f98db3e0a040f7b0800000000000000
-      internalID: -5192579310598387212
+      spriteID: 41e7bb273b0d8f700800000000000000
+      internalID: 574438421632351764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_22
+      name: SOLU_Options_Gameplay_22
       rect:
         serializedVersion: 2
-        x: 1242
+        x: 1252
         y: 2211
-        width: 34
-        height: 60
+        width: 42
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -753,20 +765,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88d1c3b81639e8260800000000000000
-      internalID: 7101775709566934408
+      spriteID: 2d9f408099cc2cac0800000000000000
+      internalID: -3836278974929634862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_23
+      name: SOLU_Options_Gameplay_23
       rect:
         serializedVersion: 2
-        x: 1293
+        x: 1307
         y: 2190
-        width: 36
-        height: 82
+        width: 42
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,20 +787,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ee922d9289d6f1c0800000000000000
-      internalID: -4470146425113370903
+      spriteID: c529c2a925fa1f3a0800000000000000
+      internalID: -6633328006831238564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_24
+      name: SOLU_Options_Gameplay_24
       rect:
         serializedVersion: 2
-        x: 1373
+        x: 1393
         y: 2211
-        width: 35
-        height: 60
+        width: 41
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -797,20 +809,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cf702edb99fe2890800000000000000
-      internalID: -7480767483173896254
+      spriteID: f79b86d8c36290690800000000000000
+      internalID: -7635529651717621377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_25
+      name: SOLU_Options_Gameplay_25
       rect:
         serializedVersion: 2
-        x: 1421
+        x: 1444
         y: 2190
-        width: 39
-        height: 81
+        width: 46
+        height: 83
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -819,14 +831,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 406adad95ba1b6d00800000000000000
-      internalID: 966895912337909252
+      spriteID: d76388633c58bf8c0800000000000000
+      internalID: -3964427973489576323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_26
+      name: SOLU_Options_Gameplay_26
       rect:
         serializedVersion: 2
         x: 2044
@@ -841,14 +853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e8d857ccb1f62dd0800000000000000
-      internalID: -2511053949111838487
+      spriteID: 850ea32684cd47e50800000000000000
+      internalID: 6806307140307443800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_27
+      name: SOLU_Options_Gameplay_27
       rect:
         serializedVersion: 2
         x: 2148
@@ -863,14 +875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6c9e689112bb4b60800000000000000
-      internalID: 7731468973953162349
+      spriteID: 148672e20a971b660800000000000000
+      internalID: 7399829391622498369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_28
+      name: SOLU_Options_Gameplay_28
       rect:
         serializedVersion: 2
         x: 2176
@@ -885,20 +897,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 857bdbd39329b3db0800000000000000
-      internalID: -4811091002368608424
+      spriteID: 87b5f46060cd69c60800000000000000
+      internalID: 7824683321036594040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_29
+      name: SOLU_Options_Gameplay_29
       rect:
         serializedVersion: 2
-        x: 2835
+        x: 2830
         y: 2213
-        width: 16
-        height: 62
+        width: 11
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,20 +919,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95152f15debc8e110800000000000000
-      internalID: 1290505513384169817
+      spriteID: 69e5346b273a063c0800000000000000
+      internalID: -4368311925469913450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_30
+      name: SOLU_Options_Gameplay_30
       rect:
         serializedVersion: 2
-        x: 2865
+        x: 2857
         y: 2213
-        width: 40
-        height: 62
+        width: 34
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -929,20 +941,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1de649138a5608bc0800000000000000
-      internalID: -3782911913930494255
+      spriteID: bff64d192a72be4a0800000000000000
+      internalID: -6563108452777562117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_31
+      name: SOLU_Options_Gameplay_31
       rect:
         serializedVersion: 2
-        x: 2918
+        x: 2908
         y: 2213
-        width: 42
-        height: 62
+        width: 35
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,20 +963,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 697f05132d0296de0800000000000000
-      internalID: -1339503327023401066
+      spriteID: 85fe19ed69cda4a40800000000000000
+      internalID: 5353333647620566872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_32
+      name: SOLU_Options_Gameplay_32
       rect:
         serializedVersion: 2
-        x: 2974
+        x: 2959
         y: 2213
-        width: 41
-        height: 62
+        width: 36
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -973,20 +985,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35d2f380864948ac0800000000000000
-      internalID: -3853792206586434221
+      spriteID: dc311fd8eb7f8eb50800000000000000
+      internalID: 6622815649845547981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_33
+      name: SOLU_Options_Gameplay_33
       rect:
         serializedVersion: 2
-        x: 3058
+        x: 3039
         y: 2213
-        width: 41
-        height: 62
+        width: 34
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -995,14 +1007,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ae89451ca0f53f90800000000000000
-      internalID: -6974403826031161693
+      spriteID: cda3c7069d3e06e80800000000000000
+      internalID: -8187293599793399076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_34
+      name: SOLU_Options_Gameplay_34
       rect:
         serializedVersion: 2
         x: 3685
@@ -1017,14 +1029,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e3085a728e20bb00800000000000000
-      internalID: 842224268251497446
+      spriteID: 3075575247bf35080800000000000000
+      internalID: -9199733137524566269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_35
+      name: SOLU_Options_Gameplay_35
       rect:
         serializedVersion: 2
         x: 3731
@@ -1039,14 +1051,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb2efbffd14db6490800000000000000
-      internalID: -7751869108278271301
+      spriteID: 7b12a58f77c61a3b0800000000000000
+      internalID: -5502998007146470985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_36
+      name: SOLU_Options_Gameplay_36
       rect:
         serializedVersion: 2
         x: 3835
@@ -1061,14 +1073,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 268a568fef59a3d80800000000000000
-      internalID: -8270132843390850974
+      spriteID: 0aadae528485b4730800000000000000
+      internalID: 3984375362236373664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_37
+      name: SOLU_Options_Gameplay_37
       rect:
         serializedVersion: 2
         x: 3899
@@ -1083,39 +1095,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e80974cb672b62370800000000000000
-      internalID: 8297515586511409294
+      spriteID: 92b1c3d1fada89470800000000000000
+      internalID: 8401656072481020713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_38
+      name: SOLU_Options_Gameplay_38
       rect:
         serializedVersion: 2
-        x: 348
-        y: 1964
-        width: 24
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a28222f8e7905df10800000000000000
-      internalID: 2293750024387045418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SOLU_Options_Visuals_39
-      rect:
-        serializedVersion: 2
-        x: 378
+        x: 349
         y: 1964
         width: 30
         height: 69
@@ -1127,105 +1117,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 669f5c92f1ce9c940800000000000000
-      internalID: 5317040453676562790
+      spriteID: a29467be52525c560800000000000000
+      internalID: 7333308413037136170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_40
+      name: SOLU_Options_Gameplay_39
       rect:
         serializedVersion: 2
-        x: 416
-        y: 1964
-        width: 24
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8bb0f21502aac0690800000000000000
-      internalID: -7634540212522120264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SOLU_Options_Visuals_41
-      rect:
-        serializedVersion: 2
-        x: 445
-        y: 1964
-        width: 24
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4a6d132bd1f8c150800000000000000
-      internalID: 5893226035903556170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SOLU_Options_Visuals_42
-      rect:
-        serializedVersion: 2
-        x: 474
-        y: 1964
-        width: 29
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c5861dfd7e69f9d0800000000000000
-      internalID: -2740037410882157119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SOLU_Options_Visuals_43
-      rect:
-        serializedVersion: 2
-        x: 510
-        y: 1964
-        width: 30
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6860554c76e5a0410800000000000000
-      internalID: 1444070430294214278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SOLU_Options_Visuals_44
-      rect:
-        serializedVersion: 2
-        x: 547
+        x: 386
         y: 1964
         width: 31
         height: 69
@@ -1237,61 +1139,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 950a35e25a9802ff0800000000000000
-      internalID: -62899052243345319
+      spriteID: 608de3fcfafa22740800000000000000
+      internalID: 5125852495532185606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SOLU_Options_Visuals_45
+      name: SOLU_Options_Gameplay_40
       rect:
         serializedVersion: 2
-        x: 584
-        y: 1964
-        width: 25
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4c9953a01a9c8090800000000000000
-      internalID: -8030874639257723827
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SOLU_Options_Visuals_46
-      rect:
-        serializedVersion: 2
-        x: 615
-        y: 1964
-        width: 25
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc5f73f507f243380800000000000000
-      internalID: -8992510396271692340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SOLU_Options_Visuals_47
-      rect:
-        serializedVersion: 2
-        x: 646
+        x: 425
         y: 1964
         width: 30
         height: 69
@@ -1303,8 +1161,250 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2306371bd7061e580800000000000000
-      internalID: -8799646103940931534
+      spriteID: 85173f6b8af9843c0800000000000000
+      internalID: -4375071491017707176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_41
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1964
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152ffbd05d667df20800000000000000
+      internalID: 3447337105020154449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_42
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1964
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d15139ef2eac7a0800000000000000
+      internalID: -6356018341062828676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_43
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1964
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4b0fbda9b082e20800000000000000
+      internalID: 3325921084555965669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_44
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1964
+        width: 24
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2438f7491cf1db950800000000000000
+      internalID: 6466359556254434114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_45
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1714
+        width: 24
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68eeae9e2b1f0e00800000000000000
+      internalID: 1013058328226359407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_46
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1714
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae08ad98268e26630800000000000000
+      internalID: 3918950135682990314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_47
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1714
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68093297a21e81320800000000000000
+      internalID: 2529018763305783430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_48
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1714
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb9e4973fe196780800000000000000
+      internalID: -8689379974973580357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_49
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1714
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4307c55adddeac620800000000000000
+      internalID: 2795308054954668084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_50
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1714
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235851aa8633db390800000000000000
+      internalID: -7801022454912678606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOLU_Options_Gameplay_51
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1714
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff5240eb6d48ed10800000000000000
+      internalID: 2155057547416068083
       vertices: []
       indices: 
       edges: []
@@ -1313,7 +1413,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8ebf7eb4cd1467e438c5de9073d3d6d4
+    spriteID: ffca0b745ebfc4d4fac74c7ad747d797
     internalID: 0
     vertices: []
     indices: 
@@ -1323,54 +1423,58 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SOLU_Options_Visuals_0: 2441464960798252959
-      SOLU_Options_Visuals_1: -4051425805704251074
-      SOLU_Options_Visuals_10: 4873072408061213710
-      SOLU_Options_Visuals_11: 2666802680674780930
-      SOLU_Options_Visuals_12: -862014527522702022
-      SOLU_Options_Visuals_13: -2429854749712518581
-      SOLU_Options_Visuals_14: 6889757908893407213
-      SOLU_Options_Visuals_15: -232574937547194545
-      SOLU_Options_Visuals_16: -4158357239963213395
-      SOLU_Options_Visuals_17: 859669886305951295
-      SOLU_Options_Visuals_18: -3850405928445125255
-      SOLU_Options_Visuals_19: 4611147480426323456
-      SOLU_Options_Visuals_2: 2703409606894752442
-      SOLU_Options_Visuals_20: 551529921271916085
-      SOLU_Options_Visuals_21: -5192579310598387212
-      SOLU_Options_Visuals_22: 7101775709566934408
-      SOLU_Options_Visuals_23: -4470146425113370903
-      SOLU_Options_Visuals_24: -7480767483173896254
-      SOLU_Options_Visuals_25: 966895912337909252
-      SOLU_Options_Visuals_26: -2511053949111838487
-      SOLU_Options_Visuals_27: 7731468973953162349
-      SOLU_Options_Visuals_28: -4811091002368608424
-      SOLU_Options_Visuals_29: 1290505513384169817
-      SOLU_Options_Visuals_3: 8700370718184912280
-      SOLU_Options_Visuals_30: -3782911913930494255
-      SOLU_Options_Visuals_31: -1339503327023401066
-      SOLU_Options_Visuals_32: -3853792206586434221
-      SOLU_Options_Visuals_33: -6974403826031161693
-      SOLU_Options_Visuals_34: 842224268251497446
-      SOLU_Options_Visuals_35: -7751869108278271301
-      SOLU_Options_Visuals_36: -8270132843390850974
-      SOLU_Options_Visuals_37: 8297515586511409294
-      SOLU_Options_Visuals_38: 2293750024387045418
-      SOLU_Options_Visuals_39: 5317040453676562790
-      SOLU_Options_Visuals_4: 4484823786192440161
-      SOLU_Options_Visuals_40: -7634540212522120264
-      SOLU_Options_Visuals_41: 5893226035903556170
-      SOLU_Options_Visuals_42: -2740037410882157119
-      SOLU_Options_Visuals_43: 1444070430294214278
-      SOLU_Options_Visuals_44: -62899052243345319
-      SOLU_Options_Visuals_45: -8030874639257723827
-      SOLU_Options_Visuals_46: -8992510396271692340
-      SOLU_Options_Visuals_47: -8799646103940931534
-      SOLU_Options_Visuals_5: -461710825373032915
-      SOLU_Options_Visuals_6: 669872185180884003
-      SOLU_Options_Visuals_7: 8431006021016534432
-      SOLU_Options_Visuals_8: 4539427531850773276
-      SOLU_Options_Visuals_9: 1164995058404653785
+      SOLU_Options_Gameplay_0: -9067353482820439691
+      SOLU_Options_Gameplay_1: 6242778795443859793
+      SOLU_Options_Gameplay_10: 7844376351034316840
+      SOLU_Options_Gameplay_11: -4831967088826676273
+      SOLU_Options_Gameplay_12: 2638532029680823203
+      SOLU_Options_Gameplay_13: -3456079345218909382
+      SOLU_Options_Gameplay_14: -2164646861004955093
+      SOLU_Options_Gameplay_15: -4033459420689163543
+      SOLU_Options_Gameplay_16: -694431959622762159
+      SOLU_Options_Gameplay_17: 7851427038832526200
+      SOLU_Options_Gameplay_18: -3270122271014160151
+      SOLU_Options_Gameplay_19: 6909473719651258101
+      SOLU_Options_Gameplay_2: -6112968985474084387
+      SOLU_Options_Gameplay_20: -916982777275921671
+      SOLU_Options_Gameplay_21: 574438421632351764
+      SOLU_Options_Gameplay_22: -3836278974929634862
+      SOLU_Options_Gameplay_23: -6633328006831238564
+      SOLU_Options_Gameplay_24: -7635529651717621377
+      SOLU_Options_Gameplay_25: -3964427973489576323
+      SOLU_Options_Gameplay_26: 6806307140307443800
+      SOLU_Options_Gameplay_27: 7399829391622498369
+      SOLU_Options_Gameplay_28: 7824683321036594040
+      SOLU_Options_Gameplay_29: -4368311925469913450
+      SOLU_Options_Gameplay_3: 3020608385134628412
+      SOLU_Options_Gameplay_30: -6563108452777562117
+      SOLU_Options_Gameplay_31: 5353333647620566872
+      SOLU_Options_Gameplay_32: 6622815649845547981
+      SOLU_Options_Gameplay_33: -8187293599793399076
+      SOLU_Options_Gameplay_34: -9199733137524566269
+      SOLU_Options_Gameplay_35: -5502998007146470985
+      SOLU_Options_Gameplay_36: 3984375362236373664
+      SOLU_Options_Gameplay_37: 8401656072481020713
+      SOLU_Options_Gameplay_38: 7333308413037136170
+      SOLU_Options_Gameplay_39: 5125852495532185606
+      SOLU_Options_Gameplay_4: -1389447230042249202
+      SOLU_Options_Gameplay_40: -4375071491017707176
+      SOLU_Options_Gameplay_41: 3447337105020154449
+      SOLU_Options_Gameplay_42: -6356018341062828676
+      SOLU_Options_Gameplay_43: 3325921084555965669
+      SOLU_Options_Gameplay_44: 6466359556254434114
+      SOLU_Options_Gameplay_45: 1013058328226359407
+      SOLU_Options_Gameplay_46: 3918950135682990314
+      SOLU_Options_Gameplay_47: 2529018763305783430
+      SOLU_Options_Gameplay_48: -8689379974973580357
+      SOLU_Options_Gameplay_49: 2795308054954668084
+      SOLU_Options_Gameplay_5: 1216078978548743177
+      SOLU_Options_Gameplay_50: -7801022454912678606
+      SOLU_Options_Gameplay_51: 2155057547416068083
+      SOLU_Options_Gameplay_6: 7039405706182402904
+      SOLU_Options_Gameplay_7: 3336648397680804376
+      SOLU_Options_Gameplay_8: 4211752960501842159
+      SOLU_Options_Gameplay_9: 7937878086587892453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

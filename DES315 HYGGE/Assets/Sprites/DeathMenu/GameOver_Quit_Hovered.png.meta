@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: b0395b68d91f5cc4591b9d391b6a7525
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4358045567202018514
+    second: GameOver_Quit_Hovered_0
+  - first:
+      213: 8231986120675662598
+    second: GameOver_Quit_Hovered_1
+  - first:
+      213: 6480781777207432792
+    second: GameOver_Quit_Hovered_2
+  - first:
+      213: 565280492981800909
+    second: GameOver_Quit_Hovered_3
+  - first:
+      213: -3617420500740870798
+    second: GameOver_Quit_Hovered_4
+  - first:
+      213: -5032736804480730882
+    second: GameOver_Quit_Hovered_5
+  - first:
+      213: -6151224586982252820
+    second: GameOver_Quit_Hovered_6
+  - first:
+      213: -4272695932126118688
+    second: GameOver_Quit_Hovered_7
+  - first:
+      213: 8330648518682426388
+    second: GameOver_Quit_Hovered_8
+  - first:
+      213: -5397987041170613538
+    second: GameOver_Quit_Hovered_9
+  - first:
+      213: -1893654524170345178
+    second: GameOver_Quit_Hovered_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_0
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 648
+        width: 763
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b35f385ac1583c0800000000000000
+      internalID: -4358045567202018514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_1
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 764
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b91d603c3ed3270800000000000000
+      internalID: 8231986120675662598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_2
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 649
+        width: 44
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856164190bc50f950800000000000000
+      internalID: 6480781777207432792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_3
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 649
+        width: 44
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf43a60d9748d700800000000000000
+      internalID: 565280492981800909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_4
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 649
+        width: 79
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27def1278375ccdc0800000000000000
+      internalID: -3617420500740870798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_5
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 648
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef834e87a80282ab0800000000000000
+      internalID: -5032736804480730882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_6
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 649
+        width: 16
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee164724d572aaa0800000000000000
+      internalID: -6151224586982252820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_7
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 649
+        width: 57
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecbd5cffa554b4c0800000000000000
+      internalID: -4272695932126118688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_8
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 649
+        width: 57
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c33b8a0b86c9370800000000000000
+      internalID: 8330648518682426388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_9
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 649
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda1dd4c26f7615b0800000000000000
+      internalID: -5397987041170613538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver_Quit_Hovered_10
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 648
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625e3874e3368b5e0800000000000000
+      internalID: -1893654524170345178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2aba821e822bdd749bf122dd76a62393
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GameOver_Quit_Hovered_0: -4358045567202018514
+      GameOver_Quit_Hovered_1: 8231986120675662598
+      GameOver_Quit_Hovered_10: -1893654524170345178
+      GameOver_Quit_Hovered_2: 6480781777207432792
+      GameOver_Quit_Hovered_3: 565280492981800909
+      GameOver_Quit_Hovered_4: -3617420500740870798
+      GameOver_Quit_Hovered_5: -5032736804480730882
+      GameOver_Quit_Hovered_6: -6151224586982252820
+      GameOver_Quit_Hovered_7: -4272695932126118688
+      GameOver_Quit_Hovered_8: 8330648518682426388
+      GameOver_Quit_Hovered_9: -5397987041170613538
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,6 +12,11 @@ public class HomingEnemy : BaseEnemy
     [SerializeField] private float dashSpeed = 6f;
     [SerializeField] private float dashCooldown = 3.5f;
 
+    [Header("State Fallbacks")]
+    private float stateTimer;
+    [SerializeField] private float repositionMaxTime = 1.5f;
+    [SerializeField] private float anglePhaseMaxTime = 1.5f;
+
     private float dashTimer;
     private bool isDashing = false;
 
@@ -48,6 +53,7 @@ public class HomingEnemy : BaseEnemy
         Vector2 perp = new Vector2(-dirToPlayer.y, dirToPlayer.x);
 
         dashTimer -= Time.deltaTime;
+        stateTimer += Time.deltaTime;
 
         //---------------- DASH ----------------
         if (isDashing)
@@ -62,6 +68,7 @@ public class HomingEnemy : BaseEnemy
 
                 inReposition = true;
                 inAnglePhase = false;
+                stateTimer = 0f;
 
                 //PURE LEFT/RIGHT SNAP
                 repositionTarget = (Vector2)player.position + Vector2.right * lockedSide * orbitDistance;
@@ -75,17 +82,20 @@ public class HomingEnemy : BaseEnemy
         if (inReposition)
         {
             Vector2 move = repositionTarget - (Vector2)transform.position;
+            Vector2 velocityDir = rb.linearVelocity.normalized;
 
-            rb.linearVelocity = move.normalized * speed;
+            rb.linearVelocity = move.normalized * dashSpeed;
 
-            if (move.magnitude < 0.2f)
+            if (move.magnitude < 0.2f || Vector2.Dot(move.normalized, velocityDir) < 0f ||
+                stateTimer > repositionMaxTime)
             {
                 inReposition = false;
                 inAnglePhase = true;
-                wobbleTime = 0f;
+                stateTimer = 0f;
+                //wobbleTime = 0f;
 
                 //ANGLED TARGET
-                float angle = lockedSide == 1 ? 35f : 145f; // RIGHT HERE CHANGE THIS HERE MIGHYT BE SOMETHING
+                float angle = lockedSide == 1 ? 15f : 165f; // RIGHT HERE CHANGE THIS HERE MIGHYT BE SOMETHING
                 Vector2 dir = Quaternion.Euler(0, 0, angle) * Vector2.right;
 
                 angleTarget = (Vector2)player.position + dir * orbitDistance;
@@ -99,6 +109,7 @@ public class HomingEnemy : BaseEnemy
         if (inAnglePhase)
         {
             Vector2 move = angleTarget - (Vector2)transform.position;
+            Vector2 velocityDir = rb.linearVelocity.normalized;
 
             wobbleTime += Time.deltaTime;
 
@@ -110,10 +121,11 @@ public class HomingEnemy : BaseEnemy
 
             rb.linearVelocity = finalMove * speed;
 
-            if (move.magnitude < 0.15f)
+            if (move.magnitude < 0.15f || Vector2.Dot(move.normalized, velocityDir) < 0f ||
+                stateTimer > anglePhaseMaxTime)
             {
                 inAnglePhase = false;
-
+                stateTimer = 0f;
                 Vector2 dir = Quaternion.Euler(0, 0, lockedSide == 1 ? 15f : 165f) * Vector2.right;
 
                 arcForward = dir.normalized;
@@ -147,9 +159,10 @@ public class HomingEnemy : BaseEnemy
 
             perp = new Vector2(-arcForward.y, arcForward.x);
 
-            float wobble = Mathf.Sin(Time.time * 2.5f) * 0.2f;
+            wobbleTime += Time.deltaTime;
+            float wobble = Mathf.Sin(wobbleTime * 2.5f) * 0.2f;
 
-            Vector2 wiggledDir = (arcForward + perp * wobble).normalized;
+            Vector2 wiggledDir = arcForward + perp * wobble;
 
             Vector2 orbitPos = (Vector2)player.position + wiggledDir * orbitDistance;
 
@@ -160,11 +173,7 @@ public class HomingEnemy : BaseEnemy
 
             Vector2 radialForce = radialDir.normalized * distanceError;
 
-            Vector2 move =
-                radialForce * 2.0f +
-                wiggledDir * 1.2f;
-
-            rb.linearVelocity = move.normalized * speed;
+            rb.linearVelocity = (radialForce * 2.0f + wiggledDir * 1.2f).normalized * speed;
 
         }
         else
