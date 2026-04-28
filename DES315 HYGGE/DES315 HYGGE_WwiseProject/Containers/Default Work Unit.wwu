@@ -1211,11 +1211,16 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="ShieldEnemyAttack-Wooden" ID="{20586F0A-C388-44F3-8D87-F654005EA1A0}">
+						<AudioFileSource Name="SpiderAttack" ID="{C1F2EF0C-19EA-4750-942D-8345FA3999B0}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.18475"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.38457"/>
+							</PropertyList>
 							<Language>SFX</Language>
-							<AudioFile>ShieldEnemyAttack-Wooden.wav</AudioFile>
+							<AudioFile>SpiderAttack.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="69010280"/>
+								<MediaID ID="459635591"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
@@ -1286,7 +1291,226 @@
 						</ObjectList>
 					</ObjectLists>
 					<ActiveSourceList>
-						<ActiveSource Name="ShieldEnemyAttack-Wooden" ID="{20586F0A-C388-44F3-8D87-F654005EA1A0}" Platform="Linked"/>
+						<ActiveSource Name="SpiderAttack" ID="{C1F2EF0C-19EA-4750-942D-8345FA3999B0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SpiderEnemyPatrolling" ID="{02592C35-AF1F-421B-B927-840688FADEBC}" ShortID="886424957">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>35</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SpiderEnemyPatrolling" ID="{D2F4D9CD-FAAA-4737-93EB-5139E8420F41}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.99618"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SpiderEnemyPatrolling.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="923601077"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SpiderEnemyPatrolling" ID="{D2F4D9CD-FAAA-4737-93EB-5139E8420F41}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DoorOpening" ID="{401330C8-B87A-445B-BD02-65A0823C58AA}" ShortID="690414946">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DoorOpening" ID="{64822B6A-E7C4-420E-A21D-2F94C2684AE8}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.43185"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>DoorOpening.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="832316680"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DoorOpening" ID="{64822B6A-E7C4-420E-A21D-2F94C2684AE8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="CharacterSwapTEST" ID="{9F522E52-120B-4DC5-8D15-377F773BE175}" ShortID="644367589">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CharacterSwapTEST" ID="{B420313F-794B-40CB-BF9B-2ACC6F58D785}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.70431"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>CharacterSwapTEST.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1059155492"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="CharacterSwapTEST" ID="{B420313F-794B-40CB-BF9B-2ACC6F58D785}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Lever" ID="{7BC1D76D-97A8-4107-A0C0-B482DC452C94}" ShortID="610276599">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Lever" ID="{9D39BC31-82C5-4B26-8C7E-A117426DD471}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.46561"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Lever.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="916914792"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Lever" ID="{9D39BC31-82C5-4B26-8C7E-A117426DD471}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SpiderDamaged" ID="{1ED0A8E7-1AA6-4A3F-AA02-B54985DCEC43}" ShortID="535160161">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-250</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SpiderDamaged" ID="{7D741094-7243-4799-9860-803A8888BBFE}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.09398"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.50447"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SpiderDamaged.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="490794409"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SpiderDamaged" ID="{7D741094-7243-4799-9860-803A8888BBFE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SpiderDeath" ID="{8E348006-4182-4816-9EB1-9480A1109226}" ShortID="687271381">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SpiderDeath" ID="{EE051FF1-332B-4729-BCE0-4E95B67ADCF1}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.1167"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.40727"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SpiderDeath.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="707058059"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SpiderDeath" ID="{EE051FF1-332B-4729-BCE0-4E95B67ADCF1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="solu main menu" ID="{B4412B10-CB9D-4EE0-8A91-3B19B6B14A07}" ShortID="1011117790">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="solu main menu" ID="{1472FAFE-AD12-4325-AC37-6AD34758FD35}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="91.67314"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>solu main menu.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="205899470"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="solu main menu" ID="{1472FAFE-AD12-4325-AC37-6AD34758FD35}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

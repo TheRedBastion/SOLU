@@ -10,19 +10,11 @@
     "Type": "User",
     "GUID": "{8347E92C-8AC0-4678-A174-309ADDA96D38}",
     "Language": "SFX",
-    "Hash": "{AAF67679-4889-B3A5-E285-052605DBCE5B}",
+    "Hash": "{067D9E11-3FC6-B489-8D3D-86E28AD3E7D0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SOLU",
     "ShortName": "SOLU",
     "Path": "SOLU.bnk",
     "Media": [
-     {
-      "Id": "69010280",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ShieldEnemyAttack-Wooden.wav",
-      "CachePath": "67/{670BB68D-21AC-0BAB-05F6-F6BA96577DD5}.wem"
-     },
      {
       "Id": "125192489",
       "Language": "SFX",
@@ -30,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "FloralAmbience1.wav",
       "CachePath": "12/{1226B298-4899-A5D0-F4A9-0BC035562D0A}.wem"
+     },
+     {
+      "Id": "205899470",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "solu main menu.wav",
+      "CachePath": "96/{96CC65C5-9F37-048F-BE0F-0979A761651F}.wem"
      },
      {
       "Id": "255574596",
@@ -70,6 +70,22 @@
       "Location": "Memory",
       "ShortName": "MoonDamaged-1.wav",
       "CachePath": "3F/{3F9467B9-F4EE-C347-B694-D898974501DC}.wem"
+     },
+     {
+      "Id": "459635591",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SpiderAttack.wav",
+      "CachePath": "64/{64CD6716-00DF-DC8A-167D-B1D734E3D125}.wem"
+     },
+     {
+      "Id": "490794409",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SpiderDamaged.wav",
+      "CachePath": "54/{54909F51-27EE-D8A9-C105-44528177EE48}.wem"
      },
      {
       "Id": "497125793",
@@ -120,6 +136,14 @@
       "CachePath": "41/{41CA7E35-A409-B677-D337-FF4300FB1820}.wem"
      },
      {
+      "Id": "707058059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SpiderDeath.wav",
+      "CachePath": "F6/{F63699D6-D4B3-41AF-8899-1521F112CD5C}.wem"
+     },
+     {
       "Id": "746925879",
       "Language": "SFX",
       "Streaming": "false",
@@ -144,12 +168,44 @@
       "CachePath": "9F/{9F73479F-4F05-3DE4-3D5A-A144693AD24B}.wem"
      },
      {
+      "Id": "832316680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DoorOpening.wav",
+      "CachePath": "6E/{6E63CD84-BAAE-E6D0-BEC0-D68F5BC9FD54}.wem"
+     },
+     {
+      "Id": "916914792",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lever.wav",
+      "CachePath": "17/{17E5A32A-D9B8-08C1-2165-519815E8953A}.wem"
+     },
+     {
+      "Id": "923601077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SpiderEnemyPatrolling.wav",
+      "CachePath": "00/{00CE6CDD-1369-1B6F-D2CF-12A93946D5EE}.wem"
+     },
+     {
       "Id": "1000089471",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SunDamagedWithEcho-1.wav",
       "CachePath": "42/{42106BC0-6776-67D7-F681-67A302BD005D}.wem"
+     },
+     {
+      "Id": "1059155492",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CharacterSwapTEST.wav",
+      "CachePath": "08/{0874E0B5-F62E-9BA5-0008-044C6746DF79}.wem"
      }
     ],
     "Events": [
@@ -211,6 +267,20 @@
       ]
      },
      {
+      "Id": "1404805401",
+      "Name": "DoorOpen",
+      "ObjectPath": "\\Events\\Default Work Unit\\DoorOpen",
+      "GUID": "{E746233D-CFC9-4FC8-A56C-C0F5E356007B}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.43185",
+      "DurationMax": "3.43185",
+      "MediaRefs": [
+       {
+        "Id": "832316680"
+       }
+      ]
+     },
+     {
       "Id": "815341915",
       "Name": "FloralAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\FloralAmbience",
@@ -242,6 +312,34 @@
        },
        {
         "Id": "778461505"
+       }
+      ]
+     },
+     {
+      "Id": "2782712987",
+      "Name": "Lever",
+      "ObjectPath": "\\Events\\Default Work Unit\\Lever",
+      "GUID": "{6F0BF067-F97D-4537-B2B6-E1BDBD337EDF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.46561",
+      "DurationMax": "1.46561",
+      "MediaRefs": [
+       {
+        "Id": "916914792"
+       }
+      ]
+     },
+     {
+      "Id": "679636833",
+      "Name": "MenuMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\MenuMusic",
+      "GUID": "{A1F322FE-C571-47A2-9D76-EFA72B5DFCE6}",
+      "DurationType": "OneShot",
+      "DurationMin": "91.67314",
+      "DurationMax": "91.67314",
+      "MediaRefs": [
+       {
+        "Id": "205899470"
        }
       ]
      },
@@ -300,11 +398,53 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SpiderAttacks",
       "GUID": "{7E4B05FB-1CC6-4C94-A718-458ED8507604}",
       "DurationType": "OneShot",
-      "DurationMin": "2.5",
-      "DurationMax": "2.5",
+      "DurationMin": "1.19982",
+      "DurationMax": "1.19982",
       "MediaRefs": [
        {
-        "Id": "69010280"
+        "Id": "459635591"
+       }
+      ]
+     },
+     {
+      "Id": "2503095715",
+      "Name": "SpiderDamaged",
+      "ObjectPath": "\\Events\\Default Work Unit\\SpiderDamaged",
+      "GUID": "{196FDC11-88EC-4428-9FED-FD0EB083AA74}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6296135",
+      "DurationMax": "1.6296135",
+      "MediaRefs": [
+       {
+        "Id": "490794409"
+       }
+      ]
+     },
+     {
+      "Id": "2526768912",
+      "Name": "SpiderPatrol",
+      "ObjectPath": "\\Events\\Default Work Unit\\SpiderPatrol",
+      "GUID": "{75DC71AB-AF29-4C2C-ACFB-12CE40CCDE74}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.99618",
+      "DurationMax": "1.99618",
+      "MediaRefs": [
+       {
+        "Id": "923601077"
+       }
+      ]
+     },
+     {
+      "Id": "2172038785",
+      "Name": "SpiderSlain",
+      "ObjectPath": "\\Events\\Default Work Unit\\SpiderSlain",
+      "GUID": "{437CDE05-6FF8-4FFF-96E1-82BEC5CEBFCB}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.29057",
+      "DurationMax": "1.29057",
+      "MediaRefs": [
+       {
+        "Id": "707058059"
        }
       ]
      },
@@ -350,6 +490,20 @@
         "Id": "686907197"
        }
       ]
+     },
+     {
+      "Id": "139181421",
+      "Name": "SwapSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\SwapSound",
+      "GUID": "{E8E04F0B-C0DF-44D6-B344-BB1C3BE12275}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.70431",
+      "DurationMax": "2.70431",
+      "MediaRefs": [
+       {
+        "Id": "1059155492"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -380,6 +534,6 @@
     ]
    }
   ],
-  "FileHash": "{4D35CFC3-CB7B-B72C-AA37-83761C6203C3}"
+  "FileHash": "{49C13185-3D85-4394-6596-CEF9CE061090}"
  }
 }

@@ -146,6 +146,83 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="DoorOpen" ID="{E746233D-CFC9-4FC8-A56C-C0F5E356007B}">
+					<ChildrenList>
+						<Action Name="" ID="{0D1AE574-953A-4E27-B25C-23FE08861204}" ShortID="215759582">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorOpening" ID="{401330C8-B87A-445B-BD02-65A0823C58AA}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lever" ID="{6F0BF067-F97D-4537-B2B6-E1BDBD337EDF}">
+					<ChildrenList>
+						<Action Name="" ID="{D3349CA5-3946-4F86-A1D8-31F2BD36E721}" ShortID="197992173">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lever" ID="{7BC1D76D-97A8-4107-A0C0-B482DC452C94}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SpiderDamaged" ID="{196FDC11-88EC-4428-9FED-FD0EB083AA74}">
+					<ChildrenList>
+						<Action Name="" ID="{D77997FD-67CF-45E2-A67C-71BE620A4D90}" ShortID="1072155367">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SpiderDamaged" ID="{1ED0A8E7-1AA6-4A3F-AA02-B54985DCEC43}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SpiderSlain" ID="{437CDE05-6FF8-4FFF-96E1-82BEC5CEBFCB}">
+					<ChildrenList>
+						<Action Name="" ID="{909D8F87-BE55-4E8B-AE96-A8C099980FCF}" ShortID="792821647">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SpiderDeath" ID="{8E348006-4182-4816-9EB1-9480A1109226}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SpiderPatrol" ID="{75DC71AB-AF29-4C2C-ACFB-12CE40CCDE74}">
+					<ChildrenList>
+						<Action Name="" ID="{F9C182DF-29B2-4D47-AB42-6A97A6B524F5}" ShortID="329598467">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SpiderEnemyPatrolling" ID="{02592C35-AF1F-421B-B927-840688FADEBC}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuMusic" ID="{A1F322FE-C571-47A2-9D76-EFA72B5DFCE6}">
+					<ChildrenList>
+						<Action Name="" ID="{BE6A49BA-66F1-4D97-944A-1E69C6D6628D}" ShortID="401095550">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="solu main menu" ID="{B4412B10-CB9D-4EE0-8A91-3B19B6B14A07}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SwapSound" ID="{E8E04F0B-C0DF-44D6-B344-BB1C3BE12275}">
+					<ChildrenList>
+						<Action Name="" ID="{7536DF10-EFE9-4A72-AF47-5128FEDB1B1F}" ShortID="737030088">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CharacterSwapTEST" ID="{9F522E52-120B-4DC5-8D15-377F773BE175}" WorkUnitID="{17762C99-F83F-49A1-88BA-AC47A361EF53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
