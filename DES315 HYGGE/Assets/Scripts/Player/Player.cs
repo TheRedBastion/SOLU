@@ -159,8 +159,9 @@ public class Player : MonoBehaviour
             Debug.Log("Player has died.");
         }
 
-        Debug.Log(gamevar.MasterValueFloat);
-        Debug.Log(gamevar.GodModeToggle);
+        //Debug.Log(gamevar.MasterValueFloat);
+        //Debug.Log(gamevar.GodModeToggle);
+        //Debug.Log(gamevar.FreeCamToggle);
     }
 
     void HandleSprint()
