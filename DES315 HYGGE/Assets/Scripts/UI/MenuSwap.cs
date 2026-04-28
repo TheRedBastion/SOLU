@@ -21,6 +21,11 @@ public class MainMenu : MonoBehaviour
     public GameObject Fullscreen;
     public GameObject FullscreenCheck;
 
+    //credits
+    public GameObject HyggeLogo;
+    public GameObject HyggeCredits;
+    public GameObject AdditionalCredits;
+
     public void LoadGame()
     {
         SceneManager.LoadScene(1);
@@ -63,6 +68,12 @@ public class MainMenu : MonoBehaviour
         //visuals
         Fullscreen.SetActive(false);
         FullscreenCheck.SetActive(false);
+
+        //credits
+        HyggeLogo.SetActive(false);
+        HyggeCredits.SetActive(false);
+        AdditionalCredits.SetActive(false);
+
     }
 
     public void AudioButton()
@@ -82,6 +93,11 @@ public class MainMenu : MonoBehaviour
         //visuals
         Fullscreen.SetActive(false);
         FullscreenCheck.SetActive(false);
+
+        //credits
+        HyggeLogo.SetActive(false);
+        HyggeCredits.SetActive(false);
+        AdditionalCredits.SetActive(false);
     }
 
     public void VisualsButton()
@@ -101,6 +117,11 @@ public class MainMenu : MonoBehaviour
         //visuals
         Fullscreen.SetActive(true);
         FullscreenCheck.SetActive(true);
+
+        //credits
+        HyggeLogo.SetActive(false);
+        HyggeCredits.SetActive(false);
+        AdditionalCredits.SetActive(false);
     }
     public void CreditsButton()
     {
@@ -119,6 +140,12 @@ public class MainMenu : MonoBehaviour
         //visuals
         Fullscreen.SetActive(false);
         FullscreenCheck.SetActive(false);
+
+        //credits
+        HyggeLogo.SetActive(true);
+        HyggeCredits.SetActive(true);
+        AdditionalCredits.SetActive(true);
+
     }
 
 

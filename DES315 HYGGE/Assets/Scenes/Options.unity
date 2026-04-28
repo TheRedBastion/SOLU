@@ -1672,12 +1672,12 @@ GameObject:
   - component: {fileID: 833643171}
   - component: {fileID: 833643170}
   m_Layer: 5
-  m_Name: Image
+  m_Name: AdditionalCredits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &833643169
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1752,7 +1752,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &870339046
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2996,7 +2996,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1583903453
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3473,6 +3473,9 @@ MonoBehaviour:
   SFXVolumeSlider: {fileID: 563225234}
   Fullscreen: {fileID: 792723677}
   FullscreenCheck: {fileID: 1004334185}
+  HyggeLogo: {fileID: 1583903452}
+  HyggeCredits: {fileID: 870339045}
+  AdditionalCredits: {fileID: 833643168}
 --- !u!114 &1904323498
 MonoBehaviour:
   m_ObjectHideFlags: 0
