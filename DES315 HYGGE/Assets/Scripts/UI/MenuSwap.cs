@@ -15,11 +15,9 @@ public class MainMenu : MonoBehaviour
 
     //audio
     public GameObject MasterVolume;
-    public GameObject MusicVolume;
-    public GameObject SFXVolume;
+
     public GameObject MasterVolumeSlider;
-    public GameObject MusicVolumeSlider;
-    public GameObject SFXVolumeSlider;
+
 
     //visuals
     public GameObject Fullscreen;
@@ -88,11 +86,7 @@ public class MainMenu : MonoBehaviour
 
         //audio
         MasterVolume.SetActive(false);
-        MusicVolume.SetActive(false);
-        SFXVolume.SetActive(false);
         MasterVolumeSlider.SetActive(false);
-        MusicVolumeSlider.SetActive(false);
-        SFXVolumeSlider.SetActive(false);
 
         //visuals
         Fullscreen.SetActive(false);
@@ -115,11 +109,8 @@ public class MainMenu : MonoBehaviour
 
         //audio
         MasterVolume.SetActive(true);
-        MusicVolume.SetActive(true);
-        SFXVolume.SetActive(true);
         MasterVolumeSlider.SetActive(true);
-        MusicVolumeSlider.SetActive(true);
-        SFXVolumeSlider.SetActive(true);
+
         //wwise
         AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, gamevar.MasterValueFloat);
         
@@ -149,11 +140,8 @@ public class MainMenu : MonoBehaviour
 
         //audio
         MasterVolume.SetActive(false);
-        MusicVolume.SetActive(false);
-        SFXVolume.SetActive(false);
         MasterVolumeSlider.SetActive(false);
-        MusicVolumeSlider.SetActive(false);
-        SFXVolumeSlider.SetActive(false);
+
 
         //visuals
         Fullscreen.SetActive(true);
@@ -165,12 +153,6 @@ public class MainMenu : MonoBehaviour
         AdditionalCredits.SetActive(false);
     }
 
-    //public void OnMasterVolumeChanged(float value)
-    //{
-    //    gamevar.MasterValueFloat = value;
-    //    AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, value);
-    //}
-
     public void CreditsButton()
     {
         //gameplay
@@ -181,11 +163,7 @@ public class MainMenu : MonoBehaviour
 
         //audio
         MasterVolume.SetActive(false);
-        MusicVolume.SetActive(false);
-        SFXVolume.SetActive(false);
         MasterVolumeSlider.SetActive(false);
-        MusicVolumeSlider.SetActive(false);
-        SFXVolumeSlider.SetActive(false);
 
         //visuals
         Fullscreen.SetActive(false);
