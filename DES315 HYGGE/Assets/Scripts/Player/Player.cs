@@ -158,6 +158,9 @@ public class Player : MonoBehaviour
             SceneManager.LoadScene(2);
             Debug.Log("Player has died.");
         }
+
+        Debug.Log(gamevar.MasterValueFloat);
+        Debug.Log(gamevar.GodModeToggle);
     }
 
     void HandleSprint()
