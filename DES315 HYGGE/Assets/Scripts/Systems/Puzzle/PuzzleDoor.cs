@@ -7,6 +7,7 @@ public class PuzzleDoor : MonoBehaviour
 
     private bool isOpen = false;
 
+    public AK.Wwise.Event DoorOpens = new AK.Wwise.Event();
     public void ActivatorChanged()
     {
         if (isOpen) return;
@@ -24,6 +25,7 @@ public class PuzzleDoor : MonoBehaviour
     private void OpenDoor()
     {
         isOpen = true;
+        DoorOpens.Post(gameObject);
         gameObject.SetActive(false);
     }
 }

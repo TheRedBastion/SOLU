@@ -8,7 +8,11 @@
 						<ObjectRef Name="SunMusic1" ID="{2C1BB2F8-B689-40CC-B752-6965D2E52F8D}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GFootsteps" ID="{E5E87D08-1C9A-4155-9CC2-733F877FBF0C}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MoonMusic1" ID="{3DAE1915-4E41-4369-88B7-E39E9F934AD6}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SpiderDamaged" ID="{196FDC11-88EC-4428-9FED-FD0EB083AA74}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SwapSound" ID="{E8E04F0B-C0DF-44D6-B344-BB1C3BE12275}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lever" ID="{6F0BF067-F97D-4537-B2B6-E1BDBD337EDF}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFootsteps" ID="{7F709BAD-9387-45D4-B000-0571E7D5B90C}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MenuMusic" ID="{A1F322FE-C571-47A2-9D76-EFA72B5DFCE6}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SunDamaged" ID="{7E8CA049-5BF9-488F-A06C-65509B32ABCD}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BatSlain" ID="{FF9124F6-DB93-48B3-909F-5E9E6BE48C8F}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FloralAmbience" ID="{085609C8-0167-492A-9884-E3786A0137D2}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
@@ -18,6 +22,8 @@
 						<ObjectRef Name="CavesAmbience" ID="{2972C3C2-C432-4C99-8958-2B8300F9BADD}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MoonDamaged" ID="{651F836B-074E-4E22-ABBB-AEE5B9736198}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SunDamagedCave" ID="{E79522BD-4620-4F48-817B-17021BB7C25C}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorOpen" ID="{E746233D-CFC9-4FC8-A56C-C0F5E356007B}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SpiderSlain" ID="{437CDE05-6FF8-4FFF-96E1-82BEC5CEBFCB}" WorkUnitID="{7BFF5E98-2BD1-43A2-BAB7-3A34564AD38E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -3,10 +3,7 @@ using UnityEngine;
 
 public class PressurePlate : MonoBehaviour, ITrackableActivator
 {
-    [SerializeField] private bool isEnd = false;
     public List<PuzzleDoor> doors = new List<PuzzleDoor>();
-    public List<PPEndState> ending = new List<PPEndState>();
-    
     private bool isActive = false;
     public bool IsActive => isActive;
 
@@ -26,14 +23,6 @@ public class PressurePlate : MonoBehaviour, ITrackableActivator
             {
                 a.ActivatorChanged();
             }
-
-            if (isEnd)
-            {
-                foreach (var a in ending)
-                {
-                    a.ActivatorChanged();
-                }
-            }
             AnimatePlate(true);
         }
     }
@@ -47,14 +36,6 @@ public class PressurePlate : MonoBehaviour, ITrackableActivator
             foreach (var a in doors)
             {
                 a.ActivatorChanged();
-            }
-
-            if (isEnd)
-            {
-                foreach (var a in ending)
-                {
-                    a.ActivatorChanged();
-                }
             }
             AnimatePlate(false);
         }

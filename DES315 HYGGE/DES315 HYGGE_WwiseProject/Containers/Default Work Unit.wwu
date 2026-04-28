@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<RandomSequenceContainer Name="SFootsteps" ID="{8CCF933F-1847-4780-917C-AF5601241E40}" ShortID="339365363">
 					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -83,76 +85,12 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{1AFA6F0E-AD31-49A6-936C-E1FF6CCA1894}" ShortID="965794527">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Sound_Effects_Volume_Control" ID="{2299838D-A9B3-4353-96CC-9F46E95FD33B}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{31D0BF6A-1D1B-42EC-8B5E-EBB6B0809ADE}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{CED59761-4404-47D7-819D-A3AA69DFA7CB}" ShortID="871279276">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{E32E288D-A24E-4F77-99B2-A94692E7149D}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="GFootsteps" ID="{1AC06D69-0EE6-4821-873F-8FF7A2A2893A}" ShortID="307680364">
 					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -230,74 +168,12 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{81AB223E-A365-48F3-A5AB-18F94F463632}" ShortID="728790445">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Sound_Effects_Volume_Control" ID="{2299838D-A9B3-4353-96CC-9F46E95FD33B}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{8B7B9607-7BC5-4C4F-BF3A-DA8FA7DB9DE2}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{CDCC6FCC-DBA8-482C-A92F-8DD807C227E3}" ShortID="354311493">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{A17ACE88-4C9E-4877-A8A7-DF3F1567507F}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 				</RandomSequenceContainer>
 				<Sound Name="SunDamaged-1" ID="{B4283C83-389A-4538-BD14-01ADD0A4B51A}" ShortID="1017895197">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -315,77 +191,14 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{C65DE16C-D427-4CDD-8BB6-BE4F33DBB6F8}" ShortID="574037920">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Sound_Effects_Volume_Control" ID="{2299838D-A9B3-4353-96CC-9F46E95FD33B}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{35EFDDE7-5498-4D94-ADA5-CFB6E8C94FFF}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{AD307B64-6FBC-43AB-B11C-523E24A20530}" ShortID="366300233">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{A5A63B06-0F41-4912-A1A1-95B62EA21D75}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="SunDamaged-1" ID="{0ECEB77E-EE16-4380-885A-9268F3C7DAA2}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SunDamagedWithEcho-1" ID="{0C63F6C2-2513-421D-9294-4403A530465A}" ShortID="9558892">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -403,77 +216,14 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{FB4FC786-E1AF-4A03-8CE6-542F08DFE6E5}" ShortID="711256569">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Sound_Effects_Volume_Control" ID="{2299838D-A9B3-4353-96CC-9F46E95FD33B}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{23E51FB2-AA3B-4CD7-8471-A8F8BF6E1A23}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{6F800904-9F50-4EF4-9E85-C15F2F29CF7D}" ShortID="980029112">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{9D278013-31A4-4D3E-BCDB-C13C7EE0F8C3}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="SunDamagedWithEcho-1" ID="{D2D2DA38-F63C-4E7B-BE79-78A9EEB58C56}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="MoonDamaged-1" ID="{FC275340-CB4A-40A3-94C2-E3A5342D613D}" ShortID="13741650">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -491,83 +241,24 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{977758DA-387A-4461-8B38-E13024E0D237}" ShortID="422346350">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Sound_Effects_Volume_Control" ID="{2299838D-A9B3-4353-96CC-9F46E95FD33B}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{D39E1911-920A-497D-A979-C329F509F034}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{4964CD9B-0802-433A-A461-C907BB0CFD17}" ShortID="14015921">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{D2851F0E-D705-4EB6-89D8-22339CD34C21}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="MoonDamaged-1" ID="{9DC05294-5479-40DE-9F8E-0281FAFFA55A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="BatAttack-2" ID="{3E92FB20-C37B-465C-964C-B0206444D443}" ShortID="895396217">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Enemy Attenuations" ID="{FBD00B73-470C-40C4-A185-2CEA7E4A1E71}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+							<ObjectRef Name="Sound Effects" ID="{C4FC5072-FA27-441B-B67A-45A6C118EC18}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -579,78 +270,29 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{EC991927-9512-4299-9025-C0C452CA4294}" ShortID="906712515">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Sound_Effects_Volume_Control" ID="{2299838D-A9B3-4353-96CC-9F46E95FD33B}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{CED44C3E-006C-4C3E-96F2-BC38D1E7F814}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{29B73A77-D261-416E-AB16-735A46B16607}" ShortID="686363450">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{376CD2F7-81F4-46C6-9F6A-5DDE5CFE48D1}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="BatAttack-2" ID="{3B606C3E-9E2F-4765-80C1-0EDC0E4809F1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="BatDamaged" ID="{2821EB33-0B8A-4051-A665-1FEF52D7795E}" ShortID="332830847">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Enemy Attenuations" ID="{FBD00B73-470C-40C4-A185-2CEA7E4A1E71}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
@@ -667,78 +309,30 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{ADB40850-439E-4E1F-9C9B-6970FF8D98D2}" ShortID="771733144">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Sound_Effects_Volume_Control" ID="{2299838D-A9B3-4353-96CC-9F46E95FD33B}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{E6CDD721-9512-4D15-8FD6-E04A3C212EC6}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{C81E2BB9-8BA7-4101-8747-40A8D83F1619}" ShortID="895393787">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{6D57A841-B1F8-400F-870A-85318A1E8130}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="BatDamaged" ID="{444A24E1-C403-4DDF-AB12-6BA60A41B496}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="BatKilled" ID="{CFBC3D15-9C9A-4F8B-AE11-52FE0991FF53}" ShortID="180377832">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Enemy Attenuations" ID="{FBD00B73-470C-40C4-A185-2CEA7E4A1E71}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
@@ -755,72 +349,6 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{90F7FB05-A01B-4A5F-8C11-4A7BCCE0F2AF}" ShortID="876478653">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Sound_Effects_Volume_Control" ID="{2299838D-A9B3-4353-96CC-9F46E95FD33B}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{42E8C5F4-ABF3-44E0-B444-37FCBA7B2738}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{34ACA2C0-7ABF-4FD5-8712-53CA418363BD}" ShortID="1055121362">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{3598E01A-A56F-415E-9F71-34E0385C92CA}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="BatKilled" ID="{1A49C2CB-4E16-4A5B-8E7A-A698BDCB3520}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -828,6 +356,7 @@
 				<Sound Name="CaveAmbience1" ID="{554DF6AE-3769-49BD-9DA5-C77F4CF8A5C2}" ShortID="229224126">
 					<PropertyList>
 						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -849,72 +378,6 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{1892ED89-05CC-4E44-9CD3-D001E366FAD3}" ShortID="488801791">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Ambience_Volume_Control" ID="{8AE39C9B-BE03-4C00-BA88-CFCCA993CCAB}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{6D99DDB9-0519-4A8F-B3DB-080199F0E232}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{F61E445B-E55E-4592-966B-0AEA849A0972}" ShortID="1024783115">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{819A2DF2-F6A4-4456-B7A4-ECAAA4A77A7C}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="CaveAmbience1" ID="{C71EBCD4-5A72-4B9D-97EA-5A2CBB11D59C}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -922,10 +385,11 @@
 				<Sound Name="FloralAmbience1" ID="{2A153EE8-222A-4562-A4AB-E8F50715F5AB}" ShortID="933874273">
 					<PropertyList>
 						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Moon Music and Ambience Atenuation" ID="{E9E96006-DDEC-484C-98C0-677045300559}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+							<ObjectRef Name="Moon Music and Ambience Attenuation" ID="{E9E96006-DDEC-484C-98C0-677045300559}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -943,72 +407,6 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{28D70694-7A7B-4847-8AA5-EEFFCCDA6710}" ShortID="190185206">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Ambience_Volume_Control" ID="{8AE39C9B-BE03-4C00-BA88-CFCCA993CCAB}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{88E4848F-89A0-4030-9785-99B70504EB46}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{71338873-8A81-4D2F-A370-A4B34FA4E3B3}" ShortID="799155195">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{C7BBE12A-AE37-4910-AC79-B32BB8CCF513}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="FloralAmbience1" ID="{90FBCACA-D2F4-4967-BE46-F7CCB756596E}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -1016,10 +414,11 @@
 				<Sound Name="Music-1-Moon" ID="{44EAE38F-51C4-4BBE-96D8-2922871888CB}" ShortID="613388150">
 					<PropertyList>
 						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Moon Music and Ambience Atenuation" ID="{E9E96006-DDEC-484C-98C0-677045300559}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+							<ObjectRef Name="Moon Music and Ambience Attenuation" ID="{E9E96006-DDEC-484C-98C0-677045300559}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
@@ -1037,72 +436,6 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{7DCFA039-1DFF-4A2F-9119-9EAFB2E7219B}" ShortID="869495772">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Music_Volume_Control" ID="{7459ACAF-8518-4341-B044-3D82EFA291CE}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{63239D6E-5890-456D-974A-8322888EC11E}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{DADC9BD4-49E7-4C8F-AC53-8D4B2C89412C}" ShortID="393743950">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{51C7BD00-A7B2-43F4-B385-063B866CF4AB}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="Music-1-Moon" ID="{FAD35ED5-92D4-4E95-9E57-2E1BE587F4E6}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -1110,6 +443,7 @@
 				<Sound Name="Music-1-Sun" ID="{8C8C6C35-84D6-400B-8DA9-97231B0422BB}" ShortID="39756429">
 					<PropertyList>
 						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -1131,162 +465,272 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{E0CADACE-524A-41BA-8EFE-87A4DC3A5EDC}" ShortID="984259672">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Music_Volume_Control" ID="{7459ACAF-8518-4341-B044-3D82EFA291CE}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{3892CC68-A624-4BCF-99D9-5DFA43B0F9F9}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{42626525-CEF9-4331-8146-67EDEE44CA31}" ShortID="785330071">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{B8ABAD7C-DDE3-4A6D-B68D-AEE7715AA8F4}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="Music-1-Sun" ID="{011E2ED0-C526-4415-B569-53C34D59CC76}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SpiderAttack" ID="{09772311-261C-4F6B-A34D-EB70360A13B8}" ShortID="441123819">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Enemy Attenuations" ID="{FBD00B73-470C-40C4-A185-2CEA7E4A1E71}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Sound Effects" ID="{C4FC5072-FA27-441B-B67A-45A6C118EC18}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SpiderAttack" ID="{C1F2EF0C-19EA-4750-942D-8345FA3999B0}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.18475"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.38457"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SpiderAttack.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="459635591"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SpiderAttack" ID="{C1F2EF0C-19EA-4750-942D-8345FA3999B0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DoorOpening" ID="{401330C8-B87A-445B-BD02-65A0823C58AA}" ShortID="690414946">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Doors And Switches Attenuation" ID="{780F4D3A-96D7-4FA4-B640-3010F0B7A7DC}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Sound Effects" ID="{C4FC5072-FA27-441B-B67A-45A6C118EC18}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DoorOpening" ID="{64822B6A-E7C4-420E-A21D-2F94C2684AE8}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.43185"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>DoorOpening.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="832316680"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DoorOpening" ID="{64822B6A-E7C4-420E-A21D-2F94C2684AE8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="CharacterSwapTEST" ID="{9F522E52-120B-4DC5-8D15-377F773BE175}" ShortID="644367589">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+							<ObjectRef Name="Sound Effects" ID="{C4FC5072-FA27-441B-B67A-45A6C118EC18}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="ShieldEnemyAttack-Wooden" ID="{20586F0A-C388-44F3-8D87-F654005EA1A0}">
+						<AudioFileSource Name="CharacterSwapTEST" ID="{B420313F-794B-40CB-BF9B-2ACC6F58D785}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.70431"/>
+							</PropertyList>
 							<Language>SFX</Language>
-							<AudioFile>ShieldEnemyAttack-Wooden.wav</AudioFile>
+							<AudioFile>CharacterSwapTEST.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="69010280"/>
+								<MediaID ID="1059155492"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<RTPC Name="" ID="{D52F4554-A00D-442A-A43B-F51223F29FFE}" ShortID="707378765">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Sound_Effects_Volume_Control" ID="{2299838D-A9B3-4353-96CC-9F46E95FD33B}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{EC0B6DDD-829C-40AD-9E7A-9C13A544B970}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-							<RTPC Name="" ID="{F5F47724-DA34-4473-B6D1-4C4043C24FFF}" ShortID="478787031">
-								<PropertyList>
-									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-								</PropertyList>
-								<ReferenceList>
-									<Reference Name="ControlInput">
-										<ObjectRef Name="Master_Volume_Control" ID="{2D06E272-AA1F-4D7C-B6D0-1F0C80604581}" WorkUnitID="{0E063ECC-C338-4B9A-9617-EDCA3CD45B13}"/>
-									</Reference>
-									<Reference Name="Curve">
-										<Custom>
-											<Curve Name="" ID="{A6F85304-C588-4BF0-932A-B069F1737881}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</RTPC>
-						</ObjectList>
-					</ObjectLists>
 					<ActiveSourceList>
-						<ActiveSource Name="ShieldEnemyAttack-Wooden" ID="{20586F0A-C388-44F3-8D87-F654005EA1A0}" Platform="Linked"/>
+						<ActiveSource Name="CharacterSwapTEST" ID="{B420313F-794B-40CB-BF9B-2ACC6F58D785}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Lever" ID="{7BC1D76D-97A8-4107-A0C0-B482DC452C94}" ShortID="610276599">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Doors And Switches Attenuation" ID="{780F4D3A-96D7-4FA4-B640-3010F0B7A7DC}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Sound Effects" ID="{C4FC5072-FA27-441B-B67A-45A6C118EC18}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Lever" ID="{9D39BC31-82C5-4B26-8C7E-A117426DD471}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.46561"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Lever.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="916914792"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Lever" ID="{9D39BC31-82C5-4B26-8C7E-A117426DD471}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SpiderDamaged" ID="{1ED0A8E7-1AA6-4A3F-AA02-B54985DCEC43}" ShortID="535160161">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-250</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Enemy Attenuations" ID="{FBD00B73-470C-40C4-A185-2CEA7E4A1E71}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Sound Effects" ID="{C4FC5072-FA27-441B-B67A-45A6C118EC18}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SpiderDamaged" ID="{7D741094-7243-4799-9860-803A8888BBFE}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.09398"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.50447"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SpiderDamaged.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="490794409"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SpiderDamaged" ID="{7D741094-7243-4799-9860-803A8888BBFE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SpiderDeath" ID="{8E348006-4182-4816-9EB1-9480A1109226}" ShortID="687271381">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Enemy Attenuations" ID="{FBD00B73-470C-40C4-A185-2CEA7E4A1E71}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Sound Effects" ID="{C4FC5072-FA27-441B-B67A-45A6C118EC18}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SpiderDeath" ID="{EE051FF1-332B-4729-BCE0-4E95B67ADCF1}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.1167"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.40727"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SpiderDeath.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="707058059"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SpiderDeath" ID="{EE051FF1-332B-4729-BCE0-4E95B67ADCF1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="solu main menu" ID="{B4412B10-CB9D-4EE0-8A91-3B19B6B14A07}" ShortID="1011117790">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF84B281-6F87-4671-92BE-2AD2AFA47E5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{C253C558-A1B1-44DF-9F4B-1E9E26439B30}" WorkUnitID="{D96D38FD-5FA4-4C8A-951B-B7537160B1F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="solu main menu" ID="{1472FAFE-AD12-4325-AC37-6AD34758FD35}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="91.67314"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>solu main menu.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="205899470"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="solu main menu" ID="{1472FAFE-AD12-4325-AC37-6AD34758FD35}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
