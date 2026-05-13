@@ -60,6 +60,7 @@ public class PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         Resume();
+        AkUnitySoundEngine.StopAll();
         SceneManager.LoadScene(0);
     }
 }

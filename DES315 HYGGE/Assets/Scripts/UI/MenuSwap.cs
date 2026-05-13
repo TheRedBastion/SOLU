@@ -11,9 +11,10 @@ public class MainMenu : MonoBehaviour
     public GameObject GodmodeCheck;
     public GameObject FreeCam;
     public GameObject FreeCamToggle;
-    
+
 
     //audio
+    public GameObject SliderGO;
     public GameObject MasterVolume;
 
     public GameObject MasterVolumeSlider;
@@ -30,11 +31,13 @@ public class MainMenu : MonoBehaviour
 
     //wwise
     public string masterVolumeRTPC = "Master_Volume_Control";
+    public string musicVolumeRTPC = "Music_Volume_Control";
+    public string SFXVolumeRTPC = "Sound_Effects_Volume_Control";
 
     //slidervariables
     public Slider MasterValue;
-    
-
+    public Slider MusicValue;
+    public Slider SFXValue;
 
     public void LoadGame()
     {
@@ -51,7 +54,7 @@ public class MainMenu : MonoBehaviour
 
     public void LoadOptions()
     {
-        AkUnitySoundEngine.StopAll();
+        //AkUnitySoundEngine.StopAll();
         SceneManager.LoadScene(3);
     }
 
@@ -67,6 +70,17 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
+    void Start()
+    {
+        gamevar.Load();
+
+
+        //apply Wwise volume immediately
+        AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, gamevar.MasterValueFloat);
+        AkUnitySoundEngine.SetRTPCValue(musicVolumeRTPC, gamevar.MusicVolumeFloat);
+        AkUnitySoundEngine.SetRTPCValue(SFXVolumeRTPC, gamevar.SFXVolumeFloat);
+    }
+
     void Update()
     {
         string cur = SceneManager.GetActiveScene().name;
@@ -74,10 +88,17 @@ public class MainMenu : MonoBehaviour
         if(cur == "Options")
         {
             gamevar.MasterValueFloat = MasterValue.value;
+            gamevar.MusicVolumeFloat = MusicValue.value;
+            gamevar.SFXVolumeFloat = SFXValue.value;
+
             AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, gamevar.MasterValueFloat);
-            Debug.Log(gamevar.MasterValueFloat);
+            AkUnitySoundEngine.SetRTPCValue(musicVolumeRTPC, gamevar.MusicVolumeFloat);
+            AkUnitySoundEngine.SetRTPCValue(SFXVolumeRTPC, gamevar.SFXVolumeFloat);
+            //Debug.Log(gamevar.MasterValueFloat);
             gamevar.GodModeToggle = GodmodeCheck.GetComponent<Toggle>().isOn;
             gamevar.FreeCamToggle = FreeCamToggle.GetComponent<Toggle>().isOn;
+
+            gamevar.Save();
         }
     }
 
@@ -91,8 +112,7 @@ public class MainMenu : MonoBehaviour
 
 
         //audio
-        MasterVolume.SetActive(false);
-        MasterVolumeSlider.SetActive(false);
+        SliderGO.SetActive(false);
 
         //visuals
         Fullscreen.SetActive(false);
@@ -113,16 +133,20 @@ public class MainMenu : MonoBehaviour
         FreeCam.SetActive(false);
         FreeCamToggle.SetActive(false);
 
+
         //audio
-        MasterVolume.SetActive(true);
-        MasterVolumeSlider.SetActive(true);
+        SliderGO.SetActive(true);
+
+        //apply saved values to UI
+        MasterValue.value = gamevar.MasterValueFloat;
+        MusicValue.value = gamevar.MusicVolumeFloat;
+        SFXValue.value = gamevar.SFXVolumeFloat;
+
+        GodmodeCheck.GetComponent<Toggle>().isOn = gamevar.GodModeToggle;
+        FreeCamToggle.GetComponent<Toggle>().isOn = gamevar.FreeCamToggle;
 
         //wwise
         AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, gamevar.MasterValueFloat);
-        
-        
-
-
 
 
         //visuals
@@ -145,8 +169,8 @@ public class MainMenu : MonoBehaviour
         FreeCamToggle.SetActive(false);
 
         //audio
-        MasterVolume.SetActive(false);
-        MasterVolumeSlider.SetActive(false);
+        SliderGO.SetActive(false);
+
 
 
         //visuals
@@ -168,8 +192,7 @@ public class MainMenu : MonoBehaviour
         FreeCamToggle.SetActive(false);
 
         //audio
-        MasterVolume.SetActive(false);
-        MasterVolumeSlider.SetActive(false);
+        SliderGO.SetActive(false);
 
         //visuals
         Fullscreen.SetActive(false);

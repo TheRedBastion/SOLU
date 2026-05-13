@@ -7,6 +7,8 @@ public class ControlPanel : MonoBehaviour
     [Header("Audio Settings")]
     public bool audioEnabled = true;
     public string masterVolumeRTPC = "Master_Volume_Control";
+    public string musicVolumeRTPC = "Music_Volume_Control";
+    public string SFXVolumeRTPC = "Sound_Effects_Volume_Control";
 
     [Header("Gameplay Settings")]
     public bool doorsEnabled = true;
@@ -48,6 +50,8 @@ public class ControlPanel : MonoBehaviour
     {
 
         AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, gamevar.MasterValueFloat);
+        AkUnitySoundEngine.SetRTPCValue(musicVolumeRTPC, gamevar.MusicVolumeFloat);
+        AkUnitySoundEngine.SetRTPCValue(SFXVolumeRTPC, gamevar.SFXVolumeFloat);
         AudioListener.pause = !audioEnabled;
 
 #if UNITY_EDITOR

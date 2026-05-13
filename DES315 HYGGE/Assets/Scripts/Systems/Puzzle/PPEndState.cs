@@ -24,6 +24,7 @@ public class PPEndState : MonoBehaviour
 
     private void toEndState()
     {
+        AkUnitySoundEngine.StopAll();
         SceneManager.LoadScene(4);
     }
 }
