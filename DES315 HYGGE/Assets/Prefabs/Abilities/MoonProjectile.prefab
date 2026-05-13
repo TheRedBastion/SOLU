@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a30b2da7e7229ec459d45e33fe1a29d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoonProjectile
-  speed: 18
+  speed: 23
   maxDistance: 13
   damage: 25
   knockbackForce: 8
