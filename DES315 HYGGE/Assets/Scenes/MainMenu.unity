@@ -1808,17 +1808,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
   Godmode: {fileID: 0}
   GodmodeCheck: {fileID: 0}
+  FreeCam: {fileID: 0}
+  FreeCamToggle: {fileID: 0}
   MasterVolume: {fileID: 0}
-  MusicVolume: {fileID: 0}
-  SFXVolume: {fileID: 0}
   MasterVolumeSlider: {fileID: 0}
-  MusicVolumeSlider: {fileID: 0}
-  SFXVolumeSlider: {fileID: 0}
   Fullscreen: {fileID: 0}
   FullscreenCheck: {fileID: 0}
   HyggeLogo: {fileID: 0}
   HyggeCredits: {fileID: 0}
   AdditionalCredits: {fileID: 0}
+  masterVolumeRTPC: Master_Volume_Control
+  MasterValue: {fileID: 0}
 --- !u!114 &1904323498
 MonoBehaviour:
   m_ObjectHideFlags: 0

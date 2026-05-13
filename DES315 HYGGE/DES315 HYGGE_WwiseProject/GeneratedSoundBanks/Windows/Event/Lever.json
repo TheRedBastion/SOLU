@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2782712987",
+    "Type": "Event",
+    "GUID": "{6F0BF067-F97D-4537-B2B6-E1BDBD337EDF}",
+    "Language": "SFX",
+    "Hash": "{CB2E959E-9D98-0C11-01CF-0324EF6E97BD}",
+    "ObjectPath": "Lever",
+    "ShortName": "Lever",
+    "Path": "Event/Lever.bnk",
+    "Media": [
+     {
+      "Id": "916914792",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Lever.wav",
+      "Path": "Media/916914792.wem",
+      "CachePath": "17/{17E5A32A-D9B8-08C1-2165-519815E8953A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2782712987",
+      "Name": "Lever",
+      "ObjectPath": "\\Events\\Default Work Unit\\Lever",
+      "GUID": "{6F0BF067-F97D-4537-B2B6-E1BDBD337EDF}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "1.46561",
+      "DurationMax": "1.46561",
+      "MediaRefs": [
+       {
+        "Id": "916914792"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FA5A9080-760C-911D-5468-4DBB0501EEF9}"
+ }
+}

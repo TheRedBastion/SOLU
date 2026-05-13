@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2172038785",
+    "Type": "Event",
+    "GUID": "{437CDE05-6FF8-4FFF-96E1-82BEC5CEBFCB}",
+    "Language": "SFX",
+    "Hash": "{00AF394A-3542-C95E-2D88-16CF3112E651}",
+    "ObjectPath": "SpiderSlain",
+    "ShortName": "SpiderSlain",
+    "Path": "Event/SpiderSlain.bnk",
+    "Media": [
+     {
+      "Id": "707058059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SpiderDeath.wav",
+      "Path": "Media/707058059.wem",
+      "CachePath": "F6/{F63699D6-D4B3-41AF-8899-1521F112CD5C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2172038785",
+      "Name": "SpiderSlain",
+      "ObjectPath": "\\Events\\Default Work Unit\\SpiderSlain",
+      "GUID": "{437CDE05-6FF8-4FFF-96E1-82BEC5CEBFCB}",
+      "MaxAttenuation": "30",
+      "DurationType": "OneShot",
+      "DurationMin": "1.29057",
+      "DurationMax": "1.29057",
+      "MediaRefs": [
+       {
+        "Id": "707058059"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3A8F68E0-0952-9CE5-1B9D-6FA00F512550}"
+ }
+}

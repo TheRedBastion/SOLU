@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "679636833",
+    "Type": "Event",
+    "GUID": "{A1F322FE-C571-47A2-9D76-EFA72B5DFCE6}",
+    "Language": "SFX",
+    "Hash": "{BB5661A9-94B0-D16D-CBC7-6784D161C1CE}",
+    "ObjectPath": "MenuMusic",
+    "ShortName": "MenuMusic",
+    "Path": "Event/MenuMusic.bnk",
+    "Media": [
+     {
+      "Id": "205899470",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "solu main menu.wav",
+      "Path": "Media/205899470.wem",
+      "CachePath": "2C/{2CBA76FD-AC7B-E673-07FB-DAFA795FAFDE}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "679636833",
+      "Name": "MenuMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\MenuMusic",
+      "GUID": "{A1F322FE-C571-47A2-9D76-EFA72B5DFCE6}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "205899470"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{36271ACF-3759-4871-CD26-14BBF0D0A240}"
+ }
+}

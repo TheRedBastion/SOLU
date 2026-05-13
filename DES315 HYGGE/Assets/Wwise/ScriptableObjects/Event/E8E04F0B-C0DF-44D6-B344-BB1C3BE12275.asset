@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: SwapSound
   id: 139181421
   guid: E8E04F0B-C0DF-44D6-B344-BB1C3BE12275
-  IsInUserDefinedSoundBank: 1
+  IsInUserDefinedSoundBank: 0

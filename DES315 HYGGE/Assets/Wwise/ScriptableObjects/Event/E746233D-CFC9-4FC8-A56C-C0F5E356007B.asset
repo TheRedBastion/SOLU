@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: DoorOpen
   id: 1404805401
   guid: E746233D-CFC9-4FC8-A56C-C0F5E356007B
-  IsInUserDefinedSoundBank: 1
+  IsInUserDefinedSoundBank: 0

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2503095715	SpiderDamaged			\Default Work Unit\SpiderDamaged	
+

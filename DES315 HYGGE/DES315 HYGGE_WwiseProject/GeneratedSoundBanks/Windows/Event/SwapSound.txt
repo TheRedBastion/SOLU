@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	139181421	SwapSound			\Default Work Unit\SwapSound	
+

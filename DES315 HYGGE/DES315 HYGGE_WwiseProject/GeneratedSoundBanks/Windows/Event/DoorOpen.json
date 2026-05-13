@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1404805401",
+    "Type": "Event",
+    "GUID": "{E746233D-CFC9-4FC8-A56C-C0F5E356007B}",
+    "Language": "SFX",
+    "Hash": "{64BAEBD1-1F0E-29AB-977A-EF3A31FC7EA4}",
+    "ObjectPath": "DoorOpen",
+    "ShortName": "DoorOpen",
+    "Path": "Event/DoorOpen.bnk",
+    "Media": [
+     {
+      "Id": "832316680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "DoorOpening.wav",
+      "Path": "Media/832316680.wem",
+      "CachePath": "6E/{6E63CD84-BAAE-E6D0-BEC0-D68F5BC9FD54}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1404805401",
+      "Name": "DoorOpen",
+      "ObjectPath": "\\Events\\Default Work Unit\\DoorOpen",
+      "GUID": "{E746233D-CFC9-4FC8-A56C-C0F5E356007B}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "3.43185",
+      "DurationMax": "3.43185",
+      "MediaRefs": [
+       {
+        "Id": "832316680"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6535D0BC-3E77-D4CA-3488-F47439C4E7BB}"
+ }
+}

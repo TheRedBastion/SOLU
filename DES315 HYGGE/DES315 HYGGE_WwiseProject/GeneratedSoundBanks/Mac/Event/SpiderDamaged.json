@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2503095715",
+    "Type": "Event",
+    "GUID": "{196FDC11-88EC-4428-9FED-FD0EB083AA74}",
+    "Language": "SFX",
+    "Hash": "{CE90578E-58B1-61F3-C034-2094D2F31083}",
+    "ObjectPath": "SpiderDamaged",
+    "ShortName": "SpiderDamaged",
+    "Path": "Event/SpiderDamaged.bnk",
+    "Media": [
+     {
+      "Id": "490794409",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SpiderDamaged.wav",
+      "Path": "Media/490794409.wem",
+      "CachePath": "54/{54909F51-27EE-D8A9-C105-44528177EE48}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2503095715",
+      "Name": "SpiderDamaged",
+      "ObjectPath": "\\Events\\Default Work Unit\\SpiderDamaged",
+      "GUID": "{196FDC11-88EC-4428-9FED-FD0EB083AA74}",
+      "MaxAttenuation": "30",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6296135",
+      "DurationMax": "1.6296135",
+      "MediaRefs": [
+       {
+        "Id": "490794409"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0BFAE9AE-30B4-6205-F2B4-0A1680783F68}"
+ }
+}
