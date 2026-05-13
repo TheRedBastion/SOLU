@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1871502577
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 5213229242370633579, guid: 6c34ce6521081d64b80ef8f75880a359, type: 3}
@@ -182,3 +182,7 @@ MonoBehaviour:
   activators:
   - {fileID: 0}
   - {fileID: 0}
+  DoorOpens:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fe49a1ffd9ff5ca44a203076608a87e5, type: 2}

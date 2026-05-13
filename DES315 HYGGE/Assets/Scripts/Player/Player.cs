@@ -95,6 +95,7 @@ public class Player : MonoBehaviour
 
     public void SetActiveCharacter(int newCharacter)
     {
+        isGodmode = gamevar.GodModeToggle;
         if (currentHealth != null)
         {
             currentHealth.ResetInvincibility();
@@ -129,7 +130,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         //Debug.Log(curStam);
-        isGodmode = gamevar.GodModeToggle;
         moveAmt = moveAction.ReadValue<Vector2>();
         movement.SetMoveInput(moveAmt);
 

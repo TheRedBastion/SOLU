@@ -198,11 +198,11 @@ MonoBehaviour:
   DamageTakenSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 401805cb2aac5e0448dbf008dd262226, type: 2}
   Slain:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 0edb88b45169cd6438207c75ccb21e97, type: 2}
 --- !u!114 &5990869618571840368
 MonoBehaviour:
   m_ObjectHideFlags: 0

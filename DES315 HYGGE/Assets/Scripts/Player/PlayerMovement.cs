@@ -86,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnEnable()
     {
+        freeCam = gamevar.FreeCamToggle;
         rb = GetComponent<Rigidbody2D>();
         groundDetector = GetComponent<GroundDetector>();
         knockback = GetComponent<KnockbackReceiver>();
@@ -148,7 +149,7 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         //Debug.Log(moveInput);
-        freeCam = gamevar.FreeCamToggle;
+
         if (freeCam)
         {
             if (!wasFreeCam) 

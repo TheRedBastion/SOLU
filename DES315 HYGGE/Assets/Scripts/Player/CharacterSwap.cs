@@ -81,7 +81,8 @@ public class CharacterSwap : MonoBehaviour
 
         character = characterOptions[currentCharacter];
 
-        SwapSFX.Post(gameObject);
+        if(onetime <= 0)
+            SwapSFX.Post(gameObject);
 
         characterOptions[currentCharacter].gameObject.SetActive(true);
         characterOptions[other].gameObject.SetActive(false);

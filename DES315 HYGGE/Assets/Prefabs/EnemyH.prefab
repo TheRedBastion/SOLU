@@ -228,7 +228,7 @@ MonoBehaviour:
   AttackingSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: ebf557595f4c64c47bba252fc7954767, type: 2}
   speed: 3.5
   detectionRange: 14
   orbitRange: 6
@@ -319,11 +319,11 @@ MonoBehaviour:
   DamageTakenSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: bcb50d09f54925d41b2bbd3492617be6, type: 2}
   Slain:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6c9749b1d40a42b45b3811d454d568b5, type: 2}
 --- !u!114 &7658038026885376397
 MonoBehaviour:
   m_ObjectHideFlags: 0

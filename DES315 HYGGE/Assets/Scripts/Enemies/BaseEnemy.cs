@@ -137,7 +137,10 @@ public abstract class BaseEnemy : MonoBehaviour
                 attackKnockbackForce,
                 attackKnockbackDuration
             );
-            AttackingSound.Post(gameObject);
+
+            if(!playerHealth.IsInvincible)
+                AttackingSound.Post(gameObject);
+
             playerHealth.TakeDamage(contactDamage, kb);
         }
     }

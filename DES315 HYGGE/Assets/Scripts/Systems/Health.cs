@@ -34,6 +34,7 @@ public class Health : MonoBehaviour
     [SerializeField] private float brightnessMultiplier = 1.5f;
 
     private bool isInvincible = false;
+    public bool IsInvincible => isInvincible;
     private SpriteRenderer spriteRenderer;
 
     public int CurrentHealth { get; private set; }
@@ -65,7 +66,14 @@ public class Health : MonoBehaviour
         if (player != null)
         {
             if (player.isGodmode)
+            {
+                isInvincible = true;
                 return;
+            }
+            else
+            {
+                isInvincible = false;
+            }
         }
 
         CurrentHealth -= damage;

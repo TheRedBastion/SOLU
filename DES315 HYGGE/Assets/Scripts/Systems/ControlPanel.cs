@@ -48,8 +48,12 @@ public class ControlPanel : MonoBehaviour
     {
 
         AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, gamevar.MasterValueFloat);
-
         AudioListener.pause = !audioEnabled;
+
+#if UNITY_EDITOR
+        AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, audioEnabled ? 100 : 0);
+        
+#endif
     }
 
     private void ApplyDoors()
