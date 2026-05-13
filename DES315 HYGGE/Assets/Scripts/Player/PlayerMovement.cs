@@ -147,7 +147,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log(moveInput);
+        //Debug.Log(moveInput);
+        freeCam = gamevar.FreeCamToggle;
         if (freeCam)
         {
             if (!wasFreeCam) 

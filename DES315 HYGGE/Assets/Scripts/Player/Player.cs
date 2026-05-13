@@ -129,6 +129,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         //Debug.Log(curStam);
+        isGodmode = gamevar.GodModeToggle;
         moveAmt = moveAction.ReadValue<Vector2>();
         movement.SetMoveInput(moveAmt);
 
@@ -155,6 +156,7 @@ public class Player : MonoBehaviour
         if (currentHealth.CurrentHealth <= 0)
         {
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            AkUnitySoundEngine.StopAll();
             SceneManager.LoadScene(2);
             Debug.Log("Player has died.");
         }

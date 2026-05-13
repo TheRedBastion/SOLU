@@ -38,26 +38,32 @@ public class MainMenu : MonoBehaviour
 
     public void LoadGame()
     {
+        AkUnitySoundEngine.StopAll();
+
         SceneManager.LoadScene(1);
     }
 
     public void LoadMainMenu()
     {
+        AkUnitySoundEngine.StopAll();
         SceneManager.LoadScene(0);
     }
 
     public void LoadOptions()
     {
+        AkUnitySoundEngine.StopAll();
         SceneManager.LoadScene(3);
     }
 
     public void LoadEndState()
     {
+        AkUnitySoundEngine.StopAll();
         SceneManager.LoadScene(4);
     }
 
     public void QuitGame()
     {
+        AkUnitySoundEngine.StopAll();
         Application.Quit();
     }
 
