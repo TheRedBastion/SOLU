@@ -81,25 +81,52 @@ public class MainMenu : MonoBehaviour
         AkUnitySoundEngine.SetRTPCValue(SFXVolumeRTPC, gamevar.SFXVolumeFloat);
     }
 
+    public void OnMasterVolumeChanged(float value)
+    {
+        gamevar.MasterValueFloat = value;
+
+        AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, value);
+
+        gamevar.Save();
+    }
+
+    public void OnMusicVolumeChanged(float value)
+    {
+        gamevar.MusicVolumeFloat = value;
+
+        AkUnitySoundEngine.SetRTPCValue(musicVolumeRTPC, value);
+
+        gamevar.Save();
+    }
+
+    public void OnSFXVolumeChanged(float value)
+    {
+        gamevar.SFXVolumeFloat = value;
+
+        AkUnitySoundEngine.SetRTPCValue(SFXVolumeRTPC, value);
+
+        gamevar.Save();
+    }
+
+    public void OnGodModeChanged(bool value)
+    {
+        gamevar.GodModeToggle = value;
+
+        gamevar.Save();
+    }
+
+    public void OnFreeCamChanged(bool value)
+    {
+        gamevar.FreeCamToggle = value;
+
+        gamevar.Save();
+    }
+
     void Update()
     {
         string cur = SceneManager.GetActiveScene().name;
         //Debug.Log(cur);
-        if(cur == "Options")
-        {
-            gamevar.MasterValueFloat = MasterValue.value;
-            gamevar.MusicVolumeFloat = MusicValue.value;
-            gamevar.SFXVolumeFloat = SFXValue.value;
 
-            AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, gamevar.MasterValueFloat);
-            AkUnitySoundEngine.SetRTPCValue(musicVolumeRTPC, gamevar.MusicVolumeFloat);
-            AkUnitySoundEngine.SetRTPCValue(SFXVolumeRTPC, gamevar.SFXVolumeFloat);
-            //Debug.Log(gamevar.MasterValueFloat);
-            gamevar.GodModeToggle = GodmodeCheck.GetComponent<Toggle>().isOn;
-            gamevar.FreeCamToggle = FreeCamToggle.GetComponent<Toggle>().isOn;
-
-            gamevar.Save();
-        }
     }
 
     public void GameplayButton()
@@ -110,6 +137,8 @@ public class MainMenu : MonoBehaviour
         FreeCam.SetActive(true);
         FreeCamToggle.SetActive(true);
 
+        GodmodeCheck.GetComponent<Toggle>().isOn = gamevar.GodModeToggle;
+        FreeCamToggle.GetComponent<Toggle>().isOn = gamevar.FreeCamToggle;
 
         //audio
         SliderGO.SetActive(false);
@@ -141,9 +170,6 @@ public class MainMenu : MonoBehaviour
         MasterValue.value = gamevar.MasterValueFloat;
         MusicValue.value = gamevar.MusicVolumeFloat;
         SFXValue.value = gamevar.SFXVolumeFloat;
-
-        GodmodeCheck.GetComponent<Toggle>().isOn = gamevar.GodModeToggle;
-        FreeCamToggle.GetComponent<Toggle>().isOn = gamevar.FreeCamToggle;
 
         //wwise
         AkUnitySoundEngine.SetRTPCValue(masterVolumeRTPC, gamevar.MasterValueFloat);
