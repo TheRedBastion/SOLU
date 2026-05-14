@@ -271,7 +271,7 @@
                 {
                     "name": "",
                     "id": "143bb1cd-cc10-4eca-a2f0-a3664166fe91",
-                    "path": "<Gamepad>/buttonWest",
+                    "path": "<Gamepad>/rightShoulder",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
@@ -523,11 +523,33 @@
                 },
                 {
                     "name": "",
+                    "id": "71569348-282a-4a51-b790-a721a72e7f84",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "d4c5d74c-cf32-438e-84ea-ce9e4c58d176",
                     "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
+                    "action": "Swap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "74966d2d-a05f-4c4a-92e3-b10fafbd5f45",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
                     "action": "Swap",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -545,6 +567,17 @@
                 },
                 {
                     "name": "",
+                    "id": "bc14799b-480e-4c5d-9983-3b8c9cb44c97",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "SpecialAttack1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "4313dfc4-39a4-42f9-a65f-d023db9b3698",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
@@ -556,8 +589,8 @@
                 },
                 {
                     "name": "",
-                    "id": "b95de673-9b1f-4174-95c4-67e6cd479848",
-                    "path": "<Gamepad>/start",
+                    "id": "254043a1-0668-418c-a9c6-77398097d3d7",
+                    "path": "<Gamepad>/rightStickPress",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
