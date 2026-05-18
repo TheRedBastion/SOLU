@@ -45,6 +45,10 @@ public class Interactable : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if(other.GetType() == typeof(CircleCollider2D))//remember 
+        {
+            return;
+        }
         if (other.GetComponentInParent<Player>())
         {
             playerInRange = true;
@@ -59,6 +63,10 @@ public class Interactable : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        if (other.GetType() == typeof(CircleCollider2D))
+        {
+            return;
+        }
         if (other.GetComponentInParent<Player>())
         {
             playerInRange = false;

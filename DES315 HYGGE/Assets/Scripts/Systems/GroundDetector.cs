@@ -21,6 +21,7 @@ public class GroundDetector : MonoBehaviour
     public bool IsGrounded => isGrounded;
     public bool InWater => inWater;
 
+
     private void Awake()
     {
         capsule = GetComponent<CapsuleCollider2D>();
@@ -65,6 +66,11 @@ public class GroundDetector : MonoBehaviour
     public void ConsumeCoyoteTime()
     {
         coyoteTimer = 0f;
+    }
+
+    public void SetInWater(bool value)
+    {
+        inWater = value;
     }
 
     private void FixedUpdate()
@@ -118,27 +124,11 @@ public class GroundDetector : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Water"))
-        {
-            inWater = true;
-        }
-    }
-
     private void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Swap"))
         {
             player.OnSwap = false;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Water"))
-        {
-            inWater = false;
         }
     }
 }
